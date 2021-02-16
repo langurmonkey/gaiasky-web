@@ -1,0 +1,99 @@
+title = "Gaia Sky"
+baseURL = "gaiasky"
+languageCode = "en-us"
+theme = "airspace-hugo"
+
+[menu]
+
+  [[menu.header]]
+    weight = 2
+    name = "Features"
+    url = "/features"
+  [[menu.header]]
+    weight = 3
+    name = "Downloads"
+    url = "/downloads"
+  [[menu.header]]
+    weight = 4
+    name = "Blog"
+    url = "/blog"
+  [[menu.header]]
+    weight = 5
+    name = "Contact"
+    url = "/contact"
+
+  [[menu.footer]]
+    weight = 1
+    name = "About us"
+    url = "#"
+  [[menu.footer]]
+    weight = 2
+    name = "Contact us"
+    url = "#"
+  [[menu.footer]]
+    weight = 3
+    name = "How it works"
+    url = "#"
+  [[menu.footer]]
+    weight = 4
+    name = "Blog"
+    url = "#"
+  [[menu.footer]]
+    weight = 5
+    name = "Terms"
+    url = "#"
+
+# The site's parameters
+[params]
+
+  # If you want to remove the copyright text you need a Themefisher license.
+  # This license is offered with a 50% discount for all Hugo users.
+  # For information see https://github.com/gohugoio/hugoThemes/issues/260
+
+  date_format = "6 January 2006"
+
+  home = "Home"
+
+  [params.slider]
+    enable = true
+    title = "Gaia Sky: Explore the Stars"
+    subtitle = "Explore the Gaia Catalog in a seamless way"
+
+  [params.wrapper]
+    enable = true
+    title = "What is it"
+    italic = "Gaia Sky is a real-time, 3D, astronomy visualisation software that runs on Windows, Linux and macOS. It is developed in the framework of ESA's Gaia mission to chart about 1 billion stars of our Galaxy in the Gaia group of the Astronomisches Rechen-Institut (ZAH, Universität Heidelberg)."
+    paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
+
+  [params.blog]
+    enable = true
+    title = "Gaia Sky blog"
+    subtitle = "Latest news, features and dev stories"
+
+  [params.feature]
+    enable = true
+    title = "We believe in great ideas"
+    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+    [params.feature.button]
+      caption = "View Works"
+      url = "#"
+
+  [params.call]
+    enable = true
+    title = "We design delightful digital experiences."
+    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+
+  [params.contact]
+    enable = true
+    title = "Drop us a line"
+    subtitle = "Use the contact form below"
+    [params.contact.form]
+      name = "Your name"
+      email = "Your email"
+      subject = "Your subject"
+      message = "Your message"
+      button = "Send message"
+    [params.contact.box]
+      title = "Contact info"
+      address = "Astronomisches Rechen-Institut, Mönchhofstr. 12-14 69120, Heidelberg"
+      email = "Email: tsagrista@ari.uni-heidelberg.de"
