@@ -1,0 +1,21 @@
+<!-- footer Start -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-manu">
+          <ul>
+            {{ range .Site.Menus.footer }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        <p>Website design by myself. See the <a href="/privacypolicy">privacy policy</a>.<br />
+          Content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0</a>
+          <i class="fa fa-cc-by" aria-hidden="true" title="CC-BY"></i><i class="fa fa-cc-nc" aria-hidden="true"
+            title="CC-NC"></i><i class="fa fa-cc-sa" aria-hidden="true" title="CC-SA"></i>.<br />
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>

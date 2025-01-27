@@ -1,7 +1,7 @@
 title = "Gaia Sky"
 baseURL = "gaiasky"
 languageCode = "en-us"
-theme = "airspace-hugo"
+theme = "gaiasky"
 
 [menu]
 
