@@ -7,20 +7,20 @@ theme = "airspace-hugo"
 
   [[menu.header]]
     weight = 2
-    name = "Features"
-    url = "/features"
+    name = "News"
+    url = "/news"
   [[menu.header]]
     weight = 3
-    name = "Downloads"
+    name = "Download"
     url = "/downloads"
   [[menu.header]]
     weight = 4
-    name = "Blog"
-    url = "/blog"
+    name = "Docs"
+    url = "https://gaia.ari.uni-heidelberg.de/gaiasky/docs"
   [[menu.header]]
     weight = 5
-    name = "Contact"
-    url = "/contact"
+    name = "Source"
+    url = "https://codeberg.org/gaiasky/gaiasky"
 
   [[menu.footer]]
     weight = 1
@@ -36,7 +36,7 @@ theme = "airspace-hugo"
     url = "#"
   [[menu.footer]]
     weight = 4
-    name = "Blog"
+    name = "News"
     url = "#"
   [[menu.footer]]
     weight = 5
@@ -50,20 +50,20 @@ theme = "airspace-hugo"
   # This license is offered with a 50% discount for all Hugo users.
   # For information see https://github.com/gohugoio/hugoThemes/issues/260
 
-  date_format = "6 January 2006"
+  date_format = "6 Jan 2006"
 
   home = "Home"
 
   [params.slider]
     enable = true
-    title = "Gaia Sky: Explore the Stars"
-    subtitle = "Explore the Gaia Catalog in a seamless way"
+    title = "Gaia Sky"
+    subtitle = "3D Universe platform with support for a billion stars"
 
   [params.wrapper]
     enable = true
     title = "What is it"
-    italic = "Gaia Sky is a real-time, 3D, astronomy visualisation software that runs on Windows, Linux and macOS. It is developed in the framework of ESA's Gaia mission to chart about 1 billion stars of our Galaxy in the Gaia group of the Astronomisches Rechen-Institut (ZAH, Universität Heidelberg)."
-    paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
+    italic = "Gaia Sky is a real-time, 3D, astronomy visualisation software for desktop and VR that runs on Windows, Linux and macOS. Open source and libre."
+    paragraph = "It is developed in the framework of ESA's Gaia mission to chart about 1 billion stars of our Galaxy in the Gaia group of the Astronomisches Rechen-Institut (ZAH, Universität Heidelberg)."
 
   [params.blog]
     enable = true
@@ -72,10 +72,10 @@ theme = "airspace-hugo"
 
   [params.feature]
     enable = true
-    title = "We believe in great ideas"
-    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+    title = "The universe in your hands"
+    content = "Free and open source, supports high object counts, VR-ready, proper motion explorer, exoplanets and planetary surfaces, eclipse representation, 3D profiles, domemaster and planetarium modes, load your own datasets, real time filters and effects, SAMP aware, keyframed camera paths, scriptable and extensible."
     [params.feature.button]
-      caption = "View Works"
+      caption = "View all features"
       url = "#"
 
   [params.call]
