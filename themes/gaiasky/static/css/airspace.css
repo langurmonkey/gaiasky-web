@@ -93,7 +93,7 @@ header .navbar-default .navbar-nav {
 header .navbar-default .navbar-nav li a {
   font-family: 'ethnocentric';
   color: #ababab;
-  padding: 10px 19px;
+  padding: 10px 14px;
   font-size: 13px;
 }
 font header .navbar-default .navbar-nav li a:hover {
@@ -279,6 +279,11 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #fff;
   padding: 8px 20px;
   margin-top: 20px;
+}
+div.feature-box {
+  background: rgba(0.2, 0.2, 0.2, 0.5);
+  padding: 1px 10px 15px 10px;
+  border-radius: 14px;
 }
 /*--
 	content Start

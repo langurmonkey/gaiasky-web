@@ -11,15 +11,19 @@ theme = "gaiasky"
     url = "/news"
   [[menu.header]]
     weight = 3
+    name = "Screenshots"
+    url = "/screenshots"
+  [[menu.header]]
+    weight = 4
     name = "Download"
     url = "/downloads"
   [[menu.header]]
-    weight = 4
+    weight = 5
     name = "Docs"
     url = "https://gaia.ari.uni-heidelberg.de/gaiasky/docs"
   [[menu.header]]
-    weight = 5
-    name = "Source"
+    weight = 6
+    name = "Sources"
     url = "https://codeberg.org/gaiasky/gaiasky"
 
   [[menu.footer]]
@@ -52,7 +56,6 @@ theme = "gaiasky"
 
   date_format = "6 Jan 2006"
 
-  home = "Home"
 
   [params.slider]
     enable = true
@@ -61,9 +64,9 @@ theme = "gaiasky"
 
   [params.wrapper]
     enable = true
-    title = "What is it"
+    title = "Explore real scientific data"
     italic = "Gaia Sky is a real-time, 3D, astronomy visualisation software for desktop and VR that runs on Windows, Linux and macOS. Open source and libre."
-    paragraph = "It is developed in the framework of ESA's Gaia mission to chart about 1 billion stars of our Galaxy in the Gaia group of the Astronomisches Rechen-Institut (ZAH, Universität Heidelberg)."
+    paragraph = "It is developed in the framework of ESA's Gaia mission to chart about 1 billion stars of our Galaxy in the Gaia group of the Astronomisches Rechen-Institut (ZAH, Universität Heidelberg). The software includes an integrated dataset manager that enables the download and activation of several astronomical datasets such as Gaia, SDSS, or NGC."
 
   [params.blog]
     enable = true
@@ -72,11 +75,11 @@ theme = "gaiasky"
 
   [params.feature]
     enable = true
-    title = "The universe in your hands"
+    title = "Features"
     content = "Free and open source, supports high object counts, VR-ready, proper motion explorer, exoplanets and planetary surfaces, eclipse representation, 3D profiles, domemaster and planetarium modes, load your own datasets, real time filters and effects, SAMP aware, keyframed camera paths, scriptable and extensible."
     [params.feature.button]
-      caption = "View all features"
-      url = "#"
+      caption = "See more"
+      url = "/screenshots"
 
   [params.call]
     enable = true
