@@ -4,16 +4,15 @@
  *
  */
 
- :root {
-   --accent1-color: #b5152b;
- }
-
  .italic {
    font-style: italic;
  }
 
  div.post-area a.bold {
-   color: var(--accent1-color);
+  color: var(--accent-color);
+  font-variant-caps: small-caps;
+  font-size: 3.2em;
+  font-weight: 800;
  }
 
  .bold {
@@ -25,7 +24,7 @@
  }
 
 .post-area {
-  padding: 40px;
+  padding: min(8em, 10%);
   width: 100%;
   min-height: 150px;
   background-color: #222;

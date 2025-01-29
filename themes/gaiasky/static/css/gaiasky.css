@@ -44,7 +44,7 @@ h2:before {
   font-family: ForkAwesome;
   font-size: 0.7em;
   margin-right: 0.4em;
-  color:  var(--accent1-color);
+  color:  var(--accent-color);
   font-weight: bold;
 }
 p {
@@ -64,7 +64,7 @@ a:active {
   color: #ababab;
 }
 a:hover {
-  color: var(--accent1-color) !important;
+  color: var(--accent-color) !important;
 }
 code {
   padding: 2px 4px;
@@ -76,7 +76,7 @@ code {
 button.btn-default,
 button.btn {
   width: 50%;
-  background-image: linear-gradient(to bottom, var(--accent1-color), black);
+  background-image: linear-gradient(to bottom, var(--accent-color), black);
   border: none;
   color: white;
   padding: 10px 15px;
@@ -150,7 +150,7 @@ header .navbar-default .navbar-nav li a {
   font-size: 13px;
 }
 font header .navbar-default .navbar-nav li a:hover {
-  color: var(--accent1-color) !important;
+  color: var(--accent-color) !important;
 }
 /*---------------------------------------------
 					Index Start
@@ -192,6 +192,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #slider .block h1:before {
   content: '';
+  margin: 0;
 }
 #slider .block p {
   font-size: 25px;
@@ -245,7 +246,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #features .features-item i {
   font-size: 60px;
-  color: var(--accent1-color);
+  color: var(--accent-color);
 }
 #features .features-item h4 {
   padding-top: 20px;
@@ -338,7 +339,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #docs .btn-view-works {
   border: 0px;
-  background-image: linear-gradient(to bottom, var(--accent1-color), black);
+  background-image: linear-gradient(to bottom, var(--accent-color), black);
   color: #fff;
   padding: 8px 20px;
   margin-top: 20px;
@@ -485,8 +486,7 @@ div.docs-box {
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 90px;
-  text-align: center;
+  padding-left: 16.6%;
 }
 #global-header .block h1 {
   font-family: 'Ethnocentric';
@@ -500,6 +500,7 @@ div.docs-box {
 }
 #global-header .block h1:before {
   content: "";
+  margin: 0;
 }
 #global-header .block p {
   font-size: 25px;
@@ -880,7 +881,7 @@ footer .footer-manu ul li a {
   color: #494949;
 }
 footer .footer-manu ul li a:hover {
-  color: var(--accent1-color);
+  color: var(--accent-color);
 }
 footer .ce-row {
   margin-bottom: 1em;
@@ -899,7 +900,7 @@ div.page-content {
   margin: min(8em, 10%);
 }
 div.hint {
-  background: #331101;
+  background: var(--accent-dark-color);
   padding: 1em;
   border-radius: 20px;
   box-shadow: 2px 2px 5px black;

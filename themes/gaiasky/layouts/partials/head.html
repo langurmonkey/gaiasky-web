@@ -9,6 +9,7 @@
 {{ hugo.Generator }}
 
 <!-- CSS -->
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/theme-yellow.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/owl.carousel.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/fork-awesome.min.css" />
@@ -17,6 +18,9 @@
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/animate.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/responsive.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/syntax.css" />
+    {{- range .Params.css }}
+      <link rel="stylesheet" href="{{ . | absURL }}" />
+    {{- end }}
 
 <!-- Js -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

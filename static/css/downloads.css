@@ -1,0 +1,47 @@
+.download-container {
+    max-width: 600px;
+    margin: auto;
+    background: #121212;
+    padding: 20px;
+    margin-top: 3em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.download-windows h2:before {
+    font-family: ForkAwesome;
+    font-size: 1.5em;
+    content: '\f17a';
+}
+.download-macos h2:before {
+    font-family: ForkAwesome;
+    font-size: 1.5em;
+    content: '\f179';
+}
+.download-linux h2:before {
+    font-family: ForkAwesome;
+    font-size: 1.5em;
+    content: '\f17c';
+}
+.download-os h2:before {
+    font-family: ForkAwesome;
+    font-size: 1.5em;
+    content: '\f1c6';
+}
+.download-section {
+    margin: 20px 0;
+}
+.download-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.download-button:hover {
+    background: #0056b3;
+}
