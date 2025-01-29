@@ -1,13 +1,14 @@
-.<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
 	{{ partial "head.html" . }}
 </head>
-<body>
 
+<body>
 	{{ partial "header.html" . }}
 
-	{{ partial "global-header.html" .Site.Params.blog }}
+	{{ partial "global-header.html" .Site.Params.news }}
 
 	<main>
 		{{ range .Data.Pages }}
@@ -22,4 +23,5 @@
 	{{ partial "footer.html" . }}
 
 </body>
+
 </html>

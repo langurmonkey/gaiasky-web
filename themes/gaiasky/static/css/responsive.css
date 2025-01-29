@@ -176,18 +176,36 @@ px      68    160    252    */
     margin-bottom: 20px;
   }
   #slider {
-    padding-top: 90px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   #slider .block {
     padding-left: 0px;
   }
   #slider .block h1 {
-    font-size: 30px;
+    font-size: 45px;
     text-shadow: 3px 3px 5px black;
   }
   #slider .block p {
-    font-size: 13px;
+    font-size: 25px;
+  }
+  #slider .col-md-download {
+    margin-top: 3em;
+    /* text-align: center; */
+  }
+  #slider button#download-button {
+    width: 100%;
+    background-image: linear-gradient(to bottom, #b5152b, black);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin: auto;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 10px;
+  }
+  #slider button#download-button > span.title {
+    font-size: 1.4em;
   }
   /*--
 	wrapper Start 

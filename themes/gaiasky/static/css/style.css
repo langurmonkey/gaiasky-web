@@ -4,8 +4,16 @@
  *
  */
 
+ :root {
+   --accent1-color: #b5152b;
+ }
+
  .italic {
    font-style: italic;
+ }
+
+ div.post-area a.bold {
+   color: var(--accent1-color);
  }
 
  .bold {
@@ -20,15 +28,22 @@
   padding: 40px;
   width: 100%;
   min-height: 150px;
-  background-color: white;
+  background-color: #222;
   border-bottom: 1px dotted #ddd;
 }
 
 .post-area a:link, .post-area a:visited {
   font-size: 30px;
-  color: #333;
+  color: #ababab;
 }
 
 .post-area a:hover {
-  color: #0D0017;
+  color: var(--accent1-color);
+}
+
+span.gs-version {
+  font-size: 1.4em;
+}
+span.gs-releasedate {
+  font-size: 1em;
 }

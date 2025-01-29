@@ -19,6 +19,9 @@ body {
   background-color: #222;
   color: #ababab;
 }
+main {
+  background-color: #222;
+}
 h1,
 h2,
 h3,
@@ -35,6 +38,15 @@ h3 {
   font-size: 28px;
   font-weight: 300;
 }
+h1:before,
+h2:before {
+  content: '\f135';
+  font-family: ForkAwesome;
+  font-size: 0.7em;
+  margin-right: 0.4em;
+  color:  var(--accent1-color);
+  font-weight: bold;
+}
 p {
   font-size: 15px;
   line-height: 28px;
@@ -49,6 +61,47 @@ a:active,
 a:focus,
 a:active {
   text-decoration: none !important;
+  color: #ababab;
+}
+a:hover {
+  color: var(--accent1-color) !important;
+}
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #343434;
+  border-radius: 4px;
+}
+button.btn-default,
+button.btn {
+  width: 50%;
+  background-image: linear-gradient(to bottom, var(--accent1-color), black);
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  margin: auto;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 10px;
+  text-shadow: 1px 1px 5px black;
+  box-shadow: 2px 2px 5px black;
+}
+button:hover {
+  color: white !important;
+  border: none !important;
+  background-image: linear-gradient(to bottom, #15652b, black);
+}
+button:active {
+  outline: 0 !important;
+  color: white !important;
+  background-image: linear-gradient(to bottom, #15652b, black) !important;
+  border: none !important;
+  box-shadow: 0px 0px 5px black;
+  transform: translateY(4px);
+}
+button:focus {
+  outline: 0 !important;
 }
 .section-title {
   margin-bottom: 70px;
@@ -97,7 +150,7 @@ header .navbar-default .navbar-nav li a {
   font-size: 13px;
 }
 font header .navbar-default .navbar-nav li a:hover {
-  color: #000;
+  color: var(--accent1-color) !important;
 }
 /*---------------------------------------------
 					Index Start
@@ -106,11 +159,11 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/screenshots/aurora.jpeg") no-repeat;
+  background: url("../img/screenshots/aurora.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 150px 0 220px 0;
+  padding: 120px 0 120px 0;
   position: relative;
 }
 #slider:before {
@@ -137,18 +190,29 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 45px;
   text-shadow: 5px 5px 8px black;
 }
+#slider .block h1:before {
+  content: '';
+}
 #slider .block p {
   font-size: 25px;
-  line-height: 20px;
+  line-height: 30px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
+  text-shadow: 1px 1px 2px black;
+}
+#slider .col-md-download {
+  margin-top: 7em;
+  /* text-align: center; */
+}
+#slider button .title {
+  font-size: 1.6em;
 }
 /*--
 	wrapper Start
 --*/
 #intro {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 #intro .block h2 {
   padding-top: 35px;
@@ -161,7 +225,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #intro .block img {
   padding-left: 40px;
-  width: 100%;
+  width: 90%;
 }
 #intro .section-title {
   margin-bottom: 0px;
@@ -172,23 +236,23 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	service Start
 --*/
-#service {
+#features {
   text-align: center;
   padding: 90px 0;
 }
-#service .service-item {
-  padding-bottom: 30px;
+#features .features-item {
+  padding-bottom: 6em;
 }
-#service .service-item i {
+#features .features-item i {
   font-size: 60px;
-  color: #4A4656;
+  color: var(--accent1-color);
 }
-#service .service-item h4 {
+#features .features-item h4 {
   padding-top: 20px;
   margin: 0;
   color: #666;
 }
-#service .service-item p {
+#features .features-item p {
   color: #888;
   padding-top: 10px;
   margin: 0;
@@ -240,9 +304,8 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Feature Start
 --*/
-#feature {
-  background: url("../img/screenshots/trifid.jpeg");
-  background-position: 50% 94px;
+#docs {
+  background-position: center;
   width: 100%;
   display: block;
   position: relative;
@@ -261,26 +324,35 @@ font header .navbar-default .navbar-nav li a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   padding: 100px 0;
-  opacity: 0.8;
   color: white;
   text-shadow: 1px 1px 3px black;
 }
-#feature h2 {
+#docs h2 {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
 }
-#feature p {
+#docs p {
   color: #8d8f92;
   margin-bottom: 20px;
 }
-#feature .btn-view-works {
-  background: #a43344;
+#docs .btn-view-works {
+  border: 0px;
+  background-image: linear-gradient(to bottom, var(--accent1-color), black);
   color: #fff;
   padding: 8px 20px;
   margin-top: 20px;
 }
-div.feature-box {
+#docs .btn-view-works:hover {
+  color: white !important;
+  background-image: linear-gradient(to bottom, #15652b, black);
+}
+#docs .btn-view-works:active {
+  background-image: linear-gradient(to bottom, #15652b, black);
+  box-shadow: 0px 0px 5px black;
+  transform: translateY(4px);
+}
+div.docs-box {
   background: rgba(0.2, 0.2, 0.2, 0.5);
   padding: 1px 10px 15px 10px;
   border-radius: 14px;
@@ -373,14 +445,29 @@ div.feature-box {
 /*---------------------------------------------
 					Work Start
 -----------------------------------------------*/
+.random-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+}
+.random-background:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  transition: all .2s linear;
+}
 /*--
 	Slider-work Start
 --*/
 #global-header {
-  background: url("../img/slider-bg.jpg") no-repeat;
-  background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 107px;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   position: relative;
   background-attachment: fixed;
 }
@@ -393,8 +480,7 @@ div.feature-box {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
-  opacity: 0.8;
+  opacity: 1.0;
 }
 #global-header .block {
   color: #E3E3E4;
@@ -403,6 +489,8 @@ div.feature-box {
   text-align: center;
 }
 #global-header .block h1 {
+  font-family: 'Ethnocentric';
+  text-shadow: 5px 5px 8px black;
   font-weight: 100;
   font-size: 45px;
   letter-spacing: 6px;
@@ -410,11 +498,16 @@ div.feature-box {
   margin-top: 0;
   text-transform: capitalize;
 }
+#global-header .block h1:before {
+  content: "";
+}
 #global-header .block p {
-  font-size: 16px;
+  font-size: 25px;
+  line-height: 30px;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  letter-spacing: 1px;
-  word-spacing: 3px;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px black;
 }
 /*--
 	portfolio-work Start
@@ -641,8 +734,7 @@ div.feature-box {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
-  opacity: 0.8;
+  opacity: 0.5;
 }
 #slider-contact .block {
   color: #E3E3E4;
@@ -694,15 +786,6 @@ div.feature-box {
   box-shadow: none;
   width: 100%;
 }
-#contact-form .block button {
-  width: 100%;
-  height: 60px;
-  background: #47424C;
-  border: none;
-  color: #fff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-}
 /*--
 	wrapper-contact Start
 --*/
@@ -728,32 +811,6 @@ div.feature-box {
   color: #2C2C2C;
   margin-right: 25px;
   font-size: 25px;
-}
-.google-map {
-  position: relative;
-}
-.google-map #map {
-  width: 100%;
-  height: 300px;
-  background-color: #ff432e;
-}
-#contact-box {
-  padding-top: 35px;
-  padding-bottom: 58px;
-}
-#contact-box .block img {
-  width: 100%;
-}
-#contact-box .block h2 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  color: #000;
-  font-size: 28px;
-  padding-bottom: 30px;
-}
-#contact-box .block p {
-  color: #5C5C5C;
-  display: block;
 }
 /*--
 	features-contact Start
@@ -811,6 +868,7 @@ footer .footer-manu {
 }
 footer .footer-manu ul {
   margin: 0px;
+  margin-bottom: 2em;
   padding: 0px;
 }
 footer .footer-manu ul li {
@@ -822,5 +880,31 @@ footer .footer-manu ul li a {
   color: #494949;
 }
 footer .footer-manu ul li a:hover {
-  color: #000;
+  color: var(--accent1-color);
+}
+footer .ce-row {
+  margin-bottom: 1em;
+  display: inline-block;
+}
+footer .ce-column {
+  margin: 0 0.4em;
+  float: left;
+}
+footer img.ack-img {
+  width: 6em;
+  height: 6em;
+  filter: invert(1);
+}
+div.page-content {
+  margin: min(8em, 10%);
+}
+div.hint {
+  background: #331101;
+  padding: 1em;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black;
+}
+div.hint .hint-title {
+  font-size: 1.4em;
+  font-variant-caps: small-caps;
 }

@@ -1,23 +1,23 @@
-<!-- Service Start -->
-<section id="service">
+<!-- Features Start -->
+<section id="features">
   <div class="container">
-    
+
     <!-- Intro -->
     <div class="row">
       <div class="section-title">
-        <h2>{{ .Site.Data.service.title }}</h2>
-        <p>{{ .Site.Data.service.subtitle }}</p>
+        <h2>{{ .Site.Data.features.title }}</h2>
+        <p>{{ .Site.Data.features.subtitle }}</p>
       </div>
     </div>
 
     <!-- Content -->
     <div class="row">
-      {{ range .Site.Data.service.content }}
+      {{ range .Site.Data.features.content }}
       <div class="col-sm-6 col-md-3">
-        <div class="service-item">
+        <div class="features-item">
           <i class="{{ .icon }}"></i>
           <h4>{{ .name }}</h4>
-          <p>{{ .text }}</p>
+          <p>{{ .text | markdownify }}</p>
         </div>
       </div>
       {{ end }}

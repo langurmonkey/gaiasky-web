@@ -1,0 +1,105 @@
+enable: true
+title: Features
+subtitle: >
+  Gaia Sky is packed with features that will make your head spin
+content:
+
+  - icon: fa fa-git-square
+    name: Open source
+    text: >
+      Open source and free, and will stay this way. Contribute to the development and translations.
+
+  - icon: fa fa-star
+    name: High object count
+    text: >
+      The [MS-LOD](https://ieeexplore.ieee.org/document/8440086) technique enables real-time exploration of billions of objects in real time.
+
+  - icon: fa fa-compass
+    name: From Gaia to the cosmos
+    text: >
+      Explore from high-z galaxies to small asteroids in a seamless manner, all based on real scientific data.
+
+  - icon: fa fa-desktop
+    name: Virtual Reality
+    text: >
+      Experience the whole universe in VR (compatible with headsets powered by OpenXR)
+
+  - icon: fa fa-cubes
+    name: 6D exploration
+    text: >
+      Observe star positions but also proper motions and radial velocities, if available.
+
+  - icon: fa fa-file-picture-o
+    name: Advanced graphics
+    text: >
+      Virtual textures, screen space reflections, shadows, HDR, volumes, dynamic resolution, etc.
+
+  - icon: fa fa-binoculars
+    name: Planetary surfaces
+    text: >
+      Explore surfaces with height and elevation maps (using tessellation, if available), and advanced shading.
+
+  - icon: fa fa-globe-w
+    name: Procedural planets
+    text: >
+      Procedurally generate planetary surfaces on the fly, and explore your creations seamlessly.
+
+  - icon: fa fa-sun-o
+    name: Eclipses
+    text: >
+      Real-time representation of eclipses in all bodies, with a visualization of the umbra and the penumbra.
+
+  - icon: fa fa-eye
+    name: 3D-ready
+    text: >
+      6 stereoscopic modes: Anaglyphic (red-cyan), VR headset, 3DTV (H and V), cross-eye and parallel view.
+
+  - icon: fa fa-circle-o
+    name: 360 mode
+    text: >
+      Spherical (equirectangular), cylindrical and Hammer projections available, plus many reprojection modes.
+
+  - icon: fa fa-globe
+    name: Planetarium projection
+    text: >
+      Domemaster projection for single-projector setups. MPCDI for real-time usage in multi-projector systems.
+
+  - icon: fa fa-space-shuttle
+    name: Gaia and other spacecraft
+    text: >
+      Observe Gaia and other spacecraft in their orbits and discover their movement in the sky and their attitudes.
+
+  - icon: fa fa-database
+    name: Use your data
+    text: >
+      Download pre-packed datasets ([Gaia](https://www.cosmos.esa.int/web/gaia/dr3), [NGC](https://in-the-sky.org/data/catalogue.php?cat=NGC), [SDSS](http://www.sdss.org/), Open Clusters, etc.) or use your own, in VOTable, FITS, CSV and [other formats](http://www.star.bris.ac.uk/~mbt/stil/).
+
+  - icon: fa fa-filter
+    name: Real-time filters
+    text: >
+      Download pre-packed datasets (Gaia DR3+, NEARGALCAT, SDSS, Open Clusters catalog, etc.) or use your own, in VOTable, FITS, CSV and other formats
+
+  - icon: fa fa-check-circle
+    name: SAMP aware
+    text: >
+      Use [SAMP](http://www.ivoa.net/documents/SAMP/20120411/REC-SAMP-1.3-20120411.html) (Simple Application Messaging Protocol) to interoperate with SAMP-ready software such as Topcat and Aladin.
+
+  - icon: fa fa-gamepad
+    name: Gamepad support
+    text: >
+      Use your favorite controllers and gamepads to navigate the Galaxy. Piece of cake!
+
+  - icon: fa fa-camera
+    name: Camera paths
+    text: >
+      Record and play camera paths off-the-shelf. Includes a keyframe system.
+
+  - icon: fa fa-python
+    name: Scriptable and extensible
+    text: >
+      Use Python to script and extend the capabilities of the Gaia Sky.
+
+  - icon: fa fa-language
+    name: Internationalized
+    text: >
+      Translated to English, German, Spanish, French, Catalan, Slovenian and Bulgarian.

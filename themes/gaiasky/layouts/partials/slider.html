@@ -7,7 +7,19 @@
           <h1 class="animated fadeInUp text-uppercase">{{ .Site.Params.slider.title | safeHTML }}</h1>
           <p class="animated fadeInUp">{{ .Site.Params.slider.subtitle | safeHTML }}</p>
         </div>
+        <div class="col-md-download">
+          <a href="{{ .Site.Params.slider.buttonurl | safeHTML }}">
+            <button id="download-button" class="btn">
+              <span class="title"><i class="fa fa-download"></i> {{ .Site.Params.slider.buttonTitle | safeHTML }}
+                <b>{{ .Site.Params.slider.version | safeHTML }}</b></span><br>
+
+              <span class="subtext">linux | windows | macos | tgz</span><br>
+              <span class="subtext">release date: {{ .Site.Params.slider.releaseDate | safeHTML }}</span><br>
+            </button>
+          </a>
+        </div>
       </div>
     </div>
+  </div>
   </div>
 </section>

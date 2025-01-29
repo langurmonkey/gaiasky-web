@@ -11,11 +11,11 @@ theme = "gaiasky"
     url = "/news"
   [[menu.header]]
     weight = 3
-    name = "Screenshots"
-    url = "/screenshots"
+    name = "Media"
+    url = "/media"
   [[menu.header]]
     weight = 4
-    name = "Download"
+    name = "Downloads"
     url = "/downloads"
   [[menu.header]]
     weight = 5
@@ -23,29 +23,30 @@ theme = "gaiasky"
     url = "https://gaia.ari.uni-heidelberg.de/gaiasky/docs"
   [[menu.header]]
     weight = 6
-    name = "Sources"
-    url = "https://codeberg.org/gaiasky/gaiasky"
+    name = "Contact"
+    url = "/contact"
 
   [[menu.footer]]
     weight = 1
-    name = "About us"
-    url = "#"
+    name = "News"
+    url = "/news"
   [[menu.footer]]
     weight = 2
-    name = "Contact us"
-    url = "#"
+    name = "Media"
+    url = "/media"
   [[menu.footer]]
     weight = 3
-    name = "How it works"
-    url = "#"
+    name = "Downloads"
+    url = "/downloads"
   [[menu.footer]]
     weight = 4
-    name = "News"
-    url = "#"
+    name = "Docs"
+    url = "/docs"
   [[menu.footer]]
     weight = 5
-    name = "Terms"
-    url = "#"
+    name = "Contact"
+    url = "/contact"
+
 
 # The site's parameters
 [params]
@@ -60,43 +61,57 @@ theme = "gaiasky"
   [params.slider]
     enable = true
     title = "Gaia Sky"
-    subtitle = "3D Universe platform with support for a billion stars"
+    subtitle = "3D Universe visulaization platform with support for a billion objects"
+    buttonTitle = "Download Gaia Sky"
+    version = "3.6.6"
+    releaseDate = "2025-01-24"
+
+    buttonurl = "/downloads"
 
   [params.wrapper]
     enable = true
-    title = "Explore real scientific data"
-    italic = "Gaia Sky is a real-time, 3D, astronomy visualisation software for desktop and VR that runs on Windows, Linux and macOS. Open source and libre."
-    paragraph = "It is developed in the framework of ESA's Gaia mission to chart about 1 billion stars of our Galaxy in the Gaia group of the Astronomisches Rechen-Institut (ZAH, Universität Heidelberg). The software includes an integrated dataset manager that enables the download and activation of several astronomical datasets such as Gaia, SDSS, or NGC."
+    title = "Explore the cosmos"
+    italic = "**Gaia Sky** is a real-time, 3D, astronomy visualisation software for desktop and VR that runs on *Windows*, *Linux* and *macOS*. Open source and libre."
+    paragraph = "It is developed in the framework of [ESA](http://www.esa.int/ESA)'s [Gaia mission](http://sci.esa.int/gaia) to chart about 1 billion stars of our Galaxy in the Gaia group of the [Astronomisches Rechen-Institut](http://www.ari.uni-heidelberg.de/) ([ZAH](http://www.zah.uni-heidelberg.de/), [Universität Heidelberg](http://www.uni-heidelberg.de/)). The software includes an integrated dataset manager that grants access to several tailor-made astronomical datasets such as Gaia DR1/2/3, SDSS, or NGC. Discover the boundaries of astronomy with real scientific datasets!"
+    image = "img/screenshots/exo001.png"
 
-  [params.blog]
+  [params.news]
     enable = true
-    title = "Gaia Sky blog"
-    subtitle = "Latest news, features and dev stories"
+    title = "News"
+    subtitle = "Latest blog posts, news, features, and dev stories"
 
-  [params.feature]
+  [params.docs]
     enable = true
-    title = "Features"
-    content = "Free and open source, supports high object counts, VR-ready, proper motion explorer, exoplanets and planetary surfaces, eclipse representation, 3D profiles, domemaster and planetarium modes, load your own datasets, real time filters and effects, SAMP aware, keyframed camera paths, scriptable and extensible."
-    [params.feature.button]
-      caption = "See more"
-      url = "/screenshots"
+    title = "Documentation"
+    content = "We make an effort to have the most up-to-date and accessible documentation possible. You can browse it online, or download it as a PDF file. It continually grows, so stay tuned!"
+    [params.docs.button]
+      caption = "Read the docs"
+      url = "https://gaia.ari.uni-heidelberg.de/gaiasky"
 
-  [params.call]
+  [params.media]
     enable = true
-    title = "We design delightful digital experiences."
-    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+    title = "Media"
+    subtitle = "Screenshots, videos, and more"
+
+  [params.downloads]
+    enable = true
+    title = "Downloads"
+    subtitle = "Get Gaia Sky for your system"
 
   [params.contact]
     enable = true
-    title = "Drop us a line"
-    subtitle = "Use the contact form below"
-    [params.contact.form]
-      name = "Your name"
-      email = "Your email"
-      subject = "Your subject"
-      message = "Your message"
-      button = "Send message"
-    [params.contact.box]
-      title = "Contact info"
-      address = "Astronomisches Rechen-Institut, Mönchhofstr. 12-14 69120, Heidelberg"
-      email = "Email: tsagrista@ari.uni-heidelberg.de"
+    title = "Contact"
+    subtitle = "Get in touch with us"
+
+  [[params.ack]]
+    name = "ZAH"
+    url = "https://zah.uni-heidelberg.de"
+    img = "/img/zah.png"
+  [[params.ack]]
+    name = "DLR"
+    url = "https://www.dlr.de"
+    img = "/img/dlr.png"
+  [[params.ack]]
+    name = "BMWK"
+    url = "https://www.bmwk.de"
+    img = "/img/bwt.png"
