@@ -63,7 +63,8 @@ p {
 ul {
   padding: 0;
   margin: 0;
-  list-style: disc inside;
+  margin-left: 15px;
+  list-style: disc outside;
 }
 a,
 a:active,

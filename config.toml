@@ -55,7 +55,7 @@ theme = [ "gaiasky", "hugo-easy-gallery" ]
   # This license is offered with a 50% discount for all Hugo users.
   # For information see https://github.com/gohugoio/hugoThemes/issues/260
 
-  date_format = "6 Jan 2006"
+  date_format = "2 Jan 2006"
   version = "3.6.6"
   versionFlat = "3_6_6"
   versionRevision = "3.6.6.caf73d2de"

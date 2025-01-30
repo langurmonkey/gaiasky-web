@@ -14,7 +14,8 @@
 		{{ range .Data.Pages }}
 		<div class="post-area">
 			<a href="{{ .Permalink }}" class="bold">{{ .Title }}</a>
-			<p class="post-date">{{ .Date.Format .Site.Params.date_format }}</p>
+			<p class="italic">By <span class="bold">{{ .Params.author }}</span> on <span class="bold">{{
+					.Date.Format .Site.Params.date_format }}</span></p>
 			<p>{{ .Summary }}</p>
 		</div>
 		{{ end }}

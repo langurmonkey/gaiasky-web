@@ -6,7 +6,7 @@ author = "tsagrista"
 categories = ["release", "version"]
 +++
 
-Today we publish the version 3.6.6 of Gaia Sky. This is a small update focused on fixing some bugs and improving performance. Also, it comes with proper handling of depth for volumes!
+📢 Today we publish the version 3.6.6 of Gaia Sky. This is a small update focused on fixing some bugs and improving performance. Also, it comes with proper handling of depth for volumes!
 
 
 <!--more-->

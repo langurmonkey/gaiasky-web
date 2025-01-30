@@ -25,10 +25,10 @@
 
 .post-area {
   padding: min(8em, 10%);
+  padding-bottom: 1em;
   width: 100%;
-  min-height: 150px;
+  min-height: 100px;
   background-color: #222;
-  border-bottom: 1px dotted #ddd;
 }
 
 .post-area a:link, .post-area a:visited {
