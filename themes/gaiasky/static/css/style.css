@@ -37,12 +37,6 @@
 }
 
 .post-area a:hover {
-  color: var(--accent1-color);
+  color: var(--accent-color);
 }
 
-span.gs-version {
-  font-size: 1.4em;
-}
-span.gs-releasedate {
-  font-size: 1em;
-}

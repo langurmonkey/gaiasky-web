@@ -12,15 +12,19 @@
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/theme-yellow.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/owl.carousel.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/fork-awesome.min.css" />
+<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/fork-awesome.min.css" /> -->
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/fontawesome.min.css" />
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/regular.min.css" />
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/brands.min.css" />
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/solid.min.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/gaiasky.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/animate.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/responsive.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/syntax.css" />
-    {{- range .Params.css }}
-      <link rel="stylesheet" href="{{ . | absURL }}" />
-    {{- end }}
+{{- range .Params.css }}
+<link rel="stylesheet" href="{{ . | absURL }}" />
+{{- end }}
 
 <!-- Js -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -31,6 +35,5 @@
 <script src="{{ .Site.BaseURL }}js/min/waypoints.min.js"></script>
 <script src="{{ .Site.BaseURL }}js/jquery.counterup.js"></script>
 <script src="{{ .Site.BaseURL }}js/bg-picture.js"></script>
-
 
 <script src="{{ .Site.BaseURL }}js/main.js"></script>

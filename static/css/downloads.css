@@ -1,47 +1,123 @@
 .download-container {
+    font-weight: 700;
     max-width: 600px;
     margin: auto;
     background: #121212;
-    padding: 20px;
-    margin-top: 3em;
+    padding: 10px 20px;
+    margin-top: 1em;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+#download-title {
+    text-align: center;
+    font-size: 2em;
+}
 .download-windows h2:before {
-    font-family: ForkAwesome;
+    font-weight: 100;
+    font-family: FontAwesome;
     font-size: 1.5em;
     content: '\f17a';
+    mask-image: none;
+    -webkit-mask-image: none;
+    background-color: transparent;
+    margin-right: 0.7em;
+    color: var(--accent-color);
 }
 .download-macos h2:before {
-    font-family: ForkAwesome;
+    font-weight: 100;
+    font-family: FontAwesome;
     font-size: 1.5em;
     content: '\f179';
+    mask-image: none;
+    -webkit-mask-image: none;
+    background-color: transparent;
+    margin-right: 0.7em;
+    color: var(--accent-color);
 }
 .download-linux h2:before {
-    font-family: ForkAwesome;
+    font-weight: 100;
+    font-family: FontAwesome;
     font-size: 1.5em;
     content: '\f17c';
+    mask-image: none;
+    -webkit-mask-image: none;
+    background-color: transparent;
+    margin-right: 0.7em;
+    color: var(--accent-color);
 }
 .download-os h2:before {
-    font-family: ForkAwesome;
+    font-weight: 100;
+    font-family: FontAwesome;
     font-size: 1.5em;
     content: '\f1c6';
+    mask-image: none;
+    -webkit-mask-image: none;
+    background-color: transparent;
+    margin-right: 0.7em;
+    color: var(--accent-color);
+}
+.download-source h2:before {
+    font-weight: 100;
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    content: '\f1d3';
+    mask-image: none;
+    -webkit-mask-image: none;
+    background-color: transparent;
+    margin-right: 0.7em;
+    color: var(--accent-color);
 }
 .download-section {
     margin: 20px 0;
 }
 .download-button {
-    display: block;
+    font-size: 1.2em;
+    display: inline-block;
     margin: 10px auto;
+    margin-right: 3em;
     padding: 10px;
     width: 80%;
     max-width: 300px;
     text-align: center;
-    background: #007bff;
+    background: var(--download-button-color);
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
 }
-.download-button:hover {
-    background: #0056b3;
+.download-button:hover{
+    color: white !important;
+    background: var(--accent-dark-color);
+}
+.download-button:active{
+    transform: translateY(4px);
+    box-shadow: 0 0 5px black;
+}
+.download-button span.download-sub {
+    font-size: 0.9rem;
+    color: var(--text-dim-color);
+    display: block;
+}
+.download-button code {
+    background-color: var(--download-button-color);
+    color: var(--text-dim-color);
+    filter: brightness(0.9);
+}
+.download-bottom-links {
+    margin-top: 4em;
+    text-align: center;
+}
+.signature {
+
+}
+.download-container span.downloads-version {
+  color: var(--accent-color);
+  font-family: Verdana;
+  font-weight: 900;
+  font-size: 1.3em;
+  text-shadow: 1px 1px 2px black;
+}
+.download-container span.downloads-releasedate {
+  color: var(--accent-dark-color);
+  font-size: 1em;
 }

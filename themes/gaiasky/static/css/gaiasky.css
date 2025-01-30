@@ -17,7 +17,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   background-color: #222;
-  color: #ababab;
+  color: var(--text-dim-color);
 }
 main {
   background-color: #222;
@@ -28,6 +28,7 @@ h3,
 h4,
 h5,
 h6 {
+  padding-top: 0.7em;
   font-family: 'Roboto', sans-serif;
 }
 h2 {
@@ -40,12 +41,20 @@ h3 {
 }
 h1:before,
 h2:before {
-  content: '\f135';
-  font-family: ForkAwesome;
-  font-size: 0.7em;
-  margin-right: 0.4em;
-  color:  var(--accent-color);
-  font-weight: bold;
+  content: '';
+  display: inline-flex;
+  margin-right: 0.2em;
+  background-color: var(--accent-color);
+  mask-image: url('/img/gaia.svg');
+  -webkit-mask-image: url('/img/gaia.svg');
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-size: contain;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 20px;
 }
 p {
   font-size: 15px;
@@ -61,10 +70,10 @@ a:active,
 a:focus,
 a:active {
   text-decoration: none !important;
-  color: #ababab;
+  color: var(--link-color);
 }
 a:hover {
-  color: var(--accent-color) !important;
+  color: var(--link-hover-color) !important;
 }
 code {
   padding: 2px 4px;
@@ -90,12 +99,12 @@ button.btn {
 button:hover {
   color: white !important;
   border: none !important;
-  background-image: linear-gradient(to bottom, #15652b, black);
+  background-image: linear-gradient(to bottom, var(--second-color), black);
 }
 button:active {
   outline: 0 !important;
   color: white !important;
-  background-image: linear-gradient(to bottom, #15652b, black) !important;
+  background-image: linear-gradient(to bottom, var(--second-color), black) !important;
   border: none !important;
   box-shadow: 0px 0px 5px black;
   transform: translateY(4px);
@@ -114,7 +123,7 @@ button:focus {
 .section-title p {
   font-family: 'Volkhov', serif;
   font-style: italic;
-  color: #666;
+  color: var(--text-dim-color);
 }
 /*--
 	Header Start
@@ -145,7 +154,7 @@ header .navbar-default .navbar-nav {
 }
 header .navbar-default .navbar-nav li a {
   font-family: 'ethnocentric';
-  color: #ababab;
+  color: var(--text-dim-color);
   padding: 10px 14px;
   font-size: 13px;
 }
@@ -168,6 +177,10 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #slider:before {
   content: "";
+  background-color: transparent;
+  background-size: 0;
+  width: 0;
+  height: 0;
   position: absolute;
   left: 0;
   top: 0;
@@ -193,6 +206,12 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider .block h1:before {
   content: '';
   margin: 0;
+  background-color: transparent;
+  background-size: 0;
+  width: 0;
+  height: 0;
+  mask-image: none;
+  -webkit-mask-image: none;
 }
 #slider .block p {
   font-size: 25px;
@@ -221,7 +240,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
 }
 #intro .block p {
-  color: #7B7B7B;
+  color: var(--text-dim-color);
   padding-top: 20px;
 }
 #intro .block img {
@@ -251,10 +270,10 @@ font header .navbar-default .navbar-nav li a:hover {
 #features .features-item h4 {
   padding-top: 20px;
   margin: 0;
-  color: #666;
+  color: var(--text-color);
 }
 #features .features-item p {
-  color: #888;
+  color: var(--text-dim-color);
   padding-top: 10px;
   margin: 0;
   font-size: 14px;
@@ -346,10 +365,10 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #docs .btn-view-works:hover {
   color: white !important;
-  background-image: linear-gradient(to bottom, #15652b, black);
+  background-image: linear-gradient(to bottom,  var(--second-color), black);
 }
 #docs .btn-view-works:active {
-  background-image: linear-gradient(to bottom, #15652b, black);
+  background-image: linear-gradient(to bottom, var(--second-color), black);
   box-shadow: 0px 0px 5px black;
   transform: translateY(4px);
 }
@@ -357,6 +376,7 @@ div.docs-box {
   background: rgba(0.2, 0.2, 0.2, 0.5);
   padding: 1px 10px 15px 10px;
   border-radius: 14px;
+  color: var(--text-dim-color);
 }
 /*--
 	content Start
@@ -474,6 +494,10 @@ div.docs-box {
 }
 #global-header:before {
   content: "";
+  background-color: transparent;
+  background-size: 0;
+  width: 0;
+  height: 0;
   position: absolute;
   left: 0;
   top: 0;
@@ -501,6 +525,10 @@ div.docs-box {
 #global-header .block h1:before {
   content: "";
   margin: 0;
+  background-color: transparent;
+  background-size: 0;
+  width: 0;
+  height: 0;
 }
 #global-header .block p {
   font-size: 25px;
@@ -859,10 +887,10 @@ footer {
 footer p {
   font-size: 13px;
   line-height: 25px;
-  color: #919191;
+  color: var(--text-dim-color);
 }
 footer a {
-  color: #595959;
+  color: var(--link-color);
 }
 footer .footer-manu {
   padding-bottom: 25px;
@@ -878,7 +906,7 @@ footer .footer-manu ul li {
 }
 footer .footer-manu ul li a {
   display: inline-block;
-  color: #494949;
+  color: var(--link-color);
 }
 footer .footer-manu ul li a:hover {
   color: var(--accent-color);
@@ -901,11 +929,15 @@ div.page-content {
 }
 div.hint {
   background: var(--accent-dark-color);
-  padding: 1em;
+  color: var(--text-color);
+  padding: 1em 1em 0.4em 1em;
   border-radius: 20px;
   box-shadow: 2px 2px 5px black;
 }
 div.hint .hint-title {
   font-size: 1.4em;
   font-variant-caps: small-caps;
+}
+.page-content table td {
+  padding: 0.1em 0.6em 0.1em 0;
 }

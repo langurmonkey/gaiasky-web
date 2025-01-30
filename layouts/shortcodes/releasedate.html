@@ -1,1 +1,1 @@
-<span class="gs-releasedate">{{ .Site.Params.slider.releaseDate | markdownify }}</span>
+<span class="gs-releasedate">{{ .Site.Params.releaseDate | time.Format ":date_medium" }}</span>
