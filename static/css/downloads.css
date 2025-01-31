@@ -79,7 +79,7 @@
     width: 80%;
     max-width: 300px;
     text-align: center;
-    background-image: linear-gradient(to bottom, var(--download-button-color), #151515);
+    background-image: linear-gradient(to bottom, var(--button1-color), var(--button2-color));
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -87,7 +87,7 @@
 }
 .download-button:hover{
     color: white !important;
-    background: var(--accent-dark-color);
+    background-image: linear-gradient(to bottom, var(--accent-dark-color), black);
 }
 .download-button:active{
     transform: translateY(4px);

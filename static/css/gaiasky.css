@@ -79,7 +79,7 @@ code {
 button.btn-default,
 button.btn {
   width: 50%;
-  background-image: linear-gradient(to bottom, var(--accent-color), black);
+  background-image: linear-gradient(to bottom, var(--button1-color), var(--button2-color));
   border: none;
   color: white;
   padding: 10px 15px;
@@ -93,7 +93,7 @@ button.btn {
 button:hover {
   color: white !important;
   border: none !important;
-  background-image: linear-gradient(to bottom, var(--second-color), black);
+  background-image: linear-gradient(to bottom, var(--accent-dark-color), black);
 }
 button:active {
   outline: 0 !important;
@@ -349,14 +349,14 @@ section#docs p {
 }
 section#docs .btn-view-works {
   border: 0px;
-  background-image: linear-gradient(to bottom, var(--accent-color), black);
+  background-image: linear-gradient(to bottom, var(--button1-color), var(--button2-color));
   color: #fff;
   padding: 8px 20px;
   margin-top: 20px;
 }
 section#docs .btn-view-works:hover {
   color: white !important;
-  background-image: linear-gradient(to bottom,  var(--second-color), black);
+  background-image: linear-gradient(to bottom, var(--accent-dark-color), black);
 }
 section#docs .btn-view-works:active {
   background-image: linear-gradient(to bottom, var(--second-color), black);

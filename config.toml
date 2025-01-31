@@ -92,7 +92,7 @@ theme = [ "hugo-easy-gallery" ]
     content = "We make an effort to have the most up-to-date and accessible documentation possible. You can browse it online, or download it as a PDF file. It continually grows, so stay tuned!"
     [params.docs.button]
       caption = "Read the docs"
-      url = "https://gaia.ari.uni-heidelberg.de/gaiasky"
+      url = "https://gaia.ari.uni-heidelberg.de/gaiasky/docs"
 
   [params.media]
     enable = true

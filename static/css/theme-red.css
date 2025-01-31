@@ -7,6 +7,7 @@
    --second-color: #15652b;
    --link-color: #e9967a;
    --link-hover-color: var(--accent-color);
-   --download-button-color: #00626e;
+   --button1-color: #00626e;
+   --button2-color: #00121e;
  }
 
