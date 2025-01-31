@@ -10,7 +10,7 @@ Grid Layout Styles
 .gallery {
     overflow: hidden;
     margin: 10px;
-    max-width: 1100px;
+    max-width: 1500px;
 }
 .gallery .box {
     float: left;
@@ -40,6 +40,13 @@ Grid Layout Styles
       padding-bottom: 25%;
    }
 }
+@media only screen and (min-width : 980px) {
+   /* Medium desktop: 5 tiles */
+   .gallery .box {
+      width: 15%;
+      padding-bottom: 15%;
+   }
+}
 
 /*
 Transition styles
@@ -56,10 +63,6 @@ Transition styles
 /*
 figure styles
 */
-figure {
-    position:relative; /* purely to allow absolution positioning of figcaption */
-    overflow: hidden;
-}
 .gallery figure {
     position: absolute;
     left: 5px;
@@ -78,11 +81,6 @@ figure {
 }
 .gallery.hover-effect-slideup figure:hover {
     transform: translateY(-5px);
-}
-
-/* Force square grid (from Bootstrap v3.7.7) */
-figure {
-  margin: 0;
 }
 
 /*
@@ -105,14 +103,6 @@ img / a styles
 .gallery img {
     display: none; /* only show the img if not inside a gallery */
 }
-figure a {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-
 /*
 figcaption styles
 */
@@ -158,22 +148,26 @@ figcaption styles
 .fancy-figure.caption-effect-slide.caption-position-center figure:not(:hover) figcaption  {
     top: 100%;
 }
-figcaption p {
+.gallery figcaption p {
     margin: auto; /* override style in theme */
 }
 
-figure img {
+.gallery figure img {
     max-width: 100%;
 }
 
-figure figcaption a {
+.gallery figure figcaption a {
     position: relative;
     color: #CCC;
     /* text-decoration: none; */
 }
 
 /* Format figure captions and Photoswipe text (from Bootstrap v3.7.7) */
-figcaption, .pswp__caption__center, .pswp__counter, .pswp__share-tooltip {
+.gallery figcaption, .pswp__caption__center, .pswp__counter, .pswp__share-tooltip {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
+}
+
+.pswp__caption__center {
+  text-align: center !important;
 }

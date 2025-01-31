@@ -1,0 +1,29 @@
+enable: true
+title: Links
+subtitle: >
+  Pointers to other Gaia projects here at ARI or elsewhere
+content:
+
+  - icon: fa-solid fa-satellite
+    name: ESA Gaia site
+    text: >
+      Official site of Gaia at ESA. Learn about the mission and the satellite in this official ESA page.
+    url: https://sci.esa.int/web/gaia
+
+  - icon: fa-solid fa-database
+    name: Gaia archive (GACS)
+    text: >
+      The official Gaia archive where you can get all the data produced by the Gaia mission.
+    url: https://gea.esac.esa.int
+
+  - icon: fa-solid fa-globe
+    name: ARI Gaia project site
+    text: >
+      Learn about the Gaia group at ARI. Gaia Sky is part of this.
+    url: https://zah.ari.uni-heidelberg.de/gaia/
+
+  - icon: fa-solid fa-server
+    name: ARI's Gaia Services
+    text: >
+      Self-hosted mirror of the Gaia archive, offering online services to access the Gaia catalogue. 
+    url: https://zah.ari.uni-heidelberg.de/gaia/

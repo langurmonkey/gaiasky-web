@@ -1,0 +1,27 @@
+<!-- Links Start -->
+<section id="links">
+  <div class="container">
+
+    <!-- Intro -->
+    <div class="row">
+      <div class="section-title">
+        <h2>{{ .Site.Data.links.title }}</h2>
+        <p>{{ .Site.Data.links.subtitle }}</p>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="row">
+      {{ range .Site.Data.links.content }}
+      <div class="links-item">
+        <i class="{{ .icon }}"></i>
+        <a href="{{ .url }}" alt="{{ .name }}">
+          <h4>{{ .name }}</h4>
+        </a>
+        <p>{{ .text | markdownify }}</p>
+
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
