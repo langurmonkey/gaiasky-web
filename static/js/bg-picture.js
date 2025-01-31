@@ -23,7 +23,8 @@ function randompic() {
         'trifid.jpg',
         'voyager.jpg'];
  
+    var path = window.location.pathname;
     $('.random-background').css({
-        'background-image' : 'url(/img/backgrounds/'+ bgm[Math.floor(Math.random() * bgm.length)] + ')',
+        'background-image' : 'url(/gaiasky/web/img/backgrounds/'+ bgm[Math.floor(Math.random() * bgm.length)] + ')',
     });
 }

@@ -12,10 +12,10 @@
          {{- with .Get "type" }} type="{{ . }}"{{ end -}}
          {{- with .Get "width" }} width="{{ . }}"{{ end -}}
          {{- with .Get "height" }} height="{{ . }}"{{ end -}}
-         {{- with .Get "poster" }} poster="{{ . }}" preload="none"{{ end -}}
+         {{- if .Get "poster" }} poster="{{ .Site.BaseURL }}{{ .Get "poster" }}" preload="none"{{ end -}}
          controls="controls"
     >
-      <source src="{{ .Get "src" }}" autostart="false">
+      <source src="{{ .Site.BaseURL }}{{ .Get "src" }}" autostart="false">
         Your browser does not support the video tag.
     </video>
     {{- if .Get "link" }}</a>{{ end -}}

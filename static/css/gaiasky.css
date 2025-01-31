@@ -6,9 +6,9 @@
  * 
  */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
-@import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import url(https://fonts.googleapis.com/css?family=Volkhov:400italic);
 /* var text-decoration */
 /*--
 	Common Css
@@ -41,20 +41,13 @@ h3 {
 }
 h1:before,
 h2:before {
-  content: '';
-  display: inline-flex;
-  margin-right: 0.2em;
-  background-color: var(--accent-color);
-  mask-image: url('/img/gaia.svg');
-  -webkit-mask-image: url('/img/gaia.svg');
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
-  mask-size: contain;
-  background-size: 20px 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 20px;
-  height: 20px;
+  content: '\f111';
+  font-family: FontAwesome;
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 0.3em;
+  color: var(--accent-color);
+  display: inline-block;
 }
 p {
   font-size: 15px;
@@ -266,7 +259,7 @@ section#intro .section-title p {
 --*/
 section#features {
   text-align: center;
-  padding: 90px 0;
+  padding: 70px 0 10px 0;
 }
 section#features .features-item {
   padding-bottom: 6em;
@@ -292,18 +285,23 @@ section#features .features-item p {
 --*/
 section#links {
   text-align: center;
-  padding: 90px 0;
+  padding: 70px 0 10px 0;
 }
 section#links .links-item {
   text-align: left;
-  padding-bottom: 2em;
+  padding-bottom: 2.4em;
 }
 section#links .links-item i {
   font-size: 40px;
   color: var(--accent-color);
+  float: left;
+  margin-right: 0.5em;
+}
+section#links div.links-item div {
+  display: grid;
 }
 section#links .links-item h4 {
-  padding-top: 20px;
+  padding-top: 0;
   margin: 0;
   color: var(--link-color);
 }

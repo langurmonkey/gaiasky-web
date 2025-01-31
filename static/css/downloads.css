@@ -79,7 +79,7 @@
     width: 80%;
     max-width: 300px;
     text-align: center;
-    background: var(--download-button-color);
+    background-image: linear-gradient(to bottom, var(--download-button-color), #151515);
     color: white;
     text-decoration: none;
     border-radius: 5px;

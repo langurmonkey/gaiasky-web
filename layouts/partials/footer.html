@@ -15,7 +15,7 @@
           <div class="ce-column">
             <figure class="image">
               <a href="{{ .url }}">
-                <img class="ack-img" src="{{ .img }}" width="120" height="120" loading="lazy" alt="{{ .Name }}"
+                <img class="ack-img" src="{{ .img | relURL }}" width="120" height="120" loading="lazy" alt="{{ .Name }}"
                   title="{{ .Name }}">
               </a>
             </figure>

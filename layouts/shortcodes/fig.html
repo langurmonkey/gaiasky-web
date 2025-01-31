@@ -25,18 +25,18 @@
     {{- end -}}
     <picture>
       {{- if .Get "src1" }}
-      <source srcset="{{ .Get "src1" }}"{{ with .Get "type1" }} type="{{ . }}"{{ end }} />
+      <source srcset="{{ .Site.BaseURL }}{{ .Get "src1" }}"{{ with .Get "type1" }} type="{{ . }}"{{ end }} />
       {{ end -}}
       {{- if .Get "src2" }}
-      <source srcset="{{ .Get "src2" }}"{{ with .Get "type2" }} type="{{ . }}"{{ end }} />
+      <source srcset="{{ .Site.BaseURL }}{{ .Get "src2" }}"{{ with .Get "type2" }} type="{{ . }}"{{ end }} />
       {{ end -}}
       {{- if .Get "src3" }}
-      <source srcset="{{ .Get "src3" }}"{{ with .Get "type3" }} type="{{ . }}"{{ end }} />
+      <source srcset="{{ .Site.BaseURL }}{{ .Get "src3" }}"{{ with .Get "type3" }} type="{{ . }}"{{ end }} />
       {{ end -}}
       {{- if .Get "src4" }}
-      <source srcset="{{ .Get "src4" }}"{{ with .Get "type4" }} type="{{ . }}"{{ end }} />
+      <source srcset="{{ .Site.BaseURL }}{{ .Get "src4" }}"{{ with .Get "type4" }} type="{{ . }}"{{ end }} />
       {{ end -}}
-      <img src="{{ .Get "src" }}"
+      <img src="{{ .Site.BaseURL }}{{ .Get "src" }}"
          {{- if or (.Get "alt") (.Get "caption") }}
          alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
          {{- end -}}

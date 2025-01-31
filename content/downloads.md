@@ -1,7 +1,7 @@
 +++
 title = "Downloads"
 id = "downloads"
-css = ["/css/downloads.css"]
+css = ["css/downloads.css"]
 +++
 
 {{< downloads-table >}}
@@ -9,7 +9,7 @@ css = ["/css/downloads.css"]
 
 ## Verify package integrity
 
-We sign the packages served from this website with our personal GPG key. Learn how to [verify them here](/verify-sig).
+We sign the packages served from this website with our personal GPG key. Learn how to [verify them here](verify-sig).
 
 ## Installation instructions
 

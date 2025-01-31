@@ -1,7 +1,7 @@
 enable: true
 title: Links
 subtitle: >
-  Pointers to other Gaia projects here at ARI or elsewhere
+  Learn about the Gaia mission and play around with the Gaia dataset
 content:
 
   - icon: fa-solid fa-satellite
@@ -19,7 +19,7 @@ content:
   - icon: fa-solid fa-globe
     name: ARI Gaia project site
     text: >
-      Learn about the Gaia group at ARI. Gaia Sky is part of this.
+      Learn about the Gaia group at ARI. The Gaia Sky project is part of this group.
     url: https://zah.ari.uni-heidelberg.de/gaia/
 
   - icon: fa-solid fa-server
