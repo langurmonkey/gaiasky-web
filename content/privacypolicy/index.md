@@ -1,0 +1,17 @@
++++
+title = "Privacy Policy"
+categories = ["Privacy"]
+author = "tsagrista"
+tags = ["website","privacy","principles"]
+date = "2025-01-31"
++++
+
+# Privacy policy
+
+This site does not use cookies, tracking codes, analytics scripts or anything else that can be used to invade personal privacy.
+
+This site serves, along with the HTML page, a few JavaScript files, 2 font file (FontAwesome and Ethnocentric) and a few CSS files. Some special pages may need an additional JS file fetch. We source two fonts from Google (OpenSans and Roboto).
+
+All content in this site, except for we have mentioned before, is served from this domain, and is hosted on [our Gaia server](https://gaia.ari.uni-heidelberg.de). The source code of this website is available under the license CC-BY-NC-SA[^webrepo].
+
+[^webrepo]: Website source repository: https://codeberg.org/gaiasky/gaiasky-web
