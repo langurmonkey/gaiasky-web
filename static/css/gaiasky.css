@@ -41,11 +41,11 @@ h3 {
 }
 h1:before,
 h2:before {
-  content: '\f111';
-  font-family: FontAwesome;
-  font-size: 18px;
+  content: '▶';
+  font-size: 0.6em;
   vertical-align: middle;
   margin-right: 0.3em;
+  margin-bottom: 8px;
   color: var(--accent-color);
   display: inline-block;
 }

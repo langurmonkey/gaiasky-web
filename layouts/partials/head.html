@@ -12,7 +12,6 @@
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/theme-yellow.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/owl.carousel.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css" />
-<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/fork-awesome.min.css" /> -->
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/fontawesome.min.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/regular.min.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/brands.min.css" />
@@ -25,6 +24,12 @@
 {{- range .Params.css }}
 <link rel="stylesheet" href="{{ . | absURL }}" />
 {{- end }}
+<style>
+  @font-face {
+    font-family: Ethnocentric;
+    src: url('{{ .Site.BaseURL }}/webfonts/ethnocentric.ttf');
+  }
+</style>
 
 <!-- Js -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
