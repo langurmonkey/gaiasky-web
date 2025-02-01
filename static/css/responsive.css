@@ -396,4 +396,16 @@ px      68    160    252    344    436    */
   #slider button#download-button > span.title {
     font-size: 1.5em;
   }
+  section#docs h2 {
+    font-size: 1.8em;
+  }
+  section#intro h2 {
+    font-size: 1.8em;
+  }
+  section#features h2 {
+    font-size: 1.8em;
+  }
+  section#links h2 {
+    font-size: 1.8em;
+  }
 }
