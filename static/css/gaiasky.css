@@ -928,6 +928,10 @@ div.hint .hint-title {
   font-size: 1.4em;
   font-variant-caps: small-caps;
 }
+.page-content table th {
+  font-size: 1.3em;
+  color: var(--text-color);
+}
 .page-content table td {
   padding: 0.1em 0.6em 0.1em 0;
 }

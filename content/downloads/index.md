@@ -11,6 +11,18 @@ css = ["css/downloads.css"]
 
 We sign the packages served from this website with our personal GPG key. Learn how to [verify them here](verify-sig).
 
+## System requirements
+
+
+| Component             | Minimum requirement                                           |
+|-----------------------|---------------------------------------------------------------|
+| **Operating system**  | Linux / Windows 10+ / macOS                                   |
+| **Architecture**      | x86_64, ARM (only Apple silicon through compat layer)         |
+| **CPU**               | Intel Core i5 3rd Generation. 4+ cores recommended            |
+| **GPU**               | Support for OpenGL 3.3 (4.2 recommended), 1 GB VRAM           |
+| **Memory**            | 4+ GB RAM (depends on loaded datasets)                        |
+| **Hard drive**        | 1+ GB of free disk space (depends on downloaded datasets)     |
+
 ## Installation instructions
 
 Find full installation and running instructions for every OS in our documentation:
