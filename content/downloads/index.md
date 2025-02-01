@@ -13,8 +13,7 @@ We sign the packages served from this website with our personal GPG key. Learn h
 
 ## System requirements
 
-
-| Component             | Minimum requirement                                           |
+|                       |                                                               |
 |-----------------------|---------------------------------------------------------------|
 | **Operating system**  | Linux / Windows 10+ / macOS                                   |
 | **Architecture**      | x86_64, ARM (only Apple silicon through compat layer)         |
