@@ -12,6 +12,11 @@
     text-align: center;
     font-size: 2em;
 }
+@media (max-width: 480px) {
+    #download-title {
+        font-size: 1.0em;
+    }
+}
 .download-windows h2:before {
     font-weight: 100;
     font-family: 'Font Awesome 6 Brands';
