@@ -408,4 +408,8 @@ px      68    160    252    344    436    */
   section#links h2 {
     font-size: 1.6em;
   }
+  footer img.ack-img {
+    width: 4em;
+    height: 4em;
+  }
 }
