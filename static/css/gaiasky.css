@@ -131,26 +131,29 @@ figcaption h4 {
 header {
   background: #000;
   color: #fff;
-  padding: 20px 0;
+  padding: 5px 0;
+  position: sticky;
+  top: 0;
+  z-index: 30;
 }
 header .navbar {
   margin-bottom: 0px;
   border: 0px;
 }
 header .navbar-brand {
-  margin-top: -0.3em;
+  margin-top: -0.1em;
   padding-top: 5px;
 }
 header .navbar-brand>img {
   display: block;
-  width: 64px;
+  width: 48px;
 }
 header .navbar-default {
   background: none;
   border: 0px;
 }
 header .navbar-default .navbar-nav {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 header .navbar-default .navbar-nav li a {
   font-family: 'ethnocentric';

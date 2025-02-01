@@ -18,6 +18,12 @@ px      68    160    252    344    436    528    620    712    804    896    */
 cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  #global-header .block h1 {
+    font-size: 2.0em;
+  }
+  #global-header .block p {
+    font-size: 1.3em;
+  }
   .post-area {
     padding: 1em 5em;
   }
@@ -136,6 +142,12 @@ px      68    160    252    344    436    528    620    712    */
 cols    1     2      3
 px      68    160    252    */
 @media only screen and (max-width: 767px) {
+  #global-header .block h1 {
+    font-size: 1.8em;
+  }
+  #global-header .block p {
+    font-size: 1.2em;
+  }
   .post-area {
     padding: 1em;
   }
@@ -156,8 +168,15 @@ px      68    160    252    */
     font-size: 13px;
   }
   header .navbar-default .navbar-toggle {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+  }
+  button.navbar-toggle:hover {
+    background-image: none !important;
+    border: 1px solid #ddd !important;
+  }
+  button.navbar-toggle:active {
+    background-image: none !important;
+    border: 1px solid #ddd !important;
   }
   #slider {
     padding-top: 50px;
@@ -343,13 +362,22 @@ px      68    160    252    344    436    */
 	device-pixel-ratio of 2+, such as iPhone 4.
 -----------------------------------------------    */
 @media only screen and (max-width: 480px) {
+  #global-header .block {
+    padding-left: 5%;
+  }
+  #global-header .block h1 {
+    font-size: 1.5em;
+  }
+  #global-header .block p {
+    font-size: 1.0em;
+  }
   #slider .block h1 {
-    font-size: 2.1em;
+    font-size: 1.8em;
     text-shadow: 3px 3px 5px black;
     padding-bottom: 15px;
   }
   #slider .block p {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   #slider .col-md-download {
     margin-top: 2em;
