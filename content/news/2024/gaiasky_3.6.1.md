@@ -67,3 +67,5 @@ categories = ["release", "version"]
 - update OptFlowCam reference.
 - complete library acknowledgements.
 - add descriptions for all custom gradle tasks.
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.6.1.f3a379a3d/).

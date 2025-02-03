@@ -37,3 +37,5 @@ categories = ["release", "version"]
 
 ## Build System
 - update dependency library versions.
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.6.0.afdd9547d/).

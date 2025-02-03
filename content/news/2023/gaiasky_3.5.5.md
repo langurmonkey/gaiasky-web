@@ -31,3 +31,5 @@ categories = ["release", "version"]
 - restore height sampling functionality to prevent clipping through tessellated terrain.
 - remove cinematic camera slow-down when close to the surface of a planet.
 - scale tessellation quality using the body size to prevent severe slow-downs in smaller bodies.
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.5.3b4d54b77/).

@@ -220,3 +220,5 @@ categories = ["release", "version"]
 
 - consolidate normal shader vertex data into struct.
 - organize imports in whole codebase.
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.2.0.84c0fc728/).

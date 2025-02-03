@@ -34,3 +34,5 @@ categories = ["release", "version"]
 
 ## Build System
 - add pgp signature to build process instead of checksums.
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.9.51d1305ab/).

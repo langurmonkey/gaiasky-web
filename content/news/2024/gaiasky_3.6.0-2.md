@@ -21,3 +21,5 @@ categories = ["release", "version"]
 - rename some API calls, deprecate old versions.
 - add companion calls for camera orientation and position transitions.
 - orbit coordinate not working when time is before the orbit start.
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.6.0-2.4479175dc/).

@@ -55,3 +55,5 @@ categories = ["release", "version"]
 
 ## Documentation
 - improve contributing guidelines for translations. 
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.3.1.d6f853125/).

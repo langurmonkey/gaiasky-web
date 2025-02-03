@@ -31,4 +31,4 @@ categories = ["release", "version"]
 ## Documentation
 - improve javadoc comments in settings class.
 
-As always, you can grab it [right here](/downloads) ([link to repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.6.caf73d2de)).
+As always, you can grab it [right here]({{< ref "downloads" >}}) ([link to repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.6.caf73d2de)).

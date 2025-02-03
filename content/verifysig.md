@@ -5,7 +5,7 @@ type = "page"
 
 # Verify GPG signatures
 
-In this page you will learn how to verify the packages you download from the [downloads](/downloads) section using GPG.
+In this page you will learn how to verify the packages you download from the [downloads]({{< ref "downloads" >}}) section using GPG.
 
 ## Why not just use checksums?
 
@@ -36,4 +36,4 @@ gpg: Good signature from "Antoni Sagrista Selles "
 ```
 <br><br>
 
-[Back to downloads](..)
+[Back to downloads]({{< ref "downloads" >}})

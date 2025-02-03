@@ -24,3 +24,5 @@ categories = ["release", "version"]
 - full-screen log item in translation files.
 - visual layout and information structure in about window, system tab.
 - apply patch provided by luzpaz fixing many typos in comments and strings. Fixes [#726](https://codeberg.org/gaiasky/gaiasky/issues/726).
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.2.f8a396004/).

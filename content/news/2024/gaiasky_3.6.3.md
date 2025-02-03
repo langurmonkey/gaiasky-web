@@ -54,3 +54,5 @@ categories = ["release", "version"]
 
 ## Build System
 - upgrade bundled JRE to 21, minimum language version to 17.
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.6.3.929b0f7a6/).

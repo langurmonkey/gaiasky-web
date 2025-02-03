@@ -40,3 +40,5 @@ categories = ["release", "version"]
 
 ## Style
 - code style now formats Javadoc comments.
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.6.8bb71564a/).

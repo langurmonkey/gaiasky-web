@@ -22,3 +22,5 @@ categories = ["release", "version"]
 - never skip future closest body position computation.
 - restore light glow effect in cubemap modes (360, planetarium, orthosphere).
 - restore light glow effect in stereoscopic mode.
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.6.2.1b1e23dbb/).

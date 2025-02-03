@@ -11,7 +11,9 @@ css = ["css/downloads.css"]
 
 ## Verify package integrity
 
-We sign the packages served from this website with our personal GPG key. Learn how to [verify them here](verify-sig).
+We sign the packages served from this website with our personal GPG key. Learn how to [verify them here]({{< ref "verifysig" >}}).
+
+ 
 
 ## System requirements
 

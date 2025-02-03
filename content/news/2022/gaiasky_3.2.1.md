@@ -34,3 +34,5 @@ categories = ["release", "version"]
 - moon orbits are recomputed more often.
 - translate strings of filters, shapes, datasets and minimap. Fixes [#403](https://gitlab.com/gaiasky/gaiasky/issues/403).
 - typo in Jupiter English translation file, add meshes to data descriptor file.
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.2.1.41e4b0a5b/).

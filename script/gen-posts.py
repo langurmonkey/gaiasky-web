@@ -61,6 +61,8 @@ categories = ["release", "version"]
             filename = f"gaiasky_{version}.md"
             with open(filename, 'w', encoding='utf-8') as f:
                 f.write(metadata + '\n' + content)
+                f.write(f"\nYou can get this release in [our repository]({version_url}).")
+
             
             print(f"Generated: {filename}")
             return

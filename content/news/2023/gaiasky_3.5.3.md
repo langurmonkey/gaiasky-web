@@ -43,3 +43,5 @@ categories = ["release", "version"]
 ## Merge Requests
 - Merge branch 'keyframes'
 
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.3.d076b1659/).

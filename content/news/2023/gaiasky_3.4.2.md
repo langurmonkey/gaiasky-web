@@ -29,3 +29,5 @@ categories = ["release", "version"]
 
 - add note concerning support for Apple M1/2 ARM.
 
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.4.2.041928e7c/).

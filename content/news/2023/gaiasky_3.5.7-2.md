@@ -28,3 +28,5 @@ categories = ["release", "version"]
 
 ## Build System
 - update gradle wrapper script files and jar.
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.7-2.987bbd941/).

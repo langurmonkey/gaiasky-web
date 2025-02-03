@@ -13,3 +13,5 @@ categories = ["release", "version"]
 
 ## Bug Fixes
 - SVT indirection shader cleared with wrong value. Fixes [#774](https://codeberg.org/gaiasky/gaiasky/issues/774).
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.6.2-3.d5632974f/).

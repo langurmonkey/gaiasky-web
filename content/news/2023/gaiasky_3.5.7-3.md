@@ -19,3 +19,5 @@ categories = ["release", "version"]
 - use logical keys instead of key codes by converting GDX's codes to GLFW, which uses the logical keyboard layout. Fixes [#748](https://codeberg.org/gaiasky/gaiasky/issues/748).
 - rename makefile, update build script to detect `/opt/gaiasky` installation.
 - use default mappings file if the configured one does not exist.
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.7-3.8be0b0add/).

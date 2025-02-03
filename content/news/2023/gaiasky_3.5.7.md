@@ -39,3 +39,5 @@ categories = ["release", "version"]
 
 ## Merge Requests
 - Merge branch 'RacerBG-bg-update'
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.7.9d7eedd2e/).

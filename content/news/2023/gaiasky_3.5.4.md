@@ -19,3 +19,5 @@ categories = ["release", "version"]
 - bump source version number.
 - refactor separator UI elements.
 - redesign loading screen to follow welcome screen style.
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.4.36b53b006/).

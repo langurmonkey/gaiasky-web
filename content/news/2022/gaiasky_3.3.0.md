@@ -130,3 +130,5 @@ categories = ["release", "version"]
 ## Style
 - mend variable names in about window to follow camel case. 
 - fix linter stylistic warnings in GUI and interfaces. 
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.3.0.aca9fadc2/).

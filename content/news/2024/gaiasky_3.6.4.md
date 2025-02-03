@@ -42,4 +42,4 @@ categories = ["release", "version"]
 - move VR info into README.md from VR.md.
 
 
-As always, you can grab it [right here](/downloads) ([link to repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.4-2.3bfeec0f9)).
+As always, you can grab it [right here]({{< ref "downloads" >}}) ([link to repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.4-2.3bfeec0f9)).

@@ -47,3 +47,5 @@ categories = ["release", "version"]
 ## Documentation
 
 - update API call fade in/out descriptions.
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.4.1.0cf299d94/).

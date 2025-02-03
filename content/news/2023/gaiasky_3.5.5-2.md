@@ -17,3 +17,5 @@ categories = ["release", "version"]
 ## Build System
 - add check for revision >= 2 in release script.
 - automate creation of HTML downloads table and properly use 'pkgver' and 'pkgrel' fields in AUR package.
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.5-2.f09289b66/).

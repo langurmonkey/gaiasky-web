@@ -41,3 +41,5 @@ categories = ["release", "version"]
 - move light glow code to own render pass class.
 - move shadow map code to own render pass class.
 - move source version to settings.
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.4.0.33ecc89f4/).

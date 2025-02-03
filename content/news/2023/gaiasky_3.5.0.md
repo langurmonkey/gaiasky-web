@@ -178,3 +178,5 @@ categories = ["release", "version"]
 
 ## Style
 - update style with new hard wrap length and new wrapping rules for function signature parameters.
+
+You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.0.5b427a04f/).

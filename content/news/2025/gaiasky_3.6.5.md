@@ -40,4 +40,4 @@ categories = ["release", "version"]
 - update to Libgdx 1.13.1.
 
 
-As always, you can grab it [right here](/downloads) ([link to repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.5.a7ae14f4d)).
+As always, you can grab it [right here]({{< ref "downloads" >}}) ([link to repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.5.a7ae14f4d)).
