@@ -123,6 +123,11 @@ theme = [ "hugo-easy-gallery" ]
     url = "https://www.bmwk.de"
     img = "img/bwt.png"
 
+[pagination]
+  disableAliases = false
+  pagerSize = 8
+  path = 'page'
+
 # Properties of the markdown renderer.
 [markup]
   [markup.goldmark]
