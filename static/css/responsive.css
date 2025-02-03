@@ -167,6 +167,12 @@ px      68    160    252    */
   p {
     font-size: 13px;
   }
+  /* --------------------------------
+    Posts
+  -----------------------------------*/
+   div.post-area a.bold {
+    font-size: 2.2em;
+   }
   header .navbar-default .navbar-toggle {
     margin-bottom: 10px;
   }
@@ -408,6 +414,12 @@ px      68    160    252    344    436    */
   #slider button#download-button > span.title {
     font-size: 1.5em;
   }
+  /* --------------------------------
+    Posts
+  -----------------------------------*/
+   div.post-area a.bold {
+    font-size: 1.7em;
+   }
   section#docs h2 {
     font-size: 1.6em;
   }
