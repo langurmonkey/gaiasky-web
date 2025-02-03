@@ -1,6 +1,8 @@
 +++
 title = "Downloads"
 id = "downloads"
+categories = ["Downloads"]
+author = "tsagrista"
 css = ["css/downloads.css"]
 +++
 

@@ -1,6 +1,8 @@
 +++
 title = "Contact"
 id = "contact"
+categories = ["Contact"]
+author = "tsagrista"
 +++
 
 # Contact information

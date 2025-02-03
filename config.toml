@@ -26,27 +26,6 @@ theme = [ "hugo-easy-gallery" ]
     name = "Contact"
     url = "/contact"
 
-  [[menu.footer]]
-    weight = 1
-    name = "News"
-    url = "/news"
-  [[menu.footer]]
-    weight = 2
-    name = "Media"
-    url = "/media"
-  [[menu.footer]]
-    weight = 3
-    name = "Downloads"
-    url = "/downloads"
-  [[menu.footer]]
-    weight = 4
-    name = "Docs"
-    url = "/docs"
-  [[menu.footer]]
-    weight = 5
-    name = "Contact"
-    url = "/contact"
-
 
 # The site's parameters
 [params]
@@ -108,6 +87,28 @@ theme = [ "hugo-easy-gallery" ]
     enable = true
     title = "Contact"
     subtitle = "Get in touch with us"
+
+  [[params.social]]
+    name = "RSS"
+    url = "/index.xml"
+    icon = "fa-solid fa-square-rss"
+  [[params.social]]
+    name = "BlueSky"
+    url = "https://bsky.app/profile/gaiasky.bsky.social"
+    icon = "fa-brands fa-square-bluesky"
+  [[params.social]]
+    name = "Mastodon"
+    url = "https://mastodon.social/@jumpinglangur"
+    icon = "fa-brands fa-mastodon"
+  [[params.social]]
+    name = "YouTube"
+    url = "https://youtube.com/@gaiaskydev"
+    icon = "fa-brands fa-square-youtube"
+  [[params.social]]
+    name = "Email"
+    url = "mailto:tsagrista@ari.uni-heidelberg.de?subject=Gaia Sky"
+    icon = "fa-solid fa-envelope"
+
 
   [[params.ack]]
     name = "ZAH"

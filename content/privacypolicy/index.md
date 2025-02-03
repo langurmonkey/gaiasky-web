@@ -3,7 +3,6 @@ title = "Privacy Policy"
 categories = ["Privacy"]
 author = "tsagrista"
 tags = ["website","privacy","principles"]
-date = "2025-01-31"
 +++
 
 # Privacy policy

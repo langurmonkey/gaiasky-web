@@ -352,9 +352,6 @@ px      68    160    252    */
   /*--
 	footer Start 
 --*/
-  footer .footer-manu {
-    display: none;
-  }
   section#docs h2 {
     font-size: 1.8em;
   }

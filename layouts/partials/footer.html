@@ -3,13 +3,6 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="footer-manu">
-          <ul>
-            {{ range .Site.Menus.footer }}
-            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-            {{ end }}
-          </ul>
-        </div>
         <div class="ce-row">
           {{ range .Site.Params.ack }}
           <div class="ce-column">
@@ -29,6 +22,15 @@
           <i class="fa fa-cc-by" aria-hidden="true" title="CC-BY"></i><i class="fa fa-cc-nc" aria-hidden="true"
             title="CC-NC"></i><i class="fa fa-cc-sa" aria-hidden="true" title="CC-SA"></i>
         </p>
+        <div class="footer-social">
+          <ul>
+            {{ range .Site.Params.social }}
+            <li><a href="{{ .url }}" title="{{ .name }}" alt="{{ .name }}">
+                <i class="{{ .icon }}"></i>
+              </a></li>
+            {{ end }}
+          </ul>
+        </div>
       </div>
     </div>
   </div>

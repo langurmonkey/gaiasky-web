@@ -1,6 +1,8 @@
 +++
 title = "Media"
 id = "media"
+categories = ["Media"]
+author = "tsagrista"
 +++
 
 ## Index
