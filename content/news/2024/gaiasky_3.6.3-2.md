@@ -1,0 +1,18 @@
++++
+title = "Gaia Sky 3.6.3-2"
+date = "2024-07-17T10:44:00"
+tags = ["release"]
+author = "tsagrista"
+categories = ["release", "version"]
++++
+
+📢 Gaia Sky 3.6.3-2 available now!
+
+<!--more-->
+
+
+## Features
+- use noise library for star surface shader.
+
+## Bug Fixes
+- bad truncation leads to some SVTs not working properly. Fixes [#778](https://codeberg.org/gaiasky/gaiasky/issues/778).
