@@ -6,25 +6,29 @@ theme = [ "hugo-easy-gallery" ]
 [menu]
 
   [[menu.header]]
-    weight = 2
+    weight = 1
     name = "News"
-    url = "/news"
+    pageRef = "news"
+  [[menu.header]]
+    weight = 2
+    name = "Media"
+    pageRef = "media"
   [[menu.header]]
     weight = 3
-    name = "Media"
-    url = "/media"
+    name = "Downloads"
+    pageRef = "downloads"
   [[menu.header]]
     weight = 4
-    name = "Downloads"
-    url = "/downloads"
-  [[menu.header]]
-    weight = 5
     name = "Docs"
     url = "https://gaia.ari.uni-heidelberg.de/gaiasky/docs"
   [[menu.header]]
+    weight = 5
+    name = "Resources"
+    pageRef = "resources"
+  [[menu.header]]
     weight = 6
     name = "Contact"
-    url = "/contact"
+    pageRef = "contact"
 
 
 # The site's parameters

@@ -24,10 +24,8 @@
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a></li>
                 {{ range .Site.Menus.header }}
-                <li class="{{ if or ($.Page.IsMenuCurrent "header" .) ($.Page.HasMenuCurrent "header" .) }}active{{ end }}">
-                  <a href="{{ .URL }}">{{ .Name }}</a>
-                </li>
-                {{ end }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                  {{ end }}
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
