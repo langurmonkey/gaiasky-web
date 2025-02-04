@@ -87,6 +87,11 @@ theme = [ "hugo-easy-gallery" ]
     title = "Downloads"
     subtitle = "Get Gaia Sky for your system"
 
+  [params.resources]
+    enable = true
+    title = "Resources"
+    subtitle = "Datasets, catalogs, icons, etc."
+
   [params.contact]
     enable = true
     title = "Contact"

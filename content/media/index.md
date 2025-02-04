@@ -5,19 +5,6 @@ categories = ["Media"]
 author = "tsagrista"
 +++
 
-## Index
-
-- [Videos](#videos)
-- [Screenshots](#screenshots)
-- [Video tutorials](#video-tutorials)
-- [Icons and more](#icons-and-more)
-
-## Videos
-
-The playlist below contains some of the videos we've made and captured with Gaia Sky along the years.
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=hHnJT-5liQnjo7qI&amp;list=PLDZ2SS9VxN5tZYcjya_KExcqtqba_NWUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 ## Screenshots
 
 {{< gallery >}}
@@ -50,35 +37,9 @@ The playlist below contains some of the videos we've made and captured with Gaia
 
 {{< load-photoswipe >}}
 
-## Video tutorials
+## Videos
 
-This playlist contains some (old) video tutorials. Gaia Sky has moved on, but some of the content may still apply.
+The playlist below contains some of the videos we've made and captured with Gaia Sky along the years.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=B0Jbi3Gsx5lc1z1r&amp;list=PLDZ2SS9VxN5sKQUO_60Eceuft9M1OQogE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=hHnJT-5liQnjo7qI&amp;list=PLDZ2SS9VxN5tZYcjya_KExcqtqba_NWUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Icons and more
-
-Find here images related to the Gaia Sky branding.
-
-### Icons
-
-{{< fig src="img/brand/gs_032.png" class="fig-left" title="Icon 32px (PNG)." width="32px" loading="lazy" >}}
-{{< fig src="img/brand/gs_064.png" class="fig-left" title="Icon 64px (PNG)." width="64px" loading="lazy" >}}
-{{< fig src="img/brand/gs_128.png" class="fig-left" title="Icon 128px (PNG)." width="128px" loading="lazy" >}}
-{{< fig src="img/brand/gs_icon.svg" class="fig-left" title="Source icon (SVG)." width="192px" loading="lazy" >}}
-{{< fig src="img/brand/gsvr_032.png" class="fig-left" title="VR icon 32px (PNG)." width="32px" loading="lazy" >}}
-{{< fig src="img/brand/gsvr_064.png" class="fig-left" title="VR icon 64px (PNG)." width="64px" loading="lazy" >}}
-{{< fig src="img/brand/gsvr_128.png" class="fig-left" title="VR icon 128px (PNG)." width="128px" loading="lazy" >}}
-
-### Logos
-
-
-{{< fig src="img/brand/gs_titlecard.png" class="fig-left" title="Title card logo (PNG)." width="292px" loading="lazy" >}}
-{{< fig src="img/brand/gs_titlecard.svg" class="fig-left" title="Title card logo (SVG)." width="292px" loading="lazy" >}}
-{{< fig src="img/gaia.svg" class="fig-left" title="Opaque logo (SVG)." width="292px" loading="lazy" >}}
-
-
-### ASCII icon
-```txt
- {{< includeraw gsascii.txt >}}
-```

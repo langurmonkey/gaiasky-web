@@ -1,0 +1,56 @@
++++
+title = "Resources"
+id = "resources"
+categories = ["Resources"]
+author = "tsagrista"
+css = ["css/downloads.css"]
++++
+
+## Learn
+
+### Video tutorials
+
+This playlist contains some (old) video tutorials. Gaia Sky has moved on, but some of the content may still apply. [YouTube link](https://www.youtube.com/playlist?list=PLDZ2SS9VxN5sKQUO_60Eceuft9M1OQogE).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=X3mMDW_VW6tMqhtg&amp;list=PLDZ2SS9VxN5sKQUO_60Eceuft9M1OQogE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Web presentations and slides
+
+- [Gaia Sky crash course](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/gaiasky-crash-course/) -- Web presentation, crash course to get started with Gaia Sky.
+- [General Gaia Sky tutorial](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/202402/mwgaiadn/) -- Web presentation, MWGaiaDN Induction School, PLNT Leiden, Leiden, The Netherlands. 2024.
+- [Gaia Sky VR](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/202312/) -- Web presentation, AR/VR for Space Programmes, ESA/ESTEC, Noordwijk, The Netherlands. 2023.
+
+### Written guides
+
+- [Quick Start guide](https://gaia.ari.uni-heidelberg.de/gaiasky/docs/3.5.8/workshops/dpac-plenary-online-2021.html) -- a quick start guide that stays relatively up-to-date with the software.
+- [MWGaiaDN 2024](https://gaia.ari.uni-heidelberg.de/gaiasky/docs/master/workshops/mwgaiadn-plntleiden-2024.html) -- Gaia Sky workshop notes.
+- [DPAC Plenary 2023](https://gaia.ari.uni-heidelberg.de/gaiasky/docs/3.5.8/workshops/dpac-plenary-hdb-2023.html) -- Gaia Sky scripting tutorial, Heidelberg, 2023.
+- [DPAC Plenary 2021](https://gaia.ari.uni-heidelberg.de/gaiasky/docs/3.5.8/workshops/dpac-plenary-online-2021.html) -- Gaia Sky general tutorial, online, 2021.
+- [DPAC Plenary 2020](https://gaia.ari.uni-heidelberg.de/gaiasky/docs/3.5.8/workshops/dpac-plenary-online-2021.html) -- Video production tutorial, 
+
+## Icons and logos
+
+Find here images related to the Gaia Sky branding.
+
+### Icons
+
+{{< fig src="img/brand/gs_032.png" class="fig-left" title="Icon 32px (PNG)." width="32px" loading="lazy" >}}
+{{< fig src="img/brand/gs_064.png" class="fig-left" title="Icon 64px (PNG)." width="64px" loading="lazy" >}}
+{{< fig src="img/brand/gs_128.png" class="fig-left" title="Icon 128px (PNG)." width="128px" loading="lazy" >}}
+{{< fig src="img/brand/gs_icon.svg" class="fig-left" title="Source icon (SVG)." width="192px" loading="lazy" >}}
+{{< fig src="img/brand/gsvr_032.png" class="fig-left" title="VR icon 32px (PNG)." width="32px" loading="lazy" >}}
+{{< fig src="img/brand/gsvr_064.png" class="fig-left" title="VR icon 64px (PNG)." width="64px" loading="lazy" >}}
+{{< fig src="img/brand/gsvr_128.png" class="fig-left" title="VR icon 128px (PNG)." width="128px" loading="lazy" >}}
+
+### Logos
+
+
+{{< fig src="img/brand/gs_titlecard.png" class="fig-left" title="Title card logo (PNG)." width="292px" loading="lazy" >}}
+{{< fig src="img/brand/gs_titlecard.svg" class="fig-left" title="Title card logo (SVG)." width="292px" loading="lazy" >}}
+{{< fig src="img/gaia.svg" class="fig-left" title="Opaque logo (SVG)." width="292px" loading="lazy" >}}
+
+
+### ASCII icon
+```txt
+ {{< includeraw gsascii.txt >}}
+```
