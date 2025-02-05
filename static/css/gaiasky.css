@@ -29,6 +29,7 @@ h5,
 h6 {
   padding-top: 0.7em;
   font-family: 'Roboto', sans-serif;
+  font-shadow: 2px 2px 2px black;
 }
 h2 {
   font-size: 30px;
