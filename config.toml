@@ -1,5 +1,5 @@
 title = "Gaia Sky"
-baseURL =  "https://gaia.ari.uni-heidelberg.de/gaiasky/web/"
+baseURL =  ""
 languageCode = "en-us"
 theme = [ "hugo-easy-gallery" ]
 

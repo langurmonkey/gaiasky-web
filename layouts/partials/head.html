@@ -27,7 +27,7 @@
 <style>
   @font-face {
     font-family: Ethnocentric;
-    src: url('{{ .Site.BaseURL }}/webfonts/ethnocentric.ttf');
+    src: url('{{ .Site.BaseURL }}webfonts/ethnocentric.ttf');
   }
 </style>
 
@@ -66,9 +66,7 @@
 
     var path = window.location.pathname;
     $('.random-background').css({
-      'background-image': 'url({{ .Site.BaseURL }}/img/backgrounds/' + bgm[Math.floor(Math.random() * bgm.length)] + ')',
+      'background-image': 'url(/img/backgrounds/' + bgm[Math.floor(Math.random() * bgm.length)] + ')',
     });
   }
 </script>
-
-<script src="{{ .Site.BaseURL }}js/main.js"></script>

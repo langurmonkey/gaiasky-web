@@ -8,7 +8,7 @@ categories = ["release", "version"]
 
 📢 Today we publish the version 3.6.6 of Gaia Sky. This is a small update focused on fixing some bugs and improving performance. Also, it comes with proper handling of depth for volumes!
 
-{{< vid src="/vid/2025/3.6.6-release.mp4" poster="/vid/2025/3.6.6-release.jpg" class="fig-center vid-post" title="The Trifid nebula (NGC6514) rendered as a volume with correct usage of the depth buffer." >}}
+{{< vid src="vid/2025/3.6.6-release.mp4" poster="vid/2025/3.6.6-release.jpg" class="fig-center vid-post" title="The Trifid nebula (NGC6514) rendered as a volume with correct usage of the depth buffer." >}}
 
 <!--more-->
 

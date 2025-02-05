@@ -8,7 +8,7 @@ categories = ["release", "version"]
 
 📢 Today, coinciding with the end of the sky-scanning phase of Gaia, we publish GaiaSky 3.6.5. The most noteworthy addition is the introduction of the volume rendering infrastructure.
 
-{{< fig src="/img/2025/01/3.6.5-release.jpg" class="fig-center fig-post" title="Gaia Sky 3.6.5 welcome screen." loading="lazy" >}}
+{{< fig src="img/2025/01/3.6.5-release.jpg" class="fig-center fig-post" title="Gaia Sky 3.6.5 welcome screen." loading="lazy" >}}
 
 <!--more-->
 

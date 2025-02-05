@@ -8,7 +8,7 @@ categories = ["release", "version"]
 
 📢 Gaia Sky 3.6.4 released! It comes with a new in-app console, a revamp in the locations feature, and some under-the-hood rendering improvements.
 
-{{< fig src="/img/2024/10/3.6.4/3.6.4-release.jpg" class="fig-center fig-post" title="Gaia Sky 3.6.4 welcome screen." loading="lazy" >}}
+{{< fig src="img/2024/10/3.6.4/3.6.4-release.jpg" class="fig-center fig-post" title="Gaia Sky 3.6.4 welcome screen." loading="lazy" >}}
 
 <!--more-->
 
