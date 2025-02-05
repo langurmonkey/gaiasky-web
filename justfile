@@ -10,6 +10,7 @@ hugo:
     hugo
 
 deploy: clean hugo
+    git -C {{DEPLOY_TARGET}} pull
     rsync -avh --delete --exclude={'.git','.gitignore','.gitmodules'} public/ {{DEPLOY_TARGET}}
     git -C {{DEPLOY_TARGET}} add .
     git -C {{DEPLOY_TARGET}} commit -m "feat: deploy website."

@@ -1,3 +1,6 @@
 <picture>
-  <img class="inline" src="{{ .Get 0 }}" loading="lazy"></img>
+  <img class="inline" src="{{ .Get "path" }}"
+        {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+        {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+        loading="lazy"></img>
 </picture>

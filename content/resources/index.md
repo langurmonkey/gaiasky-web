@@ -3,7 +3,7 @@ title = "Resources"
 id = "resources"
 categories = ["Resources"]
 author = "tsagrista"
-css = ["css/downloads.css"]
+css = ["css/resources.css"]
 +++
 
 ## Learn
@@ -16,9 +16,12 @@ This playlist contains some (old) video tutorials. Gaia Sky has moved on, but so
 
 ### Web presentations and slides
 
-- [Gaia Sky crash course](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/gaiasky-crash-course/) -- Web presentation, crash course to get started with Gaia Sky.
-- [General Gaia Sky tutorial](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/202402/mwgaiadn/) -- Web presentation, MWGaiaDN Induction School, PLNT Leiden, Leiden, The Netherlands. 2024.
-- [Gaia Sky VR](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/202312/) -- Web presentation, AR/VR for Space Programmes, ESA/ESTEC, Noordwijk, The Netherlands. 2023.
+|                          |                                                        |
+|--------------------------|--------------------------------------------------------|
+|{{< img path="/img/resources/gs-crash-course.jpg" width="200" >}} | [**Crash course**<br>Web presentation, crash course to get started with Gaia Sky.](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/gaiasky-crash-course/)            |
+|{{< img path="/img/resources/gs-tutorial.jpg" width="200" >}} | [**General tutorial**<br>Web presentation, MWGaiaDN Induction School, PLNT Leiden, Leiden, The Netherlands. 2024.](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/202402/mwgaiadn/)            |
+|{{< img path="/img/resources/gs-vr.jpg" width="200" >}} | [**Gaia Sky VR**<br>Web presentation, AR/VR for Space Programmes, ESA/ESTEC, Noordwijk, The Netherlands. 2023.](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/202312/)            |
+
 
 ### Written guides
 

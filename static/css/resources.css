@@ -1,0 +1,8 @@
+.page-content td {
+  vertical-align: top;
+  padding-bottom: 1em !important;
+}
+.page-content td a strong{
+  color: var(--text-color);
+  font-size: 1.6em;
+}
