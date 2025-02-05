@@ -20,7 +20,7 @@ theme = [ "hugo-easy-gallery" ]
   [[menu.header]]
     weight = 4
     name = "Docs"
-    url = "https://gaia.ari.uni-heidelberg.de/gaiasky/docs"
+    url = "http://docs.gaiasky.space"
   [[menu.header]]
     weight = 5
     name = "Resources"
