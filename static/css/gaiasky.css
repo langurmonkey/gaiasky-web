@@ -178,7 +178,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/screenshots/aurora.jpg") no-repeat;
+  background: url("../img/backgrounds/aurora.avif") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
@@ -325,7 +325,6 @@ section#links .links-item p {
 	Docs Start
 --*/
 section#docs {
-  background-position: center;
   width: 100%;
   display: block;
   position: relative;
@@ -333,7 +332,6 @@ section#docs {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -397,17 +395,6 @@ div.docs-box {
   background-repeat: no-repeat;
   background-position: center;
   background-blend-mode: darken;
-}
-.random-background:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.6);
-  transition: all .2s linear;
 }
 /*--
 	Slider-work Start
