@@ -211,7 +211,7 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 60px;
   letter-spacing: 10px;
   padding-bottom: 45px;
-  text-shadow: 5px 5px 8px black;
+  text-shadow: 5px 5px 5px black, 0px 0px 15px black;
 }
 #slider .block h1:before {
   content: '';
@@ -229,7 +229,7 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 2px 2px 2px black, 0px 0px 5px black;
 }
 #slider .col-md-download {
   margin-top: 7em;
@@ -427,7 +427,7 @@ div.docs-box {
 }
 #global-header .block h1 {
   font-family: 'Ethnocentric';
-  text-shadow: 5px 5px 8px black;
+  text-shadow: 5px 5px 5px black, 0px 0px 15px black;
   font-weight: 100;
   font-size: 45px;
   letter-spacing: 6px;
@@ -449,7 +449,7 @@ div.docs-box {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 2px 2px 2px black, 0px 0px 5px black;
 }
 /*--
 	portfolio-work Start
