@@ -9,5 +9,8 @@
    --link-hover-color: var(--accent-color);
    --button1-color: #00626e;
    --button2-color: #00121e;
+
+   --bg-color-dark: #000;
+   --bg-color: #101010;
  }
 

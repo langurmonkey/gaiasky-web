@@ -9,10 +9,14 @@
  }
 
  div.post-area a.bold {
-  color: var(--accent-color);
   font-variant-caps: small-caps;
   font-size: 3.2em;
   font-weight: 800;
+ }
+
+ #post-content h1 {
+  font-size: 3.5em;
+  font-variant-caps: small-caps;
  }
 
  .bold {
@@ -27,7 +31,7 @@
   padding: 1em 30em;
   width: 100%;
   min-height: 100px;
-  background-color: #222;
+  background-color: var(--bg-color);
 }
 
 .post-area a:hover {
