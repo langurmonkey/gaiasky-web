@@ -120,6 +120,15 @@ figcaption h4 {
   font-weigth: 100;
   font-size: 13px;
 }
+.italic {
+  font-style: italic;
+}
+.bold {
+  font-weight: bold;
+}
+.center-text {
+  text-align: center;
+}
 .section-title {
   margin-bottom: 70px;
 }
@@ -859,6 +868,24 @@ div.hint .hint-title {
 }
 #post-content figure {
   margin-top: 1.5em;
+}
+#post-content h1 {
+ font-size: 3.5em;
+ font-variant-caps: small-caps;
+}
+div.post-area a.bold {
+ font-variant-caps: small-caps;
+ font-size: 3.2em;
+ font-weight: 800;
+}
+div.post-area {
+  padding: 1em 30em;
+  width: 100%;
+  min-height: 100px;
+  background-color: var(--bg-color);
+}
+div.post-area a:hover {
+  color: var(--accent-color);
 }
 figure.fig-left {
   text-align: left;
