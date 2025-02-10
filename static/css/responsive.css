@@ -1,6 +1,12 @@
 @media only screen and (min-width: 991px) and (max-width: 1500px) {
+  div.page-content {
+    margin: 2em 20em !important;
+  }
   .post-area {
-    padding: 1em 15em;
+    padding: 1em 15em !important;
+  }
+  .posts-list {
+    padding: 1em 15em !important;
   }
 }
 /*		Default Layout: 992px. 
@@ -24,8 +30,14 @@ px      68    160    252    344    436    528    620    712    */
   #global-header .block p {
     font-size: 1.3em;
   }
+  div.page-content {
+    margin: 1em 10em !important;
+  }
   .post-area {
-    padding: 1em 5em;
+    padding: 1em 5em !important;
+  }
+  .posts-list {
+    padding: 1em 5em !important;
   }
   /** ---------- Menu -----------------**/
   header .navbar-default .navbar-nav li a {
@@ -152,8 +164,14 @@ px      68    160    252    */
   #global-header .block p {
     font-size: 1.2em;
   }
+  div.page-content {
+    margin: 1em 5em !important;
+  }
   .post-area {
-    padding: 1em;
+    padding: 1em !important;
+  }
+  .posts-list {
+    padding: 1em !important;
   }
   /*---------------------------------------------
 					Index Start 
@@ -418,12 +436,24 @@ px      68    160    252    344    436    */
   #slider button#download-button > span.title {
     font-size: 1.5em;
   }
+  div.page-content {
+    margin: 0.5em 0.8em !important;
+  }
   /* --------------------------------
     Posts
   -----------------------------------*/
    div.post-area a.bold {
     font-size: 1.7em;
    }
+  .posts-list {
+    padding: 0.8em !important;
+  }
+  .posts-list div {
+    padding-bottom: 0.5em;
+  }
+  .posts-list a {
+    display:block;
+  }
   section#docs h2 {
     font-size: 1.6em;
   }

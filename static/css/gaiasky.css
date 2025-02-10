@@ -843,7 +843,7 @@ footer img.ack-img {
   filter: invert(1);
 }
 div.page-content {
-  margin: min(8em, 10%);
+  margin: 5em 30em;
 }
 div.hint {
   background: var(--accent-dark-color);
@@ -883,6 +883,21 @@ div.post-area {
   width: 100%;
   min-height: 100px;
   background-color: var(--bg-color);
+}
+p.posts-list-button {
+  font-variant: small-caps;
+  font-size: 1.5em;
+}
+div.posts-list {
+  padding: 1em 30em 5em 30em;
+  background-color: var(--bg-color);
+}
+div.post-area a,
+div.posts-list a {
+  font-size: 1.1em;
+  padding-right: 0.7em;
+}
+div.posts-list .details {
 }
 div.post-area a:hover {
   color: var(--accent-color);
