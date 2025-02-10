@@ -71,7 +71,7 @@ theme = [ "hugo-easy-gallery" ]
 
   [params.postslist]
     enable = true
-    title = "Posts & News"
+    title = "News (full list)"
     subtitle = "Condensed list of all news and dev stories"
 
   [params.docs]
