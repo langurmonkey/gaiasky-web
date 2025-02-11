@@ -60,7 +60,7 @@ theme = [ "hugo-easy-gallery" ]
   [params.wrapper]
     enable = true
     title = "Explore the cosmos"
-    italic = "**Gaia Sky** is a real-time, 3D, astronomy visualisation platform for desktop and VR that runs on *Windows*, *Linux* and *macOS*. Open source and libre."
+    italic = "**Gaia Sky** is a real-time, 3D, astronomy visualisation platform for desktop and VR that runs on *Windows*, *Linux*, and *macOS*. Open source and libre."
     paragraph = "It is developed in the framework of [ESA](http://www.esa.int/ESA)'s [Gaia mission](http://sci.esa.int/gaia) to chart about 1 billion stars of our Galaxy in the Gaia group of the [Astronomisches Rechen-Institut](http://www.ari.uni-heidelberg.de/) ([ZAH](http://www.zah.uni-heidelberg.de/), [Universität Heidelberg](http://www.uni-heidelberg.de/)). The software includes an integrated dataset manager that grants access to several tailor-made astronomical datasets such as Gaia DR1/2/3, SDSS, or NGC. Discover the boundaries of astronomy with real scientific datasets!"
     image = "img/special/exo001.png"
 
