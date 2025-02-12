@@ -414,7 +414,8 @@ px      68    160    252    344    436    */
   #slider .block h1 {
     font-size: 1.6em;
     text-shadow: 3px 3px 5px black;
-    padding-bottom: 0.3em;
+    padding-bottom: 0em;
+    margin-bottom: 0em;
   }
   #slider .block p {
     font-size: 1.2em;

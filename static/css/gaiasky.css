@@ -175,11 +175,22 @@ header .navbar-default .navbar-nav {
 header .navbar-default .navbar-nav li a {
   font-family: 'ethnocentric';
   color: var(--text-dim-color);
-  padding: 10px 14px;
-  font-size: 13px;
+  padding: 0.8em 1em;
+  font-size: 0.9em;
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: var(--accent-color) !important;
+}
+header .navbar-default .navbar-nav li a.active{
+  color: var(--text-color);
+  text-shadow: 1px 1px 3px black;
+  background-image: linear-gradient(to bottom, var(--button1-color), var(--button2-color));
+  border-radius: 1em;
+}
+header .navbar-default .navbar-nav li a.active:hover{
+  color: var(--text-color) !important;
+  background: var(--link-color);
+  background-image: linear-gradient(to bottom, var(--accent-color), black);
 }
 /*---------------------------------------------
 					Index Start

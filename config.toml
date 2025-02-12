@@ -6,6 +6,10 @@ theme = [ "hugo-easy-gallery" ]
 [menu]
 
   [[menu.header]]
+    weight = -1
+    name = "Home"
+    pageRef = "/"
+  [[menu.header]]
     weight = 1
     name = "News"
     pageRef = "news"
