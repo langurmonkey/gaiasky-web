@@ -12,6 +12,35 @@
 /*--
 	Common Css
 --*/
+@view-transition {
+  navigation: auto;
+}
+@keyframes old-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes new-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+&::view-transition-old(root) {
+  animation-name: old-out;
+  animation-duration: 1s;
+}
+
+&::view-transition-new(root) {
+  animation-name: new-in;
+  animation-duration: 1s;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
