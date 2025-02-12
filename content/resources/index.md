@@ -6,6 +6,12 @@ author = "tsagrista"
 css = ["css/resources.css"]
 +++
 
+## Datasets
+
+Here is a list of all the datasets available in Gaia Sky.
+
+- [Gaia Sky datasets]({{< ref "/datasets" >}})
+
 ## Learn
 
 ### Video tutorials

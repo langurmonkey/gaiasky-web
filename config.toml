@@ -80,11 +80,11 @@ theme = [ "hugo-easy-gallery" ]
 
   [params.docs]
     enable = true
-    title = "Documentation"
-    content = "We make an effort to have the most up-to-date and accessible documentation possible. You can browse it online, or download it as a PDF file. It continually grows, so stay tuned!"
+    title = "Worlds of data"
+    content = "We have curated a long list of scientific datasets for you to explore in Gaia Sky. Planets, moons, asteroids, stars, nebulae, galaxies, quasars, black holes, star clusters, iso-density maps, virtual textures, and much, much more!"
     [params.docs.button]
-      caption = "Read the docs"
-      url = "https://gaia.ari.uni-heidelberg.de/gaiasky/docs"
+      caption = "Explore datasets"
+      url = "datasets"
 
   [params.media]
     enable = true
