@@ -1,0 +1,55 @@
+summary h3 {
+  font-variant: small-caps;
+  padding-top: 0px;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  display: inline;
+}
+summary h3:before {
+  content: none;
+}
+summary h3 i {
+  font-size: 0.6em;
+  margin-left: 1em;
+}
+summary h3 code {
+  font-variant: normal;
+  font-size: 0.6em;
+  font-weight: bold;
+  text-shadow: none;
+  background-color: #999;
+}
+details {
+  background-color: #2f2f2f;
+  border-radius: 10px;
+  margin-bottom: 1.8em;
+}
+details summary {
+  background-color: #555;
+  padding: 0.8em;
+  border-radius: 10px;
+}
+details[open] summary {
+  border-radius: 10px 10px 0 0;
+}
+details article {
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+  
+}
+
+details summary::before { 
+  content:"";
+  width: 18px;
+  height: 10px;
+  margin-bottom: 0.25em;
+  margin-right: 0.6em;
+  background: url('/img/ui/arrow.svg') no-repeat;
+  background-size: cover;
+  transition: 0.2s;
+  display: inline-block;
+}
+details[open] summary::before { 
+  content:"";
+  transform: rotate(180deg);
+}
