@@ -31,26 +31,45 @@ This playlist contains some (old) video tutorials. Gaia Sky has moved on, but so
 - [DPAC Plenary 2021](http://docs.gaiasky.space/3.5.8/workshops/dpac-plenary-online-2021.html) -- Gaia Sky general tutorial, online, 2021.
 - [DPAC Plenary 2020](http://docs.gaiasky.space/3.5.8/workshops/dpac-plenary-online-2021.html) -- Video production tutorial, 
 
-## Icons and logos
+## Icons and branding
 
 Find here images related to the Gaia Sky branding.
 
 ### Icons
 
-{{< fig src="img/brand/gs_032.png" class="fig-left" title="Icon 32px (PNG)." width="32px" loading="lazy" >}}
-{{< fig src="img/brand/gs_064.png" class="fig-left" title="Icon 64px (PNG)." width="64px" loading="lazy" >}}
-{{< fig src="img/brand/gs_128.png" class="fig-left" title="Icon 128px (PNG)." width="128px" loading="lazy" >}}
-{{< fig src="img/brand/gs_icon.svg" class="fig-left" title="Source icon (SVG)." width="192px" loading="lazy" >}}
-{{< fig src="img/brand/gsvr_032.png" class="fig-left" title="VR icon 32px (PNG)." width="32px" loading="lazy" >}}
-{{< fig src="img/brand/gsvr_064.png" class="fig-left" title="VR icon 64px (PNG)." width="64px" loading="lazy" >}}
-{{< fig src="img/brand/gsvr_128.png" class="fig-left" title="VR icon 128px (PNG)." width="128px" loading="lazy" >}}
 
-### Logos
+{{< fig src="img/brand/gs_icon.svg" class="fig-left" title="Source Gaia Sky logo (SVG)." width="192px" loading="lazy" >}}
+<br/>
+
+{{< fig src="img/brand/gs_round_128.png" class="fig-left" title="Round icon, Linux and Windows 128px (PNG)." width="128px" loading="lazy" >}}
+<br/>
+
+{{< fig src="img/brand/gs_round_256.png" class="fig-left" title="Round icon, Linux and Windows 256px (PNG)." width="256px" loading="lazy" >}}
+<br/>
+
+{{< fig src="img/brand/gs_macos_256.png" class="fig-left" title="macOS icon 256px (PNG)." width="256px" loading="lazy" >}}
+<br/>
+
+{{< fig src="img/brand/gs_macos_512.png" class="fig-left" title="macOS icon 512px (PNG)." width="512px" loading="lazy" >}}
+<br/>
+
+{{< fig src="img/brand/gsvr_round_128.png" class="fig-left" title="VR icon 128px (PNG)." width="128px" loading="lazy" >}}
+<br/>
+
+{{< fig src="img/brand/gsvr_round_256.png" class="fig-left" title="VR icon 256px (PNG)." width="256px" loading="lazy" >}}
+<br/>
+
+### Title cards and more
 
 
 {{< fig src="img/brand/gs_titlecard.png" class="fig-left" title="Title card logo (PNG)." width="292px" loading="lazy" >}}
+<br/>
+
 {{< fig src="img/brand/gs_titlecard.svg" class="fig-left" title="Title card logo (SVG)." width="292px" loading="lazy" >}}
+<br/>
+
 {{< fig src="img/gaia.svg" class="fig-left" title="Opaque logo (SVG)." width="292px" loading="lazy" >}}
+<br/>
 
 
 ### ASCII icon

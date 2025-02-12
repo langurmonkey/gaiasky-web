@@ -156,27 +156,33 @@ header {
 header .navbar {
   margin-bottom: 0px;
   border: 0px;
+  min-height: 30px;
 }
 header .navbar-brand {
   margin-top: -0.1em;
-  padding-top: 5px;
+  margin-left: 0px !important;
+  padding-top: 0px;
+  height: 35px;
 }
 header .navbar-brand>img {
   display: block;
-  width: 48px;
+  width: 35px;
 }
 header .navbar-default {
   background: none;
   border: 0px;
 }
 header .navbar-default .navbar-nav {
-  padding-top: 5px;
+  padding-top: 0px;
 }
 header .navbar-default .navbar-nav li a {
   font-family: 'ethnocentric';
   color: var(--text-dim-color);
-  padding: 0.8em 1em;
+  padding: 0.5em 1em;
   font-size: 0.9em;
+}
+button.navbar-toggle {
+  padding: 7px 7px;
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: var(--accent-color) !important;
@@ -230,7 +236,7 @@ header .navbar-default .navbar-nav li a.active:hover{
   font-weight: 100;
   font-size: 75px;
   line-height: 60px;
-  letter-spacing: 10px;
+  letter-spacing: 0.2em;
   padding-bottom: 45px;
   text-shadow: 5px 5px 5px black, 0px 0px 15px black;
 }
