@@ -5,7 +5,7 @@
     background: var(--bg-color-dark);
     padding: 10px 20px;
     margin-top: 1em;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 5px 5px 10px black;
 }
 #download-title {
@@ -87,7 +87,7 @@
     background-image: linear-gradient(to bottom, var(--button1-color), var(--button2-color));
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 2px 2px 5px black;
 }
 .download-button:hover{
