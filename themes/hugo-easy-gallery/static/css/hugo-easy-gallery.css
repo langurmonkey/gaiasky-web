@@ -142,7 +142,7 @@ figcaption styles
 }
 .gallery.caption-effect-slide.caption-position-bottom figure:not(:hover) figcaption,
 .fancy-figure.caption-effect-slide.caption-position-bottom figure:not(:hover) figcaption {
-    margin-bottom: -100%;
+    margin-bottom: -200%;
 }
 .gallery.caption-effect-slide.caption-position-center figure:not(:hover) figcaption,
 .fancy-figure.caption-effect-slide.caption-position-center figure:not(:hover) figcaption  {
