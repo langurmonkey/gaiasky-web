@@ -1,6 +1,7 @@
  :root {
    --text-color: #fff;
    --text-dim-color: #aaa;
+   --text-dimmer-color: #555;
    
    --accent-color: #0F9D58;
    --accent-dark-color: #075f34;

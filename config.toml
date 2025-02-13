@@ -3,6 +3,9 @@ baseURL =  ""
 languageCode = "en-us"
 theme = [ "hugo-easy-gallery" ]
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [menu]
 
   [[menu.header]]
@@ -33,6 +36,11 @@ theme = [ "hugo-easy-gallery" ]
     weight = 6
     name = "Contact"
     pageRef = "contact"
+  [[menu.header]]
+    weight = 7
+    name = " "
+    pre = '<i class="fa-solid fa-magnifying-glass"></i>'
+    pageRef = "search"
 
 
 # The site's parameters

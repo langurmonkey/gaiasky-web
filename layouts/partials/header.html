@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 {{ range .Site.Menus.header }}
-                <li><a class="{{ if $.Page.IsMenuCurrent .Menu . }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a></li>
+                <li><a class="{{ if $.Page.IsMenuCurrent .Menu . }}active{{ end }}" href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a></li>
                 {{ end }}
               </ul>
             </div><!-- /.navbar-collapse -->

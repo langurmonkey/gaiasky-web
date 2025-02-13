@@ -1,0 +1,9 @@
+input#search {
+  width: 100%;
+  background-color: var(--bg-color-light);
+  border: 2px solid var(--text-dim-color);
+  font-size: 2em;
+}
+ul#searchresults {
+  font-size: 1.2em;
+}

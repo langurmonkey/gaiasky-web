@@ -127,8 +127,8 @@ for dataset in latest_datasets.values():
     markdown_content.append(f"- **Minimum Gaia Sky version:** {minversion_str}\n")
     markdown_content.append(f"- **Size:** {size_pretty} <span class='unimportant'>({size_bytes})</span>\n")
     markdown_content.append(f"- **Number of objects:** {nobjects_pretty} <span class='unimportant'>({nobjects})</span>\n")
-    markdown_content.append(f"- [More info]({link})\n")
-    markdown_content.append(f"- **Dataset files:** {file}\n")
+    markdown_content.append(f"- [Dataset files]({file})\n")
+    markdown_content.append(f"- [Dataset information/source]({link})\n")
     markdown_content.append(f"</div>\n")
     markdown_content.append(f"</article>\n")
     markdown_content.append(f"</details>\n")
@@ -138,12 +138,11 @@ for dataset in latest_datasets.values():
 with open('datasets.md', 'w') as f:
     f.write("""
 +++
-title = "Datasets"
+title = "Datasets and catalogs"
+description = "Explore the selection of scientific datasets offered with Gaia Sky"
 type = "page"
 css = ["css/datasets.css"]
 +++
-
-# Gaia Sky Datasets
 
 This page lists the last version for each dataset in Gaia Sky. You can download each dataset directly from within Gaia Sky using the dataset manager (**recommended!**), or by following the 'Dataset files' link in each dataset.
  In order to install any of the packages manually, just download it and extract the contents it in your data folder (defaults to `$HOME/.local/share/gaiasky/data/` in Linux, and `$HOME/.gaiasky/data` in Windows and macOS).

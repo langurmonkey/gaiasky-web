@@ -1,11 +1,10 @@
 
 +++
-title = "Datasets"
+title = "Datasets and catalogs"
+description = "Explore the selection of scientific datasets offered with Gaia Sky"
 type = "page"
 css = ["css/datasets.css"]
 +++
-
-# Gaia Sky Datasets
 
 This page lists the last version for each dataset in Gaia Sky. You can download each dataset directly from within Gaia Sky using the dataset manager (**recommended!**), or by following the 'Dataset files' link in each dataset.
  In order to install any of the packages manually, just download it and extract the contents it in your data folder (defaults to `$HOME/.local/share/gaiasky/data/` in Linux, and `$HOME/.gaiasky/data` in Windows and macOS).
@@ -26,8 +25,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.6.4
 - **Size:** 78.7MiB <span class='unimportant'>(82527748)</span>
 - **Number of objects:** 2.57k <span class='unimportant'>(2573)</span>
-- [More info](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v053_20241008
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v053_20241008)
+- [Dataset information/source](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata)
 </div>
 </article>
 </details>
@@ -45,8 +44,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.6.1
 - **Size:** 269.2MiB <span class='unimportant'>(282273739)</span>
 - **Number of objects:** 74 <span class='unimportant'>(74)</span>
-- [More info](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex/v012_20240605
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex/v012_20240605)
+- [Dataset information/source](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex)
 </div>
 </article>
 </details>
@@ -64,8 +63,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.6.1
 - **Size:** 1010.2MiB <span class='unimportant'>(1059314876)</span>
 - **Number of objects:** 15.13M <span class='unimportant'>(15127025)</span>
-- [More info](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/000-default)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/000-default/v03_20240423
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/000-default/v03_20240423)
+- [Dataset information/source](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/000-default)
 </div>
 </article>
 </details>
@@ -83,8 +82,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 534.1MiB <span class='unimportant'>(560062416)</span>
 - **Number of objects:** 8.2M <span class='unimportant'>(8199560)</span>
-- [More info](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/001-small)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/001-small/v02_20221117
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/001-small/v02_20221117)
+- [Dataset information/source](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/001-small)
 </div>
 </article>
 </details>
@@ -102,8 +101,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 3.1GiB <span class='unimportant'>(3297560681)</span>
 - **Number of objects:** 49.94M <span class='unimportant'>(49939229)</span>
-- [More info](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/002-medium)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/002-medium/v02_20221117
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/002-medium/v02_20221117)
+- [Dataset information/source](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/002-medium)
 </div>
 </article>
 </details>
@@ -121,8 +120,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 7.4GiB <span class='unimportant'>(7955471359)</span>
 - **Number of objects:** 122.18M <span class='unimportant'>(122183859)</span>
-- [More info](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/003-large)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/003-large/v02_20221117
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/003-large/v02_20221117)
+- [Dataset information/source](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/003-large)
 </div>
 </article>
 </details>
@@ -140,8 +139,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 27.9GiB <span class='unimportant'>(29923785876)</span>
 - **Number of objects:** 466.14M <span class='unimportant'>(466144211)</span>
-- [More info](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/004-verylarge)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/004-verylarge/v02_20221117
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/004-verylarge/v02_20221117)
+- [Dataset information/source](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/004-verylarge)
 </div>
 </article>
 </details>
@@ -159,8 +158,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 42.1GiB <span class='unimportant'>(45256595158)</span>
 - **Number of objects:** 707.16M <span class='unimportant'>(707157643)</span>
-- [More info](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/005-extralarge)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/005-extralarge/v02_20221117
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/005-extralarge/v02_20221117)
+- [Dataset information/source](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/005-extralarge)
 </div>
 </article>
 </details>
@@ -178,8 +177,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 731.0MiB <span class='unimportant'>(766497858)</span>
 - **Number of objects:** 11.27M <span class='unimportant'>(11269665)</span>
-- [More info](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/006-bright)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/006-bright/v02_20221117
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/006-bright/v02_20221117)
+- [Dataset information/source](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/006-bright)
 </div>
 </article>
 </details>
@@ -197,8 +196,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 57.1GiB <span class='unimportant'>(61309496907)</span>
 - **Number of objects:** 957.75M <span class='unimportant'>(957749159)</span>
-- [More info](https://gea.esac.esa.int/archive/documentation/GDR2/Gaia_archive/chap_datamodel/sec_dm_main_tables/ssec_dm_ruwe.html)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/007-ruwe/v02_20221117
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/007-ruwe/v02_20221117)
+- [Dataset information/source](https://gea.esac.esa.int/archive/documentation/GDR2/Gaia_archive/chap_datamodel/sec_dm_main_tables/ssec_dm_ruwe.html)
 </div>
 </article>
 </details>
@@ -216,8 +215,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 86.9GiB <span class='unimportant'>(93280033261)</span>
 - **Number of objects:** 1.47B <span class='unimportant'>(1467764764)</span>
-- [More info](https://iopscience.iop.org/article/10.3847/1538-3881/abd806)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/008-geodist/v02_20221117
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/008-geodist/v02_20221117)
+- [Dataset information/source](https://iopscience.iop.org/article/10.3847/1538-3881/abd806)
 </div>
 </article>
 </details>
@@ -235,8 +234,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 23.5GiB <span class='unimportant'>(25267306839)</span>
 - **Number of objects:** 393.68M <span class='unimportant'>(393678770)</span>
-- [More info](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/009-fidelity)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/009-fidelity/v02_20221117
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/009-fidelity/v02_20221117)
+- [Dataset information/source](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/009-fidelity)
 </div>
 </article>
 </details>
@@ -254,8 +253,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 28.1GiB <span class='unimportant'>(30156685637)</span>
 - **Number of objects:** 470.81M <span class='unimportant'>(470812656)</span>
-- [More info](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/010-photdist)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/010-photdist/v02_20221117
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/010-photdist/v02_20221117)
+- [Dataset information/source](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/010-photdist)
 </div>
 </article>
 </details>
@@ -273,8 +272,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.6.1
 - **Size:** 170.5MiB <span class='unimportant'>(178807376)</span>
 - **Number of objects:** 2.55M <span class='unimportant'>(2552302)</span>
-- [More info](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/011-tiny)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/011-tiny/v03_20240423
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/011-tiny/v03_20240423)
+- [Dataset information/source](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/011-tiny)
 </div>
 </article>
 </details>
@@ -292,8 +291,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.6.1
 - **Size:** 129.7MiB <span class='unimportant'>(135993182)</span>
 - **Number of objects:** 1.94M <span class='unimportant'>(1939279)</span>
-- [More info](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/012-weeny)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/012-weeny/v03_20240423
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/012-weeny/v03_20240423)
+- [Dataset information/source](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/012-weeny)
 </div>
 </article>
 </details>
@@ -311,8 +310,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 138.4MiB <span class='unimportant'>(145106200)</span>
 - **Number of objects:** 331.08k <span class='unimportant'>(331078)</span>
-- [More info](https://arxiv.org/abs/2012.02061)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gcns/v03_20230306
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gcns/v03_20230306)
+- [Dataset information/source](https://arxiv.org/abs/2012.02061)
 </div>
 </article>
 </details>
@@ -330,8 +329,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 1.2MiB <span class='unimportant'>(1211990)</span>
 - **Number of objects:** 5.93k <span class='unimportant'>(5931)</span>
-- [More info](http://dc.zah.uni-heidelberg.de/tableinfo/cns5.main)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/cns5/v03_20230110
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/cns5/v03_20230110)
+- [Dataset information/source](http://dc.zah.uni-heidelberg.de/tableinfo/cns5.main)
 </div>
 </article>
 </details>
@@ -349,8 +348,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 31.2MiB <span class='unimportant'>(32715467)</span>
 - **Number of objects:** 256.08k <span class='unimportant'>(256082)</span>
-- [More info](https://adsabs.harvard.edu/abs/2019MNRAS.482.4570G)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/dr2/v03_20221115
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/dr2/v03_20221115)
+- [Dataset information/source](https://adsabs.harvard.edu/abs/2019MNRAS.482.4570G)
 </div>
 </article>
 </details>
@@ -368,8 +367,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 31.2MiB <span class='unimportant'>(32715468)</span>
 - **Number of objects:** 359.07k <span class='unimportant'>(359073)</span>
-- [More info](https://arxiv.org/abs/2106.07669)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/edr3/v01_20221115
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/edr3/v01_20221115)
+- [Dataset information/source](https://arxiv.org/abs/2106.07669)
 </div>
 </article>
 </details>
@@ -387,8 +386,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 59.3MiB <span class='unimportant'>(62219038)</span>
 - **Number of objects:** 106.34k <span class='unimportant'>(106339)</span>
-- [More info](https://gaia.ari.uni-heidleberg.de)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr2/v03_20221115
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr2/v03_20221115)
+- [Dataset information/source](https://gaia.ari.uni-heidleberg.de)
 </div>
 </article>
 </details>
@@ -406,8 +405,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 148.8MiB <span class='unimportant'>(156012917)</span>
 - **Number of objects:** 186.93k <span class='unimportant'>(186928)</span>
-- [More info](https://gaia.ari.uni-heidelberg.de)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr3/v01_20221115
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr3/v01_20221115)
+- [Dataset information/source](https://gaia.ari.uni-heidelberg.de)
 </div>
 </article>
 </details>
@@ -425,8 +424,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 109.8KiB <span class='unimportant'>(112421)</span>
 - **Number of objects:** 1.36k <span class='unimportant'>(1365)</span>
-- [More info](https://arxiv.org/abs/1805.00425)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gd1/v02_20221116
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gd1/v02_20221116)
+- [Dataset information/source](https://arxiv.org/abs/1805.00425)
 </div>
 </article>
 </details>
@@ -444,8 +443,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.8
 - **Size:** 7.7MiB <span class='unimportant'>(8094254)</span>
 - **Number of objects:** 117.95k <span class='unimportant'>(117955)</span>
-- [More info](https://adsabs.harvard.edu/abs/2007ASSL..350.....V)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/hipparcos/v05_20240111
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/hipparcos/v05_20240111)
+- [Dataset information/source](https://adsabs.harvard.edu/abs/2007ASSL..350.....V)
 </div>
 </article>
 </details>
@@ -463,8 +462,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.6.0
 - **Size:** 4.6MiB <span class='unimportant'>(4871087)</span>
 - **Number of objects:** 875 <span class='unimportant'>(875)</span>
-- [More info](https://heasarc.gsfc.nasa.gov/W3Browse/all/neargalcat.html)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/nbg/v14_20240410
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/nbg/v14_20240410)
+- [Dataset information/source](https://heasarc.gsfc.nasa.gov/W3Browse/all/neargalcat.html)
 </div>
 </article>
 </details>
@@ -482,8 +481,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.5.8
 - **Size:** 10.9MiB <span class='unimportant'>(11425140)</span>
 - **Number of objects:** 327.83k <span class='unimportant'>(327835)</span>
-- [More info](https://www.sdss.org/dr12)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss12/v08_20240110
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss12/v08_20240110)
+- [Dataset information/source](https://www.sdss.org/dr12)
 </div>
 </article>
 </details>
@@ -501,8 +500,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.5.8
 - **Size:** 79.0MiB <span class='unimportant'>(82844533)</span>
 - **Number of objects:** 3.04M <span class='unimportant'>(3040257)</span>
-- [More info](https://www.sdss.org/dr14)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss14/v08_20240110
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss14/v08_20240110)
+- [Dataset information/source](https://www.sdss.org/dr14)
 </div>
 </article>
 </details>
@@ -520,8 +519,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.5.8
 - **Size:** 69.9MiB <span class='unimportant'>(73293039)</span>
 - **Number of objects:** 2.81M <span class='unimportant'>(2812409)</span>
-- [More info](http://skyserver.sdss.org/dr17)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss17/v05_20240110
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss17/v05_20240110)
+- [Dataset information/source](http://skyserver.sdss.org/dr17)
 </div>
 </article>
 </details>
@@ -539,8 +538,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.5.8
 - **Size:** 98.3MiB <span class='unimportant'>(103124179)</span>
 - **Number of objects:** 3.64M <span class='unimportant'>(3637836)</span>
-- [More info](http://skyserver.sdss.org/dr18)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss18/v02_20240110
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss18/v02_20240110)
+- [Dataset information/source](http://skyserver.sdss.org/dr18)
 </div>
 </article>
 </details>
@@ -558,8 +557,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.5.0
 - **Size:** 991.7KiB <span class='unimportant'>(1015463)</span>
 - **Number of objects:** 7.17k <span class='unimportant'>(7167)</span>
-- [More info](https://arxiv.org/abs/2303.13424)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/clusters-hunt-reffert-2023/002_20230601
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/clusters-hunt-reffert-2023/002_20230601)
+- [Dataset information/source](https://arxiv.org/abs/2303.13424)
 </div>
 </article>
 </details>
@@ -577,8 +576,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.5.0
 - **Size:** 140.5KiB <span class='unimportant'>(143890)</span>
 - **Number of objects:** 2.02k <span class='unimportant'>(2017)</span>
-- [More info](https://ui.adsabs.harvard.edu/abs/2020A&A...635A..45C/)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/ocdr2/v07_20230601
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/ocdr2/v07_20230601)
+- [Dataset information/source](https://ui.adsabs.harvard.edu/abs/2020A&A...635A..45C/)
 </div>
 </article>
 </details>
@@ -596,8 +595,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.5.0
 - **Size:** 150.6KiB <span class='unimportant'>(154260)</span>
 - **Number of objects:** 3.01k <span class='unimportant'>(3006)</span>
-- [More info](https://heasarc.gsfc.nasa.gov/W3Browse/all/mwsc.html)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/mwsc/v07_20230601
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/mwsc/v07_20230601)
+- [Dataset information/source](https://heasarc.gsfc.nasa.gov/W3Browse/all/mwsc.html)
 </div>
 </article>
 </details>
@@ -615,8 +614,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.6.5
 - **Size:** 3.0MiB <span class='unimportant'>(3197071)</span>
 - **Number of objects:** 47 <span class='unimportant'>(47)</span>
-- [More info](https://heasarc.gsfc.nasa.gov/W3Browse/all/ngc2000.html)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/nebulae/v09_20250127
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/nebulae/v09_20250127)
+- [Dataset information/source](https://heasarc.gsfc.nasa.gov/W3Browse/all/ngc2000.html)
 </div>
 </article>
 </details>
@@ -634,8 +633,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.5.0
 - **Size:** 13.9MiB <span class='unimportant'>(14610240)</span>
 - **Number of objects:** 154.76k <span class='unimportant'>(154762)</span>
-- [More info](https://www.cosmos.esa.int/web/gaia/fpr)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/fpr/001_20241022
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/fpr/001_20241022)
+- [Dataset information/source](https://www.cosmos.esa.int/web/gaia/fpr)
 </div>
 </article>
 </details>
@@ -653,8 +652,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 15.3MiB <span class='unimportant'>(16080022)</span>
 - **Number of objects:** 154.79k <span class='unimportant'>(154787)</span>
-- [More info]()
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3/v02_20221116
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3/v02_20221116)
+- [Dataset information/source]()
 </div>
 </article>
 </details>
@@ -672,8 +671,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 15.3MiB <span class='unimportant'>(16080022)</span>
 - **Number of objects:** 154.79k <span class='unimportant'>(154787)</span>
-- [More info]()
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-nea/v01_20221116
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-nea/v01_20221116)
+- [Dataset information/source]()
 </div>
 </article>
 </details>
@@ -691,8 +690,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 161.1KiB <span class='unimportant'>(164988)</span>
 - **Number of objects:** 1.54k <span class='unimportant'>(1545)</span>
-- [More info]()
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-trojan/v01_20221116
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-trojan/v01_20221116)
+- [Dataset information/source]()
 </div>
 </article>
 </details>
@@ -710,8 +709,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 908.5KiB <span class='unimportant'>(930272)</span>
 - **Number of objects:** 14.1k <span class='unimportant'>(14104)</span>
-- [More info]()
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr2/v02_20221116
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr2/v02_20221116)
+- [Dataset information/source]()
 </div>
 </article>
 </details>
@@ -729,8 +728,8 @@ For Gaia Sky 3.6.4 and above. Contains the solar system planets and moons, minor
 - **Minimum Gaia Sky version:** 3.6.5
 - **Size:** 3.1KiB <span class='unimportant'>(3125)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
-- [More info](https://www.shadertoy.com/view/tsBXW3)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/blackhole/v05_20250109
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/blackhole/v05_20250109)
+- [Dataset information/source](https://www.shadertoy.com/view/tsBXW3)
 </div>
 </article>
 </details>
@@ -750,8 +749,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.6.3
 - **Size:** 2.9MiB <span class='unimportant'>(3078049)</span>
 - **Number of objects:** 9.79k <span class='unimportant'>(9793)</span>
-- [More info]()
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/nasa-exoplanet-archive/v01_20240626
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/nasa-exoplanet-archive/v01_20240626)
+- [Dataset information/source]()
 </div>
 </article>
 </details>
@@ -769,8 +768,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.5.0
 - **Size:** 2.4MiB <span class='unimportant'>(2557277)</span>
 - **Number of objects:** 7 <span class='unimportant'>(7)</span>
-- [More info]()
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v03_20230628
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v03_20230628)
+- [Dataset information/source]()
 </div>
 </article>
 </details>
@@ -788,8 +787,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 1.5KiB <span class='unimportant'>(1540)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
-- [More info]()
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gl876/v01_20221116
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gl876/v01_20221116)
+- [Dataset information/source]()
 </div>
 </article>
 </details>
@@ -807,8 +806,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 1.5KiB <span class='unimportant'>(1534)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
-- [More info]()
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd40503/v01_20221116
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd40503/v01_20221116)
+- [Dataset information/source]()
 </div>
 </article>
 </details>
@@ -826,8 +825,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 1.5KiB <span class='unimportant'>(1517)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
-- [More info]()
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd81040/v01_20221116
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd81040/v01_20221116)
+- [Dataset information/source]()
 </div>
 </article>
 </details>
@@ -845,8 +844,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 1.3KiB <span class='unimportant'>(1320)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
-- [More info]()
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd114762/v01_20221116
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd114762/v01_20221116)
+- [Dataset information/source]()
 </div>
 </article>
 </details>
@@ -864,8 +863,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 1.2KiB <span class='unimportant'>(1264)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
-- [More info]()
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/j0805-4812/v01_20221116
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/j0805-4812/v01_20221116)
+- [Dataset information/source]()
 </div>
 </article>
 </details>
@@ -883,8 +882,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 1.2KiB <span class='unimportant'>(1244)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
-- [More info]()
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/ucac2-1151977/v01_20221116
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/ucac2-1151977/v01_20221116)
+- [Dataset information/source]()
 </div>
 </article>
 </details>
@@ -902,8 +901,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 1.5KiB <span class='unimportant'>(1522)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
-- [More info]()
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/wd0141-675/v02_20221116
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/wd0141-675/v02_20221116)
+- [Dataset information/source]()
 </div>
 </article>
 </details>
@@ -921,8 +920,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.6.5
 - **Size:** 3.0KiB <span class='unimportant'>(3039)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
-- [More info]()
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gaia-bh1/v002_20241126
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gaia-bh1/v002_20241126)
+- [Dataset information/source]()
 </div>
 </article>
 </details>
@@ -940,8 +939,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.6.5
 - **Size:** 3.1KiB <span class='unimportant'>(3188)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
-- [More info]()
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gaia-bh2/v004_20241126
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gaia-bh2/v004_20241126)
+- [Dataset information/source]()
 </div>
 </article>
 </details>
@@ -959,8 +958,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.6.5
 - **Size:** 141.6KiB <span class='unimportant'>(144966)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
-- [More info]()
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr4/gaia-bh3/v002_20241126
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr4/gaia-bh3/v002_20241126)
+- [Dataset information/source]()
 </div>
 </article>
 </details>
@@ -978,8 +977,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.3.1
 - **Size:** 278.1KiB <span class='unimportant'>(284752)</span>
 - **Number of objects:** 10k <span class='unimportant'>(10000.0)</span>
-- [More info]()
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud/v003_20221116
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud/v003_20221116)
+- [Dataset information/source]()
 </div>
 </article>
 </details>
@@ -997,8 +996,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.5.0
 - **Size:** 2.7MiB <span class='unimportant'>(2828359)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
-- [More info](https://galaxymap.org)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/dust/v04_20230704
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/dust/v04_20230704)
+- [Dataset information/source](https://galaxymap.org)
 </div>
 </article>
 </details>
@@ -1016,8 +1015,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.5.0
 - **Size:** 2.4MiB <span class='unimportant'>(2475047)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
-- [More info](https://galaxymap.org)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/hii/v04_20230704
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/hii/v04_20230704)
+- [Dataset information/source](https://galaxymap.org)
 </div>
 </article>
 </details>
@@ -1035,8 +1034,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.5.0
 - **Size:** 80.1MiB <span class='unimportant'>(83981902)</span>
 - **Number of objects:** 8 <span class='unimportant'>(8)</span>
-- [More info](https://galaxymap.org)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/isodensity/v03_20230704
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/isodensity/v03_20230704)
+- [Dataset information/source](https://galaxymap.org)
 </div>
 </article>
 </details>
@@ -1054,8 +1053,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** N/A
 - **Size:** 7.7MiB <span class='unimportant'>(8078371)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
-- [More info](https://gruze.org/posters_dr3/readme.pdf)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/dust/v01_20221117
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/dust/v01_20221117)
+- [Dataset information/source](https://gruze.org/posters_dr3/readme.pdf)
 </div>
 </article>
 </details>
@@ -1073,8 +1072,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** N/A
 - **Size:** 8.9MiB <span class='unimportant'>(9336476)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
-- [More info](https://gruze.org/posters_dr3/readme.pdf)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/hii/v01_20221117
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/hii/v01_20221117)
+- [Dataset information/source](https://gruze.org/posters_dr3/readme.pdf)
 </div>
 </article>
 </details>
@@ -1092,8 +1091,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** N/A
 - **Size:** 24.0MiB <span class='unimportant'>(25168342)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
-- [More info](https://gruze.org/posters_dr3/readme.pdf)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/stars/v01_20221117
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/stars/v01_20221117)
+- [Dataset information/source](https://gruze.org/posters_dr3/readme.pdf)
 </div>
 </article>
 </details>
@@ -1111,8 +1110,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.6.1
 - **Size:** 21.6MiB <span class='unimportant'>(22600082)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
-- [More info](https://www.esa.int/Science_Exploration/Space_Science/Euclid)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/euclid/v003_20240626
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/euclid/v003_20240626)
+- [Dataset information/source](https://www.esa.int/Science_Exploration/Space_Science/Euclid)
 </div>
 </article>
 </details>
@@ -1130,8 +1129,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.6.1
 - **Size:** 3.4MiB <span class='unimportant'>(3540638)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
-- [More info](https://sci.esa.int/web/jwst)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/jwst/v004_20240531
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/jwst/v004_20240531)
+- [Dataset information/source](https://sci.esa.int/web/jwst)
 </div>
 </article>
 </details>
@@ -1149,8 +1148,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.6.1
 - **Size:** 8.7MiB <span class='unimportant'>(9151867)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
-- [More info](https://www.esa.int/Science_Exploration/Space_Science/Hubble_overview)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/hst/v002_20240523
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/hst/v002_20240523)
+- [Dataset information/source](https://www.esa.int/Science_Exploration/Space_Science/Hubble_overview)
 </div>
 </article>
 </details>
@@ -1168,8 +1167,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.6.1
 - **Size:** 29.2MiB <span class='unimportant'>(30599574)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
-- [More info](https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/iss/v002_20240523
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/iss/v002_20240523)
+- [Dataset information/source](https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station)
 </div>
 </article>
 </details>
@@ -1187,8 +1186,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.6.1
 - **Size:** 2.9MiB <span class='unimportant'>(3031608)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
-- [More info](https://voyager.jpl.nasa.gov/)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/voyagers/v02_20240523
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/voyagers/v02_20240523)
+- [Dataset information/source](https://voyager.jpl.nasa.gov/)
 </div>
 </article>
 </details>
@@ -1206,8 +1205,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.4.0
 - **Size:** 1.3GiB <span class='unimportant'>(1373115642)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
-- [More info](https://visibleearth.nasa.gov/images/73909/december-blue-marble-next-generation-w-topography-and-bathymetry)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-nasa/000_20230125
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-nasa/000_20230125)
+- [Dataset information/source](https://visibleearth.nasa.gov/images/73909/december-blue-marble-next-generation-w-topography-and-bathymetry)
 </div>
 </article>
 </details>
@@ -1225,8 +1224,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.4.0
 - **Size:** 645.9MiB <span class='unimportant'>(677264527)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
-- [More info](https://www.usgs.gov/coastal-changes-and-impacts/gmted2010)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-topography-gmted2010/000_20230125
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-topography-gmted2010/000_20230125)
+- [Dataset information/source](https://www.usgs.gov/coastal-changes-and-impacts/gmted2010)
 </div>
 </article>
 </details>
@@ -1244,8 +1243,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.4.0
 - **Size:** 378.3MiB <span class='unimportant'>(396667328)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
-- [More info](https://www.visibleearth.nasa.gov/images/57747/blue-marble-clouds)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-clouds-nasa/000_20230125
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-clouds-nasa/000_20230125)
+- [Dataset information/source](https://www.visibleearth.nasa.gov/images/57747/blue-marble-clouds)
 </div>
 </article>
 </details>
@@ -1263,8 +1262,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.4.0
 - **Size:** 1.2GiB <span class='unimportant'>(1340485779)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
-- [More info](http://www.celestiamotherlode.net/addon/addon_240.html)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-mars-diffuse-vanvliet/000_20230125
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-mars-diffuse-vanvliet/000_20230125)
+- [Dataset information/source](http://www.celestiamotherlode.net/addon/addon_240.html)
 </div>
 </article>
 </details>
@@ -1282,8 +1281,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.4.0
 - **Size:** 67.7MiB <span class='unimportant'>(71003938)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
-- [More info](https://astrogeology.usgs.gov/search/map/Mars/GlobalSurveyor/MOLA/Mars_MGS_MOLA_DEM_mosaic_global_463m)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-mars-topography-mola/000_20230125
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-mars-topography-mola/000_20230125)
+- [Dataset information/source](https://astrogeology.usgs.gov/search/map/Mars/GlobalSurveyor/MOLA/Mars_MGS_MOLA_DEM_mosaic_global_463m)
 </div>
 </article>
 </details>
@@ -1301,8 +1300,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.4.0
 - **Size:** 2.7GiB <span class='unimportant'>(2938258080)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
-- [More info](http://www.celestiamotherlode.net/addon/addon_1108.html)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-diffuse-vanvliet/000_20230125
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-diffuse-vanvliet/000_20230125)
+- [Dataset information/source](http://www.celestiamotherlode.net/addon/addon_1108.html)
 </div>
 </article>
 </details>
@@ -1320,8 +1319,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.4.0
 - **Size:** 8.4MiB <span class='unimportant'>(8802327)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
-- [More info](https://wms.lroc.asu.edu/lroc/view_rdr/WAC_GLD100)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-topography-lro/000_20230125
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-topography-lro/000_20230125)
+- [Dataset information/source](https://wms.lroc.asu.edu/lroc/view_rdr/WAC_GLD100)
 </div>
 </article>
 </details>
@@ -1339,8 +1338,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Minimum Gaia Sky version:** 3.6.5
 - **Size:** 46.9KiB <span class='unimportant'>(48046)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
-- [More info](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora)
-- **Dataset files:** https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora/v02_20250124
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora/v02_20250124)
+- [Dataset information/source](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora)
 </div>
 </article>
 </details>

@@ -149,6 +149,9 @@ figcaption h4 {
   font-weigth: 100;
   font-size: 13px;
 }
+hr {
+  border: 0.01em solid var(--text-dimmer-color);
+}
 .italic {
   font-style: italic;
 }
@@ -411,18 +414,18 @@ section#docs p {
   color: #8d8f92;
   margin-bottom: 20px;
 }
-section#docs .btn-view-works {
+.btn-view-works {
   border: 0px;
   background-image: linear-gradient(to bottom, var(--button1-color), var(--button2-color));
   color: #fff;
   padding: 8px 20px;
   margin-top: 20px;
 }
-section#docs .btn-view-works:hover {
+.btn-view-works:hover {
   color: white !important;
   background-image: linear-gradient(to bottom, var(--accent-color), black);
 }
-section#docs .btn-view-works:active {
+.btn-view-works:active {
   background-image: linear-gradient(to bottom, var(--accent-color), black);
   box-shadow: 0px 0px 5px black;
   transform: translateY(4px);
@@ -919,6 +922,14 @@ div.hint .hint-title {
  font-size: 3.5em;
  font-variant-caps: small-caps;
 }
+#post-content .post-info-wrapper {
+  color: var(--text-dim-color);
+  margin-left: 2em;
+  font-weight: 100;
+}
+#post-content .title {
+  margin-bottom: 0em;
+}
 div.post-area a.bold {
  font-variant-caps: small-caps;
  font-size: 3.2em;
@@ -972,4 +983,12 @@ figure.vid-post video {
 }
 .pagination .next {
   margin-left: 2em;
+}
+div.title {
+  margin-bottom: 2em;
+}
+div.title description {
+  margin-left: 2em;
+  font-style: italic;
+  color: var(--text-dimmer-color);
 }

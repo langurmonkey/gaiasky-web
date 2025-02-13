@@ -13,6 +13,10 @@
 	{{ else }}
 	<main>
 		<div class="page-content">
+			<div class="title">
+				<h1>{{ .Title }}</h1>
+				<description>{{ .Description }}</description>
+			</div>
 			{{ .Content }}
 		</div>
 	</main>

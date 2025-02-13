@@ -1,9 +1,9 @@
 +++
 title = "Verify GPG signatures"
+description = "Learn how to verify our signed packages with GPG"
 type = "page"
 +++
 
-# Verify GPG signatures
 
 In this page you will learn how to verify the packages you download from the [downloads]({{< ref "downloads" >}}) section using GPG.
 
