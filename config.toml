@@ -83,7 +83,7 @@ theme = [ "hugo-easy-gallery" ]
     title = "Worlds of data"
     content = "We have curated a long list of scientific datasets for you to explore in Gaia Sky. Planets, moons, asteroids, stars, nebulae, galaxies, quasars, black holes, star clusters, iso-density maps, virtual textures, and much, much more!"
     [params.docs.button]
-      caption = "Explore datasets"
+      caption = "Available datasets"
       url = "datasets"
 
   [params.media]

@@ -3,26 +3,47 @@ import gzip
 import requests
 import io
 import os.path
+import math
+from millify import millify
 
-# Function to convert bytes to MB
-def bytes_to_mb(size_in_bytes):
-    return size_in_bytes / (1024 * 1024)
+# Function to convert bytes to a huma-readable format
+def sizeof_fmt(num, suffix="B"):
+    for unit in ("", "Ki", "Mi", "Gi", "Ti", "Pi", "Ei", "Zi"):
+        if abs(num) < 1024.0:
+            return f"{num:3.1f}{unit}{suffix}"
+        num /= 1024.0
+    return f"{num:.1f}Yi{suffix}"
 
 # Replace the "@mirror-url@" placeholder in the link
 def update_link(link, base_url):
     return link.replace('@mirror-url@', base_url)
 
+# Use millify library to make number pretty
+def pretty_number(n):
+    try:
+        n = int(n)
+        return millify(n, precision=2)
+    except ValueError:
+        return "N/A"
+
 # Decode an integer into the version string
 def decode_version(s: str) -> str:
     try:
         n = int(s)  # Try converting to an integer
-        patch = n % 100  # Last two digits
-        revision = (n // 100) % 100  # Next two digits
-        minor = (n // 10_000) % 100  # Next two digits
-        major = n // 1_000_000  # Remaining digits
-        return f"{major}.{minor}.{revision}-{patch}"
+        if n > 999999:
+            patch = n % 100  # Last two digits
+            revision = (n // 100) % 100  # Next two digits
+            minor = (n // 10_000) % 100  # Next two digits
+            major = n // 1_000_000  # Remaining digits
+            return f"{major}.{minor}.{revision}-{patch}" if patch > 1 else f"{major}.{minor}.{revision}" 
+        else:
+            revision = n % 100  # Next two digits
+            minor = (n // 100) % 100  # Next two digits
+            major = n // 10_000  # Remaining digits
+            return f"{major}.{minor}.{revision}" 
     except ValueError:
         return "N/A"
+
 
 # Types to icons
 icons = {
@@ -84,28 +105,31 @@ for dataset in latest_datasets.values():
 
     minversion_str = decode_version(mingsversion)
     size_bytes = dataset.get('size', 0)
-    num_objects = dataset.get('num_objects', 'N/A')
+    nobjects = dataset.get('nobjects', 'N/A')
+    nobjects_pretty = pretty_number(nobjects)
     link = update_link(dataset.get('link', ''), base_url)
     file = os.path.dirname(update_link(dataset.get('file', ''), base_url))
 
     fa_icon = icon(dstype)
 
-    # Format size in MB
-    size_mb = bytes_to_mb(size_bytes)
+    # Format byte size
+    size_pretty = sizeof_fmt(int(size_bytes))
 
     markdown_content.append(f"<details>\n")
     markdown_content.append(f"<summary>\n")
     markdown_content.append(f"<h3>{name}<br/><i class='{fa_icon}' title='Type: {dstype}'></i> <code title='Key: {key}'>{key}</code></h3>\n")
     markdown_content.append(f"</summary>\n")
     markdown_content.append(f"<article>\n")
-    markdown_content.append(f"{description}\n\n")
+    markdown_content.append(f"<div class='article-content'>\n")
+    markdown_content.append(f"<div class='description'>{description}</div>\n\n")
     markdown_content.append(f"- **Type:** `{dstype}`\n")
-    markdown_content.append(f"- **Dataset version:** {version}\n")
+    markdown_content.append(f"- **Dataset version:** v{version}\n")
     markdown_content.append(f"- **Minimum Gaia Sky version:** {minversion_str}\n")
-    markdown_content.append(f"- **Size:** {size_mb:.2f} MB\n")
-    markdown_content.append(f"- **Number of objects:** {num_objects}\n")
+    markdown_content.append(f"- **Size:** {size_pretty} <span class='unimportant'>({size_bytes})</span>\n")
+    markdown_content.append(f"- **Number of objects:** {nobjects_pretty} <span class='unimportant'>({nobjects})</span>\n")
     markdown_content.append(f"- [More info]({link})\n")
-    markdown_content.append(f"- **Dataset files:** {link}\n")
+    markdown_content.append(f"- **Dataset files:** {file}\n")
+    markdown_content.append(f"</div>\n")
     markdown_content.append(f"</article>\n")
     markdown_content.append(f"</details>\n")
     markdown_content.append("\n")

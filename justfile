@@ -1,7 +1,12 @@
 DEPLOY_TARGET := "~/Projects/gaiasky-pages/"
 
+# Serve the hugo site locally in http://localhost:1313
 serve:
-    HUGO_BASEURL="http://localhost:1313/" hugo server
+    HUGO_BASEURL="http://localhost:1313/" nohup hugo server 2>&1 1>/dev/null &
+
+# Stop the local server
+stop:
+    pkill hugo
 
 # Cleans the generated site
 clean:

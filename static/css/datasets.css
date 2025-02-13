@@ -48,8 +48,22 @@ details summary::before {
   background-size: cover;
   transition: 0.2s;
   display: inline-block;
+  transform: rotate(-90deg);
 }
 details[open] summary::before { 
   content:"";
-  transform: rotate(180deg);
+  transform: rotate(0deg);
+}
+details article div.article-content {
+  padding: 1em;
+  background-color: var(--bg-color-light);
+  border-radius: 1em;
+}
+details article div.description {
+  margin-bottom: 1em;
+}
+details .unimportant {
+  color: var(--text-dim-color);
+  opacity: 0.3;
+  font-family: monospace;
 }
