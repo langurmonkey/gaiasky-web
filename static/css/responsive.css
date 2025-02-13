@@ -378,7 +378,7 @@ px      68    160    252    */
   /*--
 	footer Start 
 --*/
-  section#docs h2 {
+  section#datasets h2 {
     font-size: 1.8em;
   }
   section#intro h2 {
@@ -456,7 +456,7 @@ px      68    160    252    344    436    */
   .posts-list a {
     display:block;
   }
-  section#docs h2 {
+  section#datasets h2 {
     font-size: 1.6em;
   }
   section#intro h2 {

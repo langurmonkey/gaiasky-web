@@ -57,6 +57,7 @@ h3,
 h4,
 h5,
 h6 {
+  margin-top: 0;
   padding-top: 0.7em;
   font-family: 'Roboto', sans-serif;
   text-shadow: 2px 2px 2px black;
@@ -174,6 +175,8 @@ hr {
   font-style: italic;
   color: var(--text-dim-color);
 }
+.container {
+}
 /*--
 	Header Start
 --*/
@@ -229,6 +232,27 @@ header .navbar-default .navbar-nav li a.active:hover{
   color: var(--text-color) !important;
   background: var(--link-color);
   background-image: linear-gradient(to bottom, var(--accent-color), black);
+}
+/** Breadcrumbs **/
+div#breadcrumbs ul {
+  margin-left: 0;
+  display: flex;
+  list-style-type: '↠ ';
+}
+div#breadcrumbs ul > :first-child {
+  list-style-type: none;
+}
+div#breadcrumbs ul li {
+  margin-right: 1.3em;
+}
+div#breadcrumbs ul li a {
+  font-size: 1.1em;
+}
+div#breadcrumbs ul >  li:first-child {
+}
+.container div#breadcrumbs {
+  margin-top: 15px;
+  margin-left: -15px;
 }
 /*---------------------------------------------
 					Index Start
@@ -381,9 +405,9 @@ section#links .links-item p {
   line-height: 1.8;
 }
 /*--
-	Docs Start
+	Datasets Start
 --*/
-section#docs {
+section#datasets {
   width: 100%;
   display: block;
   position: relative;
@@ -404,13 +428,13 @@ section#docs {
   color: white;
   text-shadow: 1px 1px 3px black;
 }
-section#docs h2 {
+section#datasets h2 {
   font-size: 2.8em;
   font-weight: 600;
   margin-bottom: 30px;
   margin-top: -0.3em;
 }
-section#docs p {
+section#datasets p {
   color: #8d8f92;
   margin-bottom: 20px;
 }
@@ -431,7 +455,7 @@ section#docs p {
   box-shadow: 0px 0px 5px black;
   transform: translateY(4px);
 }
-div.docs-box {
+div.datasets-box {
   background: rgba(0.2, 0.2, 0.2, 0.5);
   padding: 1px 10px 15px 10px;
   border-radius: 20px;
@@ -892,8 +916,9 @@ footer img.ack-img {
   height: 6em;
   filter: invert(1);
 }
+section#post-content,
 div.page-content {
-  margin: 5em 30em;
+  margin: 1em 30em 5em 30em;
 }
 div.hint {
   background: var(--accent-dark-color);
@@ -953,7 +978,6 @@ div.posts-list {
 div.post-area a,
 div.posts-list a {
   font-size: 1.1em;
-  padding-right: 0.7em;
 }
 div.posts-list .details {
 }

@@ -1,0 +1,17 @@
+<section id="datasets" class="random-background">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-6">
+        <div class="datasets-box">
+          <h2 class="text-uppercase">{{ .Site.Params.datasets.title }}</h2>
+          <div>
+            {{ .Site.Params.datasets.content | markdownify }}
+          </div>
+          {{ with .Site.Params.datasets.button }}
+          <a href="{{ .url }}" class="btn btn-view-works">{{ .Pre | safeHTML }} &nbsp;{{ .Caption }}</a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

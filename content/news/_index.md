@@ -1,7 +1,6 @@
 +++
-title = "List"
-id = "page"
-type = "page"
+title = "News"
+id = "news"
 categories = ["Media"]
 author = "tsagrista"
 +++

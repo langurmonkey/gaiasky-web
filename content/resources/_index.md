@@ -10,7 +10,7 @@ css = ["css/resources.css"]
 
 Here is a list of all the datasets available in Gaia Sky.
 
-<a href="{{< ref "/datasets" >}}" class="btn btn-view-works">Datasets and catalogs</a>
+<a href="{{< ref "/resources/datasets" >}}" class="btn btn-view-works">Datasets and catalogs</a>
 
 ## Learn
 

@@ -3,6 +3,7 @@ title = "Media"
 id = "media"
 categories = ["Media"]
 author = "tsagrista"
+tags = ["media", "screnshots", "videos", "audiovisual"]
 +++
 
 ## Screenshots

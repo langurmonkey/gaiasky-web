@@ -86,13 +86,14 @@ theme = [ "hugo-easy-gallery" ]
     title = "News (full list)"
     subtitle = "Condensed list of all news and dev stories"
 
-  [params.docs]
+  [params.datasets]
     enable = true
     title = "Worlds of data"
     content = "We have curated a long list of scientific datasets for you to explore in Gaia Sky. Planets, moons, asteroids, stars, nebulae, galaxies, quasars, black holes, star clusters, iso-density maps, virtual textures, and much, much more!"
-    [params.docs.button]
+    [params.datasets.button]
       caption = "Available datasets"
-      url = "datasets"
+      url = "resources/datasets"
+      pre = '<i class="fa-solid fa-database"></i>'
 
   [params.media]
     enable = true

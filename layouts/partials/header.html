@@ -24,7 +24,7 @@
               <ul class="nav navbar-nav navbar-right">
                 {{ range .Site.Menus.header }}
                 <li>
-                  <a class="{{ if $.Page.IsMenuCurrent .Menu . }}active{{ end }}" href="{{ .URL }}">
+                  <a class="{{ if or ($.Page.IsMenuCurrent .Menu .) (and (ne .URL "/") (hasPrefix $.Page.RelPermalink .URL)) }}active{{ end }}" href="{{ .URL }}">
                     {{ .Pre }}{{ .Name }}
                   </a>
                 </li>

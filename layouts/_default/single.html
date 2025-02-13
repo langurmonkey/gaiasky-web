@@ -11,24 +11,21 @@
 	<div class="post">
 		<!-- Wrapper Start -->
 		<section id="post-content">
-			<div class="container">
-				<div class="row">
-					<div>
-						<div class="block">
-							<div class="title">
-								<h1>{{ .Params.Title }}</h1>
-								<description>{{ .Params.Description }}</description>
-							</div>
-							<div class="post-info-wrapper">
-								<p class="italic">By <span class="bold">{{ .Params.author }}</span> on <span class="bold">{{
-										.Date.Format .Site.Params.date_format }}</span></p>
-							</div>
-							<hr />
-							<p>{{ .Content }}</p>
-						</div>
-					</div><!-- .col-md-7 close -->
+			{{ partial "breadcrumbs.html" . }}
+			<div>
+				<div class="block">
+					<div class="title">
+						<h1>{{ .Params.Title }}</h1>
+						<description>{{ .Params.Description }}</description>
+					</div>
+					<div class="post-info-wrapper">
+						<p class="italic">By <span class="bold">{{ .Params.author }}</span> on <span class="bold">{{
+								.Date.Format .Site.Params.date_format }}</span></p>
+					</div>
+					<hr />
+					<p>{{ .Content }}</p>
 				</div>
-			</div>
+			</div><!-- .col-md-7 close -->
 		</section>
 	</div>
 	<p class="center-text" style="padding: 30px;">

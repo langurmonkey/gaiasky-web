@@ -1,11 +1,10 @@
 +++
 title = "Privacy Policy"
+description = "Your privacy matters—learn how we don't collect your data"
 categories = ["Privacy"]
 author = "tsagrista"
 tags = ["website","privacy","principles"]
 +++
-
-# Privacy policy
 
 This site does not use cookies, tracking codes, analytics scripts or anything else that can be used to invade personal privacy.
 

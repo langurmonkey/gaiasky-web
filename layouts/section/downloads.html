@@ -7,25 +7,18 @@
 
 <body>
 	{{ partial "header.html" . }}
+	{{ partial "global-header.html" .Site.Params.downloads }}
 
-	{{ if isset .Params "id" }}
-	{{ partial .Params.id . }}
-	{{ else }}
+	<!-- Wrapper Start -->
 	<main>
 		<div class="page-content">
 			{{ partial "breadcrumbs.html" . }}
-			<div class="title">
-				<h1>{{ .Title }}</h1>
-				<description>{{ .Description }}</description>
-			</div>
 			{{ .Content }}
 		</div>
 	</main>
-	{{ end }}
+
 
 	{{ partial "footer.html" . }}
-
-
 </body>
 
 </html>

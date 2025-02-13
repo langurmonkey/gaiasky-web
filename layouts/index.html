@@ -18,8 +18,8 @@
 	{{ partial "wrapper.html" . }}
 	{{ end }}
 
-	{{ if and (isset .Site.Params "docs") (.Site.Params.docs.enable) }}
-	{{ partial "docs.html" . }}
+	{{ if and (isset .Site.Params "datasets") (.Site.Params.datasets.enable) }}
+	{{ partial "datasets.html" . }}
 	{{ end }}
 
 	{{ if and (isset .Site.Data "features") (.Site.Data.features.enable) }}

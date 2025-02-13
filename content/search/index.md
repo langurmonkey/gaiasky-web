@@ -5,11 +5,13 @@ weight = -170
 css = ["css/search.css"]
 +++
 
-<p>
+<div class="search-container">
 <input id="search" type="text" placeholder="Search...">
-</p>
+</div>
 
-<ul id="searchresults"></ul>
+<ul id="searchresults">
+Search results will appear here when they are ready
+</ul>
 
 <script src="/js/vendor/lunr.js"></script>
 <script>
