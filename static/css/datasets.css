@@ -13,11 +13,12 @@ summary h3 i {
   margin-left: 1em;
 }
 summary h3 code {
+  color: var(--accent-color);
   font-variant: normal;
   font-size: 0.6em;
   font-weight: bold;
   text-shadow: none;
-  background-color: #999;
+  background-color: var(--bg-color-light);
 }
 details {
   background-color: #2f2f2f;
