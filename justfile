@@ -22,7 +22,7 @@ hugo:
     hugo
 
 # Deploys the site to github pages (project gaiasky-pages)
-deploy: clean hugo
+deploy: stop clean hugo
     git -C {{DEPLOY_TARGET}} pull
     rsync -avh --delete --exclude={'.git','.gitignore','.gitmodules'} public/ {{DEPLOY_TARGET}}
     git -C {{DEPLOY_TARGET}} add .
