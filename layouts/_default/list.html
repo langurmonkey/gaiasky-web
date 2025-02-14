@@ -19,18 +19,15 @@
 			<!-- Paginate and loop through the pages -->
 			{{ $paginated := .Paginate (where .Pages "Type" "news") }}
 			{{ range $paginated.Pages }}
-			<a href="{{ .Permalink }}" class="bold">{{ .Title }}</a>
+			<a href="{{ .Permalink }}" class="bold">{{ .Title | markdownify }}</a>
 			<p class="italic">By <span class="author bold">{{ .Params.author }}</span> on <time class="published"
 					datetime="{{ .Date }}" title="Published: {{ .Date }}">{{
 					.Date.Format
 					.Site.Params.date_format }}</time>
-				{{- if .Lastmod }}
-				{{- $pubdate := ($.Date).Format "02 Jan" }}
-				{{- $lastmod := .Lastmod.Format "02 Jan" }}
-				{{- if ne $lastmod $pubdate }}
-				<i class="fa-solid fa-pen-nib last-update" aria-hidden="true" title="Updated: {{ .Lastmod }}"></i>
-				{{- end }}
-				{{- end }}
+				{{ if and (.GitInfo) (ne (.GitInfo.AuthorDate) .Date) }}
+				<i class="fa-solid fa-pen-nib last-update" aria-hidden="true"
+					title="{{ .GitInfo.AuthorDate.Format .Site.Params.date_format }}"></i>
+				{{ end }}
 
 			</p>
 			<p>{{ .Summary }}</p>

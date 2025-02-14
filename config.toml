@@ -2,6 +2,10 @@ title = "Gaia Sky"
 baseURL =  ""
 languageCode = "en-us"
 theme = [ "hugo-easy-gallery" ]
+preserveTaxonomyNames = true
+enableRobotsTXT = true
+uglyurls = false
+enableGitInfo = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
