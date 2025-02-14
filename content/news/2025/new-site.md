@@ -1,7 +1,7 @@
 +++
 title = "New homepage"
 description = "We have a new homepage!"
-date = "2025-01-31"
+date = "2025-01-31T09:41:55Z"
 tags = ["website"]
 author = "tsagrista"
 categories = ["website", "announcement"]

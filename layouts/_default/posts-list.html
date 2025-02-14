@@ -26,8 +26,7 @@
             datetime="{{ .Date }}" title="Published: {{ .Date }}">{{ .Date.Format .Site.Params.date_format
             }}</time>
           {{ if and (.GitInfo) (ne (.GitInfo.AuthorDate) .Date) }}
-          <i class="fa-solid fa-pen-nib last-update" aria-hidden="true"
-            title="{{ .GitInfo.AuthorDate.Format .Site.Params.date_format }}"></i>
+          <i class="fa-solid fa-pen-nib last-update" aria-hidden="true" title="Updated: {{ .GitInfo.AuthorDate }}"></i>
           {{ end }}
         </span>
       </div>

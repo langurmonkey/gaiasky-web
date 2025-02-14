@@ -1,6 +1,6 @@
 +++
 title = "Gaia Sky 3.6.5"
-date = "2025-01-15"
+date = "2025-01-15T09:41:55Z"
 tags = ["release"]
 author = "tsagrista"
 categories = ["release", "version"]

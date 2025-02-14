@@ -1,7 +1,7 @@
 +++
 title = "New Flatpak app ID"
 description = "We have a new app ID for our Flatpak package"
-date = "2025-02-14T08:20:02"
+date = "2025-02-14T09:00:20Z"
 tags = ["flatpak", "appid", "linux"]
 author = "tsagrista"
 categories = ["Flatpak"]
