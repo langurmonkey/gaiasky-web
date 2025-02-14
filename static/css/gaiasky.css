@@ -73,8 +73,8 @@ h3 {
 h1:before,
 h2:before,
 h3:before {
-  content: '▶';
-  font-size: 0.6em;
+  content: '●';
+  font-size: 0.4em;
   vertical-align: middle;
   margin-right: 0.3em;
   margin-bottom: 8px;
@@ -82,8 +82,8 @@ h3:before {
   display: inline-block;
 }
 h3:before {
-  content: "▶\00a0";
-  font-size: 0.4em;
+  content: "●\00a0";
+  font-size: 0.3em;
   color: var(--text-color);
 }
 p {

@@ -17,7 +17,7 @@
 					list</a></p>
 
 			<!-- Paginate and loop through the pages -->
-			{{ $paginated := .Paginate (where .Pages "Section" "news") }}
+			{{ $paginated := .Paginate (where .Pages "Type" "news") }}
 			{{ range $paginated.Pages }}
 			<a href="{{ .Permalink }}" class="bold">{{ .Title }}</a>
 			<p class="italic">By <span class="bold">{{ .Params.author }}</span> on <span class="bold">{{ .Date.Format

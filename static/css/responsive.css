@@ -1,12 +1,13 @@
 @media only screen and (min-width: 991px) and (max-width: 1500px) {
-  div.page-content {
-    margin: 2em 20em !important;
-  }
   .post-area {
     padding: 1em 15em !important;
   }
   .posts-list {
     padding: 1em 15em !important;
+  }
+  section#post-content,
+  div.page-content {
+    margin: 2em 20em !important;
   }
 }
 /*		Default Layout: 992px. 
@@ -30,6 +31,7 @@ px      68    160    252    344    436    528    620    712    */
   #global-header .block p {
     font-size: 1.3em;
   }
+  section#post-content,
   div.page-content {
     margin: 1em 10em !important;
   }
@@ -164,6 +166,7 @@ px      68    160    252    */
   #global-header .block p {
     font-size: 1.2em;
   }
+  section#post-content,
   div.page-content {
     margin: 1em 5em !important;
   }
@@ -195,9 +198,14 @@ px      68    160    252    */
   /* --------------------------------
     Posts
   -----------------------------------*/
-   div.post-area a.bold {
+  section#post-content h1,
+  div.post-area a.bold {
     font-size: 2.2em;
-   }
+  }
+  section#post-content .post-info-wrapper,
+  section#post-content div.title description {
+    margin-left: 1.3em;
+  }
   header .navbar-default .navbar-toggle {
     margin-bottom: 0px;
     margin-top: 0px;
@@ -438,15 +446,21 @@ px      68    160    252    344    436    */
   #slider button#download-button > span.title {
     font-size: 1.5em;
   }
+  section#post-content,
   div.page-content {
     margin: 0.5em 0.8em !important;
   }
   /* --------------------------------
     Posts
   -----------------------------------*/
-   div.post-area a.bold {
+  section#post-content h1,
+  div.post-area a.bold {
     font-size: 1.7em;
-   }
+  }
+  section#post-content .post-info-wrapper,
+  section#post-content div.title description {
+    margin-left: 1.0em;
+  }
   .posts-list {
     padding: 0.8em !important;
   }

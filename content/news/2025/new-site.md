@@ -13,5 +13,5 @@ It is easier to add content to, and easier to maintain. I also happen to think i
 
 The canonical URL, for now, is this:
 
-[https://gaia.ari.uni-heidelberg.de/gaiasky](https://gaia.ari.uni-heidelberg.de/gaiasky)
+[https://gaiasky.space](https://gaiasky.space)
 
