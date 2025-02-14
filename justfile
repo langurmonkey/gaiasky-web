@@ -6,7 +6,7 @@ serve:
 
 # Stop the local server
 stop:
-    pkill hugo
+    pkill hugo || true
 
 # Cleans the generated site
 clean:
@@ -21,6 +21,7 @@ datasets:
 hugo:
     hugo
 
+alias publish := deploy
 # Deploys the site to github pages (project gaiasky-pages)
 deploy: stop clean hugo
     git -C {{DEPLOY_TARGET}} pull
