@@ -1,15 +1,18 @@
+section.download-links {
+  margin-bottom: 5em;
+}
+div.package {
+  float:left;
+  margin-right: 1.3em;
+}
+div.signature a {
+  opacity: 0.6;
+}
 section.release-notes {
   padding: 0em 2em 2em 2em;
   background-color: var(--bg-color-light);
   border-radius: 20px;
   margin-top: 2em;
-}
-section.release-notes h1:before,
-section.release-notes h2:before,
-section.release-notes h3:before {
-  content: '';
-  margin: 0;
-  display: none;
 }
 section.release-notes ul {
   margin-left: 18px;

@@ -10,7 +10,7 @@ BASE_URL = "https://gaia.ari.uni-heidelberg.de/gaiasky/releases/"
 OUTPUT_DIR = "content/downloads/releases"  # Adjust to Hugo content directory
 
 # Regex pattern to match version numbers: major.minor.rev[-patch].build
-VERSION_PATTERN = re.compile(r"\d+\.\d+\.\d+\.[0-9a-f]{7,}")
+VERSION_PATTERN = re.compile(r"\d+\.\d+\.\d+(?:-\d+)?\.[0-9a-f]{7,}")
 
 def parse_date(date_str):
     """Convert release date string to Hugo-compatible format (YYYY-MM-DDTHH:MM:SS)."""
@@ -22,7 +22,7 @@ def parse_date(date_str):
 
 def split_version(version):
     """Split the version into (version, build) components."""
-    match = re.match(r"(\d+\.\d+\.\d+(?:\.\d+)?)(\.[0-9a-f]{7,})$", version)
+    match = re.match(r"(\d+\.\d+\.\d+(?:-\d+)?)(\.[0-9a-f]{7,})$", version)
     if match:
         return match.group(1), match.group(2)[1:]  # Remove the leading dot from the build
     return version, None  # Return None if no build hash is found
@@ -60,7 +60,7 @@ def generate_markdown(version, release_date):
     vers, build = split_version(version)
     
     download_links = [
-        f"[{link.text}]({release_url}{link.get('href')})"
+        (link.text, release_url, link.get('href'))
         for link in links
         if link.get('href') and link.get('href') not in ('../', 'updates.xml') and not link.get('href').startswith('releasenotes.')
     ]
@@ -73,7 +73,18 @@ css = ["css/releases.css"]
 +++
 """
     
-    content = f"{front_matter}\n<section class=\"download-links\">\n\n" + '\n'.join(f"- {dl}" for dl in download_links)
+    content = f"{front_matter}\n<section class=\"download-links\">\n\n"
+
+    for dl in download_links:
+        if ".sig" in dl[0]:
+            content += "<div class=\"signature\">\n\n"
+            content += f"[{dl[0]}]({dl[1]}{dl[2]})\n\n"
+            content += "</div>\n"
+        else:
+            content += "<div class=\"package\">\n\n"
+            content += f"[{dl[0]}]({dl[1]}{dl[2]})\n\n"
+            content += "</div>\n"
+        
     content += "\n\n</section>\n"
 
     
@@ -110,7 +121,7 @@ type = "releases"
 +++
 """
     
-    content = f"{front_matter}\n## Available Releases\n\n" + '\n'.join(f"- [{version}](./v{version}/) ({releasedate})" for version, releasedate in releases)
+    content = f"{front_matter}\n## Gaia Sky releases\n\n" + '\n'.join(f"- [{version}](./v{version}/) ({releasedate})" for version, releasedate in releases)
     
     output_path = Path(OUTPUT_DIR) / "_index.md"
     with open(output_path, "w", encoding="utf-8") as f:

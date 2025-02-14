@@ -17,6 +17,10 @@
         font-size: 1.0em;
     }
 }
+.download-section h2 {
+    font-size: 2em;
+    font-variant: normal;
+}
 .download-windows h2:before {
     font-weight: 100;
     font-family: 'Font Awesome 6 Brands';
@@ -25,7 +29,7 @@
     mask-image: none;
     -webkit-mask-image: none;
     background-color: transparent;
-    margin-right: 0.7em;
+    margin-right: 0.4em;
     color: var(--accent-color);
 }
 .download-macos h2:before {
@@ -36,7 +40,7 @@
     mask-image: none;
     -webkit-mask-image: none;
     background-color: transparent;
-    margin-right: 0.7em;
+    margin-right: 0.4em;
     color: var(--accent-color);
 }
 .download-linux h2:before {
@@ -47,7 +51,7 @@
     mask-image: none;
     -webkit-mask-image: none;
     background-color: transparent;
-    margin-right: 0.7em;
+    margin-right: 0.4em;
     color: var(--accent-color);
 }
 .download-os h2:before {
@@ -58,7 +62,7 @@
     mask-image: none;
     -webkit-mask-image: none;
     background-color: transparent;
-    margin-right: 0.7em;
+    margin-right: 0.4em;
     color: var(--accent-color);
 }
 .download-source h2:before {
@@ -69,7 +73,7 @@
     mask-image: none;
     -webkit-mask-image: none;
     background-color: transparent;
-    margin-right: 0.7em;
+    margin-right: 0.4em;
     color: var(--accent-color);
 }
 .download-section {
