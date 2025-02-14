@@ -7,7 +7,7 @@ author = "tsagrista"
 categories = ["Flatpak"]
 +++
 
-Our Flatpak package, published via [Flathub](https://flathub.org), has been updated to a new app ID `space.gaiasky.GaiaSky`. This has been done to match the domain of our new website [gaiasky.space](https://gaiasky.space). Additionally, this has enabled us to verify the application, which was impossible with the old `de.uni_heidelberg.zah.GaiaSky` ID, as we did not control that domain.
+Our Flatpak package, published via [Flathub](https://flathub.org), has been updated to a new app ID [`space.gaiasky.GaiaSky`](https://flathub.org/apps/space.gaiasky.GaiaSky). This has been done to match the domain of our new website [gaiasky.space](https://gaiasky.space). Additionally, this has enabled us to verify the application, which was impossible with the old `de.uni_heidelberg.zah.GaiaSky` ID, as we did not control that domain.
 
 {{< fig src="img/2025/02/flathub.jpg" class="fig-center fig-post" title="Gaia Sky is now veryfied on Flathub." loading="lazy" >}}
 

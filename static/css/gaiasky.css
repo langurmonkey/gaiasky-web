@@ -109,7 +109,14 @@ a:hover {
 code {
   padding: 2px 4px;
   font-size: 90%;
-  color: #c7254e;
+  color: var(--code-color);
+  background-color: #343434;
+  border-radius: 4px;
+}
+a code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: var(--link-color);
   background-color: #343434;
   border-radius: 4px;
 }
