@@ -20,6 +20,14 @@ def parse_date(date_str):
     except ValueError:
         return "Unknown"
 
+def split_version(version):
+    """Split the version into (version, build) components."""
+    match = re.match(r"(\d+\.\d+\.\d+(?:\.\d+)?)(\.[0-9a-f]{7,})$", version)
+    if match:
+        return match.group(1), match.group(2)[1:]  # Remove the leading dot from the build
+    return version, None  # Return None if no build hash is found
+
+
 def fetch_releases():
     """Fetch the list of releases from the Gaia Sky releases page."""
     response = requests.get(BASE_URL)
@@ -39,6 +47,7 @@ def fetch_releases():
     
     return sorted(releases, key=lambda x: x[1], reverse=True)  # Sort by date descending
 
+
 def generate_markdown(version, release_date):
     """Generate markdown content for a given release version."""
     release_url = f"{BASE_URL}{version}/"
@@ -47,19 +56,44 @@ def generate_markdown(version, release_date):
     
     soup = BeautifulSoup(response.text, 'html.parser')
     links = soup.find_all('a')
+
+    vers, build = split_version(version)
     
-    download_links = [f"[{link.text}]({release_url}{link.get('href')})" for link in links if link.get('href') and link.get('href') != '../']
+    download_links = [
+        f"[{link.text}]({release_url}{link.get('href')})"
+        for link in links
+        if link.get('href') and link.get('href') not in ('../', 'updates.xml') and not link.get('href').startswith('releasenotes.')
+    ]
     
     front_matter = f"""+++
-title = "Gaia Sky {version}"
+title = "{vers} ({release_date})"
 date = "{release_date}"
 type = "page"
+css = ["css/releases.css"]
 +++
 """
     
-    content = f"{front_matter}\n## Download Links\n\n" + '\n'.join(f"- {dl}" for dl in download_links)
+    content = f"{front_matter}\n<section class=\"download-links\">\n\n" + '\n'.join(f"- {dl}" for dl in download_links)
+    content += "\n\n</section>\n"
+
+    
+        # Fetch release notes if available
+    release_notes_url = f"{release_url}releasenotes.md"
+    release_notes_response = requests.get(release_notes_url)
+    if release_notes_response.status_code == 200:
+        lines = release_notes_response.text.splitlines()
+        filtered_lines = []
+        skip_header = True
+        for line in lines:
+            if skip_header and re.match(r"^# ", line.strip()):
+                continue
+            skip_header = False
+            filtered_lines.append(line)
+        content += f"\n<section class=\"release-notes\">\n\n# Release Notes\n\n" + '\n'.join(filtered_lines)
+        content += "\n\n</section>"
     
     return content
+
 
 def save_markdown(version, content):
     """Save the markdown file for a release."""
@@ -76,7 +110,7 @@ type = "releases"
 +++
 """
     
-    content = f"{front_matter}\n## Available Releases\n\n" + '\n'.join(f"- [{version}](./{version}/)" for version in releases)
+    content = f"{front_matter}\n## Available Releases\n\n" + '\n'.join(f"- [{version}](./v{version}/) ({releasedate})" for version, releasedate in releases)
     
     output_path = Path(OUTPUT_DIR) / "_index.md"
     with open(output_path, "w", encoding="utf-8") as f:
@@ -86,6 +120,7 @@ def main():
     releases = fetch_releases()
     
     for release, release_date in releases:
+        print(f"Processing {release}")
         markdown_content = generate_markdown(release, release_date)
         save_markdown(release, markdown_content)
     
