@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# This script updates the dates in the front matter of the
+# markdown files in /content/news with the creation date
+# stored in the git repo.
+
 for file in content/news/2025/*.md; do
     # Get the first commit date from Git
     first_commit_date=$(git log --reverse --format="%ad" --date=iso -- "$file" | head -n 1)

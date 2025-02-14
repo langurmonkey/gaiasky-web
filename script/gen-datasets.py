@@ -6,6 +6,8 @@ import os.path
 import math
 from millify import millify
 
+# Generates a datasets.md file from the online dataset descriptor file.
+
 # Function to convert bytes to a huma-readable format
 def sizeof_fmt(num, suffix="B"):
     for unit in ("", "Ki", "Mi", "Gi", "Ti", "Pi", "Ei", "Zi"):

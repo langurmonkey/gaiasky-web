@@ -4,6 +4,9 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 
+# This script generates a Hugo post for each Gaia Sky release
+# in the releases directory listing of the repository.
+
 def fetch_page(url):
     """Fetch the HTML content of a page."""
     response = requests.get(url)
