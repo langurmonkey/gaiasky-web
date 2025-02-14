@@ -1006,8 +1006,8 @@ figure.fig-post picture img {
   min-width: 266px;
 }
 figure.vid-post video {
-  width: 40%;
-  min-width: 320px;
+  width: 50%;
+  min-width: 266px;
 }
 /*--------- Pagination ------------*/
 .pagination {
