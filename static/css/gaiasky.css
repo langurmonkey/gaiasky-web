@@ -1024,3 +1024,11 @@ div.title description {
   font-style: italic;
   color: var(--text-dimmer-color);
 }
+time.published {
+  font-weight: 100;
+}
+i.last-update {
+  font-size: 0.8em;
+  margin-left: 0.5em;
+  color: var(--text-dimmer-color);
+}

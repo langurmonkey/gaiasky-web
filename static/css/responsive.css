@@ -166,6 +166,9 @@ px      68    160    252    */
   #global-header .block p {
     font-size: 1.2em;
   }
+  #breadcrumbs {
+    display: none;
+  }
   section#post-content,
   div.page-content {
     margin: 1em 5em !important;
@@ -411,6 +414,9 @@ px      68    160    252    344    436    */
 	device-pixel-ratio of 2+, such as iPhone 4.
 -----------------------------------------------    */
 @media only screen and (max-width: 480px) {
+  #breadcrumbs {
+    display: none;
+  }
   #global-header .block {
     padding-left: 5%;
   }
