@@ -1,9 +1,15 @@
 section.download-links {
   margin-bottom: 5em;
 }
+section.download-links div.download-block {
+  display: flex;
+}
 div.package {
-  float:left;
+  display: flex;
   margin-right: 1.3em;
+}
+div.signature {
+  display: flex;
 }
 div.signature a {
   opacity: 0.6;

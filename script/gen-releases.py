@@ -64,6 +64,18 @@ def generate_markdown(version, release_date):
         for link in links
         if link.get('href') and link.get('href') not in ('../', 'updates.xml') and not link.get('href').startswith('releasenotes.')
     ]
+
+    links = []
+    for dl_tuple in download_links:
+        if not dl_tuple[0].endswith(".sig"):
+            found = False
+            for other in download_links:
+                if not found and not dl_tuple[0].endswith(".sig") and dl_tuple[0] != other[0] and dl_tuple[0] + ".sig" == other[0]:
+                    links.append((dl_tuple[0], dl_tuple[1], dl_tuple[0], other))
+                    found = True
+            if not found:
+                links.append((dl_tuple[0], dl_tuple[1], dl_tuple[0], None))
+            
     
     front_matter = f"""+++
 title = "{vers} ({release_date})"
@@ -75,20 +87,26 @@ css = ["css/releases.css"]
     
     content = f"{front_matter}\n<section class=\"download-links\">\n\n"
 
-    for dl in download_links:
-        if ".sig" in dl[0]:
-            content += "<div class=\"signature\">\n\n"
-            content += f"[{dl[0]}]({dl[1]}{dl[2]})\n\n"
+    pack = 0
+    for dl in links:
+        link = f"{dl[1]}{dl[2]}"
+        content += "<div class=\"download-block\">\n"
+        content += "<div class=\"package\">\n"
+        content += f"<a href=\"{link}\">{dl[0]}</a>\n"
+        content += "</div>\n"
+
+        if dl[3]:
+            link = f"{dl[3][1]}{dl[3][2]}"
+            content += "<div class=\"signature\">\n"
+            content += f"<a href=\"{link}\">{dl[3][0]}</a>\n"
             content += "</div>\n"
-        else:
-            content += "<div class=\"package\">\n\n"
-            content += f"[{dl[0]}]({dl[1]}{dl[2]})\n\n"
-            content += "</div>\n"
+
+        content += "</div>\n"
         
     content += "\n\n</section>\n"
 
     
-        # Fetch release notes if available
+    # Fetch release notes if available
     release_notes_url = f"{release_url}releasenotes.md"
     release_notes_response = requests.get(release_notes_url)
     if release_notes_response.status_code == 200:
@@ -119,9 +137,14 @@ def generate_index(releases):
 title = "Gaia Sky Releases"
 type = "releases"
 +++
+
+## Gaia Sky releases
+
+Below is a listing of all the past releases of Gaia Sky. We do not offer support for old releases, but they may still work. Use them at your own risk.
+
 """
     
-    content = f"{front_matter}\n## Gaia Sky releases\n\n" + '\n'.join(f"- [{version}](./v{version}/) ({releasedate})" for version, releasedate in releases)
+    content = f"{front_matter}\n" + '\n'.join(f"- [{version}](./v{version}/) ({releasedate})" for version, releasedate in releases)
     
     output_path = Path(OUTPUT_DIR) / "_index.md"
     with open(output_path, "w", encoding="utf-8") as f:

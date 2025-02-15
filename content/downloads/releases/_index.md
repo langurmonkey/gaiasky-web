@@ -1,9 +1,12 @@
 +++
-title = "Gaia Sky releases"
+title = "Gaia Sky Releases"
 type = "releases"
 +++
 
 ## Gaia Sky releases
+
+Below is a listing of all the past releases of Gaia Sky. We do not offer support for old releases, but they may still work. Use them at your own risk.
+
 
 - [3.6.6.caf73d2de](./v3.6.6.caf73d2de/) (2025-01-24T09:05:00)
 - [3.6.5.a7ae14f4d](./v3.6.5.a7ae14f4d/) (2025-01-15T14:25:00)
