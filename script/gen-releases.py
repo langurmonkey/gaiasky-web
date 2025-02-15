@@ -48,16 +48,15 @@ def fetch_releases():
     return sorted(releases, key=lambda x: x[1], reverse=True)  # Sort by date descending
 
 
-def generate_markdown(version, release_date):
+def generate_markdown(version, build, release_date):
     """Generate markdown content for a given release version."""
-    release_url = f"{BASE_URL}{version}/"
+    release = f"{version}.{build}"
+    release_url = f"{BASE_URL}{release}/"
     response = requests.get(release_url)
     response.raise_for_status()
     
     soup = BeautifulSoup(response.text, 'html.parser')
     links = soup.find_all('a')
-
-    vers, build = split_version(version)
     
     download_links = [
         (link.text, release_url, link.get('href'))
@@ -88,7 +87,7 @@ css = ["css/downloads.css", "css/releases.css"]
     
     content = f"{front_matter}\n<div class=\"download-container\">\n"
     content += f"<div id=\"download-title\">\n"
-    content += f"Gaia Sky <span class=\"downloads-version\">{vers}</span> — "
+    content += f"Gaia Sky <span class=\"downloads-version\">{version}</span> — "
     content += f"<span class=\"downloads-releasedate\">{short_date}</span></div>\n"
     content += f"<div class=\"downloads-build\">Build {build}</div>\n"
     content += f"<div class=\"download-section\">\n"
@@ -148,6 +147,7 @@ def generate_index(releases):
     front_matter = f"""+++
 title = "Gaia Sky Releases"
 type = "releases"
+layout = "releases"
 +++
 
 ## Gaia Sky releases
@@ -156,7 +156,11 @@ Below is a listing of all the past releases of Gaia Sky. We do not offer support
 
 """
     
-    content = f"{front_matter}\n" + '\n'.join(f"- [{version}](./v{version}/) ({releasedate})" for version, releasedate in releases)
+    content = f"{front_matter}\n"
+
+    for release, releasedate in releases:
+        version, build = split_version(release)
+        content += f"- [{version}](./v{version}) -- {releasedate}\n"
     
     output_path = Path(OUTPUT_DIR) / "_index.md"
     with open(output_path, "w", encoding="utf-8") as f:
@@ -167,8 +171,9 @@ def main():
     
     for release, release_date in releases:
         print(f"Processing {release}")
-        markdown_content = generate_markdown(release, release_date)
-        save_markdown(release, markdown_content)
+        version, build = split_version(release)
+        markdown_content = generate_markdown(version, build, release_date)
+        save_markdown(version, markdown_content)
     
     generate_index(releases)
     print("Markdown files generated successfully!")
