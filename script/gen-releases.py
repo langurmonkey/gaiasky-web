@@ -76,34 +76,38 @@ def generate_markdown(version, release_date):
             if not found:
                 links.append((dl_tuple[0], dl_tuple[1], dl_tuple[0], None))
             
-    
+    short_date = datetime.strptime(release_date, "%Y-%m-%dT%H:%M:%S").strftime("%Y-%m-%d")
+
     front_matter = f"""+++
-title = "{vers} ({release_date})"
+title = ""
 date = "{release_date}"
 type = "page"
-css = ["css/releases.css"]
+css = ["css/downloads.css", "css/releases.css"]
 +++
 """
     
-    content = f"{front_matter}\n<section class=\"download-links\">\n\n"
+    content = f"{front_matter}\n<div class=\"download-container\">\n"
+    content += f"<div id=\"download-title\">\n"
+    content += f"Gaia Sky <span class=\"downloads-version\">{vers}</span> — "
+    content += f"<span class=\"downloads-releasedate\">{short_date}</span></div>\n"
+    content += f"<div class=\"downloads-build\">Build {build}</div>\n"
+    content += f"<div class=\"download-section\">\n"
 
     pack = 0
     for dl in links:
         link = f"{dl[1]}{dl[2]}"
-        content += "<div class=\"download-block\">\n"
-        content += "<div class=\"package\">\n"
-        content += f"<a href=\"{link}\">{dl[0]}</a>\n"
-        content += "</div>\n"
+        content += f"<a href=\"{link}\" class=\"download-button\">{dl[0]}</a>\n"
 
         if dl[3]:
             link = f"{dl[3][1]}{dl[3][2]}"
-            content += "<div class=\"signature\">\n"
-            content += f"<a href=\"{link}\">{dl[3][0]}</a>\n"
-            content += "</div>\n"
+            content += "<span class=\"signature\">\n"
+            content += f"<a href=\"{link}\">signature</a>  by  <a href=\"https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index\">tsagrista</a>\n"
+            content += "</span>\n"
+        else:
+            content += "<span class=\"signature\">no signature</span>\n"
 
-        content += "</div>\n"
         
-    content += "\n\n</section>\n"
+    content += "</div>\n</div>\n"
 
     
     # Fetch release notes if available
@@ -119,7 +123,15 @@ css = ["css/releases.css"]
             skip_header = False
             filtered_lines.append(line)
         content += f"\n<section class=\"release-notes\">\n\n# Release Notes\n\n" + '\n'.join(filtered_lines)
-        content += "\n\n</section>"
+        content += "\n</section>\n\n"
+
+    footer = """
+<p class="center-text" style="padding: 30px;">
+<i class="fa-solid fa-circle-arrow-left"></i> <a href="/downloads/releases">Back to releases</a>
+</p>
+"""
+
+    content += f"{footer}"
     
     return content
 

@@ -1,18 +1,13 @@
-section.download-links {
-  margin-bottom: 5em;
+div.downloads-build {
+  font-family: monospace;
+  text-align: center;
 }
-section.download-links div.download-block {
-  display: flex;
+.download-container {
+  max-width: 630px;
 }
-div.package {
-  display: flex;
-  margin-right: 1.3em;
-}
-div.signature {
-  display: flex;
-}
-div.signature a {
-  opacity: 0.6;
+.download-button {
+  margin-right: 2em;
+  max-width: 370px;
 }
 section.release-notes {
   padding: 0em 2em 2em 2em;
