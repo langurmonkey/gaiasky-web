@@ -87,8 +87,10 @@ css = ["css/downloads.css", "css/releases.css"]
     
     content = f"{front_matter}\n<div class=\"download-container\">\n"
     content += f"<div id=\"download-title\">\n"
+    content += "<i class=\"fa-solid fa-tag\"></i>\n"
     content += f"Gaia Sky <span class=\"downloads-version\">{version}</span> — "
-    content += f"<span class=\"downloads-releasedate\">{short_date}</span></div>\n"
+    content += "<i class=\"fa-solid fa-clock\"></i>\n"
+    content += f"<time class=\"downloads-releasedate\" datetime=\"{release_date}\" title=\"Published: {release_date}\">{short_date}</time></div>\n"
     content += f"<div class=\"downloads-build\">Build {build}</div>\n"
     content += f"<div class=\"download-section\">\n"
 
@@ -145,26 +147,42 @@ def save_markdown(version, content):
 def generate_index(releases):
     """Generate the index page listing all releases."""
     front_matter = f"""+++
-title = "Gaia Sky Releases"
+title = "Old Releases"
 type = "releases"
 layout = "releases"
+css = ["css/releases.css"]
 +++
 
-## Gaia Sky releases
+## Old Releases
 
 Below is a listing of all the past releases of Gaia Sky. We do not offer support for old releases, but they may still work. Use them at your own risk.
 
 """
     
-    content = f"{front_matter}\n"
+    content = f"{front_matter}\n<section class=\"releases-list\">\n"
 
     for release, releasedate in releases:
         version, build = split_version(release)
-        content += f"- [{version}](./v{version}) -- {releasedate}\n"
+        short_date = datetime.strptime(releasedate, "%Y-%m-%dT%H:%M:%S").strftime("%Y-%m-%d")
+        content += "<div class=\"releaseentry\">\n"
+        content += f"<a href=\"./v{version}\" class=\"versionlink\">\n"
+        content += "<i class=\"fa-solid fa-tag\"></i>\n"
+        content += "<div class=\"release\">\n"
+        content += f"Gaia Sky {version}\n</div>\n"
+        content += f"<code class=\"build\">{build}</code>\n"
+        content += "<div class=\"releasedate\">\n"
+        content += "<i class=\"fa-solid fa-clock\"></i>\n"
+        content += f"<time datetime=\"{releasedate}\" title=\"Published: {releasedate}\">{short_date}</time></div>\n"
+        content += "</a>\n"
+        content += "</div>\n"
+
+    content += "</section>\n"
     
     output_path = Path(OUTPUT_DIR) / "_index.md"
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(content)
+
+    
 
 def main():
     releases = fetch_releases()
