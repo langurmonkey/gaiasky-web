@@ -321,6 +321,7 @@ div#breadcrumbs ul >  li:first-child {
   position: absolute;
   left:0;
   bottom: 0;
+  fill: var(--bg-color);
 }
 /*--
 	intro Start
