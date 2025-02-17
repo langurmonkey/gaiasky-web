@@ -824,6 +824,9 @@ div.post-area {
 p.posts-list-button {
   font-variant: small-caps;
   font-size: 1.5em;
+  background-color: var(--bg-color-light);
+  border-radius: 10px;
+  margin-top: 1em;
 }
 div.posts-list {
   padding: 1em 30em 5em 30em;

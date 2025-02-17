@@ -1,71 +1,75 @@
 <div class="download-container">
   <div id="download-title">
-    Gaia Sky <span class="downloads-version">{{ .Site.Params.version }}</span> &mdash; <span
-      class="downloads-releasedate">{{ .Site.Params.releaseDate }}</span>
+    <i class="fa-solid fa-tag"></i> Gaia Sky <span class="downloads-version">{{ .Site.Params.Release.version }}</span>
+    <time class="downloads-releasedate" datetime="{{ .Site.Params.Release.Date }}"
+      title="Published: {{ .Site.Params.Release.Date }}"><i class="fa-solid fa-calendar"></i> {{
+      .Site.Params.Release.Date
+      }}</time>
+    <div class="downloads-build">Build {{ .Site.Params.Release.Build }}</div>
   </div>
   <div class="download-section download-windows">
     <h2>Windows</h2>
-    <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_windows-x64_{{ .Site.Params.versionFlat }}.exe"
+    <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_windows-x64_{{ .Site.Params.Release.versionFlat }}.exe"
       class="download-button" aria-label="Download Gaia Sky for Windows"><i class="fa-brands fa-windows"></i> Windows
       <code>.exe</code>
       <span class="download-sub">For Windows 10/11 x86_64</span>
     </a>
     <span class="signature"><a
-        href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_windows-x64_{{ .Site.Params.versionFlat }}.exe.sig">signature</a>
+        href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_windows-x64_{{ .Site.Params.Release.versionFlat }}.exe.sig">signature</a>
       by <a
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a></span>
   </div>
   <div class="download-section download-macos">
     <h2>macOS</h2>
-    <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_macos_{{ .Site.Params.versionFlat }}.dmg"
+    <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_macos_{{ .Site.Params.Release.versionFlat }}.dmg"
       class="download-button" aria-label="Download Gaia Sky for macOS (Apple Silicon and x86_64)"><i
         class="fa-brands fa-apple"></i> macOS
       <code>.dmg</code>
       <span class="download-sub">Apple Silicon and x86_64</span>
     </a>
     <span class="signature"><a
-        href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_macos_{{ .Site.Params.versionFlat }}.dmg.sig">signature</a>
+        href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_macos_{{ .Site.Params.Release.versionFlat }}.dmg.sig">signature</a>
       by <a
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a></span>
   </div>
   <div class="download-section download-linux">
     <h2>Linux</h2>
-    <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_{{ .Site.Params.versionFlat }}.deb"
+    <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_{{ .Site.Params.Release.versionFlat }}.deb"
       class="download-button" aria-label="Download Gaia Sky for Linux (DEB)"><i class="fa-brands fa-debian"></i>
       DEB package <code>.deb</code>
       <span class="download-sub">Debian, Ubuntu, Mint</span>
     </a>
     <span class="signature"><a
-        href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_{{ .Site.Params.versionFlat }}.deb.sig">signature</a>
+        href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_{{ .Site.Params.Release.versionFlat }}.deb.sig">signature</a>
       by <a
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a></span>
-    <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_{{ .Site.Params.versionFlat }}.rpm"
+    <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_{{ .Site.Params.Release.versionFlat }}.rpm"
       class="download-button" aria-label="Download Gaia Sky for Linux (RPM)"><i class="fa-brands fa-fedora"></i>
       RPM package <code>.rpm</code>
       <span class="download-sub">Red Hat, Fedora, SUSE</span>
     </a>
     <span class="signature"><a
-        href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_{{ .Site.Params.versionFlat }}.rpm.sig">signature</a>
+        href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_{{ .Site.Params.Release.versionFlat }}.rpm.sig">signature</a>
       by <a
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a></span>
-    <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_{{ .Site.Params.versionRevision }}_x86_64.appimage"
+    <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_{{ .Site.Params.Release.versionBuild }}_x86_64.appimage"
       class="download-button" aria-label="Download Gaia Sky for Linux (AppImage)"><i
         class="fa-solid fa-box-archive"></i> AppImage
       <code>.AppImage</code>
       <span class="download-sub">Distro-agnostic self-contained package</span>
     </a>
     <span class="signature"><a
-        href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_{{ .Site.Params.versionRevision }}_x86_64.appimage.sig">signature</a>
+        href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_{{ .Site.Params.Release.versionBuild }}_x86_64.appimage.sig">signature</a>
       by <a
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a></span>
-    <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_{{ .Site.Params.versionFlat }}.sh"
+    <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_{{ .Site.Params.Release.versionFlat }}.sh"
       class="download-button" aria-label="Download Gaia Sky for Linux (.sh installer)"><i class="fa fa-terminal"></i>
       UNIX installer
       <code>.sh</code>
       <span class="download-sub">Distro-agnositc installer</span>
     </a>
     <span class="signature"><a
-        href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_{{ .Site.Params.versionFlat }}.sh.sig">signature</a>
+        href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_{{ .Site.Params.Release.versionFlat }}.sh.sig">signature</a>
       by <a
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a></span>
     <a href="https://aur.archlinux.org/packages/gaiasky/" class="download-button"
@@ -81,14 +85,14 @@
   </div>
   <div class="download-section download-os">
     <h2>OS-agnostic</h2>
-    <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky-{{ .Site.Params.versionRevision }}.tar.gz"
+    <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky-{{ .Site.Params.Release.versionBuild }}.tar.gz"
       class="download-button" aria-label="Download Gaia Sky as a .tar.gz tarball"><i
         class="fa-solid fa-file-zipper"></i> TGZ package
       <code>.tar.gz</code>
       <span class="download-sub">Extract and run</span>
     </a>
     <span class="signature"><a
-        href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky-{{ .Site.Params.versionRevision }}.tar.gz.sig">signature</a>
+        href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky-{{ .Site.Params.Release.versionBuild }}.tar.gz.sig">signature</a>
       by <a
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a></span>
   </div>
@@ -100,11 +104,11 @@
     </a>
   </div>
   <div class="download-bottom-links">
-    <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/releasenotes.html" class="external-link"
-      target="_blank" title="Opens in a new window">Release notes</a>&nbsp; • &nbsp;<a
-      href="https://codeberg.org/gaiasky/gaiasky/src/branch/master/CHANGELOG.md" class="external-link" target="_blank"
-      title="Opens in a new window">Change log</a>&nbsp; • &nbsp;<a href="/downloads/releases" class="external-link"
-      title="Browse old releases">Old versions</a>
+    <a href="{{ .Site.Params.Release.Post }}"
+      title="Release notes for Gaia Sky {{ .Site.Params.Release.version }}">Release
+      notes</a>&nbsp; • &nbsp;<a href="https://codeberg.org/gaiasky/gaiasky/src/branch/master/CHANGELOG.md"
+      class="external-link" target="_blank" title="Full change log">Change log</a>&nbsp; • &nbsp;<a
+      href="/downloads/releases" class="external-link" title="Browse old releases">Old versions</a>
   </div>
 
 </div>

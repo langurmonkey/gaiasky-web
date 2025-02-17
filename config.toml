@@ -54,15 +54,15 @@ enableGitInfo = true
 # The site's parameters
 [params]
 
-  # If you want to remove the copyright text you need a Themefisher license.
-  # This license is offered with a 50% discount for all Hugo users.
-  # For information see https://github.com/gohugoio/hugoThemes/issues/260
-
   date_format = "2 Jan 2006"
-  version = "3.6.6"
-  versionFlat = "3_6_6"
-  versionRevision = "3.6.6.caf73d2de"
-  releaseDate = 2025-01-24
+
+  [params.release]
+    version = "3.6.6"
+    versionFlat = "3_6_6"
+    versionBuild = "3.6.6.caf73d2de"
+    build = "caf73d2de"
+    date = 2025-01-24
+    post = "/news/2025/gaiasky_3.6.6"
 
 
   [params.meta]

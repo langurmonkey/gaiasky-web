@@ -41,4 +41,4 @@ Gaia Sky supports **Virtual Reality** via **OpenXR** on Linux and Windows. Use t
 
 The Gaia Sky installation only contains the raw program. If you actually need to run Gaia Sky you will need to download some data (catalogs, 3D models, textures, etc.). To do so, Gaia Sky contains an integrated [dataset manager](https://gaia.ari.uni-heidelberg.de/gaiasky/docs/master/Dataset-manager.html) to help you get the datasets you need. In case you need to run Gaia Sky in a machine without an internet connection or have problems with the built-in downloads, we offer direct downloads for all versions of all datasets. As a general rule of thumb, you should always get the most recent version.
 
-- [Gaia Sky data repository](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/)
+- [Gaia Sky datasets](/resources/datasets/)

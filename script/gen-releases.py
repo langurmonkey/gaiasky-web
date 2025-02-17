@@ -115,10 +115,9 @@ css = ["css/downloads.css", "css/releases.css"]
     content = f"{front_matter}\n<div class=\"download-container\">\n"
     content += f"<div id=\"download-title\">\n"
     content += "<i class=\"fa-solid fa-tag\"></i>\n"
-    content += f"Gaia Sky <span class=\"downloads-version\">{version}</span> — "
-    content += "<i class=\"fa-solid fa-clock\"></i>\n"
-    content += f"<time class=\"downloads-releasedate\" datetime=\"{release_date}\" title=\"Published: {release_date}\">{short_date}</time></div>\n"
-    content += f"<div class=\"downloads-build\">Build {build}</div>\n"
+    content += f"Gaia Sky <span class=\"downloads-version\">{version}</span> \n"
+    content += f"<time class=\"downloads-releasedate\" datetime=\"{release_date}\" title=\"Published: {release_date}\"><i class=\"fa-solid fa-calendar\"></i> {short_date}</time>\n"
+    content += f"<div class=\"downloads-build\">Build {build}</div></div>\n"
     content += f"<div class=\"download-section\">\n"
 
     pack = 0
@@ -236,7 +235,7 @@ You can also browse **all Gaia Sky** tags in our [repository](https://codeberg.o
         content += f"Gaia Sky {version}\n</div>\n"
         content += f"<code class=\"build\">{build}</code>\n"
         content += "<div class=\"releasedate\">\n"
-        content += "<i class=\"fa-solid fa-clock\"></i>\n"
+        content += "<i class=\"fa-solid fa-calendar\"></i>\n"
         content += f"<time datetime=\"{releasedate}\" title=\"Published: {releasedate}\">{short_date}</time></div>\n"
         content += "</a>\n"
         content += "</div>\n"
