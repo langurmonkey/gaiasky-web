@@ -10,6 +10,10 @@ enableGitInfo = true
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[services]
+  [services.rss]
+    limit = 50
+
 [menu]
 
   [[menu.header]]

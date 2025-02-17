@@ -2,6 +2,7 @@
 title = "Old Releases"
 type = "releases"
 layout = "releases"
+hidden = true
 css = ["css/releases.css"]
 +++
 

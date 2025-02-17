@@ -81,6 +81,7 @@ def generate_markdown(version, build, release_date):
 title = ""
 date = "{release_date}"
 type = "page"
+hidden = true
 css = ["css/downloads.css", "css/releases.css"]
 +++
 """
@@ -150,6 +151,7 @@ def generate_index(releases):
 title = "Old Releases"
 type = "releases"
 layout = "releases"
+hidden = true
 css = ["css/releases.css"]
 +++
 
