@@ -4,6 +4,7 @@ import requests
 from datetime import datetime
 from bs4 import BeautifulSoup
 from pathlib import Path
+from git import Repo
 
 # Base URL for Gaia Sky releases
 BASE_URL = "https://gaia.ari.uni-heidelberg.de/gaiasky/releases/"
@@ -27,6 +28,15 @@ def split_version(version):
         return match.group(1), match.group(2)[1:]  # Remove the leading dot from the build
     return version, None  # Return None if no build hash is found
 
+def get_tag_info(repo_path, tag_name):
+    repo = Repo(repo_path)
+    tag = repo.tags[tag_name]
+    commit = tag.commit
+    return {
+        "date": commit.committed_datetime,
+        "message": commit.message.strip()
+    }
+
 
 def fetch_releases():
     """Fetch the list of releases from the Gaia Sky releases page."""
@@ -39,13 +49,29 @@ def fetch_releases():
     for link in soup.find_all('a'):
         href = link.get('href')
         if href and VERSION_PATTERN.fullmatch(href.strip('/')):
-            version = href.strip('/')
+            version_build = href.strip('/')
+            version, build = split_version(version_build)
+
             date_text = link.next_sibling.string.strip() if link.next_sibling and link.next_sibling.string else ""
             date_match = re.match(r"(\d{2}-[A-Za-z]{3}-\d{4}\s+\d{1,2}:\d{2})", date_text)
             release_date = parse_date(date_match.group(1)) if date_match else "Unknown"
-            releases.append((version, release_date))
+            
+            # Get Git tag info
+            try:
+                gsdir = os.environ['GS']
+                if gsdir:
+                    tag = get_tag_info(gsdir, version)
+                    date = tag['date']
+                    date_fmt = date.strftime("%Y-%m-%dT%H:%M:%S") 
+                    release_date = date_fmt
+            except Exception as e:
+                # Ignore
+                print(f"Exception getting tag {version}: {e}")
+
+            
+            releases.append((version, build, release_date))
     
-    return sorted(releases, key=lambda x: x[1], reverse=True)  # Sort by date descending
+    return sorted(releases, key=lambda x: x[2], reverse=True)  # Sort by date descending
 
 
 def generate_markdown(version, build, release_date):
@@ -199,8 +225,7 @@ Below is a listing of all the past releases of Gaia Sky. We do not offer support
     
     content = f"{front_matter}\n<section class=\"releases-list\">\n"
 
-    for release, releasedate in releases:
-        version, build = split_version(release)
+    for version, build, releasedate in releases:
         short_date = datetime.strptime(releasedate, "%Y-%m-%dT%H:%M:%S").strftime("%Y-%m-%d")
         content += "<div class=\"releaseentry\">\n"
         content += f"<a href=\"./v{version}\" class=\"versionlink\">\n"
@@ -225,11 +250,13 @@ Below is a listing of all the past releases of Gaia Sky. We do not offer support
 def main():
     releases = fetch_releases()
     
-    for release, release_date in releases:
-        print(f"Processing {release}")
-        version, build = split_version(release)
+    idx = 0
+    for version, build, release_date in releases:
+        print(f"Processing {version}.{build}")
+        
         markdown_content = generate_markdown(version, build, release_date)
         save_markdown(version, markdown_content)
+        idx += 1
     
     generate_index(releases)
     print("Markdown files generated successfully!")
