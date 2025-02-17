@@ -97,8 +97,44 @@ css = ["css/downloads.css", "css/releases.css"]
 
     pack = 0
     for dl in links:
+        file = f"{dl[0]}"
         link = f"{dl[1]}{dl[2]}"
-        content += f"<a href=\"{link}\" class=\"download-button\">{dl[0]}</a>\n"
+
+        if file.endswith(".exe"):
+            if "x64" in file:
+                name = "Windows x86-64"
+            else:
+                name = "Windows 32-bit"
+            ext = ".exe"
+            cl = "fa-brands fa-windows"
+        elif file.endswith(".dmg"):
+            name = "macOS"
+            ext = ".dmg"
+            cl = "fa-brands fa-apple"
+        elif file.endswith(".tar.gz"):
+            name = "TGZ package"
+            ext = ".tar.gz"
+            cl = "fa-solid fa-file-zipper"
+        elif file.endswith(".appimage"):
+            name = "AppImage"
+            ext = ".appimage"
+            cl = "fa-solid fa-box-archive"
+        elif file.endswith(".deb"):
+            name = "DEB package"
+            ext = ".deb"
+            cl = "fa-brands fa-debian"
+        elif file.endswith(".rpm"):
+            name = "RPM package"
+            ext = ".rpm"
+            cl = "fa-brands fa-fedora"
+        elif file.endswith(".sh"):
+            name = "UNIX Installer"
+            ext = ".sh"
+            cl = "fa fa-terminal"
+        else:
+            continue
+        
+        content += f"<a href=\"{link}\" class=\"download-button\"><i class=\"{cl}\"></i> {name} <code>{ext}</code><span class=\"download-sub\">{file}</span></a>\n"
 
         if dl[3]:
             link = f"{dl[3][1]}{dl[3][2]}"
