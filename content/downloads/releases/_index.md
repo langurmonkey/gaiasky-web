@@ -8,7 +8,9 @@ css = ["css/releases.css"]
 
 ## Old Releases
 
-Below is a listing of all the past releases of Gaia Sky. We do not offer support for old releases, but they may still work. Use them at your own risk.
+Below is a listing of all the **past releases** of Gaia Sky. We do not offer support for old releases, but they may still work. Use them at your own risk.
+
+You can also browse **all Gaia Sky** tags in our [repository](https://codeberg.org/gaiasky/gaiasky/tags).
 
 
 <section class="releases-list">
