@@ -316,7 +316,7 @@ div#breadcrumbs ul >  li:first-child {
 #slider button .title {
   font-size: 1.6em;
 }
-#slider img.separator-round {
+#slider svg.separator-round {
   width: 100%;
   position: absolute;
   left:0;
