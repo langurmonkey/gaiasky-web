@@ -26,7 +26,7 @@ enableGitInfo = true
     pageRef = "news"
   [[menu.header]]
     weight = 2
-    name = "Media"
+    name = "Gallery"
     pageRef = "media"
   [[menu.header]]
     weight = 3
@@ -105,7 +105,7 @@ enableGitInfo = true
 
   [params.media]
     enable = true
-    title = "Media"
+    title = "Gallery"
     subtitle = "Screenshots, videos, and more"
 
   [params.downloads]
@@ -116,7 +116,7 @@ enableGitInfo = true
   [params.resources]
     enable = true
     title = "Resources"
-    subtitle = "Datasets, catalogs, icons, etc."
+    subtitle = "Datasets, learning material, icons, etc."
 
   [params.contact]
     enable = true
