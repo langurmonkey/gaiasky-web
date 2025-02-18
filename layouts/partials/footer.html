@@ -1,27 +1,20 @@
-<!-- footer Start -->
+<svg class="separator-round" viewBox="0 0 300 10" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <defs id="defs1">
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1">
+      <rect style="fill:#b43b3b;fill-opacity:1;stroke-width:0.00635" id="rect2" width="299.9993" height="29.660421"
+        x="0" y="0.33865452" />
+    </clipPath>
+  </defs>
+  <g id="layer1">
+    <ellipse style="fill-opacity:1;stroke-width:0.00619539" id="path2" cx="150.07234" cy="69.112022" rx="309.32037"
+      ry="67.588165" />
+  </g>
+</svg>
 <footer>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="ce-row">
-          {{ range .Site.Params.ack }}
-          <div class="ce-column">
-            <figure class="image">
-              <a href="{{ .url }}">
-                <img class="ack-img" src="{{ .img | relURL }}" width="120" height="120" loading="lazy" alt="{{ .Name }}"
-                  title="{{ .Name }}">
-              </a>
-            </figure>
-          </div>
-          {{ end }}
-        </div>
-        <p>Website design by tsagrista. See our <a href="/privacypolicy">privacy policy</a>.<br />
-          Gaia Sky software licensed under <a href="https://opensource.org/licenses/MPL-2.0">MPL 2.0</a>. Website and
-          content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA
-            4.0</a>.<br />
-          <i class="fa fa-cc-by" aria-hidden="true" title="CC-BY"></i><i class="fa fa-cc-nc" aria-hidden="true"
-            title="CC-NC"></i><i class="fa fa-cc-sa" aria-hidden="true" title="CC-SA"></i>
-        </p>
         <div class="footer-social">
           <ul>
             {{ range .Site.Params.social }}
@@ -31,6 +24,29 @@
             {{ end }}
           </ul>
         </div>
+        <div class="ce-row">
+          {{ range .Site.Params.ack }}
+          <div class="ce-column">
+            <figure class="image">
+              <a href="{{ .url }}">
+                <img class="ack-img" src="{{ .img | relURL }}" loading="lazy" alt="{{ .name }}" title="{{ .name }}">
+              </a>
+            </figure>
+          </div>
+          {{ end }}
+        </div>
+        <nav>
+          <ul class="bottomlinks">
+            {{ range .Site.Menus.footer }}
+            <li>
+              <a href="{{ .URL }}" title="{{ .Name }}" alt="{{ .Name }}">
+                {{ .Name }}
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </nav>
+        <p>© 2025 The Gaia Sky Project</p>
       </div>
     </div>
   </div>

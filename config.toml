@@ -50,6 +50,47 @@ enableGitInfo = true
     pre = '<i class="fa-solid fa-magnifying-glass"></i>'
     pageRef = "search"
 
+  [[menu.footer]]
+    weight = 1
+    name = "Contact Us"
+    pageRef = "contact"
+  [[menu.footer]]
+    weight = 2
+    name = "News"
+    pageRef = "news"
+  [[menu.footer]]
+    weight = 3
+    name = "Downloads"
+    pageRef = "downloads"
+  [[menu.footer]]
+    weight = 4
+    name = "Old Releases"
+    pageRef = "downloads/releases"
+  [[menu.footer]]
+    weight = 5
+    name = "Gallery"
+    pageRef = "media"
+  [[menu.footer]]
+    weight = 6
+    name = "Documentation"
+    url = "http://docs.gaiasky.space"
+  [[menu.footer]]
+    weight = 7
+    name = "Resources"
+    url = "resources"
+  [[menu.footer]]
+    weight = 8
+    name = "Datasets"
+    url = "resources/datasets"
+  [[menu.footer]]
+    weight = 9
+    name = "Licenses"
+    pageRef = "licenses"
+  [[menu.footer]]
+    weight = 10
+    name = "Privacy"
+    pageRef = "privacypolicy"
+
 
 # The site's parameters
 [params]

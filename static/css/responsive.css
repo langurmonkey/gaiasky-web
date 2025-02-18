@@ -389,6 +389,9 @@ px      68    160    252    */
   /*--
 	footer Start 
 --*/
+  footer ul.bottomlinks {
+    margin: 2em 5em;
+  }
   section#datasets h2 {
     font-size: 1.8em;
   }
@@ -487,6 +490,9 @@ px      68    160    252    344    436    */
   }
   section#links h2 {
     font-size: 1.6em;
+  }
+  footer ul.bottomlinks {
+    margin: 2em 2em;
   }
   footer img.ack-img {
     width: 4em;
