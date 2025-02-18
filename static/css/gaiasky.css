@@ -6,8 +6,7 @@
  * 
  */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 /* var text-decoration */
 /*--
 	Common Css
@@ -42,7 +41,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Inter, sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   background-color: var(--bg-color);
@@ -60,7 +59,6 @@ h6 {
   font-variant: small-caps;
   margin-top: 0;
   padding-top: 0.7em;
-  font-family: 'Roboto', sans-serif;
   text-shadow: 2px 2px 2px black;
 }
 h1 {
@@ -141,7 +139,6 @@ button:focus {
 }
 figcaption h4 {
   color: var(--text-dim-color);
-  font-family: 'Open Sans', sans-serif;
   font-style: italic;
   font-weigth: 100;
   font-size: 13px;
@@ -166,7 +163,7 @@ hr {
   font-weight: 600;
 }
 .section-title p {
-  font-family: 'OpenSans', serif;
+  font-family: serif;
   font-style: italic;
   color: var(--text-dim-color);
 }
@@ -304,8 +301,7 @@ div#breadcrumbs ul >  li:first-child {
 #slider .block p {
   font-size: 25px;
   line-height: 30px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 3px;
   text-shadow: 2px 2px 2px black, 0px 0px 5px black;
 }
@@ -532,8 +528,7 @@ div.datasets-box {
 #global-header .block p {
   font-size: 25px;
   line-height: 30px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 3px;
   text-shadow: 2px 2px 2px black, 0px 0px 5px black;
 }
@@ -601,94 +596,8 @@ div.datasets-box {
   padding: 40px 0px;
 }
 /*---------------------------------------------
-					Work Close
+					Social icons
 -----------------------------------------------*/
-/*=============================================*/
-/*---------------------------------------------
-					 Contact Start
------------------------------------------------*/
-/*--
-	slider-contact Start
---*/
-#slider-contact {
-  background: url("../img/slider-bg.jpg") no-repeat;
-  background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 107px;
-  position: relative;
-}
-#slider-contact:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.5;
-}
-#slider-contact .block {
-  color: #E3E3E4;
-  margin: 0 auto;
-  padding-left: 90px;
-}
-#slider-contact .block h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 45px;
-  line-height: 60px;
-  letter-spacing: 6px;
-  padding-bottom: 15px;
-}
-#slider-contact .block p {
-  font-size: 23px;
-  line-height: 40px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  letter-spacing: 1px;
-  word-spacing: 3px;
-}
-/*--
-	contact-form Start
---*/
-#contact-form {
-  padding-top: 70px;
-  padding-bottom: 35px;
-}
-#contact-form .block form .form-group {
-  padding-bottom: 15px;
-  margin: 0px;
-}
-#contact-form .block form .form-group .form-control {
-  background: #F6F8FA;
-  height: 60px;
-  border: 1px solid #EEF2F6;
-  box-shadow: none;
-  width: 100%;
-}
-#contact-form .block form .form-group-2 {
-  padding-bottom: 15px;
-  margin: 0px;
-}
-#contact-form .block form .form-group-2 textarea {
-  background: #F6F8FA;
-  height: 135px;
-  border: 1px solid #EEF2F6;
-  box-shadow: none;
-  width: 100%;
-}
-/*--
-	wrapper-contact Start
---*/
-.address-block li {
-  margin-bottom: 20px;
-}
-.address-block li i {
-  margin-right: 15px;
-  font-size: 20px;
-  width: 20px;
-}
 .social-icons {
   margin-top: 40px;
 }
@@ -799,7 +708,7 @@ footer ul.bottomlinks li {
 }
 footer ul.bottomlinks li a {
   font-size: 1.1em;
-  font-weight: 900;
+  font-weight: 800;
   color: var(--text-color);
 }
 section#post-content,
@@ -836,6 +745,9 @@ div.hint .hint-title {
 }
 #post-content .title {
   margin-bottom: 0em;
+}
+div.post-area article {
+  margin-top: 5em;
 }
 div.post-area a.bold {
  font-variant-caps: small-caps;

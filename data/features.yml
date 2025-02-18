@@ -22,7 +22,7 @@ content:
   - icon: fa fa-vr-cardboard
     name: Virtual Reality
     text: >
-      Experience the whole universe in VR (compatible with headsets powered by OpenXR)
+      Experience the whole universe in VR (compatible with headsets powered by OpenXR).
 
   - icon: fa fa-cubes
     name: 6D exploration
@@ -77,7 +77,7 @@ content:
   - icon: fa fa-filter
     name: Real-time filters
     text: >
-      Download pre-packed datasets (Gaia DR3+, NEARGALCAT, SDSS, Open Clusters catalog, etc.) or use your own, in VOTable, FITS, CSV and other formats
+      Download pre-packed datasets (Gaia DR3+, NEARGALCAT, SDSS, Open Clusters, etc.) or use your own, in VOTable, FITS, CSV, and others.
 
   - icon: fa fa-right-left
     name: SAMP aware

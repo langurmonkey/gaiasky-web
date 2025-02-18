@@ -6,9 +6,10 @@ from bs4 import BeautifulSoup
 from pathlib import Path
 from git import Repo
 
+script_path = os.path.dirname(os.path.realpath(__file__))
 # Base URL for Gaia Sky releases
 BASE_URL = "https://gaia.ari.uni-heidelberg.de/gaiasky/releases/"
-OUTPUT_DIR = "content/downloads/releases"  # Adjust to Hugo content directory
+OUTPUT_DIR = f"{script_path}/../content/downloads/releases"  # Adjust to Hugo content directory
 
 # Regex pattern to match version numbers: major.minor.rev[-patch].build
 VERSION_PATTERN = re.compile(r"\d+\.\d+\.\d+(?:-\d+)?\.[0-9a-f]{7,}")
@@ -104,10 +105,11 @@ def generate_markdown(version, build, release_date):
     short_date = datetime.strptime(release_date, "%Y-%m-%dT%H:%M:%S").strftime("%Y-%m-%d")
 
     front_matter = f"""+++
-title = ""
+title = "Release {version}.{build}"
 date = "{release_date}"
 type = "page"
 hidden = true
+showtitle = false
 css = ["css/downloads.css", "css/releases.css"]
 +++
 """
