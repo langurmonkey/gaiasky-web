@@ -9,7 +9,7 @@ categories = ["Dataset"]
 
 We'd like to announce that we just published a new virtual texture dataset. This dataset is based on NASA's [Scientific Visualization Studio CGI Moon Kit](https://svs.gsfc.nasa.gov/4720). Constructed from the DEM (Digital Elevation Map) in LRO/LOLA, it contains a 32K virtual texture for the Moon topography (elevation). When you have tessellation activated, this represents elevation in the Moon by vertex displacement and subdivision.
 
-{{< fig src="img/2025/02/32k-vt-moon.thumb.jpg" link="img/2025/02/32k-vt-moon.jpg" class="fig-center fig-post" title="The new 32K topography virtual texture applied to the Moon in Gaia Sky." loading="lazy" >}}
+{{< fig src="/img/2025/02/32k-vt-moon.thumb.jpg" link="img/2025/02/32k-vt-moon.jpg" class="fig-center fig-post" title="The new 32K topography virtual texture applied to the Moon in Gaia Sky." loading="lazy" >}}
 
 <!--more-->
 
