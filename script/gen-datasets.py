@@ -68,7 +68,7 @@ def icon(type):
     return icons.get(type, "fa-regular fa-cube")
 
 # Load JSON from a gzipped URL
-json_gz_url = "https://gaia.ari.uni-heidelberg.de/gaiasky/repository/gaiasky-data-03060501.json.gz"
+json_gz_url = "https://gaia.ari.uni-heidelberg.de/gaiasky/repository/gaiasky-data/gaiasky-data_v017.min.json.gz"
 
 
 response = requests.get(json_gz_url)
@@ -117,7 +117,7 @@ for dataset in latest_datasets.values():
     # Format byte size
     size_pretty = sizeof_fmt(int(size_bytes))
 
-    markdown_content.append(f"<details>\n")
+    markdown_content.append(f"<details id=\"{key}\">\n")
     markdown_content.append(f"<summary>\n")
     markdown_content.append(f"<h3>{name}<br/><i class='{fa_icon}' title='Type: {dstype}'></i> <code title='Key: {key}'>{key}</code></h3>\n")
     markdown_content.append(f"</summary>\n")

@@ -12,10 +12,14 @@ stop:
 clean:
     rm -rf public/*
 
+# Generates all the releases in /downloads/releases
+releases:
+    (cd script && pipenv run python gen-releases.py)
+
 # Generates the datasets.md file
 datasets:
     (cd script && pipenv run python gen-datasets.py)
-    mv script/datasets.md content/datasets/index.md
+    mv script/datasets.md content/resources/datasets/index.md
 
 # Generates the site with hugo
 hugo:
