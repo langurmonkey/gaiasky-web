@@ -276,7 +276,14 @@ aside#toc nav#TableOfContents ul {
   column-width: 26em;
 }
 aside#toc nav#TableOfContents li {
-  display: block;
+  display: list-item;
+  list-style: "➞ " inside none;
+}
+aside#toc nav#TableOfContents li li {
+  list-style: "➝ " inside none;
+}
+aside#toc nav#TableOfContents li a {
+  color: var(--text-dim-color);
 }
  /** Breadcrumbs **/
 div#breadcrumbs ul {
