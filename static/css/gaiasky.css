@@ -270,7 +270,8 @@ aside#toc h4 {
   padding-top: 0;
 }
 aside#toc nav {
-  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px solid var(--text-dimmer-color);
 }
 aside#toc nav#TableOfContents ul {
   column-width: 26em;
