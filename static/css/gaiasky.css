@@ -14,6 +14,21 @@
 @view-transition {
   navigation: auto;
 }
+@keyframes breath {
+  0% {
+    transform: scale(1) rotateY(180deg);
+    animation-timing-function: ease-in-out;
+  }
+  50% {
+    transform: scale(1.05) rotateY(180deg);
+    filter: drop-shadow(0 0 4px var(--link-color));
+    animation-timing-function: ease-in-out;
+  }
+  0% {
+    transform: scale(1) rotateY(180deg);
+    animation-timing-function: ease-in-out;
+  }
+}
 @keyframes old-out {
   0% {
     opacity: 1;
@@ -208,8 +223,10 @@ header .navbar-brand {
   height: 35px;
 }
 header .navbar-brand>img {
+  animation: breath 5s infinite;
   display: block;
   width: 35px;
+  transform: rotateY(180deg);
 }
 header .navbar-default {
   background: none;
@@ -494,16 +511,6 @@ div.datasets-box {
   padding: 1px 10px 15px 10px;
   border-radius: 20px;
   color: var(--text-dim-color);
-}
-/*--
-	features Start
---*/
-#clients-logo-section {
-  padding-top: 30px;
-  padding-bottom: 75px;
-}
-#clients-logo-section .clients-logo-img {
-  padding: 0px 50px;
 }
 /*---------------------------------------------
 					Work Start
