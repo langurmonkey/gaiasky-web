@@ -43,42 +43,52 @@ Find here images related to the Gaia Sky branding.
 
 ### Icons
 
+<div style="display: inline-table;">
 
-{{< fig src="img/brand/gs_icon.svg" class="fig-left" title="Source Gaia Sky logo (SVG)." width="192px" loading="lazy" >}}
-<br/>
+{{< fig src="img/brand/gs_logo.svg" class="fig-left float-left" title="Source Gaia Sky logo (SVG)." width="192px" loading="lazy" >}}
 
-{{< fig src="img/brand/gs_round_128.png" class="fig-left" title="Round icon, Linux and Windows 128px (PNG)." width="128px" loading="lazy" >}}
-<br/>
+{{< fig src="img/brand/gs_icon.svg" class="fig-left float-left" title="Linux/Windows icon (SVG)." width="192px" loading="lazy" >}}
 
-{{< fig src="img/brand/gs_round_256.png" class="fig-left" title="Round icon, Linux and Windows 256px (PNG)." width="256px" loading="lazy" >}}
-<br/>
+{{< fig src="img/brand/gs_round_128.png" class="fig-left float-left" title="Linux/Windows icon 128px (PNG)." width="192px" loading="lazy" >}}
 
-{{< fig src="img/brand/gs_macos_256.png" class="fig-left" title="macOS icon 256px (PNG)." width="256px" loading="lazy" >}}
-<br/>
+{{< fig src="img/brand/gs_round_256.png" class="fig-left float-left" title="Linux/Windows icon 256px (PNG)." width="192px" loading="lazy" >}}
 
-{{< fig src="img/brand/gs_macos_512.png" class="fig-left" title="macOS icon 512px (PNG)." width="512px" loading="lazy" >}}
-<br/>
+{{< fig src="img/brand/gs_icon_macos.svg" class="fig-left float-left" title="macOS icon (SVG)." width="192px" loading="lazy" >}}
 
-{{< fig src="img/brand/gsvr_round_128.png" class="fig-left" title="VR icon 128px (PNG)." width="128px" loading="lazy" >}}
-<br/>
+{{< fig src="img/brand/gs_macos_256.png" class="fig-left float-left" title="macOS icon 256px (PNG)." width="192px" loading="lazy" >}}
 
-{{< fig src="img/brand/gsvr_round_256.png" class="fig-left" title="VR icon 256px (PNG)." width="256px" loading="lazy" >}}
-<br/>
+{{< fig src="img/brand/gs_macos_512.png" class="fig-left float-left" title="macOS icon 512px (PNG)." width="192px" loading="lazy" >}}
+
+{{< fig src="img/brand/gsvr_icon.svg" class="fig-left float-left" title="VR icon (SVG)." width="192px" loading="lazy" >}}
+
+{{< fig src="img/brand/gsvr_round_128.png" class="fig-left float-left" title="VR icon 128px (PNG)." width="192px" loading="lazy" >}}
+
+{{< fig src="img/brand/gsvr_round_256.png" class="fig-left float-left" title="VR icon 256px (PNG)." width="192px" loading="lazy" >}}
+
+</div>
 
 ### Title cards and more
 
+<div style="display: inline-table;">
 
-{{< fig src="img/brand/gs_titlecard.png" class="fig-left" title="Title card logo (PNG)." width="292px" loading="lazy" >}}
-<br/>
+{{< fig src="img/brand/gs_titlecard.png" class="fig-left float-left" title="Title card logo (PNG)." width="292px" loading="lazy" >}}
 
-{{< fig src="img/brand/gs_titlecard.svg" class="fig-left" title="Title card logo (SVG)." width="292px" loading="lazy" >}}
-<br/>
+{{< fig src="img/brand/gs_titlecard.svg" class="fig-left float-left" title="Title card logo (SVG)." width="292px" loading="lazy" >}}
 
-{{< fig src="img/gaia.svg" class="fig-left" title="Opaque logo (SVG)." width="292px" loading="lazy" >}}
-<br/>
+{{< fig src="img/gaia.svg" class="fig-left float-left" title="Opaque logo (SVG)." width="192px" loading="lazy" >}}
 
+</div>
 
 ### ASCII icon
 ```txt
  {{< includeraw gsascii.txt >}}
 ```
+
+### Fonts
+
+We use a few fonts:
+
+-  <span style="font-size: 1.7em; font-family: ethnocentric;">[Ethnocentric](https://typodermicfonts.com/ethnocentric/)</span> by [Ray Larabie](https://en.wikipedia.org/wiki/Ray_Larabie), [Typodermic](https://typodermicfonts.com/) -- main font used in the logo.
+- <span style="font-size: 1.7em; font-family: Inter;">[Inter](https://fonts.google.com/specimen/Inter?query=Inter)</span> by [Rasmus Andersson](https://rsms.me/inter) -- main font of this site.
+- <span style="font-size: 1.7em; font-family: conthrax;">[Conthrax](https://typodermicfonts.com/conthrax/)</span> by [Ray Larabie](https://en.wikipedia.org/wiki/Ray_Larabie), [Typodermic](https://typodermicfonts.com/) -- used in some parts of the Gaia Sky UI.
+

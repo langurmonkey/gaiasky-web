@@ -8,10 +8,10 @@
    version="1.1"
    id="svg1688"
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
-   sodipodi:docname="gs_icon_round.svg"
-   inkscape:export-filename="gs_macos_500.png"
-   inkscape:export-xdpi="266.66666"
-   inkscape:export-ydpi="266.66666"
+   sodipodi:docname="gs_icon_macos.svg"
+   inkscape:export-filename="gs_macos_512.png"
+   inkscape:export-xdpi="273.06668"
+   inkscape:export-ydpi="273.06668"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -145,7 +145,8 @@
        y1="271.27344"
        x2="39.808472"
        y2="296.26825"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.95852535,0,0,0.95852535,0.98761599,11.769288)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -154,9 +155,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.0000001"
-     inkscape:cx="28.249999"
-     inkscape:cy="147.5"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="106.06601"
+     inkscape:cy="68.589356"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -186,17 +187,16 @@
      id="layer1"
      transform="translate(0,-259.95833)">
     <rect
-       style="fill:url(#linearGradient24);stroke:none;stroke-width:0.423333;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       style="fill:url(#linearGradient24);fill-opacity:1;stroke:none;stroke-width:0.405775;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1"
-       width="44.71418"
-       height="44.714191"
-       x="1.4554098"
-       y="261.41373"
-       ry="22.357096"
-       rx="22.35709" />
+       width="38.91444"
+       height="38.91444"
+       x="4.3552794"
+       y="264.3136"
+       ry="9.9484472" />
     <g
        id="g1"
-       transform="matrix(0.65792169,0,0,0.65792169,7.2326153,97.74091)"
+       transform="matrix(0.65792169,0,0,0.65792169,8.434322,97.352378)"
        style="filter:url(#filter21)">
       <ellipse
          transform="rotate(43.661262)"

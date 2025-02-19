@@ -815,6 +815,11 @@ div.posts-list .details {
 div.post-area a:hover {
   color: var(--accent-color);
 }
+figure.float-left {
+  float: left;
+  margin-right: 3em;
+  margin-bottom: 2em;
+}
 figure.fig-left {
   text-align: left;
 }
