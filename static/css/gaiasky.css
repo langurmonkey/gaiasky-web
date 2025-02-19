@@ -146,6 +146,22 @@ figcaption h4 {
 hr {
   border: 0.01em solid var(--text-dimmer-color);
 }
+details summary::before { 
+  content:"";
+  width: 13px;
+  height: 7px;
+  margin-bottom: 0.25em;
+  margin-right: 0.6em;
+  background: url('/img/ui/arrow.svg') no-repeat;
+  background-size: cover;
+  transition: 0.2s;
+  display: inline-block;
+  transform: rotate(-90deg);
+}
+details[open] summary::before { 
+  content:"";
+  transform: rotate(0deg);
+}
 .italic {
   font-style: italic;
 }
@@ -225,7 +241,27 @@ header .navbar-default .navbar-nav li a.active:hover{
   background: var(--link-color);
   background-image: linear-gradient(to bottom, var(--accent-color), black);
 }
-/** Breadcrumbs **/
+/** Table of contents **/
+aside#toc {
+  margin-top: 1em;
+  border-radius: 10px;
+  background-color: var(--bg-color-light);
+  padding: 0.5em 1em;
+}
+aside#toc h4 {
+  display: inline;
+  padding-top: 0;
+}
+aside#toc nav {
+  margin-top: 1em;
+}
+aside#toc nav#TableOfContents ul {
+  column-width: 26em;
+}
+aside#toc nav#TableOfContents li {
+  display: block;
+}
+ /** Breadcrumbs **/
 div#breadcrumbs ul {
   margin-left: 0;
   display: flex;
@@ -696,7 +732,6 @@ footer ul.bottomlinks {
   column-width: 11rem;
   column-gap: 25px;
   line-height: 1.8rem;
-  max-width: var(--pagegridwidth);
   margin: 2em 15em;
   align: center;
 }

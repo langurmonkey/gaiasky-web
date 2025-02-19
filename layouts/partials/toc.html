@@ -1,0 +1,12 @@
+{{ with .TableOfContents }}
+{{ if ne . "<nav id=\"TableOfContents\"></nav>" }}
+<aside id="toc">
+  <details>
+    <summary>
+      <h4>Page contents</h4>
+    </summary>
+    {{ . }}
+  </details>
+</aside>
+{{ end }}
+{{ end }}

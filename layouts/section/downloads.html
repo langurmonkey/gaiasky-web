@@ -2,20 +2,23 @@
 <html>
 
 <head>
-	{{ partial "head.html" . }}
+	{{ partial "head" . }}
 </head>
 
 <body>
-	{{ partial "header.html" . }}
-	{{ partial "global-header.html" .Site.Params.downloads }}
+	{{ partial "header" . }}
+	{{ partial "global-header" .Site.Params.downloads }}
 
 	<!-- Wrapper Start -->
-	<main>
-		<div class="page-content">
-			{{ partial "breadcrumbs.html" . }}
-			{{ .Content }}
-		</div>
-	</main>
+	<div class="wrapper">
+		<main>
+			<div class="page-content">
+				{{ partial "breadcrumbs" . }}
+				{{ partial "toc" . }}
+				{{ .Content }}
+			</div>
+		</main>
+	</div>
 
 
 	{{ partial "footer.html" . }}

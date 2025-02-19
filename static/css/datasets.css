@@ -38,22 +38,9 @@ details article {
   padding: 10px;
   
 }
-
 details summary::before { 
-  content:"";
-  width: 18px;
-  height: 10px;
   margin-bottom: 0.25em;
   margin-right: 0.6em;
-  background: url('/img/ui/arrow.svg') no-repeat;
-  background-size: cover;
-  transition: 0.2s;
-  display: inline-block;
-  transform: rotate(-90deg);
-}
-details[open] summary::before { 
-  content:"";
-  transform: rotate(0deg);
 }
 details article div.article-content {
   padding: 1em;

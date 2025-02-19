@@ -1,4 +1,7 @@
 @media only screen and (min-width: 991px) and (max-width: 1500px) {
+  aside#toc {
+    display: none;
+  }
   .post-area {
     padding: 1em 15em !important;
   }
@@ -34,6 +37,9 @@ px      68    160    252    344    436    528    620    712    */
   }
   #global-header .block p {
     font-size: 1.3em;
+  }
+  aside#toc {
+    display: none;
   }
   section#post-content,
   div.page-content {
@@ -173,6 +179,9 @@ px      68    160    252    */
   }
   #global-header .block p {
     font-size: 1.2em;
+  }
+  aside#toc {
+    display: none;
   }
   #breadcrumbs {
     display: none;
@@ -452,6 +461,9 @@ px      68    160    252    344    436    */
   section#post-content,
   div.page-content {
     margin: 0.5em 0.8em !important;
+  }
+  aside#toc {
+    display: none;
   }
   /* --------------------------------
     Posts

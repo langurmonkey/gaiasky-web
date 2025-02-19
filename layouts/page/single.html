@@ -2,18 +2,19 @@
 <html>
 
 <head>
-	{{ partial "head.html" . }}
+	{{ partial "head" . }}
 </head>
 
 <body>
-	{{ partial "header.html" . }}
+	{{ partial "header" . }}
 
 	{{ if isset .Params "id" }}
 	{{ partial .Params.id . }}
 	{{ else }}
 	<main>
 		<div class="page-content">
-			{{ partial "breadcrumbs.html" . }}
+			{{ partial "breadcrumbs" . }}
+			{{ partial "toc" . }}
 			{{ if not (isset .Params "showtitle") | or (ne .Params.showtitle false) }}
 			<div class="title">
 				<h1>{{ .Title }}</h1>
