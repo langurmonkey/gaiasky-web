@@ -4,6 +4,7 @@ import requests
 import io
 import os.path
 import math
+from pathlib import Path
 from millify import millify
 
 # Generates a datasets.md file from the online dataset descriptor file.
@@ -96,6 +97,7 @@ for dataset in files:
 # Generate Markdown
 base_url = 'https://gaia.ari.uni-heidelberg.de/gaiasky/repository/'
 markdown_content = []
+webdir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 
 for dataset in latest_datasets.values():
     name = dataset.get('name', 'N/A')
@@ -116,10 +118,22 @@ for dataset in latest_datasets.values():
 
     # Format byte size
     size_pretty = sizeof_fmt(int(size_bytes))
+    # Image
+    imgkey = Path(os.path.join(webdir, 'static/img/datasets/', f"{key}.jpg"))
+    imgtype = Path(os.path.join(webdir, 'static/img/datasets/', f"{dstype}.jpg"))
+    if imgkey.is_file():
+        img = f"{key}.jpg"
+    elif imgtype.is_file():
+        img = f"{dstype}.jpg"
+    else:
+        img = None
 
     markdown_content.append(f"<details id=\"{key}\">\n")
     markdown_content.append(f"<summary>\n")
     markdown_content.append(f"<h3>{name}<br/><i class='{fa_icon}' title='Type: {dstype}'></i> <code title='Key: {key}'>{key}</code></h3>\n")
+    if img:
+        imgname = os.path.splitext(img)[0]
+        markdown_content.append(f"<img src=\"/img/datasets/{img}\" title=\"{imgname}\"></img>\n")
     markdown_content.append(f"</summary>\n")
     markdown_content.append(f"<article>\n")
     markdown_content.append(f"<div class='article-content'>\n")

@@ -1,18 +1,36 @@
-summary h3 {
+details {
+  background-color: #2f2f2f;
+  border-radius: 10px;
+  margin-bottom: 1.8em;
+}
+details summary {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  background-color: #555;
+  padding: 0.8em;
+  border-radius: 10px;
+}
+details summary::before { 
+  margin-top: 0.8em;
+}
+details summary h3 {
+  flex-grow: 1;
+  text-align: left;
   font-variant: small-caps;
   padding-top: 0px;
-  margin-top: 0.2em;
-  margin-bottom: 0.2em;
+  margin-top: 0em;
+  margin-bottom: 0em;
   display: inline;
 }
-summary h3:before {
+details summary h3:before {
   content: none;
 }
-summary h3 i {
+details summary h3 i {
   font-size: 0.6em;
   margin-left: 1em;
 }
-summary h3 code {
+details summary h3 code {
   color: var(--accent-color);
   font-variant: normal;
   font-size: 0.6em;
@@ -20,15 +38,22 @@ summary h3 code {
   text-shadow: none;
   background-color: var(--bg-color-light);
 }
-details {
-  background-color: #2f2f2f;
-  border-radius: 10px;
-  margin-bottom: 1.8em;
+details summary img {
+  width: 5em;
+  height: 5em;
+  border: 1px solid var(--accent-dark-color);
+  box-shadow: 2px 2px 4px var(--bg-color-light);
+  margin-left: 1em;
+  margin-right: 1.5em;
+  flex-shrink: 0;
 }
-details summary {
-  background-color: #555;
-  padding: 0.8em;
-  border-radius: 10px;
+@media only screen and (max-width: 480px) {
+  details summary img {
+    width: 3em;
+    height: 3em;
+  margin-right: 0.2em;
+  }
+
 }
 details[open] summary {
   border-radius: 10px 10px 0 0;
