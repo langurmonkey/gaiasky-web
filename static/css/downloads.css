@@ -23,59 +23,11 @@
     font-size: 2em;
     font-variant: normal;
 }
-.download-windows h2:before {
+svg.download-icon {
+    margin-bottom: -0.3em;
     font-weight: 100;
-    font-family: 'Font Awesome 6 Brands';
-    font-size: 1.5em;
-    content: '\f17a';
-    mask-image: none;
-    -webkit-mask-image: none;
+    font-size: 1.7em;
     background-color: transparent;
-    margin-right: 0.4em;
-    color: var(--accent-color);
-}
-.download-macos h2:before {
-    font-weight: 100;
-    font-family: 'Font Awesome 6 Brands';
-    font-size: 1.5em;
-    content: '\f179';
-    mask-image: none;
-    -webkit-mask-image: none;
-    background-color: transparent;
-    margin-right: 0.4em;
-    color: var(--accent-color);
-}
-.download-linux h2:before {
-    font-weight: 100;
-    font-family: 'Font Awesome 6 Brands';
-    font-size: 1.5em;
-    content: '\f17c';
-    mask-image: none;
-    -webkit-mask-image: none;
-    background-color: transparent;
-    margin-right: 0.4em;
-    color: var(--accent-color);
-}
-.download-os h2:before {
-    font-weight: 100;
-    font-family: 'Font Awesome 6 Free';
-    font-size: 1.5em;
-    content: '\f1c6';
-    mask-image: none;
-    -webkit-mask-image: none;
-    background-color: transparent;
-    margin-right: 0.4em;
-    color: var(--accent-color);
-}
-.download-source h2:before {
-    font-weight: 100;
-    font-family: 'Font Awesome 6 Brands';
-    font-size: 1.5em;
-    content: '\f1d3';
-    mask-image: none;
-    -webkit-mask-image: none;
-    background-color: transparent;
-    margin-right: 0.4em;
     color: var(--accent-color);
 }
 .download-section {
@@ -103,6 +55,9 @@
 .download-button:active{
     transform: translateY(4px);
     box-shadow: 0 0 5px black;
+}
+.download-button svg.iconify {
+    margin-bottom: -0.1em;
 }
 .download-button span.download-sub {
     font-size: 0.9rem;
@@ -137,4 +92,7 @@
   font-size: 0.6em;
   font-family: monospace;
   text-align: center;
+}
+p.center-text a svg.iconify.back {
+  margin-bottom: -0.1em;
 }

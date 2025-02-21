@@ -47,7 +47,7 @@ enableGitInfo = true
   [[menu.header]]
     weight = 7
     name = " "
-    pre = '<i class="fa-solid fa-magnifying-glass"></i>'
+    pre = '<span class="iconify" data-icon="raphael:search"></span>'
     pageRef = "search"
 
   [[menu.footer]]
@@ -142,7 +142,7 @@ enableGitInfo = true
     [params.datasets.button]
       caption = "Available datasets"
       url = "resources/datasets"
-      pre = '<i class="fa-solid fa-database"></i>'
+      pre = '<span class="iconify" data-icon="raphael:db"></span>'
 
   [params.media]
     enable = true
@@ -167,23 +167,23 @@ enableGitInfo = true
   [[params.social]]
     name = "RSS"
     url = "/index.xml"
-    icon = "fa-solid fa-square-rss"
+    icon = "mdi-rss"
   [[params.social]]
     name = "BlueSky"
     url = "https://bsky.app/profile/gaiasky.bsky.social"
-    icon = "fa-brands fa-square-bluesky"
+    icon = "ri-bluesky-fill"
   [[params.social]]
     name = "Mastodon"
     url = "https://mastodon.social/@jumpinglangur"
-    icon = "fa-brands fa-mastodon"
+    icon = "ri-mastodon-fill"
   [[params.social]]
     name = "YouTube"
     url = "https://youtube.com/@gaiaskydev"
-    icon = "fa-brands fa-square-youtube"
+    icon = "ri-youtube-fill"
   [[params.social]]
     name = "Email"
     url = "mailto:tsagrista@ari.uni-heidelberg.de?subject=Gaia Sky"
-    icon = "fa-solid fa-envelope"
+    icon = "mdi-email"
 
 
   [[params.ack]]
