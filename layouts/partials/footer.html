@@ -52,23 +52,6 @@
   </div>
 </footer>
 <script>
-  // Ensure Iconify is loaded
-  if (typeof Iconify !== 'undefined') {
-    // Load the local JSON file
-    fetch('/icons/custom-icons.json')
-      .then(response => response.json())
-      .then(data => {
-        // Add the icons to Iconify
-        data.forEach(collection => {
-          Iconify.addCollection(collection);
-        });
-      })
-      .catch(error => console.error('Error loading icons:', error));
-  } else {
-    console.error('Iconify is not loaded.');
-  }
-</script>
-<script>
   $(randompic)
 
   function randompic() {
