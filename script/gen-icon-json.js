@@ -47,9 +47,12 @@ for (const [setName, icons] of Object.entries(selectedIcons)) {
             if (iconData.icons[icon]) {
                 const iconDetails = iconData.icons[icon];
 
-                // Set default size
-                iconDetails.width = defaultSize;
-                iconDetails.height = defaultSize;
+                if (!iconDetails.hasOwnProperty('width')) {
+                    iconDetails.width = defaultSize;
+                }
+                if (!iconDetails.hasOwnProperty('height')) {
+                    iconDetails.height = defaultSize;
+                }
 
                 filteredIcons.icons[icon] = iconDetails;
             }
