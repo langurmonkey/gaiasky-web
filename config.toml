@@ -123,6 +123,8 @@ enableGitInfo = true
     title = "Explore the cosmos"
     italic = "**Gaia Sky** is a real-time, 3D, astronomy visualisation platform for desktop and VR that runs on *Windows*, *Linux*, and *macOS*. Open source and libre."
     paragraph = "Gaia Sky enables the exploration of our Universe by means of scientific datasets. The software includes an integrated dataset manager that grants access to several [cutting-edge astronomical catalogs](/resources/datasets) such as the Gaia DR1/2/3 star catalogs, SDSS galaxies, or the nearby galaxies catalog. It is developed in the framework of [ESA](http://www.esa.int/ESA)'s [Gaia mission](http://sci.esa.int/gaia) to chart about 1 billion stars of our Galaxy in the Gaia group of the [Astronomisches Rechen-Institut](http://www.ari.uni-heidelberg.de/) ([ZAH](http://www.zah.uni-heidelberg.de/), [Universität Heidelberg](http://www.uni-heidelberg.de/)). Explore the cosmos without leaving the comfort of your home!"
+    imagejxl = "img/special/exo001.jxl"
+    imageavif = "img/special/exo001.avif"
     image = "img/special/exo001.png"
 
   [params.news]
