@@ -13,18 +13,18 @@ Gaia Sky is developed in the Gaia group of the [Astronomisches Rechen-Institut](
 
 Please, submit bug reports and feature requests to our source repository.
 
- - {{< fa "code-branch" >}} [Submit bugs/requests](https://codeberg.org/gaiasky/gaiasky/issues)
+ - {{< iconify "mdi-code" >}} [Submit bugs/requests](https://codeberg.org/gaiasky/gaiasky/issues)
 
 ## Main designer and developer
 
 **Dr. Toni Sagristà Sellés**
-|                                                |                                                                           |
-|------------------------------------------------|---------------------------------------------------------------------------|
-| {{< fa "envelope" >}} E-mail                   | [tsagrista@ari.uni-heidelberg.de](mailto:tsagrista@ari.uni-heidelberg.de) |
-| {{< fa "brands" "mastodon" >}} Mastodon (en)   | [@jumpinglangur@mastodon.social](https://mastodon.social/@jumpinglangur)  |
-| {{< fa "brands" "mastodon" >}} Mastodont (cat) | [@jumpinglangur@mastodont.cat](https://mastodont.cat/@jumpinglangur)      |
-| {{< fa "brands" "bluesky" >}} Bluesky          | [@gaiasky.bsky.social](https://bsky.app/profile/gaiasky.bsky.social)      |
-| {{< fa "globe" >}} Website                     | [tonisagrista.com](https://tonisagrista.com)                              |
+|                                                      |                                                                           |
+|------------------------------------------------------|---------------------------------------------------------------------------|
+| {{< iconify "mdi-email" >}} E-mail                   | [tsagrista@ari.uni-heidelberg.de](mailto:tsagrista@ari.uni-heidelberg.de) |
+| {{< iconify "ri-mastodon-fill" >}} Mastodon (en)     | [@jumpinglangur@mastodon.social](https://mastodon.social/@jumpinglangur)  |
+| {{< iconify "ri-mastodon-fill" >}} Mastodont (cat)   | [@jumpinglangur@mastodont.cat](https://mastodont.cat/@jumpinglangur)      |
+| {{< iconify "ri-bluesky-fill" >}} Bluesky            | [@gaiasky.bsky.social](https://bsky.app/profile/gaiasky.bsky.social)      |
+| {{< iconify "tabler-home-filled" >}} Website         | [tonisagrista.com](https://tonisagrista.com)                              |
 
 ## Contributor, supervisor
 
@@ -32,9 +32,9 @@ Please, submit bug reports and feature requests to our source repository.
 
 |                                                |                                                                           |
 |------------------------------------------------|---------------------------------------------------------------------------|
-| {{< fa "envelope" >}} E-mail                   | [jordan@ari.uni-heidelberg.de](mailto:jordan@ari.uni-heidelberg.de)       |
-| {{< fa "brands" "twitter" >}} Twitter          | [@StefanJordanAri](https://twitter.com/StefanJordanAri)                   |
-| {{< fa "globe" >}} Website                     | [stefan-jordan.de](http://stefan-jordan.de)                               |
+| {{< iconify "mdi-email" >}} E-mail             | [jordan@ari.uni-heidelberg.de](mailto:jordan@ari.uni-heidelberg.de)       |
+| {{< iconify "mdi-twitter" >}} Twitter          | [@StefanJordanAri](https://twitter.com/StefanJordanAri)                   |
+| {{< iconify "tabler-home-filled" >}} Website   | [stefan-jordan.de](http://stefan-jordan.de)                               |
 
 ## Contributors
 

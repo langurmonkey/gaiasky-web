@@ -13,8 +13,8 @@
 	<main>
 		<div class="post-area">
 			{{ partial "breadcrumbs.html" . }}
-			<p class="center-text posts-list-button"><a href="/posts-list"><i class="fa-solid fa-rectangle-list"></i> Posts
-					list</a></p>
+			<p class="center-text posts-list-button"><a href="/posts-list"><span class="iconify"
+						data-icon="lsicon-list-filled"></span> Posts list</a></p>
 
 			<!-- Paginate and loop through the pages -->
 			{{ $paginated := .Paginate (where .Pages "Type" "news") }}
@@ -26,9 +26,8 @@
 						.Date.Format
 						.Site.Params.date_format }}</time>
 					{{ if and (.GitInfo) (ne (.GitInfo.AuthorDate) .Date) }}
-					<i class="fa-solid fa-pen-nib last-update" aria-hidden="true" title="Updated: {{ .GitInfo.AuthorDate }}"></i>
+						<span title="Updated: {{ .GitInfo.AuthorDate }}"><span class="iconify last-update" data-icon="mingcute-pen-fill" aria-hidden="true" ></span></span>
 					{{ end }}
-
 				</p>
 				<p>{{ .Summary }}</p>
 			</article>
@@ -37,10 +36,10 @@
 		<!-- Pagination Controls -->
 		<div class="post-area pagination">
 			{{ if $paginated.HasPrev }}
-			<a href="{{ $paginated.Prev.URL }}" class="prev"><i class="fa-solid fa-arrow-left"></i> Previous</a>
+			<a href="{{ $paginated.Prev.URL }}" class="prev"><span class="iconify" data-icon="mdi:arrow-left-bold"></span></i> Previous</a>
 			{{ end }}
 			{{ if $paginated.HasNext }}
-			<a href="{{ $paginated.Next.URL }}" class="next">Next <i class="fa-solid fa-arrow-right"></i></a>
+			<a href="{{ $paginated.Next.URL }}" class="next">Next <span class="iconify" data-icon="mdi:arrow-right-bold"></span></a>
 			{{ end }}
 		</div>
 	</main>

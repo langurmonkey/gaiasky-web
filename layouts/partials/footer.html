@@ -19,7 +19,7 @@
           <ul>
             {{ range .Site.Params.social }}
             <li><a href="{{ .url }}" title="{{ .name }}" alt="{{ .name }}">
-                <i class="{{ .icon }}"></i>
+                <span class="iconify" data-icon="{{ .icon }}"></span>
               </a></li>
             {{ end }}
           </ul>
@@ -51,3 +51,59 @@
     </div>
   </div>
 </footer>
+<script>
+  // Ensure Iconify is loaded
+  if (typeof Iconify !== 'undefined') {
+    // Load the local JSON file
+    fetch('/icons/custom-icons.json')
+      .then(response => response.json())
+      .then(data => {
+        // Add the icons to Iconify
+        data.forEach(collection => {
+          Iconify.addCollection(collection);
+        });
+      })
+      .catch(error => console.error('Error loading icons:', error));
+  } else {
+    console.error('Iconify is not loaded.');
+  }
+</script>
+<script>
+  $(randompic)
+
+  function randompic() {
+    var bgm = [
+      'asteroids.avif',
+      'aurora.avif',
+      'blackhole.avif',
+      'blur.avif',
+      'cluster.avif',
+      'constel.avif',
+      'crab.avif',
+      'datasets.avif',
+      'dramatic.avif',
+      'earthrise.avif',
+      'enterprise.avif',
+      'euclid.avif',
+      'exoplanet.avif',
+      'exoplanets.avif',
+      'gaia.avif',
+      'hst.avif',
+      'hst2.avif',
+      'iss.avif',
+      'iss2.avif',
+      'landscape.avif',
+      'mooncloseup.avif',
+      'moonsurface.avif',
+      'saturn.avif',
+      'scattering.avif',
+      'sdss.avif',
+      'trifid.avif',
+      'voyager.avif'];
+
+    var path = window.location.pathname;
+    $('.random-background').css({
+      'background-image': 'url(/img/backgrounds/' + bgm[Math.floor(Math.random() * bgm.length)] + ')',
+    });
+  }
+</script>

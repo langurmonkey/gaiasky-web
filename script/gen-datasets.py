@@ -50,20 +50,20 @@ def decode_version(s: str) -> str:
 
 # Types to icons
 icons = {
-    "data-pack" : "fa-solid fa-database",
-    "texture-pack" : "fa-regular fa-image",
-    "virtualtex-pack" : "fa-solid fa-panorama",
-    "catalog-lod" : "fa-solid fa-chart-diagram",
-    "catalog-gaia" : "fa-solid fa-sun",
-    "catalog-star" : "fa-solid fa-sun",
-    "catalog-gal" : "fa-solid fa-box-open",
-    "catalog-cluster" : "fa-solid fa-globe",
-    "catalog-sso" : "fa-solid fa-meteor",
-    "catalog-other" : "fa-solid fa-cube",
-    "system" : "fa-solid fa-earth-europe",
-    "mesh" : "fa-solid fa-hexagon-nodes",
-    "spacecraft" : "fa-solid fa-satellite",
-    "volume" : "fa-solid fa-cloud",
+    "data-pack" : "raphael:db",
+    "texture-pack" : "material-symbols:texture",
+    "virtualtex-pack" : "mdi:grid",
+    "catalog-lod" : "la:cubes",
+    "catalog-gaia" : "tabler:stars",
+    "catalog-star" : "mdi:stars",
+    "catalog-gal" : "streamline:galaxy-2-solid",
+    "catalog-cluster" : "ph:graph",
+    "catalog-sso" : "game-icons:asteroid",
+    "catalog-other" : "mdi:cube",
+    "system" : "mdi:orbit",
+    "mesh" : "game-icons:mesh-network",
+    "spacecraft" : "solar:satellite-bold",
+    "volume" : "mdi:cloud",
 }
 def icon(type):
     return icons.get(type, "fa-regular fa-cube")
@@ -114,7 +114,7 @@ for dataset in latest_datasets.values():
     link = update_link(dataset.get('link', ''), base_url)
     file = os.path.dirname(update_link(dataset.get('file', ''), base_url))
 
-    fa_icon = icon(dstype)
+    dataicon = icon(dstype)
 
     # Format byte size
     size_pretty = sizeof_fmt(int(size_bytes))
@@ -130,7 +130,7 @@ for dataset in latest_datasets.values():
 
     markdown_content.append(f"<details id=\"{key}\">\n")
     markdown_content.append(f"<summary>\n")
-    markdown_content.append(f"<h3>{name}<br/><i class='{fa_icon}' title='Type: {dstype}'></i> <code title='Key: {key}'>{key}</code></h3>\n")
+    markdown_content.append(f"<h3>{name}<br/><span title='Type: {dstype}'><span class='iconify' data-icon='{dataicon}'></span></span> <code title='Key: {key}'>{key}</code></h3>\n")
     if img:
         imgname = os.path.splitext(img)[0]
         markdown_content.append(f"<img src=\"/img/datasets/{img}\" title=\"{imgname}\"></img>\n")

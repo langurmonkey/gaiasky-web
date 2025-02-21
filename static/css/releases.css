@@ -23,10 +23,15 @@ section.releases-list {
   padding: 1em;
   border-radius: 20px;
 }
-section.releases-list i.fa-tag{
+section.releases-list svg.iconify.tag{
   font-size: 1.8em;
   color: var(--accent-color);
   margin-right: 0.2em;
+  margin-bottom: -0.2em;
+}
+section.releases-list svg.iconify.calendar{
+  color: var(--text-dim-color);
+  margin-bottom: -0.1em;
 }
 section.releases-list div.releaseentry {
   margin-bottom: 1em;

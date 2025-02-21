@@ -10,16 +10,8 @@
 
 <!-- CSS -->
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/theme-yellow.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/owl.carousel.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/fontawesome.min.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/regular.min.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/brands.min.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/solid.min.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/gaiasky.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/animate.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/responsive.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/syntax.css" />
 {{- range .Params.css }}
 <link rel="stylesheet" href="{{ . | absURL }}" />
 {{- end }}
@@ -33,44 +25,4 @@
 <!-- Js -->
 <script src="{{ .Site.BaseURL }}js/vendor/jquery.min.js"></script>
 <script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
-<script src="{{ .Site.BaseURL }}js/plugins.js"></script>
-<script src="{{ .Site.BaseURL }}js/jquery.counterup.js"></script>
-<script>
-  $(randompic)
-
-  function randompic() {
-    var bgm = [
-      'asteroids.avif',
-      'aurora.avif',
-      'blackhole.avif',
-      'blur.avif',
-      'cluster.avif',
-      'constel.avif',
-      'crab.avif',
-      'datasets.avif',
-      'dramatic.avif',
-      'earthrise.avif',
-      'enterprise.avif',
-      'euclid.avif',
-      'exoplanet.avif',
-      'exoplanets.avif',
-      'gaia.avif',
-      'hst.avif',
-      'hst2.avif',
-      'iss.avif',
-      'iss2.avif',
-      'landscape.avif',
-      'mooncloseup.avif',
-      'moonsurface.avif',
-      'saturn.avif',
-      'scattering.avif',
-      'sdss.avif',
-      'trifid.avif',
-      'voyager.avif'];
-
-    var path = window.location.pathname;
-    $('.random-background').css({
-      'background-image': 'url(/img/backgrounds/' + bgm[Math.floor(Math.random() * bgm.length)] + ')',
-    });
-  }
-</script>
+<script src="{{ .Site.BaseURL }}js/iconify.min.js"></script>

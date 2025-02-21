@@ -116,9 +116,9 @@ css = ["css/downloads.css", "css/releases.css"]
     
     content = f"{front_matter}\n<div class=\"download-container\">\n"
     content += f"<div id=\"download-title\">\n"
-    content += "<i class=\"fa-solid fa-tag\"></i>\n"
+    content += "<span class=\"iconify\" data-icon=\"mdi:tag\"></span>\n"
     content += f"Gaia Sky <span class=\"downloads-version\">{version}</span> \n"
-    content += f"<time class=\"downloads-releasedate\" datetime=\"{release_date}\" title=\"Published: {release_date}\"><i class=\"fa-solid fa-calendar\"></i> {short_date}</time>\n"
+    content += f"<time class=\"downloads-releasedate\" datetime=\"{release_date}\" title=\"Published: {release_date}\"><span class=\"iconify\" data-icon=\"mdi:calendar\"></span> {short_date}</time>\n"
     content += f"<div class=\"downloads-build\">Build {build}</div></div>\n"
     content += f"<div class=\"download-section\">\n"
 
@@ -133,35 +133,35 @@ css = ["css/downloads.css", "css/releases.css"]
             else:
                 name = "Windows 32-bit"
             ext = ".exe"
-            cl = "fa-brands fa-windows"
+            cl = "mdi:windows"
         elif file.endswith(".dmg"):
             name = "macOS"
             ext = ".dmg"
-            cl = "fa-brands fa-apple"
+            cl = "mdi:apple"
         elif file.endswith(".tar.gz"):
             name = "TGZ package"
             ext = ".tar.gz"
-            cl = "fa-solid fa-file-zipper"
+            cl = "mdi:zip-box"
         elif file.endswith(".appimage"):
             name = "AppImage"
             ext = ".appimage"
-            cl = "fa-solid fa-box-archive"
+            cl = "material-symbols:box"
         elif file.endswith(".deb"):
             name = "DEB package"
             ext = ".deb"
-            cl = "fa-brands fa-debian"
+            cl = "mdi:debian"
         elif file.endswith(".rpm"):
             name = "RPM package"
             ext = ".rpm"
-            cl = "fa-brands fa-fedora"
+            cl = "mdi:fedora"
         elif file.endswith(".sh"):
             name = "UNIX Installer"
             ext = ".sh"
-            cl = "fa fa-terminal"
+            cl = "token:unix"
         else:
             continue
         
-        content += f"<a href=\"{link}\" class=\"download-button\"><i class=\"{cl}\"></i> {name} <code>{ext}</code><span class=\"download-sub\">{file}</span></a>\n"
+        content += f"<a href=\"{link}\" class=\"download-button\"><span class=\"iconify\" data-icon=\"{cl}\"></span> {name} <code>{ext}</code><span class=\"download-sub\">{file}</span></a>\n"
 
         if dl[3]:
             link = f"{dl[3][1]}{dl[3][2]}"
@@ -191,8 +191,7 @@ css = ["css/downloads.css", "css/releases.css"]
         content += "\n</section>\n\n"
 
     footer = """
-<p class="center-text" style="padding: 30px;">
-<i class="fa-solid fa-circle-arrow-left"></i> <a href="/downloads/releases">Back to releases</a>
+<p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><span class="iconify back" data-icon="mdi:arrow-left-bold"></span> Back to releases</a>
 </p>
 """
 
@@ -232,12 +231,12 @@ You can also browse **all Gaia Sky** tags in our [repository](https://codeberg.o
         short_date = datetime.strptime(releasedate, "%Y-%m-%dT%H:%M:%S").strftime("%Y-%m-%d")
         content += "<div class=\"releaseentry\">\n"
         content += f"<a href=\"./v{version}\" class=\"versionlink\">\n"
-        content += "<i class=\"fa-solid fa-tag\"></i>\n"
+        content += "<span class=\"iconify tag\" data-icon=\"mdi:tag\"></span>\n"
         content += "<div class=\"release\">\n"
         content += f"Gaia Sky {version}\n</div>\n"
         content += f"<code class=\"build\">{build}</code>\n"
         content += "<div class=\"releasedate\">\n"
-        content += "<i class=\"fa-solid fa-calendar\"></i>\n"
+        content += "<span class=\"iconify calendar\" data-icon=\"mdi:calendar\"></span>\n"
         content += f"<time datetime=\"{releasedate}\" title=\"Published: {releasedate}\">{short_date}</time></div>\n"
         content += "</a>\n"
         content += "</div>\n"

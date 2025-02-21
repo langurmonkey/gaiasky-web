@@ -13,7 +13,8 @@
   <main>
     <div class="posts-list">
       {{ partial "breadcrumbs" . }}
-      <p class="center-text posts-list-button"><a href="/news"><i class="fa-regular fa-newspaper"></i> Expanded list</a>
+      <p class="center-text posts-list-button"><a href="/news"><span class="iconify"
+            data-icon="majesticons-article"></span> Expanded list</a>
       </p>
       <!-- Paginate and loop through the pages -->
       {{ range (where .Site.Pages "Type" "news").GroupByDate "2006" }}
@@ -26,7 +27,7 @@
             datetime="{{ .Date }}" title="Published: {{ .Date }}">{{ .Date.Format .Site.Params.date_format
             }}</time>
           {{ if and (.GitInfo) (ne (.GitInfo.AuthorDate) .Date) }}
-          <i class="fa-solid fa-pen-nib last-update" aria-hidden="true" title="Updated: {{ .GitInfo.AuthorDate }}"></i>
+						<span title="Updated: {{ .GitInfo.AuthorDate }}"><span class="iconify last-update" data-icon="mingcute-pen-fill" aria-hidden="true" ></span></span>
           {{ end }}
         </span>
       </div>

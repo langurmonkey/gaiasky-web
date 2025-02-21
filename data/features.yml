@@ -4,102 +4,102 @@ subtitle: >
   Gaia Sky is packed with features that will make your head spin
 content:
 
-  - icon: fa-solid fa-code-branch
+  - icon: raphael-opensource
     name: Open source
     text: >
       Open source and free, and will stay this way. Contribute to the development and translations.
 
-  - icon: fa fa-star
+  - icon: clarity-objects-solid
     name: High object count
     text: >
       The [MS-LOD](https://ieeexplore.ieee.org/document/8440086) technique enables real-time exploration of billions of objects in real time.
 
-  - icon: fa fa-satellite
+  - icon: hugeicons-satellite-03
     name: From Gaia to the cosmos
     text: >
       Explore from high-z galaxies to small asteroids in a seamless manner, all based on real scientific data.
 
-  - icon: fa fa-vr-cardboard
+  - icon: mdi-vr
     name: Virtual Reality
     text: >
       Experience the whole universe in VR (compatible with headsets powered by OpenXR).
 
-  - icon: fa fa-cubes
+  - icon: mingcute-cube-3d-line
     name: 6D exploration
     text: >
       Observe star positions but also proper motions and radial velocities, if available.
 
-  - icon: fa fa-images
+  - icon: ph-graphics-card
     name: Advanced graphics
     text: >
       Virtual textures, screen space reflections, shadows, HDR, volumes, dynamic resolution, etc.
 
-  - icon: fa fa-earth-europe
+  - icon: solar-planet-4-bold
     name: Planetary surfaces
     text: >
       Explore surfaces with height and elevation maps (using tessellation, if available), and advanced shading.
 
-  - icon: fa fa-microchip
+  - icon: gg-smartphone-chip
     name: Procedural planets
     text: >
       Procedurally generate planetary surfaces on the fly, and explore your creations seamlessly.
 
-  - icon: fa fa-circle
+  - icon: uil-moon-eclipse
     name: Eclipses
     text: >
       Real-time representation of eclipses in all bodies, with a visualization of the umbra and the penumbra.
 
-  - icon: fa fa-glasses
+  - icon: tabler-badge-3d-filled
     name: 3D-ready
     text: >
       6 stereoscopic modes: Anaglyphic (red-cyan), VR headset, 3DTV (H and V), cross-eye and parallel view.
 
-  - icon: fa fa-panorama
+  - icon: tabler-view-360-number
     name: 360 mode
     text: >
       Spherical (equirectangular), cylindrical and Hammer projections available, plus many reprojection modes.
 
-  - icon: fa fa-landmark-dome
+  - icon: tabler-stars
     name: Planetarium projection
     text: >
       Domemaster projection for single-projector setups. MPCDI for real-time usage in multi-projector systems.
 
-  - icon: fa fa-space-shuttle
+  - icon: gis-satellite
     name: Gaia and other spacecraft
     text: >
       Observe Gaia and other spacecraft in their orbits and discover their movement in the sky and their attitudes.
 
-  - icon: fa fa-database
+  - icon: clarity-file-zip-line
     name: Use your data
     text: >
       Download pre-packed datasets ([Gaia](https://www.cosmos.esa.int/web/gaia/dr3), [NGC](https://in-the-sky.org/data/catalogue.php?cat=NGC), [SDSS](http://www.sdss.org/), Open Clusters, etc.) or use your own, in VOTable, FITS, CSV and [other formats](http://www.star.bris.ac.uk/~mbt/stil/).
 
-  - icon: fa fa-filter
+  - icon: lsicon-filter-filled
     name: Real-time filters
     text: >
       Download pre-packed datasets (Gaia DR3+, NEARGALCAT, SDSS, Open Clusters, etc.) or use your own, in VOTable, FITS, CSV, and others.
 
-  - icon: fa fa-right-left
+  - icon: mdi-file-transfer-outline
     name: SAMP aware
     text: >
       Use [SAMP](http://www.ivoa.net/documents/SAMP/20120411/REC-SAMP-1.3-20120411.html) (Simple Application Messaging Protocol) to interoperate with SAMP-ready software such as Topcat and Aladin.
 
-  - icon: fa fa-gamepad
+  - icon: iconoir-gamepad
     name: Gamepad support
     text: >
       Use your favorite controllers and gamepads to navigate the Galaxy. Piece of cake!
 
-  - icon: fa fa-video
+  - icon: lsicon-path-filled
     name: Camera paths
     text: >
       Record and play camera paths off-the-shelf. Includes a keyframe system.
 
-  - icon: fa-brands fa-python
+  - icon: mdi-script-text-outline
     name: Scriptable and extensible
     text: >
       Use Python to script and extend the capabilities of the Gaia Sky.
 
-  - icon: fa fa-language
+  - icon: clarity-language-solid
     name: Internationalized
     text: >
       Translated to English, German, Spanish, French, Catalan, Slovenian and Bulgarian.
