@@ -1,3 +1,6 @@
+# This script reads the public data descriptor JSON file of Gaia Sky
+# and generates a page with all the datasets for this website.
+
 import json
 import gzip
 import requests
