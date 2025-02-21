@@ -13,7 +13,11 @@
       </div><!-- .col-md-7 close -->
       <div class="col-md-5 col-sm-12">
         <div class="block">
-          <img src="{{ .Site.Params.wrapper.image }}" alt="Img">
+          <picture>
+            <source srcset="{{ .Site.Params.wrapper.imagejxl }}" type="image/jxl">
+            <source srcset="{{ .Site.Params.wrapper.imageavif }}" type="image/avif">
+            <img src="{{ .Site.Params.wrapper.image }}" alt="A procedurally-generated planet.">
+          </picture>
         </div>
       </div><!-- .col-md-5 close -->
     </div>
