@@ -1,3 +1,7 @@
+# This script crawls the repository listing and generates a page for
+# each old Gaia Sky release in $GSW/content/downloads/releases. It also
+# generates a listing with all releases.
+
 import os
 import re
 import requests
