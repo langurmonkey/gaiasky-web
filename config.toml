@@ -77,11 +77,11 @@ enableGitInfo = true
   [[menu.footer]]
     weight = 7
     name = "Resources"
-    url = "resources"
+    pageRef = "resources"
   [[menu.footer]]
     weight = 8
     name = "Datasets"
-    url = "resources/datasets"
+    pageRef = "resources/datasets"
   [[menu.footer]]
     weight = 9
     name = "Licenses"
