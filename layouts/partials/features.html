@@ -15,7 +15,7 @@
       {{ range .Site.Data.features.content }}
       <div class="col-sm-6 col-md-3">
         <div class="features-item">
-          <span class="iconify" data-icon="{{ .icon }}"></span>
+          <i class="i {{ .icon }}"></i>
           <h4>{{ .name }}</h4>
           <p>{{ .text | markdownify }}</p>
         </div>

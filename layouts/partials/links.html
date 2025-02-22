@@ -14,7 +14,7 @@
     <div class="row">
       {{ range .Site.Data.links.content }}
       <div class="links-item">
-        <span class="iconify" data-icon="{{ .icon }}"></span>
+        <i class="i {{ .icon }}"></i>
         <div>
           <a href="{{ .url }}" alt="{{ .name }}">
             <h4>{{ .name }}</h4>

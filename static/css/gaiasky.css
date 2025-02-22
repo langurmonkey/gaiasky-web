@@ -233,9 +233,6 @@ details[open] summary::before {
 }
 .container {
 }
-svg.iconify {
-  margin-bottom: -0.1em;
-}
 /*--
 	Header Start
 --*/
@@ -277,9 +274,9 @@ header .navbar-default .navbar-nav li a {
   padding: 0.5em 1em;
   font-size: 0.9em;
 }
-header .navbar-default .navbar-nav svg.iconify {
-  margin-top: 0.1em;
-  font-size: 1.3em;
+header .navbar-default .navbar-nav i.i::before {
+  font-size: 1.5em;
+  font-weight: bold;
 }
 button.navbar-toggle {
   padding: 7px 7px;
@@ -413,10 +410,9 @@ div#breadcrumbs ul >  li:first-child {
 #slider button#download-button span.title {
   font-size: 1.6em;
 }
-#slider button#download-button span.title svg.iconify {
-  filter: drop-shadow(2px 2px 2px black);
-  font-size: 1.0em;
-  margin-bottom: -0.1em;
+#slider button#download-button span.title i.i::before {
+  position: relative;
+  top: 0.1em;
 }
 #slider svg.separator-round {
   width: 100%;
@@ -460,9 +456,9 @@ section#features {
 section#features .features-item {
   padding-bottom: 6em;
 }
-section#features .features-item svg.iconify,
+section#features .features-item i.i::before,
 section#features .features-item i {
-  font-size: 5em;
+  font-size: 2.7em;
   color: var(--accent-color);
 }
 section#features .features-item h4 {
@@ -488,7 +484,7 @@ section#links .links-item {
   text-align: left;
   padding-bottom: 2.4em;
 }
-section#links .links-item svg.iconify {
+section#links .links-item i.i::before {
   font-size: 4em;
   color: var(--accent-color);
   float: left;
@@ -567,9 +563,9 @@ div.datasets-box {
   border-radius: 20px;
   color: var(--text-dim-color);
 }
-div.datasets-box svg.iconify {
-  margin-bottom: -0.1em;
-  filter: drop-shadow(2px 2px 1px black);
+div.datasets-box i.i::before {
+  position: relative;
+  top: 0.1em;
 }
 /*---------------------------------------------
 					Work Start
@@ -868,8 +864,9 @@ p.posts-list-button {
   border-radius: 10px;
   margin-top: 1em;
 }
-p.posts-list-button svg.iconify {
-  margin-bottom: -0.15em;
+p.posts-list-button i.i::before {
+  position: relative;
+  top: 0.15em;
 }
 div.posts-list {
   padding: 1em 30em 5em 30em;
@@ -914,13 +911,15 @@ figure.vid-post video {
 .pagination .next {
   margin-left: 2em;
 }
-.pagination .next svg.iconify {
+.pagination .next i.i::before {
   font-size: 1em;
-  margin-bottom: -0.2em;
+  position: relative;
+  top: 0.1em;
 }
-.pagination .prev svg.iconify {
+.pagination .prev i.i::before {
   font-size: 1em;
-  margin-bottom: -0.2em;
+  position: relative;
+  top: 0.1em;
 }
 div.title {
   margin-bottom: 2em;
@@ -932,10 +931,11 @@ div.title description {
 time.published {
   font-weight: 100;
 }
-svg.iconify.last-update {
+i.i.last-update::before {
   font-size: 1em;
   margin-left: 0.2em;
-  margin-bottom: -0.1em;
+  position: relative;
+  top: 0.1em;
   color: var(--text-dimmer-color);
 }
 .animated {
