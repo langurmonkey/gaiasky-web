@@ -19,7 +19,7 @@
           <ul>
             {{ range .Site.Params.social }}
             <li><a href="{{ .url }}" title="{{ .name }}" alt="{{ .name }}">
-                <span class="iconify" data-icon="{{ .icon }}"></span>
+                <i class="i {{ .icon }}"></i>
               </a></li>
             {{ end }}
           </ul>

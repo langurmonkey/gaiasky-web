@@ -2,7 +2,7 @@ const fs = require('fs');
 
 // Define the icons you need from each set
 const selectedIcons = {
-    "mdi": ['vr', 'file-transfer-outline', 'script-text-outline', 'arrow-left-bold', 'arrow-right-bold', 'linux', 'git', 'debian', 'fedora', 'arch', 'zip-box', 'code', 'tag', 'clock-time-four', 'calendar', 'grid', 'stars', 'cube', 'orbit', 'cloud', 'email', 'rss', 'twitter', 'archive', 'database-outline', 'file-transfer-outline', 'vr'],
+    "mdi": ['vr', 'file-transfer-outline', 'script-text-outline', 'arrow-left-bold', 'arrow-right-bold', 'linux', 'git', 'debian', 'fedora', 'arch', 'zip-box', 'code', 'tag', 'clock-time-four', 'calendar', 'grid', 'stars', 'cube', 'orbit', 'cloud', 'email', 'rss', 'twitter', 'archive', 'database-outline', 'file-transfer-outline'],
     "fa": ['search', 'apple'],
     "fa-brands": ['creative-commons', 'creative-commons-by', 'creative-commons-nc'],
     "la": ['cubes'],

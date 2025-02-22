@@ -4,25 +4,25 @@ subtitle: >
   Learn about the Gaia mission and play around with the Gaia dataset
 content:
 
-  - icon: ic-baseline-satellite-alt
+  - icon: ic:baseline-satellite-alt
     name: ESA Gaia site
     text: >
       Official site of Gaia at ESA. Learn about the mission and the satellite in this official ESA page.
     url: https://sci.esa.int/web/gaia
 
-  - icon: mdi-archive
+  - icon: mdi:archive
     name: Gaia archive (GACS)
     text: >
       The official Gaia archive where you can get all the data produced by the Gaia mission.
     url: https://gea.esac.esa.int
 
-  - icon: hugeicons-university
+  - icon: tabler:home
     name: ARI Gaia project site
     text: >
       Learn about the Gaia group at ARI. The Gaia Sky project is part of this group.
     url: https://zah.ari.uni-heidelberg.de/gaia/
 
-  - icon: mdi-database-outline
+  - icon: mdi:database-outline
     name: ARI's Gaia Services
     text: >
       Self-hosted mirror of the Gaia archive, offering online services to access the Gaia catalogue. 
