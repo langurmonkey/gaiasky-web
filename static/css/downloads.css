@@ -23,9 +23,10 @@
     font-size: 2em;
     font-variant: normal;
 }
-svg.download-icon {
-    margin-bottom: -0.3em;
-    font-weight: 100;
+i.i.download-icon {
+    position: relative;
+    top: 0.2em;
+    font-weight: 10;
     font-size: 1.7em;
     background-color: transparent;
     color: var(--accent-color);
@@ -56,8 +57,12 @@ svg.download-icon {
     transform: translateY(4px);
     box-shadow: 0 0 5px black;
 }
-.download-button svg.iconify {
-    margin-bottom: -0.1em;
+.download-button i.i {
+    font-weight: 100;
+    position: relative;
+    top: 0.15em;
+    font-size: 1.3em;
+    margin-right: 0.2em;
 }
 .download-button span.download-sub {
     font-size: 0.9rem;
@@ -92,7 +97,4 @@ svg.download-icon {
   font-size: 0.6em;
   font-family: monospace;
   text-align: center;
-}
-p.center-text a svg.iconify.back {
-  margin-bottom: -0.1em;
 }

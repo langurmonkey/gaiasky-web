@@ -21,9 +21,9 @@ datasets:
     (cd script && pipenv run python gen-datasets.py)
     mv script/datasets.md content/resources/datasets/index.md
 
-icons:
-    (cd script && node gen-icon-json.js)
-    mv script/custom-icons.json static/icons/
+# icons:
+#     (cd script && node gen-icon-json.js)
+#     mv script/custom-icons.json static/icons/
 
 # Generates the site with hugo
 hugo:

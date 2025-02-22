@@ -53,12 +53,12 @@ def decode_version(s: str) -> str:
 
 # Types to icons
 icons = {
-    "data-pack" : "raphael:db",
+    "data-pack" : "mdi:database-outline",
     "texture-pack" : "material-symbols:texture",
     "virtualtex-pack" : "mdi:grid",
     "catalog-lod" : "la:cubes",
-    "catalog-gaia" : "tabler:stars",
-    "catalog-star" : "mdi:stars",
+    "catalog-gaia" : "tabler:stars-filled",
+    "catalog-star" : "game-icons:stars-stack",
     "catalog-gal" : "streamline:galaxy-2-solid",
     "catalog-cluster" : "ph:graph",
     "catalog-sso" : "game-icons:asteroid",
@@ -66,7 +66,7 @@ icons = {
     "system" : "mdi:orbit",
     "mesh" : "game-icons:mesh-network",
     "spacecraft" : "solar:satellite-bold",
-    "volume" : "mdi:cloud",
+    "volume" : "material-symbols:cloud",
 }
 def icon(type):
     return icons.get(type, "fa-regular fa-cube")
@@ -133,7 +133,7 @@ for dataset in latest_datasets.values():
 
     markdown_content.append(f"<details id=\"{key}\">\n")
     markdown_content.append(f"<summary>\n")
-    markdown_content.append(f"<h3>{name}<br/><span title='Type: {dstype}'><span class='iconify' data-icon='{dataicon}'></span></span> <code title='Key: {key}'>{key}</code></h3>\n")
+    markdown_content.append(f"<h3>{name}<br/><i class='i {dataicon}' title='Type: {dstype}'></i> <code title='Key: {key}'>{key}</code></h3>\n")
     if img:
         imgname = os.path.splitext(img)[0]
         markdown_content.append(f"<img src=\"/img/datasets/{img}\" title=\"{imgname}\"></img>\n")

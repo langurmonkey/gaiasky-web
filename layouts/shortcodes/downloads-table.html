@@ -1,16 +1,16 @@
 <div class="download-container">
   <div id="download-title">
-    <span class="iconify" data-icon="mdi:tag"></span> Gaia Sky <span class="downloads-version">{{ .Site.Params.Release.version }}</span>
+    <i class="i mdi:tag"></i> Gaia Sky <span class="downloads-version">{{ .Site.Params.Release.version }}</span>
     <time class="downloads-releasedate" datetime="{{ .Site.Params.Release.Date }}"
-      title="Published: {{ .Site.Params.Release.Date }}"><i class="fa-solid fa-calendar"></i> {{
+      title="Published: {{ .Site.Params.Release.Date }}"><i class="i mdi:calendar"></i> {{
       .Site.Params.Release.Date
       }}</time>
     <div class="downloads-build">Build {{ .Site.Params.Release.Build }}</div>
   </div>
   <div class="download-section">
-    <h2><span class="iconify download-icon" data-icon="uil-windows"></span> Windows</h2>
+    <h2><i class="i uil:windows download-icon"></i> Windows</h2>
     <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_windows-x64_{{ .Site.Params.Release.versionFlat }}.exe"
-      class="download-button" aria-label="Download Gaia Sky for Windows"><span class="iconify" data-icon="uil-windows"></span> Windows
+      class="download-button" aria-label="Download Gaia Sky for Windows"><i class="i uil:windows"></i> Windows
       <code>.exe</code>
       <span class="download-sub">For Windows 10/11 x86_64</span>
     </a>
@@ -20,9 +20,9 @@
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a></span>
   </div>
   <div class="download-section">
-    <h2><span class="iconify download-icon" data-icon="fa-apple"></span> macOS</h2>
+    <h2><i class="i fa6-brands:apple download-icon"></i> macOS</h2>
     <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_macos_{{ .Site.Params.Release.versionFlat }}.dmg"
-      class="download-button" aria-label="Download Gaia Sky for macOS (Apple Silicon and x86_64)"><span class="iconify" data-icon="fa-apple"></span> macOS
+      class="download-button" aria-label="Download Gaia Sky for macOS (Apple Silicon and x86_64)"><i class="i fa6-brands:apple"></i> macOS
       <code>.dmg</code>
       <span class="download-sub">Apple Silicon and x86_64</span>
     </a>
@@ -32,9 +32,9 @@
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a></span>
   </div>
   <div class="download-section">
-    <h2><span class="iconify download-icon" data-icon="mdi-linux"></span> Linux</h2>
+    <h2><i class="i mdi:linux download-icon"></i> Linux</h2>
     <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_{{ .Site.Params.Release.versionFlat }}.deb"
-      class="download-button" aria-label="Download Gaia Sky for Linux (DEB)"><span class="iconify" data-icon="mdi-debian"></span>
+      class="download-button" aria-label="Download Gaia Sky for Linux (DEB)"><i class="i mdi:debian"></i>
       DEB package <code>.deb</code>
       <span class="download-sub">Debian, Ubuntu, Mint</span>
     </a>
@@ -43,7 +43,7 @@
       by <a
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a></span>
     <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_{{ .Site.Params.Release.versionFlat }}.rpm"
-      class="download-button" aria-label="Download Gaia Sky for Linux (RPM)"><span class="iconify" data-icon="mdi-fedora"></span>
+      class="download-button" aria-label="Download Gaia Sky for Linux (RPM)"><i class="i mdi:fedora"></i>
       RPM package <code>.rpm</code>
       <span class="download-sub">Red Hat, Fedora, SUSE</span>
     </a>
@@ -52,7 +52,7 @@
       by <a
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a></span>
     <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_{{ .Site.Params.Release.versionBuild }}_x86_64.appimage"
-      class="download-button" aria-label="Download Gaia Sky for Linux (AppImage)"><span class="iconify" data-icon="material-symbols:box"></span> AppImage
+      class="download-button" aria-label="Download Gaia Sky for Linux (AppImage)"><i class="i material-symbols:box"></i> AppImage
       <code>.AppImage</code>
       <span class="download-sub">Distro-agnostic self-contained package</span>
     </a>
@@ -61,7 +61,7 @@
       by <a
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a></span>
     <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_{{ .Site.Params.Release.versionFlat }}.sh"
-      class="download-button" aria-label="Download Gaia Sky for Linux (.sh installer)"><span class="iconify" data-icon="token:unix"></span>
+      class="download-button" aria-label="Download Gaia Sky for Linux (.sh installer)"><i class="i token:unix"></i>
       UNIX installer
       <code>.sh</code>
       <span class="download-sub">Distro-agnositc installer</span>
@@ -71,20 +71,20 @@
       by <a
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a></span>
     <a href="https://aur.archlinux.org/packages/gaiasky/" class="download-button"
-      aria-label="Download Gaia Sky for Arch Linux (AUR)"><span class="iconify" data-icon="mdi:arch"></span>
+      aria-label="Download Gaia Sky for Arch Linux (AUR)"><i class="i mdi:arch"></i>
       AUR
       Package
       <span class="download-sub">Arch Linux User Repository</span>
     </a>
     <a href="https://flathub.org/apps/details/space.gaiasky.GaiaSky" class="download-button"
-      aria-label="Download Gaia Sky for Linux (flathub)"><span class="iconify" data-icon="simple-icons:flatpak"></span> Flatpak
+      aria-label="Download Gaia Sky for Linux (flathub)"><i class="i simple-icons:flatpak"></i> Flatpak
       <span class="download-sub">Via flathub.org</span>
     </a>
   </div>
   <div class="download-section">
-    <h2><span class="iconify download-icon" data-icon="ix-operating-system"></span> OS-agnostic</h2>
+    <h2><i class="i ic:sharp-laptop-windows download-icon"></i> OS-agnostic</h2>
     <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky-{{ .Site.Params.Release.versionBuild }}.tar.gz"
-      class="download-button" aria-label="Download Gaia Sky as a .tar.gz tarball"><span class="iconify" data-icon="mdi:zip-box"></span> TGZ package
+      class="download-button" aria-label="Download Gaia Sky as a .tar.gz tarball"><i class="i mdi:zip-box"></i> TGZ package
       <code>.tar.gz</code>
       <span class="download-sub">Extract and run</span>
     </a>
@@ -94,8 +94,8 @@
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a></span>
   </div>
   <div class="download-section">
-    <h2><span class="iconify download-icon" data-icon="mdi-git"></span> Git repository</h2>
-    <a href="https://codeberg.org/gaiasky/gaiasky" class="download-button" aria-label="Gaia Sky source repository"><span class="iconify" data-icon="mdi:code"></span> Source code
+    <h2><i class="i mdi:git download-icon"></i> Git repository</h2>
+    <a href="https://codeberg.org/gaiasky/gaiasky" class="download-button" aria-label="Gaia Sky source repository"><i class="i mdi:application-brackets"></i> Source code
       <span class="download-sub">Codeberg</span>
     </a>
   </div>

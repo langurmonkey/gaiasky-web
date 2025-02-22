@@ -1,3 +1,5 @@
+// This file combines a few iconify icons into a single JSON file.
+// It is NOT used anymore!
 const fs = require('fs');
 
 // Define the icons you need from each set
