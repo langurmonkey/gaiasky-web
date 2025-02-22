@@ -26,23 +26,3 @@
 <!-- Js -->
 <script src="{{ .Site.BaseURL }}js/vendor/jquery.min.js"></script>
 <script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
-<!-- <script> -->
-  <!-- function loadIcons() { -->
-    <!-- console.log(Iconify.providers); -->
-    <!-- // Prevent API calls -->
-    <!-- window.IconifyProviders = []; -->
-
-    <!-- // Load the local JSON first -->
-    <!-- fetch('/icons/custom-icons.json') -->
-      <!-- .then(response => response.json()) -->
-      <!-- .then(data => { -->
-        <!-- // Add all collections BEFORE Iconify initializes -->
-        <!-- data.forEach(collection => { -->
-          <!-- Iconify.addCollection(collection); -->
-        <!-- }); -->
-
-      <!-- }) -->
-      <!-- .catch(error => console.error('Error loading icons:', error)); -->
-  <!-- } -->
-<!-- </script> -->
-<script src="{{ .Site.BaseURL }}js/iconify.min.js" onload="loadIcons()"></script>

@@ -120,9 +120,9 @@ css = ["css/downloads.css", "css/releases.css"]
     
     content = f"{front_matter}\n<div class=\"download-container\">\n"
     content += f"<div id=\"download-title\">\n"
-    content += "<span class=\"iconify\" data-icon=\"mdi:tag\"></span>\n"
+    content += "<i class=\"i mdi:tag\"></i>\n"
     content += f"Gaia Sky <span class=\"downloads-version\">{version}</span> \n"
-    content += f"<time class=\"downloads-releasedate\" datetime=\"{release_date}\" title=\"Published: {release_date}\"><span class=\"iconify\" data-icon=\"mdi:calendar\"></span> {short_date}</time>\n"
+    content += f"<time class=\"downloads-releasedate\" datetime=\"{release_date}\" title=\"Published: {release_date}\"><i class=\"i mdi:calendar\"></i> {short_date}</time>\n"
     content += f"<div class=\"downloads-build\">Build {build}</div></div>\n"
     content += f"<div class=\"download-section\">\n"
 
@@ -137,11 +137,11 @@ css = ["css/downloads.css", "css/releases.css"]
             else:
                 name = "Windows 32-bit"
             ext = ".exe"
-            cl = "mdi:windows"
+            cl = "fa6-brands:windows"
         elif file.endswith(".dmg"):
             name = "macOS"
             ext = ".dmg"
-            cl = "mdi:apple"
+            cl = "fa6-brands:apple"
         elif file.endswith(".tar.gz"):
             name = "TGZ package"
             ext = ".tar.gz"
@@ -165,7 +165,7 @@ css = ["css/downloads.css", "css/releases.css"]
         else:
             continue
         
-        content += f"<a href=\"{link}\" class=\"download-button\"><span class=\"iconify\" data-icon=\"{cl}\"></span> {name} <code>{ext}</code><span class=\"download-sub\">{file}</span></a>\n"
+        content += f"<a href=\"{link}\" class=\"download-button\"><i class=\"i {cl}\"></i> {name} <code>{ext}</code><span class=\"download-sub\">{file}</span></a>\n"
 
         if dl[3]:
             link = f"{dl[3][1]}{dl[3][2]}"
@@ -195,7 +195,7 @@ css = ["css/downloads.css", "css/releases.css"]
         content += "\n</section>\n\n"
 
     footer = """
-<p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><span class="iconify back" data-icon="mdi:arrow-left-bold"></span> Back to releases</a>
+<p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><i class="i mdi:arrow-left-bold-circle"></i> Back to releases</a>
 </p>
 """
 
@@ -235,12 +235,12 @@ You can also browse **all Gaia Sky** tags in our [repository](https://codeberg.o
         short_date = datetime.strptime(releasedate, "%Y-%m-%dT%H:%M:%S").strftime("%Y-%m-%d")
         content += "<div class=\"releaseentry\">\n"
         content += f"<a href=\"./v{version}\" class=\"versionlink\">\n"
-        content += "<span class=\"iconify tag\" data-icon=\"mdi:tag\"></span>\n"
+        content += "<i class=\"i mdi:tag tag\"></i>\n"
         content += "<div class=\"release\">\n"
         content += f"Gaia Sky {version}\n</div>\n"
         content += f"<code class=\"build\">{build}</code>\n"
         content += "<div class=\"releasedate\">\n"
-        content += "<span class=\"iconify calendar\" data-icon=\"mdi:calendar\"></span>\n"
+        content += "<i class=\"i mdi:calendar calendar\"></i>\n"
         content += f"<time datetime=\"{releasedate}\" title=\"Published: {releasedate}\">{short_date}</time></div>\n"
         content += "</a>\n"
         content += "</div>\n"
