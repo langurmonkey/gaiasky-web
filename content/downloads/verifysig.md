@@ -35,4 +35,4 @@ gpg:                using RSA key 448C2B189756743013D5F7C22FD2A59C1D734C1F
 gpg: Good signature from "Antoni Sagrista Selles "
 ```
 <br><br>
-{{< iconify "mdi:arrow-left-bold-circle" >}} [Back to downloads]({{< ref "downloads" >}})
+{{< icon "gs-mdi-arrow-left-bold-circle" >}} [Back to downloads]({{< ref "downloads" >}})
