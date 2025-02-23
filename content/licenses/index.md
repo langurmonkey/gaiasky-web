@@ -16,7 +16,7 @@ This **website and all its content** is licensed under [CC-BY-NC](https://creati
 
 All of the **material** we produce with Gaia Sky (YouTube videos, images, presentations, etc.) is licensed under [CC-BY](https://creativecommons.org/licenses/by/4.0/).
 
-### Software
+### Software <i class="gs-cib-mozilla"></i>
 
 The **software** Gaia Sky, Gaia Sky [catgen](https://codeberg.org/gaiasky/gaiasky-catgen) and Gaia Sky [documentation](http://docs.gaiasky.space) are licensed under the [Mozilla Public License (MPL) 2.0](https://www.mozilla.org/en-US/MPL/).
 
