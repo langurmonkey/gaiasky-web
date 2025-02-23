@@ -25,7 +25,7 @@
 						<div class="post-info-wrapper">
 							<p class="italic">By <span class="bold">{{ .Params.author }}</span> on <time class="bold" datetime="{{ .Date }}" title="Published: {{ .Date }}">{{ .Date.Format .Site.Params.date_format }}</time>
 		          {{ if and (.GitInfo) (ne (.GitInfo.AuthorDate) .Date) }}
-							<i class="i mingcute:pen-fill last-update" aria-hidden="true" title="Updated: {{ .GitInfo.AuthorDate }}"></i>
+							<i class="gs-mingcute-pen-fill last-update" aria-hidden="true" title="Updated: {{ .GitInfo.AuthorDate }}"></i>
 		          {{ end }}
 							</p>
 						</div>

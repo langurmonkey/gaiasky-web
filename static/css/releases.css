@@ -23,14 +23,14 @@ section.releases-list {
   padding: 1em;
   border-radius: 20px;
 }
-section.releases-list i.i.tag{
+section.releases-list i[class^='gs-'].tag{
   font-size: 1.8em;
   color: var(--accent-color);
   position: relative;
   top: 0.1em;
   margin-right: 0.2em;
 }
-section.releases-list i.i.calendar{
+section.releases-list i[class^='gs-'].calendar{
   color: var(--text-dim-color);
   position: relative;
   top: 0.2em;
