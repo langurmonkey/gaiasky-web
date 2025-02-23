@@ -23,13 +23,16 @@
     font-size: 2em;
     font-variant: normal;
 }
-i.i.download-icon {
+i[class^='gs-'].download-icon {
     position: relative;
     top: 0.2em;
     font-weight: 10;
     font-size: 1.7em;
     background-color: transparent;
     color: var(--accent-color);
+}
+i[class^='gs-'].icon-button {
+    font-weight: 100;
 }
 .download-section {
     margin: 20px 0;

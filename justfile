@@ -21,6 +21,11 @@ datasets:
     (cd script && pipenv run python gen-datasets.py)
     mv script/datasets.md content/resources/datasets/index.md
 
+# Generate the icon font
+iconfont:
+    (cd script && npx svgtofont --config svgtofont.config.js --output ./font --sources ./icons)
+    cp script/font/gaiasky-icons.css script/font/gaiasky-icons.eot script/font/gaiasky-icons.svg script/font/gaiasky-icons.ttf script/font/gaiasky-icons.woff script/font/gaiasky-icons.woff2 static/webfonts/
+
 # icons:
 #     (cd script && node gen-icon-json.js)
 #     mv script/custom-icons.json static/icons/
