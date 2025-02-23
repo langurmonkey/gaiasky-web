@@ -748,6 +748,9 @@ div.datasets-box i[class^='gs-'] {
   font-weight: 300;
 }
 /*--------- Footer ------------*/
+svg.separator-round {
+  margin-bottom: -0.1em;
+}
 footer {
   background: #000;
   text-align: center;
