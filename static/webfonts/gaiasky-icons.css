@@ -1,11 +1,11 @@
 @font-face {
   font-family: "gaiasky-icons";
-  src: url('gaiasky-icons.eot?t=1740329591695'); /* IE9*/
-  src: url('gaiasky-icons.eot?t=1740329591695#iefix') format('embedded-opentype') /* IE6-IE8 */,
-  url('gaiasky-icons.woff2?t=1740329591695') format('woff2'),
-  url('gaiasky-icons.woff?t=1740329591695') format('woff'),
-  url('gaiasky-icons.ttf?t=1740329591695') format('truetype'),
-  url('gaiasky-icons.svg?t=1740329591695') format('svg');
+  src: url('gaiasky-icons.eot?t=1740330216203'); /* IE9*/
+  src: url('gaiasky-icons.eot?t=1740330216203#iefix') format('embedded-opentype') /* IE6-IE8 */,
+  url('gaiasky-icons.woff2?t=1740330216203') format('woff2'),
+  url('gaiasky-icons.woff?t=1740330216203') format('woff'),
+  url('gaiasky-icons.ttf?t=1740330216203') format('truetype'),
+  url('gaiasky-icons.svg?t=1740330216203') format('svg');
 }
 
 [class^="gs-"], [class*=" gs-"] {
@@ -207,25 +207,26 @@
 .gs-solar-planet-4-bold:before { content: "\eabd"; }
 .gs-solar-planet-bold:before { content: "\eabe"; }
 .gs-solar-satellite-bold:before { content: "\eabf"; }
-.gs-solar-square-transfer-horizontal-bold:before { content: "\eac0"; }
-.gs-solar-transfer-horizontal-bold:before { content: "\eac1"; }
-.gs-solar-video-frame-2-bold:before { content: "\eac2"; }
-.gs-stash-article-solid:before { content: "\eac3"; }
-.gs-streamline-galaxy-1-solid:before { content: "\eac4"; }
-.gs-streamline-galaxy-2-solid:before { content: "\eac5"; }
-.gs-tabler-badge-3d-filled:before { content: "\eac6"; }
-.gs-tabler-home-filled:before { content: "\eac7"; }
-.gs-tabler-home:before { content: "\eac8"; }
-.gs-tabler-keyframe-align-vertical-filled:before { content: "\eac9"; }
-.gs-tabler-keyframes-filled:before { content: "\eaca"; }
-.gs-tabler-satellite:before { content: "\eacb"; }
-.gs-tabler-stars-filled:before { content: "\eacc"; }
-.gs-tabler-stars:before { content: "\eacd"; }
-.gs-tabler-view-360:before { content: "\eace"; }
-.gs-teenyicons-360-outline:before { content: "\eacf"; }
-.gs-teenyicons-360-solid:before { content: "\ead0"; }
-.gs-token-unix:before { content: "\ead1"; }
-.gs-uil-moon-eclipse:before { content: "\ead2"; }
-.gs-uil-windows:before { content: "\ead3"; }
+.gs-solar-square-academic-cap-2-bold:before { content: "\eac0"; }
+.gs-solar-square-transfer-horizontal-bold:before { content: "\eac1"; }
+.gs-solar-transfer-horizontal-bold:before { content: "\eac2"; }
+.gs-solar-video-frame-2-bold:before { content: "\eac3"; }
+.gs-stash-article-solid:before { content: "\eac4"; }
+.gs-streamline-galaxy-1-solid:before { content: "\eac5"; }
+.gs-streamline-galaxy-2-solid:before { content: "\eac6"; }
+.gs-tabler-badge-3d-filled:before { content: "\eac7"; }
+.gs-tabler-home-filled:before { content: "\eac8"; }
+.gs-tabler-home:before { content: "\eac9"; }
+.gs-tabler-keyframe-align-vertical-filled:before { content: "\eaca"; }
+.gs-tabler-keyframes-filled:before { content: "\eacb"; }
+.gs-tabler-satellite:before { content: "\eacc"; }
+.gs-tabler-stars-filled:before { content: "\eacd"; }
+.gs-tabler-stars:before { content: "\eace"; }
+.gs-tabler-view-360:before { content: "\eacf"; }
+.gs-teenyicons-360-outline:before { content: "\ead0"; }
+.gs-teenyicons-360-solid:before { content: "\ead1"; }
+.gs-token-unix:before { content: "\ead2"; }
+.gs-uil-moon-eclipse:before { content: "\ead3"; }
+.gs-uil-windows:before { content: "\ead4"; }
 
 
