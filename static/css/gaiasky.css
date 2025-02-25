@@ -416,6 +416,10 @@ div#breadcrumbs ul >  li:first-child {
   position: relative;
   top: 0.1em;
 }
+#slider button#download-button span.subtext.releasedate {
+  font-weight: 200;
+  color: var(--text-dim-color);
+}
 #slider svg.separator-round {
   width: 100%;
   position: absolute;

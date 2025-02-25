@@ -14,7 +14,7 @@ content:
     text: >
       The [MS-LOD](https://ieeexplore.ieee.org/document/8440086) technique enables real-time exploration of billions of objects in real time.
 
-  - icon: gs-gis-satellite
+  - icon: gs-mdi-satellite-variant
     name: From Gaia to the cosmos
     text: >
       Explore from high-z galaxies to small asteroids in a seamless manner, all based on real scientific data.
@@ -29,7 +29,7 @@ content:
     text: >
       Observe star positions but also proper motions and radial velocities, if available.
 
-  - icon: gs-ph-graphics-card
+  - icon: gs-ph-graphics-card-duotone
     name: Advanced graphics
     text: >
       Virtual textures, screen space reflections, shadows, HDR, volumes, dynamic resolution, etc.
@@ -44,7 +44,7 @@ content:
     text: >
       Procedurally generate planetary surfaces on the fly, and explore your creations seamlessly.
 
-  - icon: gs-uil-moon-eclipse
+  - icon: gs-game-icons-eclipse
     name: Eclipses
     text: >
       Real-time representation of eclipses in all bodies, with a visualization of the umbra and the penumbra.
@@ -84,7 +84,7 @@ content:
     text: >
       Use [SAMP](http://www.ivoa.net/documents/SAMP/20120411/REC-SAMP-1.3-20120411.html) (Simple Application Messaging Protocol) to interoperate with SAMP-ready software such as Topcat and Aladin.
 
-  - icon: gs-iconoir-gamepad
+  - icon: gs-solar-gamepad-bold
     name: Gamepad support
     text: >
       Use your favorite controllers and gamepads to navigate the Galaxy. Piece of cake!
@@ -94,7 +94,7 @@ content:
     text: >
       Record and play camera paths off-the-shelf. Includes a keyframe system.
 
-  - icon: gs-mdi-script-text-outline
+  - icon: gs-mdi-script-text
     name: Scriptable and extensible
     text: >
       Use Python to script and extend the capabilities of the Gaia Sky.
