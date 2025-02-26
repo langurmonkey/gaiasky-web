@@ -21,14 +21,10 @@ datasets:
     (cd script && pipenv run python gen-datasets.py)
     mv script/datasets.md content/resources/datasets/index.md
 
-# Generate the icon font
+# Generate a font from all icons in /assets/icons
 iconfont:
-    (cd script && npx svgtofont --config svgtofont.config.js --output ./font --sources ./icons)
-    cp script/font/gaiasky-icons.css script/font/gaiasky-icons.eot script/font/gaiasky-icons.svg script/font/gaiasky-icons.ttf script/font/gaiasky-icons.woff script/font/gaiasky-icons.woff2 static/webfonts/
-
-# icons:
-#     (cd script && node gen-icon-json.js)
-#     mv script/custom-icons.json static/icons/
+    (cd script && npx svgtofont --config svgtofont.config.js --output ./generated --sources ../assets/icons)
+    cp script/generated/gaiasky-icons.css script/generated/gaiasky-icons.eot script/generated/gaiasky-icons.svg script/generated/gaiasky-icons.ttf script/generated/gaiasky-icons.woff script/generated/gaiasky-icons.woff2 static/webfonts/
 
 # Generates the site with hugo
 hugo:
