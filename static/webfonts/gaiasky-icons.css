@@ -1,11 +1,11 @@
 @font-face {
   font-family: "gaiasky-icons";
-  src: url('gaiasky-icons.eot?t=1740555019611'); /* IE9*/
-  src: url('gaiasky-icons.eot?t=1740555019611#iefix') format('embedded-opentype') /* IE6-IE8 */,
-  url('gaiasky-icons.woff2?t=1740555019611') format('woff2'),
-  url('gaiasky-icons.woff?t=1740555019611') format('woff'),
-  url('gaiasky-icons.ttf?t=1740555019611') format('truetype'),
-  url('gaiasky-icons.svg?t=1740555019611') format('svg');
+  src: url('gaiasky-icons.eot?t=1741453431378'); /* IE9*/
+  src: url('gaiasky-icons.eot?t=1741453431378#iefix') format('embedded-opentype') /* IE6-IE8 */,
+  url('gaiasky-icons.woff2?t=1741453431378') format('woff2'),
+  url('gaiasky-icons.woff?t=1741453431378') format('woff'),
+  url('gaiasky-icons.ttf?t=1741453431378') format('truetype'),
+  url('gaiasky-icons.svg?t=1741453431378') format('svg');
 }
 
 [class^="gs-"], [class*=" gs-"] {

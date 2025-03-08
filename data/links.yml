@@ -20,10 +20,10 @@ content:
     name: ARI Gaia project site
     text: >
       Learn about the Gaia group at ARI. The Gaia Sky project is part of this group.
-    url: https://zah.ari.uni-heidelberg.de/gaia/
+    url: https://zah.uni-heidelberg.de/gaia/
 
   - icon: gs-mdi-database-outline
     name: ARI's Gaia Services
     text: >
       Self-hosted mirror of the Gaia archive, offering online services to access the Gaia catalogue. 
-    url: https://zah.ari.uni-heidelberg.de/gaia/
+    url: https://gaia.ari.uni-heidelberg.de
