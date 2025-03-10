@@ -25,9 +25,9 @@ This playlist contains some (old) video tutorials. Gaia Sky has moved on, but so
 |                          |                                                        |
 |--------------------------|--------------------------------------------------------|
 |{{< img path="/img/resources/gs-crash-course.jpg" width="200" >}} | [**Crash course**<br>Web presentation, crash course to get started with Gaia Sky.](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/gaiasky-crash-course/)            |
-|{{< img path="/img/resources/gs-workshop2025.jpg" width="200" >}} | [**Scripting workshop**<br>Web presentation, 2025 DPAC Consortium Meeting, Cambridge, UK, 2025.](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/202504/)            |
-|{{< img path="/img/resources/gs-tutorial.jpg" width="200" >}} | [**General tutorial**<br>Web presentation, MWGaiaDN Induction School, PLNT Leiden, Leiden, The Netherlands. 2024.](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/202402/mwgaiadn/)            |
-|{{< img path="/img/resources/gs-vr.jpg" width="200" >}} | [**Gaia Sky VR**<br>Web presentation, AR/VR for Space Programmes, ESA/ESTEC, Noordwijk, The Netherlands. 2023.](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/202312/)            |
+|{{< img path="/img/resources/gs-workshop2025.jpg" width="200" >}} | [**2025 scripting workshop**<br>Web presentation, 2025 DPAC Consortium Meeting, Cambridge, UK, 2025.](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/202504/)            |
+|{{< img path="/img/resources/gs-tutorial.jpg" width="200" >}} | [**2024 general tutorial**<br>Web presentation, MWGaiaDN Induction School, PLNT Leiden, Leiden, The Netherlands. 2024.](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/202402/mwgaiadn/)            |
+|{{< img path="/img/resources/gs-vr.jpg" width="200" >}} | [**2023 Gaia Sky VR**<br>Web presentation, AR/VR for Space Programmes, ESA/ESTEC, Noordwijk, The Netherlands. 2023.](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/202312/)            |
 
 
 ### Written guides
