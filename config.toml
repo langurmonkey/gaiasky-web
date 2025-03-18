@@ -1,5 +1,5 @@
 title = "Gaia Sky"
-baseURL =  ""
+baseurl =  "https://gaiasky.space"
 languageCode = "en-us"
 theme = [ "hugo-easy-gallery" ]
 preserveTaxonomyNames = true
