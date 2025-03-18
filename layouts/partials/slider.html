@@ -15,7 +15,9 @@
                 <b>{{ .Site.Params.version | safeHTML }}</b></span><br>
 
               <span class="subtext">linux | windows | macos | tgz</span><br>
-              <span class="subtext releasedate">release date: {{ .Site.Params.Release.Date | safeHTML }}</span><br>
+              <span class="subtext releasedate">version: <strong>{{ .Site.Params.Release.Version | safeHTML }}</strong>
+                release
+                date: <strong>{{ .Site.Params.Release.Date | safeHTML }}</strong></span><br>
             </button>
           </a>
         </div>
