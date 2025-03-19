@@ -47,7 +47,7 @@ enableGitInfo = true
   [[menu.header]]
     weight = 7
     name = " "
-    pre = '<i class="gs-material-symbols-search-rounded"></i>'
+    pre = '<i class="gs-raphael-search"></i>'
     pageRef = "search"
 
   [[menu.footer]]
