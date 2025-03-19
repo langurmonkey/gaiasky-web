@@ -364,7 +364,7 @@ div#breadcrumbs ul >  li:first-child {
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 120px 0 120px 0;
+  padding: 40px 0 90px 0;
   position: relative;
 }
 #slider:before {
@@ -390,9 +390,9 @@ div#breadcrumbs ul >  li:first-child {
   font-family: 'Ethnocentric', sans-serif;
   font-weight: 100;
   font-size: 75px;
-  line-height: 60px;
+  line-height: 50px;
   letter-spacing: 0.2em;
-  padding-bottom: 45px;
+  padding-bottom: 20px;
   text-shadow: 5px 5px 5px black, 0px 0px 15px black;
 }
 #slider .block h1:before {
@@ -1247,7 +1247,7 @@ px      68    160    252    */
     border: 1px solid #ddd !important;
   }
   #slider {
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 50px;
   }
   #slider .block {
@@ -1256,6 +1256,7 @@ px      68    160    252    */
   #slider .block h1 {
     font-size: 45px;
     text-shadow: 3px 3px 5px black;
+    padding-bottom: 10px;
   }
   #slider .block p {
     font-size: 1.8em;
