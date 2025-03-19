@@ -33,7 +33,7 @@ This playlist contains some (old) video tutorials. Gaia Sky has moved on, but so
 ### Written guides
 
 - [Quick Start guide](http://docs.gaiasky.space/master/Quick-start-guide.html) -- a quick start guide that stays relatively up-to-date with the software.
-- [DPAC Plenary 2025](http://localhost:1414/workshops/dpac-plenary-cambridge-2025.html) -- Scripting workshop, Cambridge (UK), 2025.
+- [DPAC Plenary 2025](http://docs.gaiasky.space/master/workshops/dpac-plenary-cambridge-2025.html) -- Scripting workshop, Cambridge (UK), 2025.
 - [MWGaiaDN 2024](http://docs.gaiasky.space/master/workshops/mwgaiadn-plntleiden-2024.html) -- Gaia Sky workshop notes, PLNT Leiden (Netherlands), 2024.
 - [DPAC Plenary 2023](http://docs.gaiasky.space/3.5.8/workshops/dpac-plenary-hdb-2023.html) -- Gaia Sky scripting tutorial, Heidelberg (Germany), 2023.
 - [DPAC Plenary 2021](http://docs.gaiasky.space/3.5.8/workshops/dpac-plenary-online-2021.html) -- Gaia Sky general tutorial, online, 2021.
