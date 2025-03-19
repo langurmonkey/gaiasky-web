@@ -13,7 +13,9 @@
 	<main>
 		<div class="post-area">
 			{{ partial "breadcrumbs.html" . }}
-			<p class="center-text posts-list-button"><a href="/posts-list"><i class="gs-lsicon-list-filled"></i> Posts list</a></p>
+			<p class="center-text posts-list-button"><a href="/news/posts-list"><i class="gs-lsicon-list-filled"></i> List
+					view</a>
+			</p>
 
 			<!-- Paginate and loop through the pages -->
 			{{ $paginated := .Paginate (where .Pages "Type" "news") }}
@@ -25,7 +27,7 @@
 						.Date.Format
 						.Site.Params.date_format }}</time>
 					{{ if and (.GitInfo) (ne (.GitInfo.AuthorDate) .Date) }}
-							<i class="gs-mingcute-pen-fill last-update" aria-hidden="true" title="Updated: {{ .GitInfo.AuthorDate }}"></i>
+					<i class="gs-mingcute-pen-fill last-update" aria-hidden="true" title="Updated: {{ .GitInfo.AuthorDate }}"></i>
 					{{ end }}
 				</p>
 				<p>{{ .Summary }}</p>

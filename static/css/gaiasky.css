@@ -644,6 +644,29 @@ div.datasets-box i[class^='gs-'] {
   letter-spacing: 3px;
   text-shadow: 2px 2px 2px black, 0px 0px 5px black;
 }
+/*
+ latest news Start
+*/
+section#latestnews .row {
+  margin-top: 1em;
+  background-color: var(--bg-color-light);
+  border-radius: 20px;
+  padding-bottom: 20px;
+  box-shadow: 5px 5px 10px black;
+}
+section#latestnews .section-title h2 {
+  padding-top: 0.3em;
+}
+section#latestnews .section-title {
+  margin-bottom: 0px;
+}
+section#latestnews .title {
+  font-size: 1.2em;
+  font-weight: 800;
+}
+section#latestnews article {
+  margin-bottom: 1em;
+}
 /*--
 	wrapper-work Start
 --*/
@@ -1059,6 +1082,10 @@ px      68    160    252    344    436    528    620    712    */
   /*---------------------------------------------
 					Index Start 
 -----------------------------------------------*/
+  /* Latest news */
+  section#latestnews .section-title h2 {
+    font-size: 2.1em !important;
+  }
   /*--
 	wrapper Start 
 --*/
@@ -1277,6 +1304,13 @@ px      68    160    252    */
   }
   #slider button#download-button span.title {
     font-size: 1.3em;
+  }
+  /* Latest news */
+  section#latestnews .section-title h2 {
+    font-size: 1.6em !important;
+  }
+  section#latestnews .title {
+    font-size: 1.0em;
   }
   /*--
 	wrapper Start 
