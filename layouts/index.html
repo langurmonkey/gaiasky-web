@@ -14,6 +14,10 @@
 	{{ partial "slider.html" . }}
 	{{ end }}
 
+	{{ if and (isset .Site.Params "latest") (.Site.Params.latest.enable) }}
+	{{ partial "latest.html" . }}
+	{{ end }}
+
 	{{ if and (isset .Site.Params "wrapper") (.Site.Params.wrapper.enable) }}
 	{{ partial "wrapper.html" . }}
 	{{ end }}

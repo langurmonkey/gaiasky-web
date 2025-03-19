@@ -1,0 +1,38 @@
+<!-- Latest news start -->
+<section id="latestnews">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>{{ .Site.Params.latest.title }}</h2>
+          </div>
+        </div>
+      </div>
+      <div class="block">
+        <div class="col-sm-12">
+          {{ range first 3 (where .Site.Pages "Type" "news") }}
+          <article>
+            <div>
+              <a class="title" href="{{ .RelPermalink }}" title="{{ .Title | markdownify }}" class="bold">{{ .Title |
+                markdownify |
+                truncate 60 }}</a>
+              <span class="details"><time class="published" datetime="{{ .Date }}" title="Published: {{ .Date }}">{{
+                  .Date.Format .Site.Params.date_format }}</time>
+              </span>
+            </div>
+            <div>
+              <span>
+                {{ .Summary | truncate 140 }}
+              </span>
+            </div>
+          </article>
+          {{ end }}
+
+
+          <a href="/news" class="next">All news <i class="gs-mdi-arrow-right-bold-circle"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
