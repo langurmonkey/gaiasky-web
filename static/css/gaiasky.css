@@ -48,21 +48,6 @@
   animation-name: fadeInUp;
 }
 
-@keyframes breath {
-  0% {
-    transform: scale(1) rotateY(180deg);
-    animation-timing-function: ease-in-out;
-  }
-  50% {
-    transform: scale(1.05) rotateY(180deg);
-    filter: drop-shadow(0 0 4px var(--link-color));
-    animation-timing-function: ease-in-out;
-  }
-  0% {
-    transform: scale(1) rotateY(180deg);
-    animation-timing-function: ease-in-out;
-  }
-}
 @keyframes old-out {
   0% {
     opacity: 1;
@@ -258,10 +243,8 @@ header .navbar-brand {
   height: 30px;
 }
 header .navbar-brand>img {
-  animation: breath 5s infinite;
   display: block;
   width: 30px;
-  transform: rotateY(180deg);
 }
 header .navbar-default {
   background: none;
@@ -391,7 +374,6 @@ div#breadcrumbs ul >  li:first-child {
   margin-top: 3em;
   margin-right: 2em;
   width: 11em;
-  transform: rotateY(180deg);
 }
 #slider .block h1 {
   font-family: 'Ethnocentric', sans-serif;
