@@ -374,6 +374,7 @@ div#breadcrumbs ul >  li:first-child {
   margin-top: 3em;
   margin-right: 2em;
   width: 11em;
+  filter: drop-shadow(5px 5px 5px black);
 }
 #slider .block h1 {
   font-family: 'Ethnocentric', sans-serif;
