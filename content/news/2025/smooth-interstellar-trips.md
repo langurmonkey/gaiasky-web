@@ -39,6 +39,8 @@ a & = \frac{d_c - d_0}{d_1 - d_0},
 
 where \\(d_c\\) is the distance to the closest object, and \\(d_0\\) and \\(d_1\\) define the smoothing radius outer and inner bounds. When the camera is further away from the closest object than \\(d_1\\), only the focus distance is used. When  the camera is closer to the object than \\(d_0\\), only the distance to the closest object is use. In between the two smoothing distances, a mix of both is used.
 
+{{< fig src="img/2025/03/smoothing.svg" class="fig-center fig-post" title="The smoothing radius (in red and green) provides a smooth transition between using the distance to the focus and the distance to the closest object." loading="lazy" >}}
+
 This method gives us a rather smooth transition from object to object. The camera is usually hooked to a single object, which may be the focus or the closest object. In the case that the camera is between \\(d_0\\) and \\(d_1\\) from the closest object, we mix the contributions to avoid stark transitions in speed.
 
 The video below compares the old and the new methods:
