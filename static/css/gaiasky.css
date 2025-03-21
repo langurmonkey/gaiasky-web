@@ -386,10 +386,17 @@ div#breadcrumbs ul >  li:first-child {
 #slider .block {
   color: #E3E3E4;
 }
+#slider .block img {
+  float: left;
+  margin-top: 3em;
+  margin-right: 2em;
+  width: 11em;
+  transform: rotateY(180deg);
+}
 #slider .block h1 {
   font-family: 'Ethnocentric', sans-serif;
   font-weight: 100;
-  font-size: 75px;
+  font-size: 4.5em;
   line-height: 50px;
   letter-spacing: 0.2em;
   padding-bottom: 20px;
@@ -1279,6 +1286,9 @@ px      68    160    252    */
   }
   #slider .block {
     padding-left: 0px;
+  }
+  #slider .block img {
+    display: none;
   }
   #slider .block h1 {
     font-size: 45px;

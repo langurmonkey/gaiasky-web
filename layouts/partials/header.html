@@ -16,7 +16,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-                <img src="{{ .Site.BaseURL }}img/icon.png" alt="{{ .Title }} Logo" aria-label="{{ .Title }}">
+                <img src="{{ .Site.BaseURL }}img/gaia-white.svg" alt="{{ .Title }} Logo" aria-label="{{ .Title }}">
               </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -24,7 +24,8 @@
               <ul class="nav navbar-nav navbar-right">
                 {{ range .Site.Menus.header }}
                 <li>
-                  <a class="{{ if or ($.Page.IsMenuCurrent .Menu .) (and (ne .URL "/") (hasPrefix $.Page.RelPermalink .URL)) }}active{{ end }}" href="{{ .URL }}">
+                  <a class="{{ if or ($.Page.IsMenuCurrent .Menu .) (and (ne .URL " /") (hasPrefix $.Page.RelPermalink
+                    .URL)) }}active{{ end }}" href="{{ .URL }}">
                     {{ .Pre }}{{ .Name }}
                   </a>
                 </li>
