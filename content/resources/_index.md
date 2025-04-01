@@ -93,3 +93,10 @@ We use a few fonts:
 - <span style="font-size: 1.7em; font-family: Inter;">[Inter](https://fonts.google.com/specimen/Inter?query=Inter)</span> by [Rasmus Andersson](https://rsms.me/inter) -- main font of this site.
 - <span style="font-size: 1.7em; font-family: conthrax;">[Conthrax](https://typodermicfonts.com/conthrax/)</span> by [Ray Larabie](https://en.wikipedia.org/wiki/Ray_Larabie), [Typodermic](https://typodermicfonts.com/) -- used in some parts of the Gaia Sky UI.
 
+
+## Download statistics
+
+We maintain live statistics of Gaia Sky package downloads, documentation accesses, dataset requests, and more:
+
+- [Gaia Sky statistics](https://gaia.ari.uni-heidelberg.de/gaiasky/stats)
+- [Flathub installs (see information tab at the bottom)](https://flathub.org/apps/space.gaiasky.GaiaSky)
