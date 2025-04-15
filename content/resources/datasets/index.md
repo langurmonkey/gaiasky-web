@@ -7,7 +7,7 @@ css = ["css/datasets.css"]
 +++
 
 This page lists the last version for each dataset in Gaia Sky. You can download each dataset directly from within Gaia Sky using the dataset manager (**recommended!**), or by following the 'Dataset files' link in each dataset.
- In order to install any of the packages manually, just download it and extract the contents it in your data folder (defaults to `$HOME/.local/share/gaiasky/data/` in Linux, and `$HOME/.gaiasky/data` in Windows and macOS).
+ In order to install a package manually, just download it and extract its contents in your Gaia Sky data folder (defaults to `$HOME/.local/share/gaiasky/data/` in Linux, and `$HOME/.gaiasky/data` in Windows and macOS).
 
 Click on the dataset title to reveal more information. 
 <br/><br/>
