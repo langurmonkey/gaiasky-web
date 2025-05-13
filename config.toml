@@ -19,34 +19,48 @@ enableGitInfo = true
   [[menu.header]]
     weight = -1
     name = "Home"
+    title = " "
     pageRef = "/"
   [[menu.header]]
     weight = 1
     name = "News"
+    title = " "
     pageRef = "news"
   [[menu.header]]
     weight = 2
     name = "Gallery"
+    title = " "
     pageRef = "media"
   [[menu.header]]
     weight = 3
     name = "Downloads"
+    title = " "
     pageRef = "downloads"
   [[menu.header]]
     weight = 4
     name = "Docs"
+    title = " "
     url = "http://docs.gaiasky.space"
   [[menu.header]]
     weight = 5
     name = "Resources"
+    title = " "
     pageRef = "resources"
   [[menu.header]]
     weight = 6
     name = "Contact"
+    title = " "
     pageRef = "contact"
   [[menu.header]]
-    weight = 7
+    weight = 8
+    name = "  "
+    title = "Codeberg"
+    pre = '<i class="gs-codeberg"></i>'
+    url = "https://codeberg.org/gaiasky/gaiasky"
+  [[menu.header]]
+    weight = 9
     name = " "
+    title = "Search"
     pre = '<i class="gs-raphael-search"></i>'
     pageRef = "search"
 
@@ -186,6 +200,10 @@ enableGitInfo = true
     name = "YouTube"
     url = "https://youtube.com/@gaiaskydev"
     icon = "gs-ri-youtube-fill"
+  [[params.social]]
+    name = "Codeberg"
+    url = "https://codeberg.org/gaiasky/gaiasky"
+    icon = "gs-codeberg"
   [[params.social]]
     name = "Email"
     url = "mailto:tsagrista@ari.uni-heidelberg.de?subject=Gaia Sky"

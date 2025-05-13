@@ -255,14 +255,10 @@ header .navbar-default .navbar-nav {
 }
 header .navbar-default .navbar-nav li a {
   color: var(--text-dim-color);
-  padding: 0.3em 0.95em;
+  padding: 0.3em 0.8em;
   font-size: 1.05em;
   font-variant: small-caps;
   font-weight: 500;
-}
-header .navbar-default .navbar-nav li:last-child a {
-  margin-top: -1px;
-  padding: 0.3em 0.95em 0.1em 0.95em;
 }
 header .navbar-default .navbar-nav i[class^='gs-'] {
   font-size: 1em;

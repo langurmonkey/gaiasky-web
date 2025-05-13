@@ -64,7 +64,7 @@ We generate our own icon font from the SVG icons in `/script/icons`. There is a 
 just iconfont
 ```
 
-If you need to add new icons, just put them in `/script/icons` and re-run the target.
+If you need to add new icons, just put them in `/assets/icons` and re-run the target.
 
 ### Details
 
