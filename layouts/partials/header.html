@@ -25,7 +25,7 @@
                 {{ range .Site.Menus.header }}
                 <li>
                   <a class="{{ if or ($.Page.IsMenuCurrent .Menu .) (and (ne .URL "/") (hasPrefix $.Page.RelPermalink
-                    .URL)) }}active{{ end }}" href="{{ .URL }}">
+                    .URL)) }}active{{ end }}" href="{{ .URL }}" {{ if and (.Title) (ne .Title " ") }}title="{{ .Title }}"{{ end }}>
                     {{ .Pre }}{{ .Name }}
                   </a>
                 </li>
