@@ -40,7 +40,7 @@
          {{- if or (.Get "alt") (.Get "caption") }}
          alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
          {{- end -}}
-         {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+         {{- with .Get "width" }} width="{{ . }}" style="width:{{ . }};"{{ end -}}
          {{- with .Get "height" }} height="{{ . }}"{{ end -}}
          {{- with .Get "loading" }} loading="{{ . }}"{{ end -}}
          decoding="async" />
