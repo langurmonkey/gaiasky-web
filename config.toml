@@ -128,7 +128,7 @@ enableGitInfo = true
   [params.slider]
     enable = true
     title = "Gaia Sky"
-    subtitle = "Open source 3D Universe visulaization platform with support for a billion objects"
+    subtitle = "Open source 3D Universe visualization platform with support for a billion objects"
     buttonTitle = "Download Gaia Sky"
     buttonurl = "downloads"
 
