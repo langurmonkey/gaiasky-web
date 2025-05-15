@@ -10,9 +10,9 @@ author: "tsagrista"
 
 The upcoming release of **Gaia Sky 3.6.8** brings significant performance improvements, focusing on memory optimization and CPU usage reduction. In this post, we'll take a closer look at these enhancements and how they translate into smoother and faster performance.
 
-<!-- more -->
+<!--more-->
 
-# Memory Usage Optimization
+## Memory Usage Optimization
 
 Gaia Sky 3.6.8 introduces multiple changes aimed at reducing memory footprint:
 
@@ -28,7 +28,7 @@ Below are the heap memory usage comparisons between Gaia Sky 3.6.7 (top) and 3.6
 
 Note the much lower profile and drastically reduced garbage collector interventions (37 vs 2) in Gaia Sky 3.6.8. Observe that the allocated memory is now roughly half of what it used to be. Also, switching to the Generational ZGC caused the GC stops to go from \~10-100 ms to \~10 μs.  All this results in a higher latency, better memory utilization and more responsive experience.
 
-# CPU Usage Reduction
+## CPU Usage Reduction
 
 Several optimizations have been implemented to reduce CPU load and improve frame rates:
 
@@ -46,7 +46,7 @@ Here are the CPU usage comparisons using `btop` for both versions:
 Note the top image shows the CPU usage of Gaia Sky at 292%. This means that it is using 3 CPUs at full (the load is distributed between the 8 CPUs). At the bottom, I stopped version 3.6.7 and started version 3.6.8. You can see in the top pane the difference in CPU usage profile (annotated in red). The CPU usage sits at about 45% with Gaia Sky 3.6.8. A great improvement.
 Curiously, and related to the previous section, the allocated memory in 3.6.7 sits at 6.2 GB, while it is below 3 GB in 3.6.8. The workload for both sessions was exactly the same, with the same datasets and settings.
 
-# Conclusion
+## Conclusion
 
 The performance improvements in Gaia Sky 3.6.8 not only make it more memory-efficient but also significantly reduce CPU overhead. The result is a smoother and more responsive experience, particularly for systems dealing with large datasets or multiple particle/star sets.
 
