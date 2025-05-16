@@ -12,10 +12,10 @@ categories = ["release", "version"]
 
 
 ## Bug Fixes
-- move action stuttering on some systems due to no input changes since last sync.
-- application title in loading screen squashes the logo.
+- Move action stuttering on some systems due to no input changes since last sync.
+- Application title in loading screen squashes the logo.
 
 ## Build System
-- set bundled JRE version to 17 instead of 20; seemingly, there are non-negligible performance issues with the JRE 20 on some configurations.
+- Set bundled JRE version to 17 instead of 20; seemingly, there are non-negligible performance issues with the JRE 20 on some configurations.
 
 You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.4-1.c31b73416/).

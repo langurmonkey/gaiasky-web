@@ -12,7 +12,7 @@ categories = ["release", "version"]
 
 
 ## Bug Fixes
-- paths in Windows do not accept certain characters and are unsuitable to represent our bookmarks. Add specific `BookmarkPath` implementation that fixes this.
+- Paths in Windows do not accept certain characters and are unsuitable to represent our bookmarks. Add specific `BookmarkPath` implementation that fixes this.
 - VR flag from `--openvr` to `--openxr`.
 
 You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.1.ebd5983f4/).

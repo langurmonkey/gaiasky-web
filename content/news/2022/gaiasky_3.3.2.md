@@ -12,10 +12,10 @@ categories = ["release", "version"]
 
 
 ## Bug Fixes
-- stop intercepting data location in paths, implementation did not work for Windows when the original path contained '*', and it was useless anyway, as we always use fully-defined paths.
-- avoid expanding dataset file paths in dataset manager to prevent horizontal overflow.
+- Stop intercepting data location in paths, implementation did not work for Windows when the original path contained '*', and it was useless anyway, as we always use fully-defined paths.
+- Avoid expanding dataset file paths in dataset manager to prevent horizontal overflow.
 
 ## Features
-- improve drag rotation behaviour when very close to objects.
+- Improve drag rotation behaviour when very close to objects.
 
 You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.3.2.b5202d46f/).
