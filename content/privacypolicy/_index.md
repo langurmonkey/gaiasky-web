@@ -1,6 +1,7 @@
 +++
 title = "Privacy Policy"
 description = "Your privacy matters—learn how we don't collect your data"
+id = "privacypolicy"
 categories = ["Privacy"]
 author = "tsagrista"
 tags = ["website","privacy","principles"]
