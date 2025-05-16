@@ -1,5 +1,6 @@
 +++
 title = "Gaia Sky 3.6.4-2"
+description = "Minor bugfix release"
 date = "2024-10-17"
 tags = ["release"]
 author = "tsagrista"
@@ -12,9 +13,9 @@ categories = ["release", "version"]
 <!--more-->
 
 ## Bug Fixes
-- external view feature not working.
+- External view feature not working.
 
 ## Build System
-- remove lib directory, does not contain anything anymore.
+- Remove lib directory, does not contain anything anymore.
 
 As always, you can grab it [right here]({{< ref "downloads" >}}) ([link to repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.4-2.3bfeec0f9)).

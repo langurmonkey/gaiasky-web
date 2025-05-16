@@ -1,5 +1,6 @@
 +++
 title = "Towards smoother interstellar trips"
+description = "Rethinking the camera speed scaling function to improve navigation"
 date = "2025-03-20T12:50:55Z"
 tags = ["dev", "story"]
 author = "tsagrista"
@@ -7,9 +8,9 @@ categories = ["devlog"]
 math = true
 +++
 
-One of the items in our roadmap has long been the re-implementation of the speed scaling algorithm. This algorithm is a function that, given the current state of Gaia Sky, returns a number by which to scale the camera speed.
+One of the items in our road map has long been the re-implementation of the speed scaling algorithm. This algorithm is a function that, given the current state of Gaia Sky, returns a number by which to scale the camera speed.
 
-So far, we have used a pure function that only takes into account the distance to the focus object when the camera is in focus mode, or the distance to the closest object to the camera when it is in any other mode. This does not work very well in many situations. In this post, I explore the new developments in Gaia Sky that enable smoother interstellar trips by means of the camera speed scaling. 
+So far, we have used a function that only takes into account the distance to the focus object (focus mode), or the distance to the closest object (any other mode). This does not work very well in many situations. In this post, I explore the new developments in Gaia Sky that enable smoother interstellar trips by means of the camera speed scaling. 
 
 <!--more-->
 

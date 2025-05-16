@@ -1,5 +1,6 @@
 +++
 title = "Gaia Sky 3.6.6"
+description = "Performance improvements and bug fixes"
 date = "2025-01-24T09:41:55Z"
 tags = ["release"]
 author = "tsagrista"
@@ -13,22 +14,22 @@ categories = ["release", "version"]
 <!--more-->
 
 ## Features
-- move volumes earlier in the rendering pipeline, because they now write to the depth buffer.
-- check for dataset incompatibilities and ask user to confirm action when selecting incompatible datasets.
-- add window size and resolution of external view in settings, when the external view is active.
+- Move volumes earlier in the rendering pipeline, because they now write to the depth buffer.
+- Check for dataset incompatibilities and ask user to confirm action when selecting incompatible datasets.
+- Add window size and resolution of external view in settings, when the external view is active.
 
 ## Bug Fixes
-- attitude indicator not scaling with units-per-pixel value in spacecraft UI.
-- incorrect initialization of label threshold in volumes in VR mode.
-- entering panorama mode resets back-buffer scale. The issue was that the dynamic resolution reset routine was always applied, and not only when the dynamic resolution setting was on.
+- Attitude indicator not scaling with units-per-pixel value in spacecraft UI.
+- Incorrect initialization of label threshold in volumes in VR mode.
+- Entering panorama mode resets back-buffer scale. The issue was that the dynamic resolution reset routine was always applied, and not only when the dynamic resolution setting was on.
 
 ## Performance Improvements
-- replace arbitrary precision `add()` call with double-precision one to compute spherical coordinates of objects. Double-precision is more than sufficient for that purpose.
+- Replace arbitrary precision `add()` call with double-precision one to compute spherical coordinates of objects. Double-precision is more than sufficient for that purpose.
 
 ## Build System
-- update install4j template to version 11.
+- Update install4j template to version 11.
 
 ## Documentation
-- improve javadoc comments in settings class.
+- Improve javadoc comments in settings class.
 
 As always, you can grab it in the [downloads page]({{< ref "downloads" >}}).
