@@ -12,14 +12,14 @@ categories = ["release", "version"]
 
 
 ## Features
-- annotate camera files with frame rate so that playback can adjust it automatically. 
+- Annotate camera files with frame rate so that playback can adjust it automatically.
 
 ## Bug Fixes
-- camcorder play and record button inconsistent states.
-- state handling in the camcorder.
+- Camcorder play and record button inconsistent states.
+- State handling in the camcorder.
 - `sleep(seconds)` call also respects the camcorder FPS setting during recording.
-- rename some API calls, deprecate old versions.
-- add companion calls for camera orientation and position transitions.
-- orbit coordinate not working when time is before the orbit start.
+- Rename some API calls, deprecate old versions.
+- Add companion calls for camera orientation and position transitions.
+- Orbit coordinate not working when time is before the orbit start.
 
 You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.6.0-2.4479175dc/).

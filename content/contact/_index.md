@@ -13,7 +13,7 @@ Gaia Sky is developed in the Gaia group of the [Astronomisches Rechen-Institut](
 
 Please, submit bug reports and feature requests to our source repository.
 
- - {{< icon "gs-mdi-application-brackets-outline" >}} [Submit bugs/requests](https://codeberg.org/gaiasky/gaiasky/issues)
+ - {{< icon "gs-mdi-application-brackets-outline" >}} [Submit bugs/requests](https://codeberg.org/gaiasky/gaiasky/issues).
 
 ## Main designer and developer
 

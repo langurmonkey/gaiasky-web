@@ -12,33 +12,33 @@ categories = ["release", "version"]
 
 
 ## Features
-- add film grain filter (disabled by default).
-- set a maximum age for `.part` download files of 6 hours.
-- improve recursive grid with travelling pulses and a noise mask.
-- add 'animate' setting to recursive grid preferences to toggle animation on and off.
-- add checkbox to control recursive grid animation.
-- add initial notice about Gaia Sky contacting the server to get the dataset updates list.
-- improve shader compilation error handling.
-- enable elevation (height) representation without tessellation in a new 'regular' mode. This is the new default mode, as tessellation is a bit to taxing on old and integrated GPUs.
-- discontinue parallax mapping elevation type; the new vertex displacement type supersedes it.
-- add full support for point lights, and use them for stars.
-- true depth-tested close-by stars, also working with light glow enabled.
+- Add film grain filter (disabled by default).
+- Set a maximum age for `.part` download files of 6 hours.
+- Improve recursive grid with travelling pulses and a noise mask.
+- Add 'animate' setting to recursive grid preferences to toggle animation on and off.
+- Add checkbox to control recursive grid animation.
+- Add initial notice about Gaia Sky contacting the server to get the dataset updates list.
+- Improve shader compilation error handling.
+- Enable elevation (height) representation without tessellation in a new 'regular' mode. This is the new default mode, as tessellation is a bit to taxing on old and integrated GPUs.
+- Discontinue parallax mapping elevation type; the new vertex displacement type supersedes it.
+- Add full support for point lights, and use them for stars.
+- True depth-tested close-by stars, also working with light glow enabled.
 
 ## Bug Fixes
-- prevent creation of background blur object, as camera motion blur was disabled a few versions ago.
-- use predicted position for tracking objects.
+- Prevent creation of background blur object, as camera motion blur was disabled a few versions ago.
+- Use predicted position for tracking objects.
 - 'reload defaults' button in visual settings component actually sets the default value to the elevation multiplier slider.
-- new star shader in intel GPUs.
-- mouse coordinates collision with objects when back buffer scale != 1.
+- New star shader in intel GPUs.
+- Mouse coordinates collision with objects when back buffer scale != 1.
 
 ## Code Refactoring
-- move GLSL snippet shader chunks to own directory `assets/shader/snippet`.
-- rename shaders from 'normal' to 'pbr'.
+- Move GLSL snippet shader chunks to own directory `assets/shader/snippet`.
+- Rename shaders from 'normal' to 'pbr'.
 
 ## Build System
-- set `-source` to 16 in gradle build script to enable pattern matching in instanceof.
+- Set `-source` to 16 in gradle build script to enable pattern matching in instanceof.
 
 ## Style
-- code style now formats Javadoc comments.
+- Code style now formats Javadoc comments.
 
 You can get this release in [our repository](https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.6.8bb71564a/).
