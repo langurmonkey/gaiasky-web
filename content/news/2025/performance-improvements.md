@@ -1,6 +1,6 @@
 ---
 title: "Performance boost in 3.6.8"
-subtitle: "Memory and CPU usage optimizations"
+description: "Memory and CPU usage optimizations"
 date: 2025-05-14
 draft: false
 categories: ["devlog"]

@@ -141,6 +141,9 @@ a code {
   background-color: #343434;
   border-radius: 4px;
 }
+hr {
+  border-color: #333 !important;
+}
 button.btn-default,
 button.btn {
   width: 50%;
@@ -1184,6 +1187,10 @@ px      68    160    252    344    436    528    620    712    */
 cols    1     2      3
 px      68    160    252    */
 @media only screen and (max-width: 767px) {
+  hr {
+    margin-top: 0.0em;
+    margin-bottom: 1.0em;
+  }
   #global-header {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -1234,14 +1241,14 @@ px      68    160    252    */
   -----------------------------------*/
   section#post-content h1,
   div.post-area article {
-    margin-top: 2em;
+    margin-top: 0.5em;
   }
   div.post-area a.bold {
     font-size: 2.2em;
   }
   section#post-content .post-info-wrapper,
   section#post-content div.title description {
-    margin-left: 1.3em;
+    margin-left: 0.0em;
   }
   header .navbar-default .navbar-toggle {
     margin-bottom: 0px;
@@ -1445,6 +1452,10 @@ px      68    160    252    344    436    */
 	device-pixel-ratio of 2+, such as iPhone 4.
 -----------------------------------------------    */
 @media only screen and (max-width: 480px) {
+  hr {
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
   #breadcrumbs {
     display: none;
   }
@@ -1503,7 +1514,7 @@ px      68    160    252    344    436    */
   }
   section#post-content .post-info-wrapper,
   section#post-content div.title description {
-    margin-left: 1.0em;
+    margin-left: 0.0em;
   }
   .posts-list {
     padding: 0.8em !important;

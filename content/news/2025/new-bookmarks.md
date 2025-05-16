@@ -1,5 +1,6 @@
 ---
 title: "New features in bookmarks"
+description: "Location bookmarks level up making them more versatile"
 date: 2025-04-14
 draft: false
 categories: ["devlog"]

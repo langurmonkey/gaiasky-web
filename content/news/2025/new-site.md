@@ -1,6 +1,6 @@
 +++
 title = "New homepage"
-description = "We have a new homepage!"
+description = "Gaia Sky gets a new site"
 date = "2025-01-31T09:41:55Z"
 tags = ["website"]
 author = "tsagrista"
