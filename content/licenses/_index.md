@@ -1,5 +1,6 @@
 +++
 title = "Licenses"
+id = "licenses"
 description = "Licensing information and more"
 categories = ["License"]
 author = "tsagrista"

@@ -1,11 +1,9 @@
 +++
-title = "Contact"
+title = "Contact information"
 id = "contact"
 categories = ["Contact"]
 author = "tsagrista"
 +++
-
-# Contact information
 
 Gaia Sky is developed in the Gaia group of the [Astronomisches Rechen-Institut](https://zah.uni-heidelberg.de/institutes/ari) in Heidelberg, Germany. The institute is part of the [Zentrum für Astronomie Heidelberg](https://zah.uni-heidelberg.de) in [Heidelberg University](https://uni-heidelberg.de).
 
