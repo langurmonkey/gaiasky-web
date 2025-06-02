@@ -117,6 +117,17 @@ ul {
   margin-left: 15px;
   list-style: disc outside;
 }
+table thead {
+  font-variant: small-caps;
+  font-weight: 600;
+  font-size: 1.3em;
+  border-bottom: 1px solid var(--text-dim-color);
+}
+table th, table td {
+  padding: 0.1em;
+  padding-right: 1em;
+  border-bottom: 1px solid var(--text-dimmer-color);
+}
 a,
 a:active,
 a:focus,
