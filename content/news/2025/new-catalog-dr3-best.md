@@ -14,8 +14,8 @@ Today we make available a brand new catalog in **Gaia Sky**, derived from the [G
 
 - Laptops
 - VR
-- Embedded systems
-- Devices without dedicated GPUs
+- Low-end desktops
+- Devices without dedicated GPUs in general
 - Use cases where performance and simplicity matter more than completeness
 
 <br>
