@@ -55,7 +55,7 @@ This dataset loads fast, uses less memory, and is *visually cleaner* in 3D than 
 
 ## Magnitude distribution
 
-The stars span a wide range of magnitudes, with the majority in the range **8 to 12**. Here's a snippet of the magnitude histogram:
+The stars span a wide range of magnitudes, with the majority in the range **8 to 12**. Here's the magnitude histogram:
 
 
 {{< fig src="img/2025/05/dr3-best-histogram.png" class="fig-center fig-post" title="Magnitude distribution of Gaia DR3 Best catalog." width="90%" loading="lazy" >}}
