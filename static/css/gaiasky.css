@@ -64,15 +64,6 @@
     opacity: 1;
   }
 }
-&::view-transition-old(root) {
-  animation-name: old-out;
-  animation-duration: 1s;
-}
-
-&::view-transition-new(root) {
-  animation-name: new-in;
-  animation-duration: 1s;
-}
 
 body {
   font-family: Inter, sans-serif;
