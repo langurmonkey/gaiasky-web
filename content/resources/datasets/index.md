@@ -22,11 +22,11 @@ Click on the dataset title to reveal more information.
 For Gaia Sky 3.6.8 and above. Contains the solar system planets and moons, minor planets, satellites, orbits, constellations, the Milky Way, grids, locations and other important objects. Without this data pack Gaia Sky won't start.</div>
 
 - **Type:** `data-pack`
-- **Dataset version:** v55
+- **Dataset version:** v56
 - **Minimum Gaia Sky version:** 3.6.8
-- **Size:** 83.2MiB <span class='unimportant'>(87204759)</span>
+- **Size:** 82.9MiB <span class='unimportant'>(86969613)</span>
 - **Number of objects:** 2.57k <span class='unimportant'>(2569)</span>
-- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v055_20250528)
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v056_20250604)
 - [Dataset information/source](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata)
 </div>
 </article>
@@ -42,11 +42,11 @@ For Gaia Sky 3.6.8 and above. Contains the solar system planets and moons, minor
 <div class='description'>High resolution texture pack including some 4K and 8K textures and cubemaps for planet surfaces and asteroids.</div>
 
 - **Type:** `texture-pack`
-- **Dataset version:** v12
+- **Dataset version:** v13
 - **Minimum Gaia Sky version:** 3.6.1
-- **Size:** 269.2MiB <span class='unimportant'>(282273739)</span>
-- **Number of objects:** 74 <span class='unimportant'>(74)</span>
-- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex/v012_20240605)
+- **Size:** 269.4MiB <span class='unimportant'>(282501943)</span>
+- **Number of objects:** 76 <span class='unimportant'>(76)</span>
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex/v013_20250604)
 - [Dataset information/source](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex)
 </div>
 </article>
@@ -67,7 +67,7 @@ For Gaia Sky 3.6.8 and above. Contains the solar system planets and moons, minor
 - **Size:** 43.9MiB <span class='unimportant'>(45993709)</span>
 - **Number of objects:** 646.4k <span class='unimportant'>(646400)</span>
 - [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/014-best/v01_20250530)
-- [Dataset information/source](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/000-default)
+- [Dataset information/source](https://gaiasky.space/news/2025/new-catalog-dr3-best)
 </div>
 </article>
 </details>
@@ -502,11 +502,11 @@ For Gaia Sky 3.6.8 and above. Contains the solar system planets and moons, minor
 <div class='description'>Updated Nearby Galaxy Catalog. This table contains an all-sky catalog of 869 nearby galaxies having individual distance estimates within 11 Mpc or corrected radial velocities relative to the Local Group centroid VLG < 600 km s-1. The catalog is a renewed and expanded version of the previous Catalog of Neighboring Galaxies by Karachentsev et al. (2004, AJ, 127, 2031). It collects data on the following galaxy observables: angular diameters, apparent magnitudes in the far-UV, B, and Ks bands, H-alpha and H I fluxes, morphological types, H I-line widths, radial velocities, and distance estimates. In this Local Volume (LV) sample, 108 dwarf galaxies still remain without measured radial velocities. The catalog also lists calculated global galaxy parameters: the linear Holmberg diameters, absolute B magnitudes, surface brightnesses, H I masses, stellar masses estimated via K-band luminosity, H I rotational velocities corrected for galaxy inclination, indicative masses within the Holmberg radius, and three kinds of 'tidal index' which quantify the local density environment. In the reference paper, the authors briefly discuss the Hubble flow within the LV and different scaling relations that characterize galaxy structure and global star formation in them. They also trace the behavior of the mean stellar mass density, H I-mass density, and star formation rate density within the volume considered.</div>
 
 - **Type:** `catalog-gal`
-- **Dataset version:** v15
-- **Minimum Gaia Sky version:** 3.6.8
+- **Dataset version:** v16
+- **Minimum Gaia Sky version:** 3.6.8-2
 - **Size:** 4.6MiB <span class='unimportant'>(4872591)</span>
 - **Number of objects:** 875 <span class='unimportant'>(875)</span>
-- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/nbg/v015_20250506)
+- [Dataset files](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/nbg/v016_20250604)
 - [Dataset information/source](https://heasarc.gsfc.nasa.gov/W3Browse/all/neargalcat.html)
 </div>
 </article>
