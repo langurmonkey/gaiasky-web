@@ -7,7 +7,7 @@ author = "tsagrista"
 categories = ["release", "version"]
 +++
 
-**Gaia Sky 3.6.9** is out of the oven! This new version brings some exciting new features, like motion trails for star and particle groups, a new Turkish translation, and a new API (v2). Keep reading for the full changelog.
+Exactly one month after Gaia Sky 3.6.8, today we are proud to release **Gaia Sky 3.6.9**. This new version brings some exciting features, like **motion trails** for star and particle groups, a new **Turkish translation**, and a new **API (v2)**, and fixes some bugs. Keep reading for the full list of changes included in this release.
 
 {{< fig src1="img/2025/07/motion-trails.jxl" type1="image/jxl" src2="img/2025/07/motion-trails.avif" type2="image/avif" src="img/2025/07/motion-trails.jpg" class="fig-center fig-post" title="Motion trails in Gaia Sky 3.6.9." width="70%" loading="lazy" >}}
 <!--more-->
@@ -16,7 +16,7 @@ categories = ["release", "version"]
 - Add motion trail effect, which stretches stars and particles in the velocity direction. Can be toggled off in the settings.
 - Add Turkish translation, contributed by Erdem Uygun.
 - Migrate go-to-object operation in the camera info pane to use the smooth transitions API, which creates seamless, bumpy-free rides between two camera states.
-- Add a new API v2, which re-names and re-organizes the single access pont we had in the previous API into several modules grouped by function. It also improves documentation and standardizes function and parameter names when possible.
+- Add a new API v2, which re-names and re-organizes the single access port we had in the previous API into several modules grouped by function. It also improves documentation and standardizes function and parameter names when possible.
 - Adapt REST server and console to also accept APIv2 calls.
 - Add new setting to enable and disable notification messages, and add checkbox to preferences window. Notifications are off by default. Fixes [#847](https://codeberg.org/gaiasky/gaiasky/issues/847).
 - Update monospace fonts to include all supported characters, now using Liberation Mono.
@@ -28,7 +28,7 @@ categories = ["release", "version"]
 ## Bug Fixes
 - Fix issues with upper- and lower-case conversions not using the correct locale.
 - Star glow effect flickers due to using a different method to render the billboard depending on whether the effect is active or not.
-- Big bugfix campaign in scripting. Went over all scripting tests and fixed all bugs so that all of them run fine.
+- Big bug fix campaign in scripting. All scripting tests were reviewed and fixed so that they all run fine.
 - Add missing `"` character to fonts, fix custom and messages interfaces' computation of position coordinates.
 - Dataset highlight API call not working properly.
 - Use concurrent set as collections in event manager to avoid concurrent modification exceptions.
@@ -47,6 +47,7 @@ categories = ["release", "version"]
 
 ## Build System
 - Add `--sun-misc-unsafe-memory-access=allow` to launch VM options to prevent logging unsafe operation access in LWJGL3.
+- Disable OptFlowCam export option for keyframes in Flatpak in order to avoid Python dependencies.
 
 ## Documentation
 - Add new APIv2 package-level documentation.
