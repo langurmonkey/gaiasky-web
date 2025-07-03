@@ -7,6 +7,8 @@ author = "tsagrista"
 categories = ["release", "version"]
 +++
 
+**Edit (2025-07-03):** Update post with fixes in patch release **3.6.9-2**.
+
 Exactly one month after Gaia Sky 3.6.8, today we are proud to release **Gaia Sky 3.6.9**. This new version brings some exciting features, like **motion trails** for star and particle groups, a new **Turkish translation**, and a new **API (v2)**, and fixes some bugs. Keep reading for the full list of changes included in this release.
 
 {{< fig src1="img/2025/07/motion-trails.jxl" type1="image/jxl" src2="img/2025/07/motion-trails.avif" type2="image/avif" src="img/2025/07/motion-trails.jpg" class="fig-center fig-post" title="Motion trails in Gaia Sky 3.6.9." width="70%" loading="lazy" >}}
@@ -37,6 +39,9 @@ Exactly one month after Gaia Sky 3.6.8, today we are proud to release **Gaia Sky
 - Properly scale camera mouse scroll and drag operations with the current frame rate.
 - Disable OpenAL system.
 - Use `RGBA16F` float format for the lens flare ping-pong buffer, otherwise AMD APUs show banding artifacts. Fixes [#846](https://codeberg.org/gaiasky/gaiasky/issues/846).
+- Resolve redirects for Wikipedia titles, as the API does not resolve redirects automatically. This leads to 403 errors.
+- Make sure `versionFile` task is executed when packing the app by setting the right dependencies.
+- Adjust layout and width of about window to avoid UI overflow.
 
 ## Performance Improvements
 - Use `GL_RGB16F` instead of `GL_RGBA16F` format (omitting the alpha channel) for internal post-processing effects buffers (lens flare, bloom, etc.). This saves some VRAM, especially useful in integrated graphics.
@@ -46,8 +51,9 @@ Exactly one month after Gaia Sky 3.6.8, today we are proud to release **Gaia Sky
 - Harmonize and consolidate star and particle set creation methods under the same class.
 
 ## Build System
-- Add `--sun-misc-unsafe-memory-access=allow` to launch VM options to prevent logging unsafe operation access in LWJGL3.
 - Disable OptFlowCam export option for keyframes in Flatpak in order to avoid Python dependencies.
+- Upgrade to Gradle 8.14.2, which supports Java 24.
+- Update to bundled JRE 24 in packages.
 
 ## Documentation
 - Add new APIv2 package-level documentation.
