@@ -50,26 +50,35 @@ def decode_version(s: str) -> str:
     except ValueError:
         return "N/A"
 
+def combine(s: str, lst: list[str] | None) -> list[str]:
+    if lst is None:
+        lst = []
+    if s and s not in lst:
+        lst.append(s)
+    return lst
 
-# Types to icons
-icons = {
-    "data-pack" : "mdi-database-outline",
-    "texture-pack" : "material-symbols-texture",
-    "virtualtex-pack" : "mdi-grid",
-    "catalog-lod" : "la-cubes",
-    "catalog-gaia" : "tabler-stars-filled",
-    "catalog-star" : "game-icons-stars-stack",
-    "catalog-gal" : "streamline-galaxy-2-solid",
-    "catalog-cluster" : "ph-graph",
-    "catalog-sso" : "game-icons-asteroid",
-    "catalog-other" : "mdi-cube",
-    "system" : "mdi-orbit",
-    "mesh" : "game-icons-mesh-network",
-    "spacecraft" : "solar-satellite-bold",
-    "volume" : "material-symbols-cloud",
+# Types to icons and names
+types = {
+    "data-pack" : ("Data packs", "mdi-database-outline"),
+    "texture-pack" : ("Texture packs", "material-symbols-texture"),
+    "virtualtex-pack" : ("Virtual textures", "mdi-grid"),
+    "catalog-lod" : ("Level-of-detail catalogs", "la-cubes"),
+    "catalog-gaia" : ("Gaia star catalogs", "tabler-stars-filled"),
+    "catalog-star" : ("Star catalogs", "game-icons-stars-stack"),
+    "catalog-gal" : ("Galaxy catalogs", "streamline-galaxy-2-solid"),
+    "catalog-cluster" : ("Cluster catalogs", "ph-graph"),
+    "catalog-sso" : ("Asteroids and SSO", "game-icons-asteroid"),
+    "catalog-other" : ("Other catalogs", "mdi-cube"),
+    "system" : ("Exoplanets and extrasolar systems", "mdi-orbit"),
+    "mesh" : ("3D iso-density meshes", "game-icons-mesh-network"),
+    "spacecraft" : ("Missions, spacecraft and satellites", "solar-satellite-bold"),
+    "volume" : ("Volumetric objects and effects", "material-symbols-cloud"),
 }
-def icon(type):
-    return icons.get(type, "fa-regular fa-cube")
+def type_icon(type):
+    return types.get(type, ("Generic", "fa-regular fa-cube"))[1]
+
+def type_name(type):
+    return types.get(type, ("Generic", "fa-regular fa-cube"))[0]
 
 # Load JSON from a gzipped URL
 json_gz_url = "https://gaia.ari.uni-heidelberg.de/gaiasky/repository/gaiasky-data/gaiasky-data_v017.min.json.gz"
@@ -82,76 +91,109 @@ response.raise_for_status()  # Ensure the request was successful
 with gzip.GzipFile(fileobj=io.BytesIO(response.content), mode='rb') as decompressed:
     data = json.load(decompressed)  # Load JSON directly from decompressed data
 
-# Group datasets by their unique key and keep the latest version
-latest_datasets = {}
-
 # Process the 'files' list in the dictionary
 files = data.get('files', [])
 
+from collections import OrderedDict
+
+# First: determine latest version per key
+latest_datasets = {}
 for dataset in files:
-    key = dataset.get('key', None)
-    version = dataset.get('version', None)
-    
+    key = dataset.get('key')
+    version = dataset.get('version')
     if key is not None and version is not None:
-        # Keep the latest version for each key
         if key not in latest_datasets or int(version) > int(latest_datasets[key]['version']):
             latest_datasets[key] = dataset
+
+# Now: group by type, preserving type order as seen in the original files
+datasets_by_type = OrderedDict()
+for dataset in files:
+    key = dataset.get('key')
+    version = dataset.get('version')
+    dstype = dataset.get('type', 'N/A')
+
+    # Only consider the latest version
+    if key is None or version is None:
+        continue
+    if latest_datasets.get(key) != dataset:
+        continue
+
+    if dstype not in datasets_by_type:
+        datasets_by_type[dstype] = []
+    datasets_by_type[dstype].append(dataset)
 
 # Generate Markdown
 base_url = 'https://gaia.ari.uni-heidelberg.de/gaiasky/repository/'
 markdown_content = []
 webdir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 
-for dataset in latest_datasets.values():
-    name = dataset.get('name', 'N/A')
-    key = dataset.get('key', 'N/A')  # Use 'name' as key
-    description = dataset.get('description', 'N/A')
-    dstype = dataset.get('type', 'N/A')
-    version = dataset.get('version', 'N/A')
-    mingsversion = dataset.get('mingsversion', 'N/A')
+for dstype, datasets in datasets_by_type.items():
+    type_n = type_name(dstype)
+    markdown_content.append(f"<h2>{type_n}</h2>")
 
-    minversion_str = decode_version(mingsversion)
-    size_bytes = dataset.get('size', 0)
-    nobjects = dataset.get('nobjects', 'N/A')
-    nobjects_pretty = pretty_number(nobjects)
-    link = update_link(dataset.get('link', ''), base_url)
-    file = os.path.dirname(update_link(dataset.get('file', ''), base_url))
+    for dataset in datasets:
+        name = dataset.get('name', 'N/A')
+        key = dataset.get('key', 'N/A')  # Use 'name' as key
+        description = dataset.get('description', 'N/A')
+        dstype = dataset.get('type', 'N/A')
+        version = dataset.get('version', 'N/A')
+        mingsversion = dataset.get('mingsversion', 'N/A')
+        minversion_str = decode_version(mingsversion)
+        credits = dataset.get('credits', None)
+        creator = dataset.get('creator', 'N/A')
+        size_bytes = dataset.get('size', 0)
+        nobjects = dataset.get('nobjects', 'N/A')
+        nobjects_pretty = pretty_number(nobjects)
+        link = update_link(dataset.get('link', ''), base_url)
+        links = [update_link(s, base_url) for s in dataset.get('links', [])]
+        links = combine(link, links)
+        file = os.path.dirname(update_link(dataset.get('file', ''), base_url))
 
-    dataicon = icon(dstype)
+        dataicon = type_icon(dstype)
 
-    # Format byte size
-    size_pretty = sizeof_fmt(int(size_bytes))
-    # Image
-    imgkey = Path(os.path.join(webdir, 'static/img/datasets/', f"{key}.jpg"))
-    imgtype = Path(os.path.join(webdir, 'static/img/datasets/', f"{dstype}.jpg"))
-    if imgkey.is_file():
-        img = f"{key}.jpg"
-    elif imgtype.is_file():
-        img = f"{dstype}.jpg"
-    else:
-        img = None
+        # Format byte size
+        size_pretty = sizeof_fmt(int(size_bytes))
+        # Image
+        imgkey = Path(os.path.join(webdir, 'static/img/datasets/', f"{key}.jpg"))
+        imgtype = Path(os.path.join(webdir, 'static/img/datasets/', f"{dstype}.jpg"))
+        if imgkey.is_file():
+            img = f"{key}.jpg"
+        elif imgtype.is_file():
+            img = f"{dstype}.jpg"
+        else:
+            img = None
 
-    markdown_content.append(f"<details id=\"{key}\">\n")
-    markdown_content.append(f"<summary>\n")
-    markdown_content.append(f"<h3>{name}<br/><i class=\"gs-{dataicon}\" title=\"Type: {dstype}\"></i> <code title=\"Key: {key}\">{key}</code></h3>\n")
-    if img:
-        imgname = os.path.splitext(img)[0]
-        markdown_content.append(f"<img src=\"/img/datasets/{img}\" title=\"{imgname}\"></img>\n")
-    markdown_content.append(f"</summary>\n")
-    markdown_content.append(f"<article>\n")
-    markdown_content.append(f"<div class='article-content'>\n")
-    markdown_content.append(f"<div class='description'>{description}</div>\n\n")
-    markdown_content.append(f"- **Type:** `{dstype}`\n")
-    markdown_content.append(f"- **Dataset version:** v{version}\n")
-    markdown_content.append(f"- **Minimum Gaia Sky version:** {minversion_str}\n")
-    markdown_content.append(f"- **Size:** {size_pretty} <span class='unimportant'>({size_bytes})</span>\n")
-    markdown_content.append(f"- **Number of objects:** {nobjects_pretty} <span class='unimportant'>({nobjects})</span>\n")
-    markdown_content.append(f"- [Dataset files]({file})\n")
-    markdown_content.append(f"- [Dataset information/source]({link})\n")
-    markdown_content.append(f"</div>\n")
-    markdown_content.append(f"</article>\n")
-    markdown_content.append(f"</details>\n")
-    markdown_content.append("\n")
+        markdown_content.append(f"<details id=\"{key}\">\n")
+        markdown_content.append(f"<summary>\n")
+        markdown_content.append(f"<h3>{name} <span style='font-size: 0.4em;'><a href='{file}' title='{name} files'>🔗</a></span><br/><i class=\"gs-{dataicon}\" title=\"Type: {dstype}\"></i> <code title=\"Key: {key}\">{key}</code></h3>\n")
+        if img:
+            imgname = os.path.splitext(img)[0]
+            markdown_content.append(f"<img src=\"/img/datasets/{img}\" title=\"{imgname}\"></img>\n")
+        markdown_content.append(f"</summary>\n")
+        markdown_content.append(f"<article>\n")
+        markdown_content.append(f"<div class='article-content'>\n")
+        markdown_content.append(f"<div class='description'>{description}</div>\n\n")
+        markdown_content.append(f"- **Type:** `{dstype}`\n")
+        markdown_content.append(f"- **Dataset version:** v{version}\n")
+        markdown_content.append(f"- **Minimum Gaia Sky version:** {minversion_str}\n")
+        markdown_content.append(f"- **Size:** {size_pretty} <span class='unimportant'>({size_bytes})</span>\n")
+        markdown_content.append(f"- **Number of objects:** {nobjects_pretty} <span class='unimportant'>({nobjects})</span>\n")
+        if creator:
+            markdown_content.append(f"- **Creator:** {creator}\n")
+        if credits:
+            markdown_content.append(f"- **Credits:**\n")
+            for credit in credits:
+                markdown_content.append(f"   - {credit}\n")
+        
+        markdown_content.append(f"- **Sources/links:**\n")
+        for link in links:
+            markdown_content.append(f"   - [{link}]({link})\n")
+        markdown_content.append(f"- **Files:**\n")
+        markdown_content.append(f"     - [{file}]({file})\n")
+        markdown_content.append(f"</div>\n")
+        markdown_content.append(f"</article>\n")
+        markdown_content.append(f"</details>\n")
+        markdown_content.append("\n")
 
 # Write Markdown to a file
 with open('datasets.md', 'w') as f:
