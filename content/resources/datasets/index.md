@@ -11,7 +11,8 @@ This page lists the last version for each dataset in Gaia Sky. You can download 
 
 Click on the dataset title to reveal more information. 
 <br/><br/>
-<h2>Data packs</h2><details id="default-data">
+<h2 id='data-pack'>Data packs</h2>
+<a href='#default-data'></a><details id="default-data">
 <summary>
 <h3>Base data pack <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v057_20250717' title='Base data pack files'>🔗</a></span><br/><i class="gs-mdi-database-outline" title="Type: data-pack"></i> <code title="Key: default-data">default-data</code></h3>
 <img src="/img/datasets/default-data.jpg" title="default-data"></img>
@@ -46,7 +47,8 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<h2>Texture packs</h2><details id="hi-res-textures">
+<h2 id='texture-pack'>Texture packs</h2>
+<a href='#hi-res-textures'></a><details id="hi-res-textures">
 <summary>
 <h3>High resolution textures <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex/v014_20250717' title='High resolution textures files'>🔗</a></span><br/><i class="gs-material-symbols-texture" title="Type: texture-pack"></i> <code title="Key: hi-res-textures">hi-res-textures</code></h3>
 <img src="/img/datasets/hi-res-textures.jpg" title="hi-res-textures"></img>
@@ -69,7 +71,8 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<h2>Gaia star catalogs</h2><details id="gaia-dr3-best">
+<h2 id='catalog-gaia'>Gaia star catalogs</h2>
+<a href='#gaia-dr3-best'></a><details id="gaia-dr3-best">
 <summary>
 <h3>Gaia DR3 best <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/014-best/v01_20250530' title='Gaia DR3 best files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: gaia-dr3-best">gaia-dr3-best</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
@@ -92,7 +95,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="gaia-dr3-tiny">
+<a href='#gaia-dr3-tiny'></a><details id="gaia-dr3-tiny">
 <summary>
 <h3>Gaia DR3 tiny <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/011-tiny/v03_20240423' title='Gaia DR3 tiny files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: gaia-dr3-tiny">gaia-dr3-tiny</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
@@ -115,7 +118,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="gaia-dr3-weeny">
+<a href='#gaia-dr3-weeny'></a><details id="gaia-dr3-weeny">
 <summary>
 <h3>Gaia DR3 weeny <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/012-weeny/v03_20240423' title='Gaia DR3 weeny files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: gaia-dr3-weeny">gaia-dr3-weeny</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
@@ -138,7 +141,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="catalog-gcns">
+<a href='#catalog-gcns'></a><details id="catalog-gcns">
 <summary>
 <h3>Gaia Catalog of Nearby Stars <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gcns/v03_20230306' title='Gaia Catalog of Nearby Stars files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-gcns">catalog-gcns</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
@@ -161,7 +164,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="catalog-whitedwarfs-dr2">
+<a href='#catalog-whitedwarfs-dr2'></a><details id="catalog-whitedwarfs-dr2">
 <summary>
 <h3>DR2 White Dwarfs <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/dr2/v03_20221115' title='DR2 White Dwarfs files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-whitedwarfs-dr2">catalog-whitedwarfs-dr2</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
@@ -184,7 +187,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="catalog-whitedwarfs-edr3">
+<a href='#catalog-whitedwarfs-edr3'></a><details id="catalog-whitedwarfs-edr3">
 <summary>
 <h3>eDR3 White Dwarfs <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/edr3/v01_20221115' title='eDR3 White Dwarfs files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-whitedwarfs-edr3">catalog-whitedwarfs-edr3</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
@@ -207,7 +210,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="catalog-variablestars-dr2">
+<a href='#catalog-variablestars-dr2'></a><details id="catalog-variablestars-dr2">
 <summary>
 <h3>Gaia DR2 Cepheid and RR Lyrae <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr2/v03_20221115' title='Gaia DR2 Cepheid and RR Lyrae files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-variablestars-dr2">catalog-variablestars-dr2</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
@@ -230,7 +233,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="catalog-variablestars-dr3">
+<a href='#catalog-variablestars-dr3'></a><details id="catalog-variablestars-dr3">
 <summary>
 <h3>Gaia DR3 Cepheid and RR Lyrae <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr3/v01_20221115' title='Gaia DR3 Cepheid and RR Lyrae files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-variablestars-dr3">catalog-variablestars-dr3</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
@@ -253,7 +256,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="catalog-gd1">
+<a href='#catalog-gd1'></a><details id="catalog-gd1">
 <summary>
 <h3>GD-1 stellar stream <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gd1/v02_20221116' title='GD-1 stellar stream files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-gd1">catalog-gd1</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
@@ -276,7 +279,8 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<h2>Level-of-detail catalogs</h2><details id="gaia-dr3-default">
+<h2 id='catalog-lod'>Level-of-detail catalogs</h2>
+<a href='#gaia-dr3-default'></a><details id="gaia-dr3-default">
 <summary>
 <h3>Gaia DR3 default <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/000-default/v03_20240423' title='Gaia DR3 default files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-default">gaia-dr3-default</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -299,7 +303,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="gaia-dr3-small">
+<a href='#gaia-dr3-small'></a><details id="gaia-dr3-small">
 <summary>
 <h3>Gaia DR3 small <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/001-small/v02_20221117' title='Gaia DR3 small files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-small">gaia-dr3-small</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -322,7 +326,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="gaia-dr3-medium">
+<a href='#gaia-dr3-medium'></a><details id="gaia-dr3-medium">
 <summary>
 <h3>Gaia DR3 medium <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/002-medium/v02_20221117' title='Gaia DR3 medium files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-medium">gaia-dr3-medium</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -346,7 +350,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="gaia-dr3-large">
+<a href='#gaia-dr3-large'></a><details id="gaia-dr3-large">
 <summary>
 <h3>Gaia DR3 large <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/003-large/v02_20221117' title='Gaia DR3 large files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-large">gaia-dr3-large</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -369,7 +373,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="gaia-dr3-verylarge">
+<a href='#gaia-dr3-verylarge'></a><details id="gaia-dr3-verylarge">
 <summary>
 <h3>Gaia DR3 very large <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/004-verylarge/v02_20221117' title='Gaia DR3 very large files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-verylarge">gaia-dr3-verylarge</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -392,7 +396,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="gaia-dr3-extralarge">
+<a href='#gaia-dr3-extralarge'></a><details id="gaia-dr3-extralarge">
 <summary>
 <h3>Gaia DR3 extra large <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/005-extralarge/v02_20221117' title='Gaia DR3 extra large files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-extralarge">gaia-dr3-extralarge</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -415,7 +419,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="gaia-dr3-bright">
+<a href='#gaia-dr3-bright'></a><details id="gaia-dr3-bright">
 <summary>
 <h3>Gaia DR3 bright <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/006-bright/v02_20221117' title='Gaia DR3 bright files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-bright">gaia-dr3-bright</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -438,7 +442,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="gaia-dr3-ruwe">
+<a href='#gaia-dr3-ruwe'></a><details id="gaia-dr3-ruwe">
 <summary>
 <h3>Gaia DR3 RUWE <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/007-ruwe/v02_20221117' title='Gaia DR3 RUWE files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-ruwe">gaia-dr3-ruwe</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -461,7 +465,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="gaia-dr3-geodist">
+<a href='#gaia-dr3-geodist'></a><details id="gaia-dr3-geodist">
 <summary>
 <h3>Gaia DR3 bayesian distances <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/008-geodist/v02_20221117' title='Gaia DR3 bayesian distances files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-geodist">gaia-dr3-geodist</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -484,7 +488,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="gaia-dr3-fidelity">
+<a href='#gaia-dr3-fidelity'></a><details id="gaia-dr3-fidelity">
 <summary>
 <h3>Gaia DR3 fidelity <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/009-fidelity/v02_20221117' title='Gaia DR3 fidelity files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-fidelity">gaia-dr3-fidelity</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -507,7 +511,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="gaia-dr3-photdist">
+<a href='#gaia-dr3-photdist'></a><details id="gaia-dr3-photdist">
 <summary>
 <h3>Gaia DR3 photometric distances <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/010-photdist/v02_20221117' title='Gaia DR3 photometric distances files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-photdist">gaia-dr3-photdist</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -530,7 +534,8 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<h2>Star catalogs</h2><details id="catalog-cns5">
+<h2 id='catalog-star'>Star catalogs</h2>
+<a href='#catalog-cns5'></a><details id="catalog-cns5">
 <summary>
 <h3>Fifth Catalog of Nearby Stars (CNS5) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/cns5/v03_20230110' title='Fifth Catalog of Nearby Stars (CNS5) files'>🔗</a></span><br/><i class="gs-game-icons-stars-stack" title="Type: catalog-star"></i> <code title="Key: catalog-cns5">catalog-cns5</code></h3>
 <img src="/img/datasets/catalog-star.jpg" title="catalog-star"></img>
@@ -553,7 +558,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="catalog-hipparcos">
+<a href='#catalog-hipparcos'></a><details id="catalog-hipparcos">
 <summary>
 <h3>Hipparcos (new reduction) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/hipparcos/v06_20250506' title='Hipparcos (new reduction) files'>🔗</a></span><br/><i class="gs-game-icons-stars-stack" title="Type: catalog-star"></i> <code title="Key: catalog-hipparcos">catalog-hipparcos</code></h3>
 <img src="/img/datasets/catalog-star.jpg" title="catalog-star"></img>
@@ -576,7 +581,8 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<h2>Galaxy catalogs</h2><details id="catalog-nbg">
+<h2 id='catalog-gal'>Galaxy catalogs</h2>
+<a href='#catalog-nbg'></a><details id="catalog-nbg">
 <summary>
 <h3>NEARGALCAT <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/nbg/v016_20250604' title='NEARGALCAT files'>🔗</a></span><br/><i class="gs-streamline-galaxy-2-solid" title="Type: catalog-gal"></i> <code title="Key: catalog-nbg">catalog-nbg</code></h3>
 <img src="/img/datasets/catalog-nbg.jpg" title="catalog-nbg"></img>
@@ -599,7 +605,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="catalog-sdss-12">
+<a href='#catalog-sdss-12'></a><details id="catalog-sdss-12">
 <summary>
 <h3>SDSS DR12 <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss12/v08_20240110' title='SDSS DR12 files'>🔗</a></span><br/><i class="gs-streamline-galaxy-2-solid" title="Type: catalog-gal"></i> <code title="Key: catalog-sdss-12">catalog-sdss-12</code></h3>
 <img src="/img/datasets/catalog-gal.jpg" title="catalog-gal"></img>
@@ -622,7 +628,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="catalog-sdss-14">
+<a href='#catalog-sdss-14'></a><details id="catalog-sdss-14">
 <summary>
 <h3>SDSS DR14 <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss14/v08_20240110' title='SDSS DR14 files'>🔗</a></span><br/><i class="gs-streamline-galaxy-2-solid" title="Type: catalog-gal"></i> <code title="Key: catalog-sdss-14">catalog-sdss-14</code></h3>
 <img src="/img/datasets/catalog-gal.jpg" title="catalog-gal"></img>
@@ -645,7 +651,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="catalog-sdss-17">
+<a href='#catalog-sdss-17'></a><details id="catalog-sdss-17">
 <summary>
 <h3>SDSS DR17 <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss17/v05_20240110' title='SDSS DR17 files'>🔗</a></span><br/><i class="gs-streamline-galaxy-2-solid" title="Type: catalog-gal"></i> <code title="Key: catalog-sdss-17">catalog-sdss-17</code></h3>
 <img src="/img/datasets/catalog-gal.jpg" title="catalog-gal"></img>
@@ -668,7 +674,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="catalog-sdss-18">
+<a href='#catalog-sdss-18'></a><details id="catalog-sdss-18">
 <summary>
 <h3>SDSS DR18 <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss18/v02_20240110' title='SDSS DR18 files'>🔗</a></span><br/><i class="gs-streamline-galaxy-2-solid" title="Type: catalog-gal"></i> <code title="Key: catalog-sdss-18">catalog-sdss-18</code></h3>
 <img src="/img/datasets/catalog-gal.jpg" title="catalog-gal"></img>
@@ -691,7 +697,8 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<h2>Cluster catalogs</h2><details id="catalog-clusters-hunt-reffert-2023">
+<h2 id='catalog-cluster'>Cluster catalogs</h2>
+<a href='#catalog-clusters-hunt-reffert-2023'></a><details id="catalog-clusters-hunt-reffert-2023">
 <summary>
 <h3>DR3 Open Clusters (Hunt, Reffert) 2023 <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/clusters-hunt-reffert-2023/002_20230601' title='DR3 Open Clusters (Hunt, Reffert) 2023 files'>🔗</a></span><br/><i class="gs-ph-graph" title="Type: catalog-cluster"></i> <code title="Key: catalog-clusters-hunt-reffert-2023">catalog-clusters-hunt-reffert-2023</code></h3>
 <img src="/img/datasets/catalog-cluster.jpg" title="catalog-cluster"></img>
@@ -714,7 +721,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="catalog-ocdr2">
+<a href='#catalog-ocdr2'></a><details id="catalog-ocdr2">
 <summary>
 <h3>Open Clusters DR2 Catalog <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/ocdr2/v07_20230601' title='Open Clusters DR2 Catalog files'>🔗</a></span><br/><i class="gs-ph-graph" title="Type: catalog-cluster"></i> <code title="Key: catalog-ocdr2">catalog-ocdr2</code></h3>
 <img src="/img/datasets/catalog-cluster.jpg" title="catalog-cluster"></img>
@@ -737,7 +744,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="catalog-mwsc">
+<a href='#catalog-mwsc'></a><details id="catalog-mwsc">
 <summary>
 <h3>MWSC <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/mwsc/v07_20230601' title='MWSC files'>🔗</a></span><br/><i class="gs-ph-graph" title="Type: catalog-cluster"></i> <code title="Key: catalog-mwsc">catalog-mwsc</code></h3>
 <img src="/img/datasets/catalog-cluster.jpg" title="catalog-cluster"></img>
@@ -760,7 +767,8 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<h2>Other catalogs</h2><details id="catalog-nebulae">
+<h2 id='catalog-other'>Other catalogs</h2>
+<a href='#catalog-nebulae'></a><details id="catalog-nebulae">
 <summary>
 <h3>NGC2000 Nebulae <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/nebulae/v09_20250127' title='NGC2000 Nebulae files'>🔗</a></span><br/><i class="gs-mdi-cube" title="Type: catalog-other"></i> <code title="Key: catalog-nebulae">catalog-nebulae</code></h3>
 <img src="/img/datasets/catalog-nebulae.jpg" title="catalog-nebulae"></img>
@@ -783,7 +791,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="gargantua-blackhole">
+<a href='#gargantua-blackhole'></a><details id="gargantua-blackhole">
 <summary>
 <h3>Gargantua black hole <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/blackhole/v05_20250109' title='Gargantua black hole files'>🔗</a></span><br/><i class="gs-mdi-cube" title="Type: catalog-other"></i> <code title="Key: gargantua-blackhole">gargantua-blackhole</code></h3>
 <img src="/img/datasets/gargantua-blackhole.jpg" title="gargantua-blackhole"></img>
@@ -806,7 +814,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="oort-cloud">
+<a href='#oort-cloud'></a><details id="oort-cloud">
 <summary>
 <h3>Oort cloud <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud/v003_20221116' title='Oort cloud files'>🔗</a></span><br/><i class="gs-mdi-cube" title="Type: catalog-other"></i> <code title="Key: oort-cloud">oort-cloud</code></h3>
 <img src="/img/datasets/catalog-other.jpg" title="catalog-other"></img>
@@ -828,7 +836,8 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<h2>Asteroids and SSO</h2><details id="catalog-asteroids-fpr">
+<h2 id='catalog-sso'>Asteroids and SSO</h2>
+<a href='#catalog-asteroids-fpr'></a><details id="catalog-asteroids-fpr">
 <summary>
 <h3>Asteroids and SSO (Gaia FPR) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/fpr/001_20241022' title='Asteroids and SSO (Gaia FPR) files'>🔗</a></span><br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-fpr">catalog-asteroids-fpr</code></h3>
 <img src="/img/datasets/catalog-sso.jpg" title="catalog-sso"></img>
@@ -851,7 +860,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="catalog-asteroids-dr3">
+<a href='#catalog-asteroids-dr3'></a><details id="catalog-asteroids-dr3">
 <summary>
 <h3>Asteroids and SSO (Gaia DR3) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3/v02_20221116' title='Asteroids and SSO (Gaia DR3) files'>🔗</a></span><br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-dr3">catalog-asteroids-dr3</code></h3>
 <img src="/img/datasets/catalog-sso.jpg" title="catalog-sso"></img>
@@ -873,7 +882,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="catalog-asteroids-dr3-nea">
+<a href='#catalog-asteroids-dr3-nea'></a><details id="catalog-asteroids-dr3-nea">
 <summary>
 <h3>NEA asteroids (Gaia DR3, coloured) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-nea/v01_20221116' title='NEA asteroids (Gaia DR3, coloured) files'>🔗</a></span><br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-dr3-nea">catalog-asteroids-dr3-nea</code></h3>
 <img src="/img/datasets/catalog-sso.jpg" title="catalog-sso"></img>
@@ -895,7 +904,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="catalog-asteroids-dr3-trojan">
+<a href='#catalog-asteroids-dr3-trojan'></a><details id="catalog-asteroids-dr3-trojan">
 <summary>
 <h3>Trojan asteroids (Gaia DR3, coloured) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-trojan/v01_20221116' title='Trojan asteroids (Gaia DR3, coloured) files'>🔗</a></span><br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-dr3-trojan">catalog-asteroids-dr3-trojan</code></h3>
 <img src="/img/datasets/catalog-sso.jpg" title="catalog-sso"></img>
@@ -917,7 +926,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<details id="catalog-asteroids-dr2">
+<a href='#catalog-asteroids-dr2'></a><details id="catalog-asteroids-dr2">
 <summary>
 <h3>Asteroids and SSO (Gaia DR2) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr2/v02_20221116' title='Asteroids and SSO (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-dr2">catalog-asteroids-dr2</code></h3>
 <img src="/img/datasets/catalog-sso.jpg" title="catalog-sso"></img>
@@ -939,7 +948,8 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 </article>
 </details>
 
-<h2>Exoplanets and extrasolar systems</h2><details id="nasa-exoplanet-archive">
+<h2 id='system'>Exoplanets and extrasolar systems</h2>
+<a href='#nasa-exoplanet-archive'></a><details id="nasa-exoplanet-archive">
 <summary>
 <h3>NASA Exoplanet Archive <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/nasa-exoplanet-archive/v01_20240626' title='NASA Exoplanet Archive files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: nasa-exoplanet-archive">nasa-exoplanet-archive</code></h3>
 <img src="/img/datasets/nasa-exoplanet-archive.jpg" title="nasa-exoplanet-archive"></img>
@@ -1017,7 +1027,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="system-exonia">
+<a href='#system-exonia'></a><details id="system-exonia">
 <summary>
 <h3>Exonia system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v03_20230628' title='Exonia system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-exonia">system-exonia</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1039,7 +1049,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="system-dr3-gl876">
+<a href='#system-dr3-gl876'></a><details id="system-dr3-gl876">
 <summary>
 <h3>Gl876 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gl876/v01_20221116' title='Gl876 system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-dr3-gl876">system-dr3-gl876</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1061,7 +1071,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="system-dr3-hd40503">
+<a href='#system-dr3-hd40503'></a><details id="system-dr3-hd40503">
 <summary>
 <h3>HD40503 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd40503/v01_20221116' title='HD40503 system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-dr3-hd40503">system-dr3-hd40503</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1083,7 +1093,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="system-dr3-hd81040">
+<a href='#system-dr3-hd81040'></a><details id="system-dr3-hd81040">
 <summary>
 <h3>HD81040 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd81040/v01_20221116' title='HD81040 system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-dr3-hd81040">system-dr3-hd81040</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1105,7 +1115,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="system-dr3-hd114762">
+<a href='#system-dr3-hd114762'></a><details id="system-dr3-hd114762">
 <summary>
 <h3>HD114762 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd114762/v01_20221116' title='HD114762 system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-dr3-hd114762">system-dr3-hd114762</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1127,7 +1137,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="system-dr3-j0805-4812">
+<a href='#system-dr3-j0805-4812'></a><details id="system-dr3-j0805-4812">
 <summary>
 <h3>J0805+4812 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/j0805-4812/v01_20221116' title='J0805+4812 system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-dr3-j0805-4812">system-dr3-j0805-4812</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1149,7 +1159,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="system-dr3-ucac2-1151977">
+<a href='#system-dr3-ucac2-1151977'></a><details id="system-dr3-ucac2-1151977">
 <summary>
 <h3>UCAC2 1151977 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/ucac2-1151977/v01_20221116' title='UCAC2 1151977 system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-dr3-ucac2-1151977">system-dr3-ucac2-1151977</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1171,7 +1181,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="system-dr3-wd0141-675">
+<a href='#system-dr3-wd0141-675'></a><details id="system-dr3-wd0141-675">
 <summary>
 <h3>WD0141-675 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/wd0141-675/v02_20221116' title='WD0141-675 system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-dr3-wd0141-675">system-dr3-wd0141-675</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1193,7 +1203,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="system-gaia-bh1">
+<a href='#system-gaia-bh1'></a><details id="system-gaia-bh1">
 <summary>
 <h3>Gaia BH1 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gaia-bh1/v002_20241126' title='Gaia BH1 system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-gaia-bh1">system-gaia-bh1</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1215,7 +1225,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="system-gaia-bh2">
+<a href='#system-gaia-bh2'></a><details id="system-gaia-bh2">
 <summary>
 <h3>Gaia BH2 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gaia-bh2/v004_20241126' title='Gaia BH2 system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-gaia-bh2">system-gaia-bh2</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1237,7 +1247,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="system-gaia-bh3">
+<a href='#system-gaia-bh3'></a><details id="system-gaia-bh3">
 <summary>
 <h3>Gaia BH3 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr4/gaia-bh3/v002_20241126' title='Gaia BH3 system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-gaia-bh3">system-gaia-bh3</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1259,7 +1269,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<h2>3D iso-density meshes</h2><details id="mesh-dust-dr2">
+<h2 id='mesh'>3D iso-density meshes</h2>
+<a href='#mesh-dust-dr2'></a><details id="mesh-dust-dr2">
 <summary>
 <h3>Dust iso-density maps (Gaia DR2) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/dust/v04_20230704' title='Dust iso-density maps (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-dust-dr2">mesh-dust-dr2</code></h3>
 <img src="/img/datasets/mesh.jpg" title="mesh"></img>
@@ -1282,7 +1293,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="mesh-hii-dr2">
+<a href='#mesh-hii-dr2'></a><details id="mesh-hii-dr2">
 <summary>
 <h3>HII regions map (Gaia DR2) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/hii/v04_20230704' title='HII regions map (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-hii-dr2">mesh-hii-dr2</code></h3>
 <img src="/img/datasets/mesh.jpg" title="mesh"></img>
@@ -1305,7 +1316,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="mesh-stardensity-dr2">
+<a href='#mesh-stardensity-dr2'></a><details id="mesh-stardensity-dr2">
 <summary>
 <h3>Star density map (Gaia DR2) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/isodensity/v03_20230704' title='Star density map (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-stardensity-dr2">mesh-stardensity-dr2</code></h3>
 <img src="/img/datasets/mesh.jpg" title="mesh"></img>
@@ -1328,7 +1339,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="mesh-dust-dr3">
+<a href='#mesh-dust-dr3'></a><details id="mesh-dust-dr3">
 <summary>
 <h3>Dust iso-density maps (Gaia DR3) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/dust/v01_20221117' title='Dust iso-density maps (Gaia DR3) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-dust-dr3">mesh-dust-dr3</code></h3>
 <img src="/img/datasets/mesh.jpg" title="mesh"></img>
@@ -1351,7 +1362,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="mesh-hii-dr3">
+<a href='#mesh-hii-dr3'></a><details id="mesh-hii-dr3">
 <summary>
 <h3>HII regions map (Gaia DR3) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/hii/v01_20221117' title='HII regions map (Gaia DR3) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-hii-dr3">mesh-hii-dr3</code></h3>
 <img src="/img/datasets/mesh.jpg" title="mesh"></img>
@@ -1374,7 +1385,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="mesh-stardensity-dr3">
+<a href='#mesh-stardensity-dr3'></a><details id="mesh-stardensity-dr3">
 <summary>
 <h3>Star density map (Gaia DR3) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/stars/v01_20221117' title='Star density map (Gaia DR3) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-stardensity-dr3">mesh-stardensity-dr3</code></h3>
 <img src="/img/datasets/mesh.jpg" title="mesh"></img>
@@ -1397,7 +1408,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<h2>Missions, spacecraft and satellites</h2><details id="spacecraft-euclid">
+<h2 id='spacecraft'>Missions, spacecraft and satellites</h2>
+<a href='#spacecraft-euclid'></a><details id="spacecraft-euclid">
 <summary>
 <h3>ESA Euclid <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/euclid/v003_20240626' title='ESA Euclid files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-euclid">spacecraft-euclid</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
@@ -1420,7 +1432,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="spacecraft-jwst">
+<a href='#spacecraft-jwst'></a><details id="spacecraft-jwst">
 <summary>
 <h3>James Webb Space Telescope <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/jwst/v004_20240531' title='James Webb Space Telescope files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-jwst">spacecraft-jwst</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
@@ -1443,7 +1455,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="spacecraft-hst">
+<a href='#spacecraft-hst'></a><details id="spacecraft-hst">
 <summary>
 <h3>Hubble Space Telescope <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/hst/v002_20240523' title='Hubble Space Telescope files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-hst">spacecraft-hst</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
@@ -1466,7 +1478,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="spacecraft-iss">
+<a href='#spacecraft-iss'></a><details id="spacecraft-iss">
 <summary>
 <h3>International Space Station <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/iss/v002_20240523' title='International Space Station files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-iss">spacecraft-iss</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
@@ -1489,7 +1501,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="spacecraft-voyagers">
+<a href='#spacecraft-voyagers'></a><details id="spacecraft-voyagers">
 <summary>
 <h3>Voyagers 1 and 2 <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/voyagers/v02_20240523' title='Voyagers 1 and 2 files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-voyagers">spacecraft-voyagers</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
@@ -1512,7 +1524,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<h2>Virtual textures</h2><details id="vt-earth-diffuse-sentinel">
+<h2 id='virtualtex-pack'>Virtual textures</h2>
+<a href='#vt-earth-diffuse-sentinel'></a><details id="vt-earth-diffuse-sentinel">
 <summary>
 <h3>Earth surface VT (Sentinel-2, Blue Marble) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-sentinel/000_20250711' title='Earth surface VT (Sentinel-2, Blue Marble) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-earth-diffuse-sentinel">vt-earth-diffuse-sentinel</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
@@ -1539,7 +1552,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="vt-earth-diffuse-nasa">
+<a href='#vt-earth-diffuse-nasa'></a><details id="vt-earth-diffuse-nasa">
 <summary>
 <h3>128K Earth surface VT (NASA) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-nasa/000_20230125' title='128K Earth surface VT (NASA) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-earth-diffuse-nasa">vt-earth-diffuse-nasa</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
@@ -1562,7 +1575,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="vt-earth-topography-gmted2010">
+<a href='#vt-earth-topography-gmted2010'></a><details id="vt-earth-topography-gmted2010">
 <summary>
 <h3>128K Earth elevation VT (USGS) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-topography-gmted2010/000_20230125' title='128K Earth elevation VT (USGS) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-earth-topography-gmted2010">vt-earth-topography-gmted2010</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
@@ -1585,7 +1598,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="vt-earth-clouds-nasa">
+<a href='#vt-earth-clouds-nasa'></a><details id="vt-earth-clouds-nasa">
 <summary>
 <h3>64K Earth cloud VT (NASA) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-clouds-nasa/000_20230125' title='64K Earth cloud VT (NASA) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-earth-clouds-nasa">vt-earth-clouds-nasa</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
@@ -1608,7 +1621,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="vt-mars-diffuse-vanvliet">
+<a href='#vt-mars-diffuse-vanvliet'></a><details id="vt-mars-diffuse-vanvliet">
 <summary>
 <h3>64K Mars diffuse VT (Celestia) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-mars-diffuse-vanvliet/000_20230125' title='64K Mars diffuse VT (Celestia) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-mars-diffuse-vanvliet">vt-mars-diffuse-vanvliet</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
@@ -1631,7 +1644,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="vt-mars-topography-mola">
+<a href='#vt-mars-topography-mola'></a><details id="vt-mars-topography-mola">
 <summary>
 <h3>64K Mars elevation VT (MOLA/USGS) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-mars-topography-mola/000_20230125' title='64K Mars elevation VT (MOLA/USGS) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-mars-topography-mola">vt-mars-topography-mola</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
@@ -1654,7 +1667,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="vt-moon-diffuse-vanvliet">
+<a href='#vt-moon-diffuse-vanvliet'></a><details id="vt-moon-diffuse-vanvliet">
 <summary>
 <h3>64K Moon diffuse VT (Celestia) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-diffuse-vanvliet/000_20230125' title='64K Moon diffuse VT (Celestia) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-moon-diffuse-vanvliet">vt-moon-diffuse-vanvliet</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
@@ -1677,7 +1690,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="vt-moon-topography-lro">
+<a href='#vt-moon-topography-lro'></a><details id="vt-moon-topography-lro">
 <summary>
 <h3>8K Moon topography VT (LRO WAC DTM) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-topography-lro/000_20230125' title='8K Moon topography VT (LRO WAC DTM) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-moon-topography-lro">vt-moon-topography-lro</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
@@ -1700,7 +1713,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<details id="vt-moon-topography-nasa">
+<a href='#vt-moon-topography-nasa'></a><details id="vt-moon-topography-nasa">
 <summary>
 <h3>32K Moon topography NASA (SVS, DEM LRO:LOLA) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-topography-nasa/01_20250218' title='32K Moon topography NASA (SVS, DEM LRO:LOLA) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-moon-topography-nasa">vt-moon-topography-nasa</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
@@ -1724,7 +1737,8 @@ The reference surface for all LRO data is a sphere of radius 1737.4 km. LOLA's g
 </article>
 </details>
 
-<h2>Volumetric objects and effects</h2><details id="volumetric-aurora">
+<h2 id='volume'>Volumetric objects and effects</h2>
+<a href='#volumetric-aurora'></a><details id="volumetric-aurora">
 <summary>
 <h3>Volumetric Aurora <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora/v02_20250124' title='Volumetric Aurora files'>🔗</a></span><br/><i class="gs-material-symbols-cloud" title="Type: volume"></i> <code title="Key: volumetric-aurora">volumetric-aurora</code></h3>
 <img src="/img/datasets/volumetric-aurora.jpg" title="volumetric-aurora"></img>
