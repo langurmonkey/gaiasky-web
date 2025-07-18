@@ -129,7 +129,7 @@ webdir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 
 for dstype, datasets in datasets_by_type.items():
     type_n = type_name(dstype)
-    markdown_content.append(f"<h2>{type_n}</h2>")
+    markdown_content.append(f"<h2 id='{dstype}'>{type_n}</h2>\n")
 
     for dataset in datasets:
         name = dataset.get('name', 'N/A')
@@ -163,6 +163,7 @@ for dstype, datasets in datasets_by_type.items():
         else:
             img = None
 
+        markdown_content.append(f"<a href='#{key}'></a>")
         markdown_content.append(f"<details id=\"{key}\">\n")
         markdown_content.append(f"<summary>\n")
         markdown_content.append(f"<h3>{name} <span style='font-size: 0.4em;'><a href='{file}' title='{name} files'>🔗</a></span><br/><i class=\"gs-{dataicon}\" title=\"Type: {dstype}\"></i> <code title=\"Key: {key}\">{key}</code></h3>\n")
