@@ -123,7 +123,7 @@ css = ["css/downloads.css", "css/releases.css"]
     content += "<i class=\"gs-mdi-tag\"></i>\n"
     content += f"Gaia Sky <span class=\"downloads-version\">{version}</span> \n"
     content += f"<time class=\"downloads-releasedate\" datetime=\"{release_date}\" title=\"Published: {release_date}\"><i class=\"gs-mdi-calendar\"></i> {short_date}</time>\n"
-    content += f"<div class=\"downloads-build\">Build <a href='https://codeberg.org/gaiasky/gaiasky/commit/{build}' target='_blank'>{build}</a></div></div>\n"
+    content += f"<div class=\"downloads-build\"><i class=\"gs-mdi-script-text\"></i> <a href=\"#release-notes\">Release notes</a> &mdash; Build <a href=\"https://codeberg.org/gaiasky/gaiasky/commit/{build}\" target=\"_blank\">{build}</a></div></div>\n"
     content += f"<div class=\"download-section\">\n"
 
     pack = 0
