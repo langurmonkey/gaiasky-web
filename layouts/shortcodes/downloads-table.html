@@ -5,12 +5,18 @@
       title="Published: {{ .Site.Params.Release.Date }}"><i class="gs-mdi-calendar"></i> {{
       .Site.Params.Release.Date
       }}</time>
-    <div class="downloads-build">Build {{ .Site.Params.Release.Build }}</div>
+    <div class="downloads-build"><i class="gs-mdi-script-text"></i> <a href="{{ .Site.Params.Release.Post }}"
+        title="Release notes for Gaia Sky {{ .Site.Params.Release.version }}">Release
+        notes</a> &mdash; Build <a
+        href="https://codeberg.org/gaiasky/gaiasky/releases/tag/{{ .Site.Params.Release.version }}" target="_blank">{{
+        .Site.Params.Release.Build
+        }}</a></div>
   </div>
   <div class="download-section">
     <h2><i class="gs-uil-windows download-icon"></i> Windows</h2>
     <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_windows-x64_{{ .Site.Params.Release.versionFlat }}.exe"
-      class="download-button" aria-label="Download Gaia Sky for Windows"><i class="gs-uil-windows icon-button"></i> Windows
+      class="download-button" aria-label="Download Gaia Sky for Windows"><i class="gs-uil-windows icon-button"></i>
+      Windows
       <code>.exe</code>
       <span class="download-sub">For Windows 10/11 x86_64</span>
     </a>
@@ -22,7 +28,8 @@
   <div class="download-section">
     <h2><i class="gs-fa6-brands-apple download-icon"></i> macOS</h2>
     <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_macos_{{ .Site.Params.Release.versionFlat }}.dmg"
-      class="download-button" aria-label="Download Gaia Sky for macOS (Apple Silicon and x86_64)"><i class="gs-fa6-brands-apple icon-button"></i> macOS
+      class="download-button" aria-label="Download Gaia Sky for macOS (Apple Silicon and x86_64)"><i
+        class="gs-fa6-brands-apple icon-button"></i> macOS
       <code>.dmg</code>
       <span class="download-sub">Apple Silicon and x86_64</span>
     </a>
@@ -52,7 +59,8 @@
       by <a
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a></span>
     <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_{{ .Site.Params.Release.versionBuild }}_x86_64.appimage"
-      class="download-button" aria-label="Download Gaia Sky for Linux (AppImage)"><i class="gs-material-symbols-box icon-button"></i> AppImage
+      class="download-button" aria-label="Download Gaia Sky for Linux (AppImage)"><i
+        class="gs-material-symbols-box icon-button"></i> AppImage
       <code>.AppImage</code>
       <span class="download-sub">Distro-agnostic self-contained package</span>
     </a>
@@ -61,7 +69,8 @@
       by <a
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a></span>
     <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_{{ .Site.Params.Release.versionFlat }}.sh"
-      class="download-button" aria-label="Download Gaia Sky for Linux (.sh installer)"><i class="gs-token-unix icon-button"></i>
+      class="download-button" aria-label="Download Gaia Sky for Linux (.sh installer)"><i
+        class="gs-token-unix icon-button"></i>
       UNIX installer
       <code>.sh</code>
       <span class="download-sub">Distro-agnositc installer</span>
@@ -84,7 +93,8 @@
   <div class="download-section">
     <h2><i class="gs-ic-sharp-laptop-windows download-icon"></i> OS-agnostic</h2>
     <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky-{{ .Site.Params.Release.versionBuild }}.tar.gz"
-      class="download-button" aria-label="Download Gaia Sky as a .tar.gz tarball"><i class="gs-mdi-zip-box icon-button"></i> TGZ package
+      class="download-button" aria-label="Download Gaia Sky as a .tar.gz tarball"><i
+        class="gs-mdi-zip-box icon-button"></i> TGZ package
       <code>.tar.gz</code>
       <span class="download-sub">Extract and run</span>
     </a>
@@ -95,7 +105,8 @@
   </div>
   <div class="download-section">
     <h2><i class="gs-mdi-git download-icon"></i> Git repository</h2>
-    <a href="https://codeberg.org/gaiasky/gaiasky" class="download-button" aria-label="Gaia Sky source repository"><i class="gs-mdi-application-brackets icon-button"></i> Source code
+    <a href="https://codeberg.org/gaiasky/gaiasky" class="download-button" aria-label="Gaia Sky source repository"><i
+        class="gs-mdi-application-brackets icon-button"></i> Source code
       <span class="download-sub">Codeberg</span>
     </a>
   </div>
