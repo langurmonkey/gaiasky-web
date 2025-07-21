@@ -7,7 +7,7 @@ author = "tsagrista"
 categories = ["release", "version"]
 +++
 
-Just before the summer holidays, we are happy to announce the release of **Gaia Sky 3.6.10**. This is a release that improves on 3.6.9 by bringing a handful of minor improvements and quality-of-life updates, and a lot of bug fixes. Additionally, it enables new versions of the [base data](/resources/datasets#default-data) and the [high resolution textures](/reosurces/datasets#hi-res-textures) packs, and a new [virtual texture dataset based on Sentinel-2 data](/resources/datasets/#vt-earth-diffuse-sentinel).
+Today we are happy to announce the release of **Gaia Sky 3.6.10**. This is a release that improves on 3.6.9 by bringing a handful of minor improvements and quality-of-life updates, and a lot of bug fixes. Additionally, it enables new versions of the [base data](/resources/datasets#default-data) and the [high resolution textures](/reosurces/datasets#hi-res-textures) packs, and a new [virtual texture dataset based on Sentinel-2 data](/resources/datasets/#vt-earth-diffuse-sentinel).
 
 Here is a screenshot with that Sentinel-2 dataset, which goes down to a resolution of 10 meters/pixel:
 
