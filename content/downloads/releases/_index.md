@@ -20,7 +20,7 @@ You can also browse **all Gaia Sky** tags in our [repository](https://codeberg.o
 <div class="release">
 Gaia Sky 3.6.10
 </div>
-<code class="build">7877b11f9</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/7877b11f9' target='_blank'><code class="build">7877b11f9</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2025-07-21T08:34:00" title="Published: 2025-07-21T08:34:00">2025-07-21</time></div>
@@ -32,7 +32,7 @@ Gaia Sky 3.6.10
 <div class="release">
 Gaia Sky 3.6.9-2
 </div>
-<code class="build">c5c6600a5</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/c5c6600a5' target='_blank'><code class="build">c5c6600a5</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2025-07-03T09:44:45" title="Published: 2025-07-03T09:44:45">2025-07-03</time></div>
@@ -44,7 +44,7 @@ Gaia Sky 3.6.9-2
 <div class="release">
 Gaia Sky 3.6.9
 </div>
-<code class="build">226030b05</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/226030b05' target='_blank'><code class="build">226030b05</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2025-07-02T08:17:43" title="Published: 2025-07-02T08:17:43">2025-07-02</time></div>
@@ -56,7 +56,7 @@ Gaia Sky 3.6.9
 <div class="release">
 Gaia Sky 3.6.8
 </div>
-<code class="build">1e74ed71e</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/1e74ed71e' target='_blank'><code class="build">1e74ed71e</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2025-06-02T13:35:00" title="Published: 2025-06-02T13:35:00">2025-06-02</time></div>
@@ -68,7 +68,7 @@ Gaia Sky 3.6.8
 <div class="release">
 Gaia Sky 3.6.7
 </div>
-<code class="build">5160f2cfe</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/5160f2cfe' target='_blank'><code class="build">5160f2cfe</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2025-03-17T11:53:16" title="Published: 2025-03-17T11:53:16">2025-03-17</time></div>
@@ -80,7 +80,7 @@ Gaia Sky 3.6.7
 <div class="release">
 Gaia Sky 3.6.6
 </div>
-<code class="build">caf73d2de</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/caf73d2de' target='_blank'><code class="build">caf73d2de</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2025-01-24T08:59:04" title="Published: 2025-01-24T08:59:04">2025-01-24</time></div>
@@ -92,7 +92,7 @@ Gaia Sky 3.6.6
 <div class="release">
 Gaia Sky 3.6.5
 </div>
-<code class="build">a7ae14f4d</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/a7ae14f4d' target='_blank'><code class="build">a7ae14f4d</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2025-01-14T10:43:41" title="Published: 2025-01-14T10:43:41">2025-01-14</time></div>
@@ -104,7 +104,7 @@ Gaia Sky 3.6.5
 <div class="release">
 Gaia Sky 3.6.4-2
 </div>
-<code class="build">3bfeec0f9</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/3bfeec0f9' target='_blank'><code class="build">3bfeec0f9</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2024-10-15T12:00:46" title="Published: 2024-10-15T12:00:46">2024-10-15</time></div>
@@ -116,7 +116,7 @@ Gaia Sky 3.6.4-2
 <div class="release">
 Gaia Sky 3.6.4
 </div>
-<code class="build">a10728410</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/a10728410' target='_blank'><code class="build">a10728410</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2024-10-08T15:02:36" title="Published: 2024-10-08T15:02:36">2024-10-08</time></div>
@@ -128,7 +128,7 @@ Gaia Sky 3.6.4
 <div class="release">
 Gaia Sky 3.6.3-2
 </div>
-<code class="build">5dd63b3c7</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/5dd63b3c7' target='_blank'><code class="build">5dd63b3c7</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2024-07-17T10:39:44" title="Published: 2024-07-17T10:39:44">2024-07-17</time></div>
@@ -140,7 +140,7 @@ Gaia Sky 3.6.3-2
 <div class="release">
 Gaia Sky 3.6.3
 </div>
-<code class="build">929b0f7a6</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/929b0f7a6' target='_blank'><code class="build">929b0f7a6</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2024-07-12T10:01:51" title="Published: 2024-07-12T10:01:51">2024-07-12</time></div>
@@ -152,7 +152,7 @@ Gaia Sky 3.6.3
 <div class="release">
 Gaia Sky 3.6.2-3
 </div>
-<code class="build">d5632974f</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/d5632974f' target='_blank'><code class="build">d5632974f</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2024-06-06T14:00:30" title="Published: 2024-06-06T14:00:30">2024-06-06</time></div>
@@ -164,7 +164,7 @@ Gaia Sky 3.6.2-3
 <div class="release">
 Gaia Sky 3.6.2-2
 </div>
-<code class="build">c12559806</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/c12559806' target='_blank'><code class="build">c12559806</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2024-06-06T08:43:11" title="Published: 2024-06-06T08:43:11">2024-06-06</time></div>
@@ -176,7 +176,7 @@ Gaia Sky 3.6.2-2
 <div class="release">
 Gaia Sky 3.6.2
 </div>
-<code class="build">1b1e23dbb</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/1b1e23dbb' target='_blank'><code class="build">1b1e23dbb</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2024-06-04T13:37:23" title="Published: 2024-06-04T13:37:23">2024-06-04</time></div>
@@ -188,7 +188,7 @@ Gaia Sky 3.6.2
 <div class="release">
 Gaia Sky 3.6.1
 </div>
-<code class="build">f3a379a3d</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/f3a379a3d' target='_blank'><code class="build">f3a379a3d</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2024-05-29T10:22:07" title="Published: 2024-05-29T10:22:07">2024-05-29</time></div>
@@ -200,7 +200,7 @@ Gaia Sky 3.6.1
 <div class="release">
 Gaia Sky 3.6.0-3
 </div>
-<code class="build">fb7b7a553</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/fb7b7a553' target='_blank'><code class="build">fb7b7a553</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2024-03-15T20:15:28" title="Published: 2024-03-15T20:15:28">2024-03-15</time></div>
@@ -212,7 +212,7 @@ Gaia Sky 3.6.0-3
 <div class="release">
 Gaia Sky 3.6.0-2
 </div>
-<code class="build">4479175dc</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/4479175dc' target='_blank'><code class="build">4479175dc</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2024-03-14T08:17:59" title="Published: 2024-03-14T08:17:59">2024-03-14</time></div>
@@ -224,7 +224,7 @@ Gaia Sky 3.6.0-2
 <div class="release">
 Gaia Sky 3.6.0
 </div>
-<code class="build">afdd9547d</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/afdd9547d' target='_blank'><code class="build">afdd9547d</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2024-03-12T08:32:22" title="Published: 2024-03-12T08:32:22">2024-03-12</time></div>
@@ -236,7 +236,7 @@ Gaia Sky 3.6.0
 <div class="release">
 Gaia Sky 3.5.9-2
 </div>
-<code class="build">422e5e11c</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/422e5e11c' target='_blank'><code class="build">422e5e11c</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2024-02-22T08:43:46" title="Published: 2024-02-22T08:43:46">2024-02-22</time></div>
@@ -248,7 +248,7 @@ Gaia Sky 3.5.9-2
 <div class="release">
 Gaia Sky 3.5.9
 </div>
-<code class="build">51d1305ab</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/51d1305ab' target='_blank'><code class="build">51d1305ab</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2024-02-19T13:28:06" title="Published: 2024-02-19T13:28:06">2024-02-19</time></div>
@@ -260,7 +260,7 @@ Gaia Sky 3.5.9
 <div class="release">
 Gaia Sky 3.5.8-3
 </div>
-<code class="build">600deaa6a</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/600deaa6a' target='_blank'><code class="build">600deaa6a</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2024-01-29T15:21:16" title="Published: 2024-01-29T15:21:16">2024-01-29</time></div>
@@ -272,7 +272,7 @@ Gaia Sky 3.5.8-3
 <div class="release">
 Gaia Sky 3.5.8-2
 </div>
-<code class="build">4fd7a9705</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/4fd7a9705' target='_blank'><code class="build">4fd7a9705</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2024-01-29T09:54:52" title="Published: 2024-01-29T09:54:52">2024-01-29</time></div>
@@ -284,7 +284,7 @@ Gaia Sky 3.5.8-2
 <div class="release">
 Gaia Sky 3.5.8
 </div>
-<code class="build">77b1dcbf6</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/77b1dcbf6' target='_blank'><code class="build">77b1dcbf6</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2024-01-26T10:53:45" title="Published: 2024-01-26T10:53:45">2024-01-26</time></div>
@@ -296,7 +296,7 @@ Gaia Sky 3.5.8
 <div class="release">
 Gaia Sky 3.5.7-3
 </div>
-<code class="build">8be0b0add</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/8be0b0add' target='_blank'><code class="build">8be0b0add</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2023-11-29T09:02:45" title="Published: 2023-11-29T09:02:45">2023-11-29</time></div>
@@ -308,7 +308,7 @@ Gaia Sky 3.5.7-3
 <div class="release">
 Gaia Sky 3.5.7-2
 </div>
-<code class="build">987bbd941</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/987bbd941' target='_blank'><code class="build">987bbd941</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2023-11-21T12:07:38" title="Published: 2023-11-21T12:07:38">2023-11-21</time></div>
@@ -320,7 +320,7 @@ Gaia Sky 3.5.7-2
 <div class="release">
 Gaia Sky 3.5.7
 </div>
-<code class="build">9d7eedd2e</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/9d7eedd2e' target='_blank'><code class="build">9d7eedd2e</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2023-11-07T09:33:46" title="Published: 2023-11-07T09:33:46">2023-11-07</time></div>
@@ -332,7 +332,7 @@ Gaia Sky 3.5.7
 <div class="release">
 Gaia Sky 3.5.6-2
 </div>
-<code class="build">b9300ce43</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/b9300ce43' target='_blank'><code class="build">b9300ce43</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2023-10-24T09:09:57" title="Published: 2023-10-24T09:09:57">2023-10-24</time></div>
@@ -344,7 +344,7 @@ Gaia Sky 3.5.6-2
 <div class="release">
 Gaia Sky 3.5.6
 </div>
-<code class="build">8bb71564a</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/8bb71564a' target='_blank'><code class="build">8bb71564a</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2023-10-20T09:51:25" title="Published: 2023-10-20T09:51:25">2023-10-20</time></div>
@@ -356,7 +356,7 @@ Gaia Sky 3.5.6
 <div class="release">
 Gaia Sky 3.5.5-2
 </div>
-<code class="build">f09289b66</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/f09289b66' target='_blank'><code class="build">f09289b66</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2023-10-04T10:36:47" title="Published: 2023-10-04T10:36:47">2023-10-04</time></div>
@@ -368,7 +368,7 @@ Gaia Sky 3.5.5-2
 <div class="release">
 Gaia Sky 3.5.5-1
 </div>
-<code class="build">53d6a4f97</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/53d6a4f97' target='_blank'><code class="build">53d6a4f97</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2023-10-03T17:38:34" title="Published: 2023-10-03T17:38:34">2023-10-03</time></div>
@@ -380,7 +380,7 @@ Gaia Sky 3.5.5-1
 <div class="release">
 Gaia Sky 3.5.5
 </div>
-<code class="build">3b4d54b77</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/3b4d54b77' target='_blank'><code class="build">3b4d54b77</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2023-09-29T09:02:41" title="Published: 2023-09-29T09:02:41">2023-09-29</time></div>
@@ -392,7 +392,7 @@ Gaia Sky 3.5.5
 <div class="release">
 Gaia Sky 3.5.4-1
 </div>
-<code class="build">c31b73416</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/c31b73416' target='_blank'><code class="build">c31b73416</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2023-09-22T08:13:22" title="Published: 2023-09-22T08:13:22">2023-09-22</time></div>
@@ -404,7 +404,7 @@ Gaia Sky 3.5.4-1
 <div class="release">
 Gaia Sky 3.5.4
 </div>
-<code class="build">36b53b006</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/36b53b006' target='_blank'><code class="build">36b53b006</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2023-09-20T10:55:39" title="Published: 2023-09-20T10:55:39">2023-09-20</time></div>
@@ -416,7 +416,7 @@ Gaia Sky 3.5.4
 <div class="release">
 Gaia Sky 3.5.3
 </div>
-<code class="build">d076b1659</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/d076b1659' target='_blank'><code class="build">d076b1659</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2023-09-14T11:51:58" title="Published: 2023-09-14T11:51:58">2023-09-14</time></div>
@@ -428,7 +428,7 @@ Gaia Sky 3.5.3
 <div class="release">
 Gaia Sky 3.5.2
 </div>
-<code class="build">f8a396004</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/f8a396004' target='_blank'><code class="build">f8a396004</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2023-07-26T09:17:12" title="Published: 2023-07-26T09:17:12">2023-07-26</time></div>
@@ -440,7 +440,7 @@ Gaia Sky 3.5.2
 <div class="release">
 Gaia Sky 3.5.1
 </div>
-<code class="build">ebd5983f4</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/ebd5983f4' target='_blank'><code class="build">ebd5983f4</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2023-07-19T13:29:29" title="Published: 2023-07-19T13:29:29">2023-07-19</time></div>
@@ -452,7 +452,7 @@ Gaia Sky 3.5.1
 <div class="release">
 Gaia Sky 3.5.0
 </div>
-<code class="build">5b427a04f</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/5b427a04f' target='_blank'><code class="build">5b427a04f</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2023-07-17T10:10:01" title="Published: 2023-07-17T10:10:01">2023-07-17</time></div>
@@ -464,7 +464,7 @@ Gaia Sky 3.5.0
 <div class="release">
 Gaia Sky 3.4.2
 </div>
-<code class="build">041928e7c</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/041928e7c' target='_blank'><code class="build">041928e7c</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2023-03-15T12:55:42" title="Published: 2023-03-15T12:55:42">2023-03-15</time></div>
@@ -476,7 +476,7 @@ Gaia Sky 3.4.2
 <div class="release">
 Gaia Sky 3.4.1-01
 </div>
-<code class="build">b38f891e9</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/b38f891e9' target='_blank'><code class="build">b38f891e9</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2023-03-14T12:38:00" title="Published: 2023-03-14T12:38:00">2023-03-14</time></div>
@@ -488,7 +488,7 @@ Gaia Sky 3.4.1-01
 <div class="release">
 Gaia Sky 3.4.1
 </div>
-<code class="build">0cf299d94</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/0cf299d94' target='_blank'><code class="build">0cf299d94</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2023-03-09T08:25:06" title="Published: 2023-03-09T08:25:06">2023-03-09</time></div>
@@ -500,7 +500,7 @@ Gaia Sky 3.4.1
 <div class="release">
 Gaia Sky 3.4.0
 </div>
-<code class="build">33ecc89f4</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/33ecc89f4' target='_blank'><code class="build">33ecc89f4</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2023-02-14T08:18:36" title="Published: 2023-02-14T08:18:36">2023-02-14</time></div>
@@ -512,7 +512,7 @@ Gaia Sky 3.4.0
 <div class="release">
 Gaia Sky 3.3.2
 </div>
-<code class="build">b5202d46f</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/b5202d46f' target='_blank'><code class="build">b5202d46f</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2022-12-17T17:28:41" title="Published: 2022-12-17T17:28:41">2022-12-17</time></div>
@@ -524,7 +524,7 @@ Gaia Sky 3.3.2
 <div class="release">
 Gaia Sky 3.3.1
 </div>
-<code class="build">d6f853125</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/d6f853125' target='_blank'><code class="build">d6f853125</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2022-12-13T13:01:36" title="Published: 2022-12-13T13:01:36">2022-12-13</time></div>
@@ -536,7 +536,7 @@ Gaia Sky 3.3.1
 <div class="release">
 Gaia Sky 3.3.0
 </div>
-<code class="build">aca9fadc2</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/aca9fadc2' target='_blank'><code class="build">aca9fadc2</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2022-11-11T09:47:56" title="Published: 2022-11-11T09:47:56">2022-11-11</time></div>
@@ -548,7 +548,7 @@ Gaia Sky 3.3.0
 <div class="release">
 Gaia Sky 3.2.1
 </div>
-<code class="build">41e4b0a5b</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/41e4b0a5b' target='_blank'><code class="build">41e4b0a5b</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2022-06-21T09:27:01" title="Published: 2022-06-21T09:27:01">2022-06-21</time></div>
@@ -560,7 +560,7 @@ Gaia Sky 3.2.1
 <div class="release">
 Gaia Sky 3.2.0
 </div>
-<code class="build">84c0fc728</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/84c0fc728' target='_blank'><code class="build">84c0fc728</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2022-06-07T10:13:25" title="Published: 2022-06-07T10:13:25">2022-06-07</time></div>
@@ -572,7 +572,7 @@ Gaia Sky 3.2.0
 <div class="release">
 Gaia Sky 3.1.6
 </div>
-<code class="build">986c7b5ee</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/986c7b5ee' target='_blank'><code class="build">986c7b5ee</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2021-09-22T14:58:27" title="Published: 2021-09-22T14:58:27">2021-09-22</time></div>
@@ -584,7 +584,7 @@ Gaia Sky 3.1.6
 <div class="release">
 Gaia Sky 3.1.5
 </div>
-<code class="build">ee324a4e6</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/ee324a4e6' target='_blank'><code class="build">ee324a4e6</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2021-09-22T11:09:25" title="Published: 2021-09-22T11:09:25">2021-09-22</time></div>
@@ -596,7 +596,7 @@ Gaia Sky 3.1.5
 <div class="release">
 Gaia Sky 3.1.4
 </div>
-<code class="build">6ba45ec21</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/6ba45ec21' target='_blank'><code class="build">6ba45ec21</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2021-07-01T14:53:15" title="Published: 2021-07-01T14:53:15">2021-07-01</time></div>
@@ -608,7 +608,7 @@ Gaia Sky 3.1.4
 <div class="release">
 Gaia Sky 3.1.3
 </div>
-<code class="build">2853a8d8c</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/2853a8d8c' target='_blank'><code class="build">2853a8d8c</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2021-06-22T10:58:15" title="Published: 2021-06-22T10:58:15">2021-06-22</time></div>
@@ -620,7 +620,7 @@ Gaia Sky 3.1.3
 <div class="release">
 Gaia Sky 3.1.2
 </div>
-<code class="build">93ddad4b2</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/93ddad4b2' target='_blank'><code class="build">93ddad4b2</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2021-06-16T15:02:30" title="Published: 2021-06-16T15:02:30">2021-06-16</time></div>
@@ -632,7 +632,7 @@ Gaia Sky 3.1.2
 <div class="release">
 Gaia Sky 3.1.1
 </div>
-<code class="build">c95f19e4d</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/c95f19e4d' target='_blank'><code class="build">c95f19e4d</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2021-06-11T09:16:28" title="Published: 2021-06-11T09:16:28">2021-06-11</time></div>
@@ -644,7 +644,7 @@ Gaia Sky 3.1.1
 <div class="release">
 Gaia Sky 3.1.0
 </div>
-<code class="build">8053403c4</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/8053403c4' target='_blank'><code class="build">8053403c4</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2021-06-09T13:27:12" title="Published: 2021-06-09T13:27:12">2021-06-09</time></div>
@@ -656,7 +656,7 @@ Gaia Sky 3.1.0
 <div class="release">
 Gaia Sky 3.0.3
 </div>
-<code class="build">39da1974c</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/39da1974c' target='_blank'><code class="build">39da1974c</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2021-02-25T14:41:35" title="Published: 2021-02-25T14:41:35">2021-02-25</time></div>
@@ -668,7 +668,7 @@ Gaia Sky 3.0.3
 <div class="release">
 Gaia Sky 3.0.2
 </div>
-<code class="build">9bd17f001</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/9bd17f001' target='_blank'><code class="build">9bd17f001</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2021-01-21T10:58:07" title="Published: 2021-01-21T10:58:07">2021-01-21</time></div>
@@ -680,7 +680,7 @@ Gaia Sky 3.0.2
 <div class="release">
 Gaia Sky 3.0.1
 </div>
-<code class="build">2318179ff</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/2318179ff' target='_blank'><code class="build">2318179ff</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2020-12-10T13:06:20" title="Published: 2020-12-10T13:06:20">2020-12-10</time></div>
@@ -692,7 +692,7 @@ Gaia Sky 3.0.1
 <div class="release">
 Gaia Sky 3.0.0
 </div>
-<code class="build">74a524ebf</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/74a524ebf' target='_blank'><code class="build">74a524ebf</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2020-12-02T13:27:43" title="Published: 2020-12-02T13:27:43">2020-12-02</time></div>
@@ -704,7 +704,7 @@ Gaia Sky 3.0.0
 <div class="release">
 Gaia Sky 2.3.1
 </div>
-<code class="build">b19516f2e</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/b19516f2e' target='_blank'><code class="build">b19516f2e</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2020-07-08T09:05:56" title="Published: 2020-07-08T09:05:56">2020-07-08</time></div>
@@ -716,7 +716,7 @@ Gaia Sky 2.3.1
 <div class="release">
 Gaia Sky 2.3.0
 </div>
-<code class="build">c68fca318</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/c68fca318' target='_blank'><code class="build">c68fca318</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2020-07-07T12:13:41" title="Published: 2020-07-07T12:13:41">2020-07-07</time></div>
@@ -728,7 +728,7 @@ Gaia Sky 2.3.0
 <div class="release">
 Gaia Sky 2.2.6
 </div>
-<code class="build">e6ef9256e</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/e6ef9256e' target='_blank'><code class="build">e6ef9256e</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2020-05-15T09:26:16" title="Published: 2020-05-15T09:26:16">2020-05-15</time></div>
@@ -740,7 +740,7 @@ Gaia Sky 2.2.6
 <div class="release">
 Gaia Sky 2.2.5
 </div>
-<code class="build">af37ad3be</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/af37ad3be' target='_blank'><code class="build">af37ad3be</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2020-03-04T10:31:47" title="Published: 2020-03-04T10:31:47">2020-03-04</time></div>
@@ -752,7 +752,7 @@ Gaia Sky 2.2.5
 <div class="release">
 Gaia Sky 2.2.4-1
 </div>
-<code class="build">a169540c8</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/a169540c8' target='_blank'><code class="build">a169540c8</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2020-01-23T08:53:36" title="Published: 2020-01-23T08:53:36">2020-01-23</time></div>
@@ -764,7 +764,7 @@ Gaia Sky 2.2.4-1
 <div class="release">
 Gaia Sky 2.2.4
 </div>
-<code class="build">276701f80</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/276701f80' target='_blank'><code class="build">276701f80</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2020-01-22T11:24:07" title="Published: 2020-01-22T11:24:07">2020-01-22</time></div>
@@ -776,7 +776,7 @@ Gaia Sky 2.2.4
 <div class="release">
 Gaia Sky 2.2.3
 </div>
-<code class="build">42c24ecfa</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/42c24ecfa' target='_blank'><code class="build">42c24ecfa</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2019-11-05T15:48:55" title="Published: 2019-11-05T15:48:55">2019-11-05</time></div>
@@ -788,7 +788,7 @@ Gaia Sky 2.2.3
 <div class="release">
 Gaia Sky 2.2.2
 </div>
-<code class="build">084a01b2e</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/084a01b2e' target='_blank'><code class="build">084a01b2e</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2019-10-31T10:32:22" title="Published: 2019-10-31T10:32:22">2019-10-31</time></div>
@@ -800,7 +800,7 @@ Gaia Sky 2.2.2
 <div class="release">
 Gaia Sky 2.2.1
 </div>
-<code class="build">90d5543a</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/90d5543a' target='_blank'><code class="build">90d5543a</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2019-09-10T16:32:44" title="Published: 2019-09-10T16:32:44">2019-09-10</time></div>
@@ -812,7 +812,7 @@ Gaia Sky 2.2.1
 <div class="release">
 Gaia Sky 2.2.0
 </div>
-<code class="build">dec26b2f</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/dec26b2f' target='_blank'><code class="build">dec26b2f</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2019-07-31T17:41:38" title="Published: 2019-07-31T17:41:38">2019-07-31</time></div>
@@ -824,7 +824,7 @@ Gaia Sky 2.2.0
 <div class="release">
 Gaia Sky 2.1.7
 </div>
-<code class="build">a67779dc</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/a67779dc' target='_blank'><code class="build">a67779dc</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2019-01-11T14:29:30" title="Published: 2019-01-11T14:29:30">2019-01-11</time></div>
@@ -836,7 +836,7 @@ Gaia Sky 2.1.7
 <div class="release">
 Gaia Sky 2.1.6
 </div>
-<code class="build">347344e1</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/347344e1' target='_blank'><code class="build">347344e1</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2018-12-18T13:13:44" title="Published: 2018-12-18T13:13:44">2018-12-18</time></div>
@@ -848,7 +848,7 @@ Gaia Sky 2.1.6
 <div class="release">
 Gaia Sky 2.1.5
 </div>
-<code class="build">9bd34a65</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/9bd34a65' target='_blank'><code class="build">9bd34a65</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2018-12-03T13:53:55" title="Published: 2018-12-03T13:53:55">2018-12-03</time></div>
@@ -860,7 +860,7 @@ Gaia Sky 2.1.5
 <div class="release">
 Gaia Sky 2.1.4
 </div>
-<code class="build">8aba48da</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/8aba48da' target='_blank'><code class="build">8aba48da</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2018-11-23T11:21:24" title="Published: 2018-11-23T11:21:24">2018-11-23</time></div>
@@ -872,7 +872,7 @@ Gaia Sky 2.1.4
 <div class="release">
 Gaia Sky 2.1.3
 </div>
-<code class="build">874bf4ff</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/874bf4ff' target='_blank'><code class="build">874bf4ff</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2018-10-30T15:57:17" title="Published: 2018-10-30T15:57:17">2018-10-30</time></div>
@@ -884,7 +884,7 @@ Gaia Sky 2.1.3
 <div class="release">
 Gaia Sky 2.1.2
 </div>
-<code class="build">05ead4a1</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/05ead4a1' target='_blank'><code class="build">05ead4a1</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2018-09-18T09:40:18" title="Published: 2018-09-18T09:40:18">2018-09-18</time></div>
@@ -896,7 +896,7 @@ Gaia Sky 2.1.2
 <div class="release">
 Gaia Sky 2.1.1
 </div>
-<code class="build">6a1c439d</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/6a1c439d' target='_blank'><code class="build">6a1c439d</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2018-09-14T13:46:42" title="Published: 2018-09-14T13:46:42">2018-09-14</time></div>
@@ -908,7 +908,7 @@ Gaia Sky 2.1.1
 <div class="release">
 Gaia Sky 2.1.0
 </div>
-<code class="build">90720e7a</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/90720e7a' target='_blank'><code class="build">90720e7a</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2018-09-11T13:03:34" title="Published: 2018-09-11T13:03:34">2018-09-11</time></div>
@@ -920,7 +920,7 @@ Gaia Sky 2.1.0
 <div class="release">
 Gaia Sky 2.0.3
 </div>
-<code class="build">41bb73ea</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/41bb73ea' target='_blank'><code class="build">41bb73ea</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2018-08-28T11:31:49" title="Published: 2018-08-28T11:31:49">2018-08-28</time></div>
@@ -932,7 +932,7 @@ Gaia Sky 2.0.3
 <div class="release">
 Gaia Sky 2.0.2
 </div>
-<code class="build">e6dcfb14</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/e6dcfb14' target='_blank'><code class="build">e6dcfb14</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2018-07-06T09:04:39" title="Published: 2018-07-06T09:04:39">2018-07-06</time></div>
@@ -944,7 +944,7 @@ Gaia Sky 2.0.2
 <div class="release">
 Gaia Sky 2.0.1
 </div>
-<code class="build">12226a08</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/12226a08' target='_blank'><code class="build">12226a08</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2018-06-14T10:32:39" title="Published: 2018-06-14T10:32:39">2018-06-14</time></div>
@@ -956,7 +956,7 @@ Gaia Sky 2.0.1
 <div class="release">
 Gaia Sky 2.0.0
 </div>
-<code class="build">1d8c20b7</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/1d8c20b7' target='_blank'><code class="build">1d8c20b7</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2018-04-24T10:32:02" title="Published: 2018-04-24T10:32:02">2018-04-24</time></div>
@@ -968,7 +968,7 @@ Gaia Sky 2.0.0
 <div class="release">
 Gaia Sky 1.5.0
 </div>
-<code class="build">68dae022</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/68dae022' target='_blank'><code class="build">68dae022</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2017-08-02T09:54:50" title="Published: 2017-08-02T09:54:50">2017-08-02</time></div>
@@ -980,7 +980,7 @@ Gaia Sky 1.5.0
 <div class="release">
 Gaia Sky 1.0.4
 </div>
-<code class="build">c0eaeda</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/c0eaeda' target='_blank'><code class="build">c0eaeda</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2016-12-07T11:41:35" title="Published: 2016-12-07T11:41:35">2016-12-07</time></div>
@@ -992,7 +992,7 @@ Gaia Sky 1.0.4
 <div class="release">
 Gaia Sky 1.0.3
 </div>
-<code class="build">f7b8f51</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/f7b8f51' target='_blank'><code class="build">f7b8f51</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2016-11-15T15:26:19" title="Published: 2016-11-15T15:26:19">2016-11-15</time></div>
@@ -1004,7 +1004,7 @@ Gaia Sky 1.0.3
 <div class="release">
 Gaia Sky 1.0.2
 </div>
-<code class="build">1fc9f53</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/1fc9f53' target='_blank'><code class="build">1fc9f53</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2016-11-14T09:02:36" title="Published: 2016-11-14T09:02:36">2016-11-14</time></div>
@@ -1016,7 +1016,7 @@ Gaia Sky 1.0.2
 <div class="release">
 Gaia Sky 1.0.1
 </div>
-<code class="build">0cbf381</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/0cbf381' target='_blank'><code class="build">0cbf381</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2016-11-11T14:31:28" title="Published: 2016-11-11T14:31:28">2016-11-11</time></div>
@@ -1028,7 +1028,7 @@ Gaia Sky 1.0.1
 <div class="release">
 Gaia Sky 1.0.0
 </div>
-<code class="build">3e6fc36</code>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/3e6fc36' target='_blank'><code class="build">3e6fc36</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
 <time datetime="2016-09-13T10:20:51" title="Published: 2016-09-13T10:20:51">2016-09-13</time></div>
