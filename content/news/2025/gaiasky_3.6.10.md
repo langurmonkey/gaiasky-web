@@ -25,15 +25,18 @@ You can get this dataset in Gaia Sky 3.6.10. The dataset key is `vt-earth-diffus
 - Add markers for towns and landmarks. Night lights go out with ambient light in PBR shader.
 - Country perimeter lines disappear when the camera gets close to the surface of the Planet.
 - Add new attributes to dataset definition format: `links` (now accepts multiple sources as links), `creator` (the creator or curator of the dataset), `credits` (specific attribute for credits instead of adding them to the description; multiple strings accepted).
+- Add translation of object names to French.
 
 ## Bug Fixes
 - Typo in default shader class (`u_emissionCubemap` -> `u_emissiveCubemap`) prevented emissive/night cubemaps from working.
 - Add `nightCubemap` as alias to `emissiveCubemap` in material component.
 - Add `specularValue` and `specularValues` as aliases to `specular` in material component, with floating point number parameters.
-- Properly filtre directories when building the SVT quadtree structure to avoid incorrect 'Worng directory name format' warnings.
+- Properly filter directories when building the SVT quadtree structure to avoid incorrect 'Wrong directory name format' warnings.
 - Deactivating atmospheres causes night texture to apply uniformly to all planet as if it were a regular emissive texture.
 - Procedural generation window does not fit in the window with the new UI theme. Fix layout by introducing scroll panes and resizing elements.
 - Layout issue in right pane of dataset manager window prevented it from using scroll, causing the window to be too large in some cases.
 - Layout issue and tooltip text in datasets component.
 - Move `genVersionFile` task to the top of the dependency list (before `compileJava`) so that we always have the correct file available.
 - Mend wording in new data pack notification window.
+- Typo: Korou -> Kourou; Remove titles in object names I18n files.
+
