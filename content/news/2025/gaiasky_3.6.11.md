@@ -1,0 +1,24 @@
++++
+title = "Gaia Sky 3.6.11"
+description = "New API calls and more"
+date = 2025-07-28
+tags = ["release"]
+author = "tsagrista"
+categories = ["release", "version"]
++++
+
+Exactly a week after the release of 3.6.10, we release **Gaia Sky 3.6.11**. This is a small-ish release that contains a few new API calls and some important bug fixes. Keep reading for the list of changes.
+
+<!--more-->
+
+## Features
+- Add `transition_fov()` (APIv2) and `fovTransition()` (APIv1) calls to create smooth transitions in camera field of view angle.
+- Add `set_label_[in|ex]clude_regexp` calls to filter allowed and/or required label formats. If the include regexp is set, only labels that match it are allowed. If the exclude regexp is set, labels that match it are not allowed.
+- Add `set_mute_label()` APIv2 call (`setMuteLabel()` APIv1) to disable the label of individual objects.
+- Add `get_fov()` API call to APIv2, and `getFov()` to APIv1 to get the current camera field of view angle.
+
+## Bug Fixes
+- Disable render stage of notifications interface when notifications are off instead of just preventing the creation of messages; This is so that the empty table background is not seen when notifications are off.
+- Add scroll pane to layout of enabled datasets in welcome window. Add 'disable dataset' shortcut to each dataset.
+- Fix overall visual consistency and usability of enabled datasets in welcome window.
+- Keep clouds on the dark side of planets marginally visible instead of making them totally disappear during the night.

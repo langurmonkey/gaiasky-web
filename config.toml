@@ -112,12 +112,12 @@ enableGitInfo = true
   date_format = "2 Jan 2006"
 
   [params.release]
-    version = "3.6.10"
-    versionFlat = "3_6_10"
-    versionBuild = "3.6.10.7877b11f9"
-    build = "7877b11f9"
-    date = 2025-07-21
-    post = "/news/2025/gaiasky_3.6.10"
+    version = "3.6.11"
+    versionFlat = "3_6_11"
+    versionBuild = "3.6.11.e03d32c84"
+    build = "e03d32c84"
+    date = 2025-07-28
+    post = "/news/2025/gaiasky_3.6.11"
 
 
   [params.meta]
