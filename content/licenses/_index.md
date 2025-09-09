@@ -25,3 +25,13 @@ The **software** Gaia Sky, Gaia Sky [catgen](https://codeberg.org/gaiasky/gaiask
 
 - In the case of datasets sourced from other places (SDSS, Gaia DRx, etc.), the original licenses apply. Please, refer to the original sources.
 - In the case of datasets that we have created them from scratch, the license that applies is [CC-BY](https://creativecommons.org/licenses/by/4.0/).
+
+# Credits
+
+If you use Gaia Sky in your shows, or produce audiovisual material with it and want to acknowledge our work (not required), you can use the following credit line:
+
+> These animations make use of Gaia Sky (Toni Sagristà, ARI/ZAH, Heidelberg University) -- https://gaiasky.space
+
+If you use Gaia data, you need to acknowledge it following [these guidelines](https://www.cosmos.esa.int/web/gaia-users/credits). For imagery and outreach material made by ESA, it is typically sufficient to use:
+
+> Credits: ESA/Gaia/DPAC
