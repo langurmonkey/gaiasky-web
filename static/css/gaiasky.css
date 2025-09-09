@@ -184,6 +184,10 @@ figcaption h4 {
 hr {
   border: 0.01em solid var(--text-dimmer-color);
 }
+blockquote {
+  color: var(--text-dimmer-color);
+  border-left-color: var(--text-dimmer-color);
+}
 details summary::before { 
   content:"";
   width: 13px;
