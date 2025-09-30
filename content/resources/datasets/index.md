@@ -1203,68 +1203,32 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<a href='#system-gaia-bh1'></a><details id="system-gaia-bh1">
+<a href='#system-gaia-bhs'></a><details id="system-gaia-bhs">
 <summary>
-<h3>Gaia BH1 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gaia-bh1/v002_20241126' title='Gaia BH1 system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-gaia-bh1">system-gaia-bh1</code></h3>
+<h3>Gaia DR3 black holes <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/system-gaia-bhs/v001_20250930' title='Gaia DR3 black holes files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-gaia-bhs">system-gaia-bhs</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>The first dormant black hole (BH) candidate found in Gaia DR3. A slowly rotating G dwarf of 0.92 solar masses orbits around a dark object of 9.62+-0.18 solar masses, which is very likely a BH. The orbital period of the BH is 185.6 days.</div>
+<div class='description'>This dataset contains the systems of three black holes discovered by Gaia until DR3 (named BH1, BH2, and BH3).
+Gaia BH1 is the first dormant black hole candidate. The system contains a slowly rotating G dwarf of 0.92 solar masses orbits around a dark object of 9.62+-0.18 solar masses, which is very likely a BH. The orbital period of the BH is 185.6 days.
+Gaia BH2 is in a system with a 1 solar mass red giant plus a dark companion with mass 2.89+-0.3 solar masses, that is very likely a BH. The orbital period of BH2 is 1277 days.
+Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant black hole. The system sits at about 590 pc (1926 light years) from us, in a halo orbit around the Milky Way. It is the most massive stellar black hole found to date in our Galaxy. The dormant black hole was found in the preliminary Gaia DR4 astrometry. A 0.76+-0.05 solar mass very metal-poor giant plus a dark companion with mass 32.70+-1.46 solar masses, that is very likely a BH. The orbital period is 4253 days. Paper: Discovery of a dormant 33 solar-masses black hole in pre-release Gaia astrometry, Gaia Collaboration, et al., 2024.</div>
 
 - **Type:** `system`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.6.5
-- **Size:** 3.0KiB <span class='unimportant'>(3039)</span>
-- **Number of objects:** 2 <span class='unimportant'>(2)</span>
-- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Size:** 145.0KiB <span class='unimportant'>(148529)</span>
+- **Number of objects:** 6 <span class='unimportant'>(6)</span>
+- **Creator:** Toni Sagristà
+- **Credits:**
+   - ESA/Gaia/DPAC
 - **Sources/links:**
+   - [https://academic.oup.com//article/521/3/4323/7093135](https://academic.oup.com//article/521/3/4323/7093135)
+   - [https://academic.oup.com/mnras/article/521/3/4323/7093135](https://academic.oup.com/mnras/article/521/3/4323/7093135)
+   - [https://www.esa.int/Science_Exploration/Space_Science/Gaia/Sleeping_giant_surprises_Gaia_scientists](https://www.esa.int/Science_Exploration/Space_Science/Gaia/Sleeping_giant_surprises_Gaia_scientists)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gaia-bh1/v002_20241126](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gaia-bh1/v002_20241126)
-</div>
-</article>
-</details>
-
-<a href='#system-gaia-bh2'></a><details id="system-gaia-bh2">
-<summary>
-<h3>Gaia BH2 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gaia-bh2/v004_20241126' title='Gaia BH2 system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-gaia-bh2">system-gaia-bh2</code></h3>
-<img src="/img/datasets/system.jpg" title="system"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>A dormant black hole (BH) candidate from Gaia DR3. 1 solar mass red giant plus a dark companion with mass 2.89+-0.3 solar masses, that is very likely a BH. The orbital period is 1277 days.</div>
-
-- **Type:** `system`
-- **Dataset version:** v4
-- **Minimum Gaia Sky version:** 3.6.5
-- **Size:** 3.1KiB <span class='unimportant'>(3188)</span>
-- **Number of objects:** 2 <span class='unimportant'>(2)</span>
-- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Sources/links:**
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gaia-bh2/v004_20241126](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gaia-bh2/v004_20241126)
-</div>
-</article>
-</details>
-
-<a href='#system-gaia-bh3'></a><details id="system-gaia-bh3">
-<summary>
-<h3>Gaia BH3 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr4/gaia-bh3/v002_20241126' title='Gaia BH3 system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-gaia-bh3">system-gaia-bh3</code></h3>
-<img src="/img/datasets/system.jpg" title="system"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>The Gaia BH3 system, which includes the BH3 star and the 33 solar mass dormant black hole. The system sits at about 590 pc (1926 light years) from us, in a halo orbit around the Milky Way. It is the most massive stellar black hole found to date in our Galaxy. The dormant black hole was found in the preliminary Gaia DR4 astrometry. A 0.76+-0.05 solar mass very metal-poor giant plus a dark companion with mass 32.70+-1.46 solar masses, that is very likely a BH. The orbital period is 4253 days. Paper: Discovery of a dormant 33 solar-masses black hole in pre-release Gaia astrometry, Gaia Collaboration, et al., 2024.</div>
-
-- **Type:** `system`
-- **Dataset version:** v2
-- **Minimum Gaia Sky version:** 3.6.5
-- **Size:** 141.6KiB <span class='unimportant'>(144966)</span>
-- **Number of objects:** 2 <span class='unimportant'>(2)</span>
-- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Sources/links:**
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr4/gaia-bh3/v002_20241126](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr4/gaia-bh3/v002_20241126)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/system-gaia-bhs/v001_20250930](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/system-gaia-bhs/v001_20250930)
 </div>
 </article>
 </details>
@@ -1467,7 +1431,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Type:** `spacecraft`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.6.1
-- **Size:** 8.7MiB <span class='unimportant'>(9151867)</span>
+- **Size:** 8.7MiB <span class='unimportant'>(9162078)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
 - **Creator:** Toni Sagristà
 - **Sources/links:**
@@ -1497,6 +1461,36 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
    - [https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station](https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/iss/v002_20240523](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/iss/v002_20240523)
+</div>
+</article>
+</details>
+
+<a href='#catalog-gps'></a><details id="catalog-gps">
+<summary>
+<h3>GPS Satellite Network <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v001_20250925' title='GPS Satellite Network files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: catalog-gps">catalog-gps</code></h3>
+<img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>Constellation of GPS satellites with their true orbits and locations. The orbital data is pulled on-demand from Celestrak servers in TLE format and updated live. The satellites' 3D models are only an approximation for illustration purposes.</div>
+
+- **Type:** `spacecraft`
+- **Dataset version:** v1
+- **Minimum Gaia Sky version:** 3.6.11
+- **Size:** 999.9KiB <span class='unimportant'>(1023911)</span>
+- **Number of objects:** 31 <span class='unimportant'>(31)</span>
+- **Creator:** Trevor Kjorlien, Plateau Astro
+- **Credits:**
+   - GPS: USSF
+   - Dataset: Trevor Kjorlien, Plateau Astro
+   - 3D model: dh14300 at cgtrader.com, modified by Toni Sagristà
+   - GPS elements: Celestrak
+- **Sources/links:**
+   - [https://www.nasa.gov/directorates/somd/space-communications-navigation-program/gps/](https://www.nasa.gov/directorates/somd/space-communications-navigation-program/gps/)
+   - [https://www.cgtrader.com/free-3d-models/space/spaceship/gps-block-iii-satellite](https://www.cgtrader.com/free-3d-models/space/spaceship/gps-block-iii-satellite)
+   - [https://celestrak.org/NORAD/elements/gp.php?GROUP=gps-ops&FORMAT=tle](https://celestrak.org/NORAD/elements/gp.php?GROUP=gps-ops&FORMAT=tle)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v001_20250925](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v001_20250925)
 </div>
 </article>
 </details>
