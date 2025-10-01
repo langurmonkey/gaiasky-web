@@ -7,7 +7,7 @@ author = "tsagrista"
 categories = ["release", "version"]
 +++
 
-Today we publish Gaia Sky 3.7.0. The main point of this release is to fix a **world-stopping bug** that occurs with the latest version of macOS, code-named Tahoe. On macOS Tahoe, Gaia Sky 3.6.11 crashes at startup due to the operating system hardware information library ([oshi](https://github.com/oshi/oshi)) returning nothing when asked for the operating system code name. This has been **fixed in 3.7.0**. But the fun does not end here, as 3.7.0 is cut from the bleeding edge development branch, so it includes all sorts of new features, QoL improvements, and additional fixes. Read on for more.
+Today we publish Gaia Sky 3.7.0. The main point of this release is to fix a **show-stopping bug** that occurs with the latest version of macOS, code-named Tahoe. On macOS Tahoe, Gaia Sky 3.6.11 crashes at startup due to the operating system hardware information library ([oshi](https://github.com/oshi/oshi)) returning nothing when asked for the operating system code name. This has been **fixed in 3.7.0**. But the fun does not end here, as 3.7.0 is cut from the bleeding edge development branch, so it includes all sorts of new features, QoL improvements, and additional fixes. Read on for more.
 <!--more-->
 
 ## Features
