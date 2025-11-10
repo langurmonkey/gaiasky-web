@@ -108,6 +108,12 @@ ul {
   margin-left: 15px;
   list-style: disc outside;
 }
+ol {
+  padding: 0;
+  margin: 0;
+  margin-left: 15px;
+  list-style: numbers outside;
+}
 table thead {
   font-variant: small-caps;
   font-weight: 600;
