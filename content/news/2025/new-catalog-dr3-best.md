@@ -2,7 +2,6 @@
 title: "New Catalog: Gaia DR3 Best"
 description: "Contains only the very best stars in terms of parallax relative error"
 date: 2025-06-02
-author: "Gaia Sky Team"
 categories: ["Data", "Gaia DR3"]
 tags: ["Gaia", "catalog", "parallax", "astrometry", "stars"]
 author: "tsagrista"
