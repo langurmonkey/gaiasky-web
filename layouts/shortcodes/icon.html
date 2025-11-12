@@ -1,1 +1,3 @@
-<i class="{{ .Get 0 }}"></i>
+{{ $icon := .Get 0 }}
+{{ $size := .Get 1 }}
+<i class="{{ $icon }}" {{ with $size }} style="font-size:{{ . }};" {{ end }}></i>

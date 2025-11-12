@@ -58,7 +58,7 @@ just releases
 
 ## Icon generation
 
-We generate our own icon font from the SVG icons in `/script/icons`. There is a `just` target that runs the whole thing and puts the output in the required directory. You first need to install `svgtofont` (see below).
+We generate our own icon font from the SVG icons in `/assets/icons`. You can get more icons at [Iconify](https://icon-sets.iconify.design). There is a `just` target that runs the whole thing and puts the output in the required directory. You first need to install `svgtofont` (see below).
 
 ```bash
 just iconfont
