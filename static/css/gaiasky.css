@@ -358,7 +358,7 @@ div#breadcrumbs ul >  li:first-child {
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 40px 0 90px 0;
+  padding: 1em 0 6em 0;
   position: relative;
 }
 #slider:before {
@@ -383,7 +383,7 @@ div#breadcrumbs ul >  li:first-child {
 #slider .block img {
   float: left;
   margin-top: 3em;
-  margin-right: 2em;
+  margin-right: 6em;
   width: 11em;
   filter: drop-shadow(5px 5px 5px black);
 }
@@ -407,15 +407,19 @@ div#breadcrumbs ul >  li:first-child {
   -webkit-mask-image: none;
 }
 #slider .block p {
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 1.7em;
+  line-height: 1.5em;
   font-weight: 200;
   letter-spacing: 3px;
   text-shadow: 2px 2px 2px black, 0px 0px 5px black;
 }
+#slider .col-md-slider {
+  margin-left: 0;
+  padding-left: 0;
+}
 #slider .col-md-download {
-  margin-top: 7em;
-  /* text-align: center; */
+  margin-top: 4em;
+  text-align: center;
 }
 #slider button#download-button span.title {
   font-size: 1.6em;
@@ -595,8 +599,8 @@ div.datasets-box i[class^='gs-'] {
 	Slider-work Start
 --*/
 #global-header {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   position: relative;
   background-attachment: fixed;
 }
@@ -615,10 +619,13 @@ div.datasets-box i[class^='gs-'] {
   height: 100%;
   opacity: 1.0;
 }
+#global-header .container {
+  padding-left: 30em;
+  margin: 0;
+}
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
-  padding-left: 16.6%;
 }
 #global-header .block h1 {
   font-family: 'Ethnocentric';
@@ -626,7 +633,7 @@ div.datasets-box i[class^='gs-'] {
   font-weight: 100;
   font-size: 45px;
   letter-spacing: 6px;
-  padding-bottom: 15px;
+  padding-bottom: 0;
   margin-top: 0;
   text-transform: capitalize;
 }
@@ -640,7 +647,7 @@ div.datasets-box i[class^='gs-'] {
 }
 #global-header .block p {
   font-size: 25px;
-  line-height: 30px;
+  line-height: 1.5em;
   font-weight: 200;
   letter-spacing: 3px;
   text-shadow: 2px 2px 2px black, 0px 0px 5px black;
@@ -1023,7 +1030,10 @@ i[class^='gs-'].last-update {
 /*         RESPONSIVE              */
 /* ------------------------------- */
 
-@media only screen and (min-width: 991px) and (max-width: 1500px) {
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+  #global-header .container {
+    padding: 0em 15em !important;
+  }
   aside#toc {
     display: none;
   }
@@ -1036,6 +1046,27 @@ i[class^='gs-'].last-update {
   section#post-content,
   div.page-content {
     margin: 2em 20em !important;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  #global-header .container {
+    padding: 0em 15em !important;
+  }
+  aside#toc {
+    display: none;
+  }
+  .post-area {
+    padding: 1em 15em !important;
+  }
+  .posts-list {
+    padding: 1em 15em !important;
+  }
+  section#post-content,
+  div.page-content {
+    margin: 2em 20em !important;
+  }
+  #slider .block img {
+    margin-right: 3em;
   }
 }
 /*		Default Layout: 992px. 
@@ -1057,11 +1088,18 @@ px      68    160    252    344    436    528    620    712    */
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+  #global-header .container {
+    padding: 0em 5em !important;
+  }
   #global-header .block h1 {
     font-size: 2.0em;
+    margin-bottom: 0.1em;
+    padding-top: 0.2em;
+    padding-bottom: 0;
   }
   #global-header .block p {
     font-size: 1.3em;
+    line-height: 1.3em;
   }
   aside#toc {
     display: none;
@@ -1145,8 +1183,14 @@ px      68    160    252    344    436    528    620    712    */
   #slider-work .block h1 {
     font-size: 28px;
   }
+  #slider .block img {
+    display: none;
+  }
   #slider-work .block p {
     font-size: 15px;
+  }
+  #slider button#download-button {
+    width: 100%;
   }
   /*--
 	wrapper Start 
@@ -1207,11 +1251,22 @@ px      68    160    252    */
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
+  #global-header .container {
+    padding: 0em 1em !important;
+  }
+  #global-header .col-md-12 {
+    padding-right: 0;
+    padding-left: 0;
+  }
   #global-header .block h1 {
     font-size: 1.8em;
+    margin-bottom: 0.1em;
+    padding-bottom: 0;
+    padding-top: 0.2em;
   }
   #global-header .block p {
     font-size: 1.2em;
+    line-height: 1.3em;
   }
   aside#toc {
     display: none;
@@ -1294,7 +1349,7 @@ px      68    160    252    */
     padding-bottom: 10px;
   }
   #slider .block p {
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
   #slider .col-md-download {
     margin-top: 3em;
@@ -1475,14 +1530,22 @@ px      68    160    252    344    436    */
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
+  #global-header .container {
+    padding: 0em !important;
+  }
+  #global-header .col-md-12 {
+    padding-right: 0;
+    padding-left: 0;
+  }
   #global-header .block {
-    padding-left: 5%;
+    padding-left: 1em;
   }
   #global-header .block h1 {
     font-size: 1.5em;
   }
   #global-header .block p {
     font-size: 1.0em;
+    line-height: 1.3em;
   }
   #slider .block h1 {
     font-size: 1.6em;

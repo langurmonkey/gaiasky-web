@@ -40,7 +40,7 @@ enableGitInfo = true
     weight = 4
     name = "Docs"
     title = " "
-    url = "http://docs.gaiasky.space"
+    pageRef = "docs"
   [[menu.header]]
     weight = 5
     name = "Resources"
@@ -54,7 +54,7 @@ enableGitInfo = true
   [[menu.header]]
     weight = 8
     name = "  "
-    title = "Codeberg"
+    title = "Source repository"
     pre = '<i class="gs-codeberg"></i>'
     url = "https://codeberg.org/gaiasky/gaiasky"
   [[menu.header]]
@@ -184,6 +184,11 @@ enableGitInfo = true
     title = "Contact"
     subtitle = "Get in touch with us"
 
+  [params.docs]
+    enable = true
+    title = "Documentation"
+    subtitle = "Learn and share"
+
   [[params.social]]
     name = "RSS"
     url = "/index.xml"
@@ -230,11 +235,14 @@ enableGitInfo = true
 
 # Properties of the markdown renderer.
 [markup]
-  [markup.goldmark]
 
+  defaultMarkdownHandler = "goldmark"
+
+  [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
+    [markup.goldmark.parser]
+      attribute = true
     [markup.goldmark.extensions]
       [markup.goldmark.extensions.passthrough]
         [markup.goldmark.extensions.passthrough.delimiters]

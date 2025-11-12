@@ -1,5 +1,5 @@
 +++
-title = "Contact information"
+title = ""
 id = "contact"
 categories = ["Contact"]
 author = "tsagrista"
