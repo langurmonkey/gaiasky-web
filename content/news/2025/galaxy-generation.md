@@ -1,5 +1,5 @@
 +++
-title = "Generative galaxy visualization using compute shaders"
+title = "Procedural galaxy generation"
 date = "2025-11-21"
 tags = ["galaxy", "compute shader", "visualization", "astronomy"]
 categories = ["astronomy", "visualization"]
