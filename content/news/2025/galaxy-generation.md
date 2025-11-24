@@ -1,5 +1,6 @@
 +++
-title = "Procedural galaxy generation"
+title = "Procedural galaxy generation preview"
+description = "A short sneek peak into current state of the development of the new procedural galaxy generation system."
 date = "2025-11-21"
 tags = ["galaxy", "compute shader", "visualization", "astronomy"]
 categories = ["astronomy", "visualization"]
@@ -7,7 +8,7 @@ author = "tsagrista"
 +++
 
 
-This post introduces an experimental galaxy generation system currently in development, which generates and visualizes galaxies in real time. By leveraging multiple channels, such as stars, gas, dust, HII regions, and the galactic bulge, the system generates diverse galaxy types, each with distinct structural features. 
+This post introduces an experimental galaxy generation system currently in development, which generates and visualizes galaxies in real time. By leveraging multiple channels, such as stars, gas, dust, H II regions, and the galactic bulge, the system generates diverse galaxy types, each with distinct structural features. 
 
 Below is a preview of this system’s capabilities, showcasing the generated galaxies through a series of images. This is an early look at the technology and a demonstration of how we’re using the power of GPU-based compute shaders to create somewhat realistic galaxies very rapidly. Keep in mind that this is still a work in progress, with many improvements and additional features planned before release.
 
@@ -18,7 +19,7 @@ Below is a preview of this system’s capabilities, showcasing the generated gal
 Every galaxy is modeled using different physical components, each represented by a separate "channel" in the compute shader. These channels simulate different aspects of the galaxy:
 
 - **Stars** -- The luminous stars that make up the galaxy.
-- **HII Regions** -- Areas of ionized hydrogen, often seen as nebulae.
+- **H II Regions** -- Areas of ionized hydrogen, often seen as nebulae.
 - **Gas** -- The interstellar gas that fills the galaxy.
 - **Dust** -- The small particles scattered throughout the galaxy, contributing to the galaxy's opacity.
 - **Bulge** -- The central region of the galaxy, typically composed of older stars.
@@ -36,7 +37,7 @@ Each channel is processed individually by the compute shader, which performs com
 - **Cone** -- A cone distribution.
 - **Irregular** -- Irregular shape.
 
-The results are visualized in a grid of galaxy images, as shown above. The images represent various types of galaxies based on the Hubble sequence, which includes ellipticals, spirals, and irregular galaxies. The generated visualizations provide a clear representation of how different components (stars, gas, dust) contribute to the overall structure of a galaxy.
+The results are visualized in a grid of galaxy images, as shown above. The images represent various types of galaxies based on the Hubble sequence, which includes elliptical, spiral, and irregular galaxies. The generated visualizations provide a clear representation of how different components (stars, gas, dust) contribute to the overall structure of a galaxy.
 
 ## Interface
 
