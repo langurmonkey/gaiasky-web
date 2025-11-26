@@ -46,4 +46,4 @@ In order to play around with the generation and make fine adjustments to galaxie
 {{< fig src="img/2025/11/procedural-galaxy-ui.jpg" class="fig-center fig-post" title="Procedural galaxy generation window." loading="lazy" >}}
 
 
-As mentioned, this is still work in progress. The system is being developed in the [compute branch](https://codeberg.org/gaiasky/gaiasky/src/branch/compute) of our repository. The procedural galaxy generation system is based on compute shaders, so sadly macOS is not supported. 
+As mentioned, this is still work in progress. The system is being developed in the [compute branch](https://codeberg.org/gaiasky/gaiasky/src/branch/compute) of our repository. ~~The procedural galaxy generation system is based on compute shaders, so sadly macOS is not supported.~~ *Edit:* The procedural galaxy generation system uses compute shaders for optimal performance, while providing a CPU-based fallback path for compatibility with systems that do not support OpenGL 4.3 or later--most notably, macOS.
