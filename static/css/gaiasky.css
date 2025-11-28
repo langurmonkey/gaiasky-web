@@ -291,7 +291,7 @@ header .navbar-default .navbar-nav li a.active{
   color: var(--text-color);
   text-shadow: 1px 1px 3px black;
   background-image: linear-gradient(to bottom, var(--button1-color), var(--button2-color));
-  border-radius: 1em;
+  border-radius: 0.4em;
 }
 header .navbar-default .navbar-nav li a.active:hover{
   color: var(--text-color) !important;
