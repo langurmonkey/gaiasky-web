@@ -149,6 +149,9 @@ a code {
   background-color: #292929;
   border-radius: 4px;
 }
+abbr[title]{
+  border-bottom: none;
+}
 hr {
   border-color: #333 !important;
 }
