@@ -6,10 +6,10 @@ css = ["css/downloads.css"]
 +++
 
 <!-- SERVER NOTICE -->
-<div class="hint" style="margin-top: 1em; background-color: #821">
-  <p class="hint-title"><i class="fa fa-info-circle"></i><strong>🚧 Server down &ndash; alternative downloads 🚧</strong></p>
-<p class="hint-body">Due to the <a href="/news/2025/server-down-update">current server outage</a>, the usual Gaia Sky downloads are currently down. We recommend getting the Gaia Sky 3.7.0 packages from <a href="https://codeberg.org/gaiasky/gaiasky/releases/tag/3.7.0" title="Codeberg Releases - Gaia Sky 3.7.0" style="font-size: 1.2em; font-weight: 900; text-decoration: underline !important;" >Codeberg Releases</a>. More info <a href="/news/2026/workaround-server" >here</a>.</p>
-</div>
+<!-- <div class="hint" style="margin-top: 1em; background-color: #821"> -->
+  <!-- <p class="hint-title"><i class="fa fa-info-circle"></i><strong>🚧 Server down &ndash; alternative downloads 🚧</strong></p> -->
+<!-- <p class="hint-body">Due to the <a href="/news/2025/server-down-update">current server outage</a>, the usual Gaia Sky downloads are currently down. We recommend getting the Gaia Sky 3.7.0 packages from <a href="https://codeberg.org/gaiasky/gaiasky/releases/tag/3.7.0" title="Codeberg Releases - Gaia Sky 3.7.0" style="font-size: 1.2em; font-weight: 900; text-decoration: underline !important;" >Codeberg Releases</a>. More info <a href="/news/2026/workaround-server" >here</a>.</p> -->
+<!-- </div> -->
 
 
 {{< downloads-table >}}
