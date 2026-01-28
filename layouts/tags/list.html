@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {{ partial "head" . }}
+</head>
+
+<body>
+  {{ partial "header" . }}
+
+  <div class="wrapper">
+    <main>
+      <div class="post-area">
+        {{ partial "breadcrumbs" . }}
+
+        <div class="title">
+          <h1>Tag: {{ .Title }}</h1>
+        </div>
+
+
+        {{ range .Paginator.Pages }}
+        <article>
+          <a href="{{ .Permalink }}" class="bold">{{ .Title | markdownify }}</a>
+          <p class="italic">By <span class="author bold">{{ .Params.author }}</span> on <time class="published"
+              datetime="{{ .Date }}" title="Published: {{ .Date }}">{{
+              .Date.Format
+              .Site.Params.date_format }}</time>
+            {{ if and (.GitInfo) (ne (.GitInfo.AuthorDate) .Date) }}
+            <i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
+              title="Updated: {{ .GitInfo.AuthorDate }}"></i>
+            {{ end }}
+          </p>
+          <p>{{ .Summary }}</p>
+        </article>
+        {{ end }}
+
+        {{ partial "pagination" . }}
+      </div>
+    </main>
+  </div>
+
+  {{ partial "footer.html" . }}
+</body>
+
+</html>
