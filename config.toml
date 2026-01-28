@@ -10,6 +10,9 @@ enableGitInfo = true
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[taxonomies]
+  tags = "tags"
+
 [services]
   [services.rss]
     limit = 50
