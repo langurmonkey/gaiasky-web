@@ -10,19 +10,15 @@ Running VR on Linux is notoriously "experimental," especially when mixing NVIDIA
 
 Based on our recent testing, here is how to achieve a stable, high-performance, and color-accurate VR experience.
 
-## Prerequisites
+<!--more-->
+
+Here's what you need:
 
 1.  **Monado Service**: The open-source OpenXR runtime (`paru -S monado` on Arch).
 2.  **libsurvive**: For lighthouse and headset tracking.
 3.  **xr-hardware**: Ensure your udev rules are installed (`paru -S xr-hardware` on Arch).
 
-## The "Direct Mode" challenge
-
-On NVIDIA hardware, Monado may attempt to use an X11-based "Direct Mode" that crashes on Wayland with a `vkAcquireXlibDisplayEXT` error. To fix this, you must force Monado to use the **Wayland DRM Lease** protocol.
-
-### Optimized launch script
-
-I have prepared a `justfile` to handle the environment variables correctly. This setup bypasses the crashing NVIDIA backend and fixes the "washed out" color issues common on Pascal (10-series) cards.
+On NVIDIA hardware, Monado may attempt to use an X11-based "Direct Mode" that crashes on Wayland with a `vkAcquireXlibDisplayEXT` error. To fix this, you must force Monado to use the **Wayland DRM Lease** protocol. I have prepared a `justfile` to handle the environment variables correctly. This setup bypasses the crashing NVIDIA backend and fixes the "washed out" color issues common on Pascal (10-series) cards.
 
 ```justfile
 monado-clean:
