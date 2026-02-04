@@ -14,19 +14,19 @@ Click on the dataset title to reveal more information.
 <h2 id='data-pack'>Data packs</h2>
 <a href='#default-data'></a><details id="default-data">
 <summary>
-<h3>Base data pack <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v057_20250717' title='Base data pack files'>🔗</a></span><br/><i class="gs-mdi-database-outline" title="Type: data-pack"></i> <code title="Key: default-data">default-data</code></h3>
+<h3>Base data pack <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v060_20260109' title='Base data pack files'>🔗</a></span><br/><i class="gs-mdi-database-outline" title="Type: data-pack"></i> <code title="Key: default-data">default-data</code></h3>
 <img src="/img/datasets/default-data.jpg" title="default-data"></img>
 </summary>
 <article>
 <div class='article-content'>
 <div class='description'>Required data pack.
-For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, minor planets, satellites, orbits, constellations, the Milky Way, grids, locations and other important objects. Without this data pack Gaia Sky won't start.</div>
+For Gaia Sky 3.7.1 and above. Contains the solar system planets and moons, minor planets, satellites, orbits, constellations, the Milky Way, grids, locations and other important objects. Without this data pack Gaia Sky won't start.</div>
 
 - **Type:** `data-pack`
-- **Dataset version:** v57
-- **Minimum Gaia Sky version:** 3.6.10
-- **Size:** 76.4MiB <span class='unimportant'>(80064560)</span>
-- **Number of objects:** 9.91k <span class='unimportant'>(9913)</span>
+- **Dataset version:** v60
+- **Minimum Gaia Sky version:** 3.7.1-2
+- **Size:** 72.0MiB <span class='unimportant'>(75545674)</span>
+- **Number of objects:** 9.91k <span class='unimportant'>(9914)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Credits:**
    - Gaia Sky development team
@@ -42,7 +42,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata)
    - [https://gaiasky.space/resources/datasets](https://gaiasky.space/resources/datasets)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v057_20250717](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v057_20250717)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v060_20260109](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v060_20260109)
 </div>
 </article>
 </details>
@@ -50,7 +50,7 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 <h2 id='texture-pack'>Texture packs</h2>
 <a href='#hi-res-textures'></a><details id="hi-res-textures">
 <summary>
-<h3>High resolution textures <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex/v014_20250717' title='High resolution textures files'>🔗</a></span><br/><i class="gs-material-symbols-texture" title="Type: texture-pack"></i> <code title="Key: hi-res-textures">hi-res-textures</code></h3>
+<h3>High resolution textures <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex/v015_20260109' title='High resolution textures files'>🔗</a></span><br/><i class="gs-material-symbols-texture" title="Type: texture-pack"></i> <code title="Key: hi-res-textures">hi-res-textures</code></h3>
 <img src="/img/datasets/hi-res-textures.jpg" title="hi-res-textures"></img>
 </summary>
 <article>
@@ -58,15 +58,15 @@ For Gaia Sky 3.6.10 and above. Contains the solar system planets and moons, mino
 <div class='description'>High resolution texture pack including some 4K and 8K textures and cubemaps for planet surfaces and asteroids.</div>
 
 - **Type:** `texture-pack`
-- **Dataset version:** v14
-- **Minimum Gaia Sky version:** 3.6.10
-- **Size:** 250.3MiB <span class='unimportant'>(262465140)</span>
+- **Dataset version:** v15
+- **Minimum Gaia Sky version:** 3.7.1-2
+- **Size:** 248.1MiB <span class='unimportant'>(260203930)</span>
 - **Number of objects:** 76 <span class='unimportant'>(76)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex/v014_20250717](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex/v014_20250717)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex/v015_20260109](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex/v015_20260109)
 </div>
 </article>
 </details>
@@ -1029,7 +1029,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 
 <a href='#system-exonia'></a><details id="system-exonia">
 <summary>
-<h3>Exonia system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v03_20230628' title='Exonia system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-exonia">system-exonia</code></h3>
+<h3>Exonia system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v04_20260109' title='Exonia system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-exonia">system-exonia</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
 </summary>
 <article>
@@ -1037,14 +1037,14 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 <div class='description'>A made-up partially procedurally generated extra-solar system with two stars, four planets and a moon.</div>
 
 - **Type:** `system`
-- **Dataset version:** v3
-- **Minimum Gaia Sky version:** 3.5.0
-- **Size:** 2.4MiB <span class='unimportant'>(2557277)</span>
+- **Dataset version:** v4
+- **Minimum Gaia Sky version:** 3.7.1
+- **Size:** 2.4MiB <span class='unimportant'>(2556785)</span>
 - **Number of objects:** 7 <span class='unimportant'>(7)</span>
-- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Creator:** N/A
 - **Sources/links:**
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v03_20230628](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v03_20230628)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v04_20260109](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v04_20260109)
 </div>
 </article>
 </details>
@@ -1205,7 +1205,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 
 <a href='#system-gaia-bhs'></a><details id="system-gaia-bhs">
 <summary>
-<h3>Gaia DR3 black holes <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/system-gaia-bhs/v001_20250930' title='Gaia DR3 black holes files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-gaia-bhs">system-gaia-bhs</code></h3>
+<h3>Gaia DR3 black holes <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/system-gaia-bhs/v002_20251018' title='Gaia DR3 black holes files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-gaia-bhs">system-gaia-bhs</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
 </summary>
 <article>
@@ -1228,7 +1228,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
    - [https://academic.oup.com/mnras/article/521/3/4323/7093135](https://academic.oup.com/mnras/article/521/3/4323/7093135)
    - [https://www.esa.int/Science_Exploration/Space_Science/Gaia/Sleeping_giant_surprises_Gaia_scientists](https://www.esa.int/Science_Exploration/Space_Science/Gaia/Sleeping_giant_surprises_Gaia_scientists)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/system-gaia-bhs/v001_20250930](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/system-gaia-bhs/v001_20250930)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/system-gaia-bhs/v002_20251018](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/system-gaia-bhs/v002_20251018)
 </div>
 </article>
 </details>
