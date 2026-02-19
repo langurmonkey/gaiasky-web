@@ -98,5 +98,5 @@ We use a few fonts:
 
 We maintain live statistics of Gaia Sky package downloads, documentation accesses, dataset requests, and more:
 
-- [Gaia Sky statistics](https://gaia.ari.uni-heidelberg.de/gaiasky/stats).
+- [Gaia Sky statistics](https://gaia.ari.uni-heidelberg.de/gaiasky/stats/).
 - [Flathub installs (see information tab at the bottom)](https://flathub.org/apps/space.gaiasky.GaiaSky).
