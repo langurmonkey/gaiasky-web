@@ -14,19 +14,19 @@ Click on the dataset title to reveal more information.
 <h2 id='data-pack'>Data packs</h2>
 <a href='#default-data'></a><details id="default-data">
 <summary>
-<h3>Base data pack <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v060_20260109' title='Base data pack files'>🔗</a></span><br/><i class="gs-mdi-database-outline" title="Type: data-pack"></i> <code title="Key: default-data">default-data</code></h3>
+<h3>Base data pack <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v061_20260220' title='Base data pack files'>🔗</a></span><br/><i class="gs-mdi-database-outline" title="Type: data-pack"></i> <code title="Key: default-data">default-data</code></h3>
 <img src="/img/datasets/default-data.jpg" title="default-data"></img>
 </summary>
 <article>
 <div class='article-content'>
 <div class='description'>Required data pack.
-For Gaia Sky 3.7.1 and above. Contains the solar system planets and moons, minor planets, satellites, orbits, constellations, the Milky Way, grids, locations and other important objects. Without this data pack Gaia Sky won't start.</div>
+For Gaia Sky 3.7.2 and above. Contains the solar system planets and moons, minor planets, satellites, orbits, constellations, the Milky Way, grids, locations and other important objects. Without this data pack Gaia Sky won't start.</div>
 
 - **Type:** `data-pack`
-- **Dataset version:** v60
-- **Minimum Gaia Sky version:** 3.7.1-2
-- **Size:** 72.0MiB <span class='unimportant'>(75545674)</span>
-- **Number of objects:** 9.91k <span class='unimportant'>(9914)</span>
+- **Dataset version:** v61
+- **Minimum Gaia Sky version:** 3.7.2
+- **Size:** 72.5MiB <span class='unimportant'>(76067162)</span>
+- **Number of objects:** 9.92k <span class='unimportant'>(9920)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Credits:**
    - Gaia Sky development team
@@ -42,7 +42,7 @@ For Gaia Sky 3.7.1 and above. Contains the solar system planets and moons, minor
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata)
    - [https://gaiasky.space/resources/datasets](https://gaiasky.space/resources/datasets)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v060_20260109](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v060_20260109)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v061_20260220](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v061_20260220)
 </div>
 </article>
 </details>
@@ -816,22 +816,22 @@ For Gaia Sky 3.7.1 and above. Contains the solar system planets and moons, minor
 
 <a href='#oort-cloud'></a><details id="oort-cloud">
 <summary>
-<h3>Oort cloud <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud/v003_20221116' title='Oort cloud files'>🔗</a></span><br/><i class="gs-mdi-cube" title="Type: catalog-other"></i> <code title="Key: oort-cloud">oort-cloud</code></h3>
+<h3>Oort cloud <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud/v004_20260220' title='Oort cloud files'>🔗</a></span><br/><i class="gs-mdi-cube" title="Type: catalog-other"></i> <code title="Key: oort-cloud">oort-cloud</code></h3>
 <img src="/img/datasets/catalog-other.jpg" title="catalog-other"></img>
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Simulated Oort coud dataset with 10000 particles.</div>
+<div class='description'>Simulated Oort cloud data with 10000 ice particles.</div>
 
 - **Type:** `catalog-other`
-- **Dataset version:** v3
-- **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 278.1KiB <span class='unimportant'>(284752)</span>
+- **Dataset version:** v4
+- **Minimum Gaia Sky version:** 3.7.2
+- **Size:** 430.8KiB <span class='unimportant'>(441156)</span>
 - **Number of objects:** 10k <span class='unimportant'>(10000.0)</span>
-- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Sources/links:**
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud/v003_20221116](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud/v003_20221116)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud/v004_20260220](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud/v004_20260220)
 </div>
 </article>
 </details>
@@ -839,7 +839,7 @@ For Gaia Sky 3.7.1 and above. Contains the solar system planets and moons, minor
 <h2 id='catalog-sso'>Asteroids and SSO</h2>
 <a href='#catalog-asteroids-fpr'></a><details id="catalog-asteroids-fpr">
 <summary>
-<h3>Asteroids and SSO (Gaia FPR) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/fpr/001_20241022' title='Asteroids and SSO (Gaia FPR) files'>🔗</a></span><br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-fpr">catalog-asteroids-fpr</code></h3>
+<h3>Asteroids and SSO (Gaia FPR) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/fpr/002_20260220' title='Asteroids and SSO (Gaia FPR) files'>🔗</a></span><br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-fpr">catalog-asteroids-fpr</code></h3>
 <img src="/img/datasets/catalog-sso.jpg" title="catalog-sso"></img>
 </summary>
 <article>
@@ -847,15 +847,17 @@ For Gaia Sky 3.7.1 and above. Contains the solar system planets and moons, minor
 <div class='description'>More than 150k asteroids and other SSO, based on Gaia FPR (Focused Product Release) data. This dataset contains the astrometry of asteroids collected by Gaia over 66 months.</div>
 
 - **Type:** `catalog-sso`
-- **Dataset version:** v1
-- **Minimum Gaia Sky version:** 3.5.0
-- **Size:** 13.9MiB <span class='unimportant'>(14610240)</span>
+- **Dataset version:** v2
+- **Minimum Gaia Sky version:** 3.7.2
+- **Size:** 14.8MiB <span class='unimportant'>(15550964)</span>
 - **Number of objects:** 154.76k <span class='unimportant'>(154762)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
    - [https://www.cosmos.esa.int/web/gaia/fpr](https://www.cosmos.esa.int/web/gaia/fpr)
+   - [https://gea.esac.esa.int/archive](https://gea.esac.esa.int/archive)
+   - [https://gaiasky.space/resources/datasets](https://gaiasky.space/resources/datasets)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/fpr/001_20241022](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/fpr/001_20241022)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/fpr/002_20260220](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/fpr/002_20260220)
 </div>
 </article>
 </details>
@@ -1314,11 +1316,12 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 
 - **Type:** `mesh`
 - **Dataset version:** v1
-- **Minimum Gaia Sky version:** N/A
-- **Size:** 7.7MiB <span class='unimportant'>(8078371)</span>
+- **Minimum Gaia Sky version:** 3.6.0
+- **Size:** 1.4MiB <span class='unimportant'>(1459180)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
-- **Creator:** Kevin Jardine, Toni Sagristà
+- **Creator:** N/A
 - **Sources/links:**
+   - [https://galaxymap.org](https://galaxymap.org)
    - [https://gruze.org/posters_dr3/readme.pdf](https://gruze.org/posters_dr3/readme.pdf)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/dust/v01_20221117](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/dust/v01_20221117)
@@ -1337,7 +1340,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 
 - **Type:** `mesh`
 - **Dataset version:** v1
-- **Minimum Gaia Sky version:** N/A
+- **Minimum Gaia Sky version:** 3.6.0
 - **Size:** 8.9MiB <span class='unimportant'>(9336476)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Kevin Jardine, Toni Sagristà
@@ -1360,7 +1363,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 
 - **Type:** `mesh`
 - **Dataset version:** v1
-- **Minimum Gaia Sky version:** N/A
+- **Minimum Gaia Sky version:** 3.6.0
 - **Size:** 24.0MiB <span class='unimportant'>(25168342)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Kevin Jardine, Toni Sagristà
