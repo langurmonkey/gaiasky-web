@@ -13,7 +13,7 @@ Please, submit bug reports and feature requests to our source repository.
 
  - {{< icon "gs-mdi-application-brackets-outline" >}} [Submit bugs/requests](https://codeberg.org/gaiasky/gaiasky/issues).
 
-## Main designer and developer
+## Project lead
 
 **Dr. Toni Sagristà Sellés**
 |                                                      |                                                                           |
@@ -23,16 +23,6 @@ Please, submit bug reports and feature requests to our source repository.
 | {{< icon "gs-ri-mastodon-fill" >}} Mastodont (cat)   | [@jumpinglangur@mastodont.cat](https://mastodont.cat/@jumpinglangur)      |
 | {{< icon "gs-ri-bluesky-fill" >}} Bluesky            | [@gaiasky.bsky.social](https://bsky.app/profile/gaiasky.bsky.social)      |
 | {{< icon "gs-tabler-home-filled" >}} Website         | [tonisagrista.com](https://tonisagrista.com)                              |
-
-## Contributor, supervisor
-
-**Apl. Prof. Dr. Stefan Jordan**
-
-|                                                |                                                                           |
-|------------------------------------------------|---------------------------------------------------------------------------|
-| {{< icon "gs-mdi-email" >}} E-mail             | [jordan@ari.uni-heidelberg.de](mailto:jordan@ari.uni-heidelberg.de)       |
-| {{< icon "gs-mdi-twitter-box" >}} Twitter          | [@StefanJordanAri](https://twitter.com/StefanJordanAri)                   |
-| {{< icon "gs-tabler-home-filled" >}} Website   | [stefan-jordan.de](http://stefan-jordan.de)                               |
 
 ## Contributors
 
