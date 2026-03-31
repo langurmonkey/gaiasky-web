@@ -190,6 +190,10 @@ figcaption h4 {
   font-weigth: 100;
   font-size: 13px;
 }
+p.fig-attribution {
+  margin-top: -0.6em !important;
+  font-size: 0.8em;
+}
 hr {
   border: 0.01em solid var(--text-dimmer-color);
 }
@@ -950,6 +954,21 @@ figure.fig-post picture img {
 figure.vid-post video {
   width: 50%;
   min-width: 266px;
+}
+.yt-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.yt-iframe {
+  width: 70%;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+}
+.yt-container figcaption {
+  width: 70%;
+  text-align: center;
 }
 /*--------- Pagination ------------*/
 .pagination {

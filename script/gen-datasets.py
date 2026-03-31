@@ -147,7 +147,7 @@ for dstype, datasets in datasets_by_type.items():
         link = update_link(dataset.get('link', ''), base_url)
         links = [update_link(s, base_url) for s in dataset.get('links', [])]
         links = combine(link, links)
-        file = os.path.dirname(update_link(dataset.get('file', ''), base_url))
+        file = os.path.dirname(update_link(dataset.get('file', ''), base_url)) + "/index.html"
 
         dataicon = type_icon(dstype)
 

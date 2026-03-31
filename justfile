@@ -14,11 +14,11 @@ clean:
 
 # Generates all the releases in /downloads/releases
 releases:
-    (cd script && pipenv run python gen-releases.py)
+    (cd script && uv run gen-releases.py)
 
 # Generates the datasets.md file
 datasets:
-    (cd script && pipenv run python gen-datasets.py)
+    (cd script && uv run gen-datasets.py)
     mv script/datasets.md content/resources/datasets/index.md
 
 # Generate a font from all icons in /assets/icons
