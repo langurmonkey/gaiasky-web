@@ -865,7 +865,7 @@ footer ul.bottomlinks li a {
 }
 section#post-content,
 div.page-content {
-  margin: 1em 30em 5em 30em;
+  margin: 1rem 30rem 5rem 30rem;
 }
 div.hint {
   background: var(--accent-dark-color);
@@ -899,7 +899,7 @@ div.hint .hint-title {
   margin-bottom: 0em;
 }
 div.post-area article {
-  margin-top: 5em;
+  margin-top: 5rem;
 }
 div.post-area a.bold {
  font-variant-caps: small-caps;
@@ -907,7 +907,7 @@ div.post-area a.bold {
  font-weight: 800;
 }
 div.post-area {
-  padding: 1em 30em;
+  padding: 1rem 30rem;
   width: 100%;
   min-height: 100px;
   background-color: var(--bg-color);
