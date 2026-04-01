@@ -1,10 +1,11 @@
 .download-container {
   background-color: var(--bg-color-light);
-  max-width: 630px;
+  max-width: 70rem;
 }
 .download-button {
   margin-right: 2em;
-  max-width: 370px;
+  width: 100%;
+  max-width: 70rem;
 }
 section.release-notes {
   padding: 0em 2em 2em 2em;

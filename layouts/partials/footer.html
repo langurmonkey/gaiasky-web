@@ -46,7 +46,7 @@
             {{ end }}
           </ul>
         </nav>
-        <p>© 2025 The Gaia Sky Project</p>
+        <p>© {{ dateFormat "2006" now }} {{ .Site.Params.copyright }}</p>
       </div>
     </div>
   </div>

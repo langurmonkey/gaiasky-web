@@ -1,13 +1,10 @@
-  @font-face {
-    font-family: Ethnocentric;
-    src: url('/webfonts/ethnocentric.ttf');
-  }
-  @font-face {
-    font-family: Inter;
-    font-family: "Inter", serif;
-    font-optical-sizing: auto;
-    src: url('/webfonts/Inter.ttf');
-  }
+:root {
+  --global-margin: 36rem;
+}
+@font-face {
+  font-family: Ethnocentric;
+  src: url('/webfonts/ethnocentric.ttf');
+}
 /* var text-decoration */
 /*--
 	Common Css
@@ -66,11 +63,12 @@
 }
 
 body {
-  font-family: Inter, sans-serif;
+  font-family: open-sans, sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   background-color: var(--bg-color);
   color: var(--text-dim-color);
+  font-size: 15px;
 }
 main {
   background-color: var(--bg-color);
@@ -87,26 +85,29 @@ h6 {
   text-shadow: 2px 2px 2px black;
 }
 h1 {
-  font-size: 3.5em;
+  font-size: 2.5em;
   font-weight: 600;
 }
 h2 {
-  font-size: 3em;
+  font-size: 2.3em;
   font-weight: 600;
 }
 h3 {
   font-size: 2em;
   font-weight: 500;
 }
+h4 {
+  font-size: 1.3em;
+  font-weight: 500;
+}
 p {
-  font-size: 15px;
   line-height: 28px;
 }
 ul {
   padding: 0;
   margin: 0;
   margin-left: 15px;
-  list-style: disc outside;
+  list-style: square outside;
 }
 ol {
   padding: 0;
@@ -164,7 +165,7 @@ button.btn {
   padding: 10px 15px;
   margin: auto;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 1.4rem;
   border-radius: 20px;
   text-shadow: 2px 2px 2px black;
 }
@@ -391,13 +392,13 @@ div#breadcrumbs ul >  li:first-child {
   float: left;
   margin-top: 3em;
   margin-right: 6em;
-  width: 11em;
+  width: 13rem;
   filter: drop-shadow(5px 5px 5px black);
 }
 #slider .block h1 {
   font-family: 'Ethnocentric', sans-serif;
   font-weight: 100;
-  font-size: 4.5em;
+  font-size: 6.0rem;
   line-height: 50px;
   letter-spacing: 0.2em;
   padding-bottom: 20px;
@@ -414,8 +415,8 @@ div#breadcrumbs ul >  li:first-child {
   -webkit-mask-image: none;
 }
 #slider .block p {
-  font-size: 1.7em;
-  line-height: 1.5em;
+  font-size: 2.3rem;
+  line-height: 3rem;
   font-weight: 200;
   letter-spacing: 3px;
   text-shadow: 2px 2px 2px black, 0px 0px 5px black;
@@ -479,7 +480,7 @@ section#features {
   padding: 70px 0 10px 0;
 }
 section#features .features-item {
-  padding-bottom: 6em;
+  padding-bottom: 3rem;
 }
 section#features .features-item i[class^='gs-'],
 section#features .features-item i {
@@ -495,7 +496,9 @@ section#features .features-item p {
   color: var(--text-dim-color);
   padding-top: 10px;
   margin: 0;
-  font-size: 14px;
+  /* Force fixed height to avoid positioning errors. */
+  height: 13rem;
+  font-size: 1.6rem;
   line-height: 1.8;
 }
 /*--
@@ -528,7 +531,6 @@ section#links .links-item p {
   color: var(--text-dim-color);
   padding-top: 10px;
   margin: 0;
-  font-size: 14px;
   line-height: 1.8;
 }
 /*--
@@ -627,7 +629,7 @@ div.datasets-box i[class^='gs-'] {
   opacity: 1.0;
 }
 #global-header .container {
-  padding-left: 30em;
+  padding-left: var(--global-margin);
   margin: 0;
 }
 #global-header .block {
@@ -638,7 +640,7 @@ div.datasets-box i[class^='gs-'] {
   font-family: 'Ethnocentric';
   text-shadow: 5px 5px 5px black, 0px 0px 15px black;
   font-weight: 100;
-  font-size: 45px;
+  font-size: 4rem;
   letter-spacing: 6px;
   padding-bottom: 0;
   margin-top: 0;
@@ -653,7 +655,7 @@ div.datasets-box i[class^='gs-'] {
   height: 0;
 }
 #global-header .block p {
-  font-size: 25px;
+  font-size: 2.5rem;
   line-height: 1.5em;
   font-weight: 200;
   letter-spacing: 3px;
@@ -850,7 +852,6 @@ footer ul.bottomlinks {
   column-gap: 25px;
   line-height: 1.8rem;
   margin: 2em 15em;
-  align: center;
 }
 footer ul.bottomlinks li {
   display: block;
@@ -859,13 +860,12 @@ footer ul.bottomlinks li {
   white-space: nowrap;
 }
 footer ul.bottomlinks li a {
-  font-size: 1.1em;
   font-weight: 800;
   color: var(--text-color);
 }
 section#post-content,
 div.page-content {
-  margin: 1rem 30rem 5rem 30rem;
+  margin: 1rem  var(--global-margin) 5rem  var(--global-margin);
 }
 div.hint {
   background: var(--accent-dark-color);
@@ -903,24 +903,24 @@ div.post-area article {
 }
 div.post-area a.bold {
  font-variant-caps: small-caps;
- font-size: 3.2em;
+ font-size: 3.5rem;
  font-weight: 800;
 }
 div.post-area {
-  padding: 1rem 30rem;
+  padding: 1rem var(--global-margin);
   width: 100%;
   min-height: 100px;
   background-color: var(--bg-color);
 }
 p.posts-list-button {
   font-variant: small-caps;
-  font-size: 1.5em;
+  font-size: 1.8rem;
   background-color: var(--bg-color-light);
   border-radius: 10px;
   margin-top: 1em;
 }
 div.posts-list {
-  padding: 1em 30em 5em 30em;
+  padding: 1rem var(--global-margin) 5rem var(--global-margin);
   background-color: var(--bg-color);
 }
 div.post-area a,
@@ -1067,7 +1067,7 @@ i[class^='gs-'].last-update {
   }
   section#post-content,
   div.page-content {
-    margin: 2em 20em !important;
+    margin: 2rem 20rem !important;
   }
 }
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
@@ -1085,7 +1085,7 @@ i[class^='gs-'].last-update {
   }
   section#post-content,
   div.page-content {
-    margin: 2em 20em !important;
+    margin: 1rem 10rem !important;
   }
   #slider .block img {
     margin-right: 3em;
@@ -1131,7 +1131,7 @@ px      68    160    252    344    436    528    620    712    */
   }
   section#post-content,
   div.page-content {
-    margin: 1em 10em !important;
+    margin: 1rem 10rem !important;
   }
   .post-area {
     padding: 1em 5em !important;
@@ -1301,7 +1301,7 @@ px      68    160    252    */
   }
   section#post-content,
   div.page-content {
-    margin: 1em 5em !important;
+    margin: 1rem 5rem !important;
   }
   .post-area {
     padding: 1em !important;
@@ -1603,7 +1603,7 @@ px      68    160    252    344    436    */
   }
   section#post-content,
   div.page-content {
-    margin: 0.5em 0.8em !important;
+    margin: 1rem 1rem !important;
   }
   aside#toc {
     display: none;

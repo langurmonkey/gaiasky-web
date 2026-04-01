@@ -84,22 +84,23 @@ content:
     text: >
       Use [SAMP](http://www.ivoa.net/documents/SAMP/20120411/REC-SAMP-1.3-20120411.html) (Simple Application Messaging Protocol) to interoperate with SAMP-ready software such as Topcat and Aladin.
 
-  - icon: gs-solar-gamepad-bold
-    name: Gamepad support
-    text: >
-      Use your favorite controllers and gamepads to navigate the Galaxy. Piece of cake!
-
-  - icon: gs-lsicon-path-filled
-    name: Camera paths
-    text: >
-      Record and play camera paths off-the-shelf. Includes a keyframe system.
-
   - icon: gs-mdi-script-text
     name: Scriptable and extensible
     text: >
-      Use Python to script and extend the capabilities of the Gaia Sky.
+      Use the provided API to manipulate the scene from scripts. Use Python to script and extend the capabilities of the Gaia Sky.
 
   - icon: gs-clarity-language-solid
     name: Internationalized
     text: >
-      Translated to English, German, Spanish, French, Catalan, Slovenian, Turkish, and Bulgarian.
+      Translated to Bulgarian, Catalan, English, French, German, Italian, Japanese, Simplified Chinese, Slovenian, Spanish, and Turkish.
+
+  - icon: gs-solar-gamepad-bold
+    name: Gamepad support
+    text: >
+      Use your favorite game controllers and gamepads to navigate the Galaxy. Plug and play, works out of the box.
+
+  - icon: gs-lsicon-path-filled
+    name: Camera paths
+    text: >
+      Record and playback camera path files to persist your trips around the galaxy. Includes a fully-fetaured keyframe system with optional [OptFlowCam](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15056) export.
+

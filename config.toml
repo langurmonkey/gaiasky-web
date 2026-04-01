@@ -113,6 +113,7 @@ enableGitInfo = true
 [params]
 
   date_format = "2 Jan 2006"
+  copyright = "The Gaia Sky Project"
 
   [params.release]
     version = "3.7.1"
@@ -227,9 +228,9 @@ enableGitInfo = true
     url = "https://www.dlr.de"
     img = "img/dlr.png"
   [[params.ack]]
-    name = "BMWK"
-    url = "https://www.bmwk.de"
-    img = "img/bwt.png"
+    name = "BMFTR"
+    url = "https://www.bmftr.bund.de"
+    img = "img/bftr.png"
 
 [pagination]
   disableAliases = false
