@@ -166,6 +166,8 @@ abbr[title]{
   border-bottom: none;
 }
 hr {
+  margin-top: 0.5rem;
+  margin-bottom: 1.8rem;
   border-color: #333 !important;
 }
 button.btn-default,
@@ -906,6 +908,9 @@ div.hint .hint-title {
 #post-content .post-info-wrapper {
   color: var(--text-dim-color);
   font-weight: 100;
+}
+#post-content .post-info-wrapper p {
+  margin-bottom: 0;
 }
 #post-content .title {
   margin-bottom: 0em;
