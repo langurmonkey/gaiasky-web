@@ -118,9 +118,9 @@ enableGitInfo = true
   [params.release]
     version = "3.7.2"
     versionFlat = "3_7_2"
-    versionBuild = "3.7.2.d859c5d9e"
-    build = "d859c5d9e"
-    date = "2026-04-08T08:06:16"
+    versionBuild = "3.7.2.bc4b57653"
+    build = "bc4b57653"
+    date = "2026-04-08T15:07:59"
     post = "/news/2026/gaiasky_3.7.2.md"
 
   [params.meta]
