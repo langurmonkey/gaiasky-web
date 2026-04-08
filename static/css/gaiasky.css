@@ -901,7 +901,7 @@ div.hint .hint-title {
   margin-top: 1em;
 }
 #post-content figure {
-  margin-top: 1.5em;
+  margin: 1.8rem 0;
 }
 #post-content .post-info-wrapper {
   color: var(--text-dim-color);

@@ -26,11 +26,10 @@ If you want to know more, keep reading.
 We have added three shading types to particle groups:
 
 - `plain`---same old emissive shading.
-  {{< fig src="img/2026/03/lighting-plain-thumb.jpg" link="/img/2026/03/lighting-plain.jpg" class="fig-center fig-post" title="Plain shading type. This was the only type we had up until now." loading="lazy" >}}
 - `billboard_shading`---particles are shaded **uniformly** depending on the view and light directions. This creates the illusion of physical particles, especially when these are small.
-  {{< fig src="img/2026/03/lighting-bb-thumb.jpg" link="/img/2026/03/lighting-bb.jpg" class="fig-center fig-post" title="In billboard shading type, particles are lit uniformly depending on their location with respect to the light." loading="lazy" >}}
 - `spherical_shading`---particles are shaded using the Phong model as if they were spheres. Normals are computed for every fragment in the billboard, and light contributions are calculated according to those, taking into account the light and view vectors. This process shades the particles as if they were solid bodies.
-  {{< fig src="img/2026/03/lighting-sph-thumb.jpg" link="/img/2026/03/lighting-sph.jpg" class="fig-center fig-post" title="Spherical shading approximates particles to a sphere and computes the resulting lighting. Here, flat billboards resemble bodies with volume." loading="lazy" >}}
+
+{{< fig src="img/2026/04/lighting-types-thumb.jpg" link="/img/2026/04/lighting-types.jpg" class="fig-center fig-post" title="The lighting types. Left: plain, center: billboard shading, and right: spherical shading." loading="lazy" >}}
 
 ## Orbital element groups refactor
 
