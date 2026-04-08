@@ -20,10 +20,10 @@ You can also browse **all Gaia Sky** tags in our [repository](https://codeberg.o
 <div class="release">
 Gaia Sky 3.7.2
 </div>
-<a href='https://codeberg.org/gaiasky/gaiasky/commit/d859c5d9e' target='_blank'><code class="build">d859c5d9e</code></a>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/bc4b57653' target='_blank'><code class="build">bc4b57653</code></a>
 <div class="releasedate">
 <i class="gs-mdi-calendar calendar"></i>
-<time datetime="2026-04-08T08:06:16" title="Published: 2026-04-08T08:06:16">2026-04-08</time></div>
+<time datetime="2026-04-08T15:07:59" title="Published: 2026-04-08T15:07:59">2026-04-08</time></div>
 </a>
 </div>
 <div class="releaseentry">
