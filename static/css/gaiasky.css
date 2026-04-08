@@ -103,17 +103,23 @@ h4 {
 p {
   line-height: 28px;
 }
+li p {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
 ul {
   padding: 0;
   margin: 0;
   margin-left: 15px;
   list-style: square outside;
+  margin-bottom: 1rem;
 }
 ol {
   padding: 0;
   margin: 0;
   margin-left: 15px;
   list-style: numbers outside;
+  margin-bottom: 1rem;
 }
 table thead {
   font-variant: small-caps;
@@ -135,6 +141,12 @@ a:active {
 }
 a:hover {
   color: var(--link-hover-color) !important;
+}
+kbd {
+  font-weight: 800;
+  background-color: #666;
+  box-shadow: inset -3px -3px 0 rgba(0, 0, 0, .35);
+  padding: 3px 8px;
 }
 code {
   padding: 2px 4px;

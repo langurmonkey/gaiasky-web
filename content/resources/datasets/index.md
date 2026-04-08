@@ -14,7 +14,7 @@ Click on the dataset title to reveal more information.
 <h2 id='data-pack'>Data packs</h2>
 <a href='#default-data'></a><details id="default-data">
 <summary>
-<h3>Base data pack <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v062_20260331/index.html' title='Base data pack files'>🔗</a></span><br/><i class="gs-mdi-database-outline" title="Type: data-pack"></i> <code title="Key: default-data">default-data</code></h3>
+<h3>Base data pack <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v062_20260408/index.html' title='Base data pack files'>🔗</a></span><br/><i class="gs-mdi-database-outline" title="Type: data-pack"></i> <code title="Key: default-data">default-data</code></h3>
 <img src="/img/datasets/default-data.jpg" title="default-data"></img>
 </summary>
 <article>
@@ -25,7 +25,7 @@ For Gaia Sky 3.7.2 and above. Contains the solar system planets and moons, minor
 - **Type:** `data-pack`
 - **Dataset version:** v62
 - **Minimum Gaia Sky version:** 3.7.2
-- **Size:** 72.9MiB <span class='unimportant'>(76462441)</span>
+- **Size:** 73.0MiB <span class='unimportant'>(76556544)</span>
 - **Number of objects:** 9.94k <span class='unimportant'>(9936)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Credits:**
@@ -42,7 +42,7 @@ For Gaia Sky 3.7.2 and above. Contains the solar system planets and moons, minor
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata)
    - [https://gaiasky.space/resources/datasets](https://gaiasky.space/resources/datasets)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v062_20260331/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v062_20260331/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v062_20260408/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v062_20260408/index.html)
 </div>
 </article>
 </details>
