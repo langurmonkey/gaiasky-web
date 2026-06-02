@@ -26,11 +26,11 @@
 	{{ partial "datasets.html" . }}
 	{{ end }}
 
-	{{ if and (isset .Site.Data "features") (.Site.Data.features.enable) }}
+	{{ if and (isset hugo.Data "features") (hugo.Data.features.enable) }}
 	{{ partial "features.html" . }}
 	{{ end }}
 
-	{{ if and (isset .Site.Data "links") (.Site.Data.links.enable) }}
+	{{ if and (isset hugo.Data "links") (hugo.Data.links.enable) }}
 	{{ partial "links.html" . }}
 	{{ end }}
 

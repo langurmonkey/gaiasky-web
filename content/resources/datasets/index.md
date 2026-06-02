@@ -14,19 +14,19 @@ Click on the dataset title to reveal more information.
 <h2 id='data-pack'>Data packs</h2>
 <a href='#default-data'></a><details id="default-data">
 <summary>
-<h3>Base data pack <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v062_20260408/index.html' title='Base data pack files'>🔗</a></span><br/><i class="gs-mdi-database-outline" title="Type: data-pack"></i> <code title="Key: default-data">default-data</code></h3>
+<h3>Base data pack <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v063_20260508/index.html' title='Base data pack files'>🔗</a></span><br/><i class="gs-mdi-database-outline" title="Type: data-pack"></i> <code title="Key: default-data">default-data</code></h3>
 <img src="/img/datasets/default-data.jpg" title="default-data"></img>
 </summary>
 <article>
 <div class='article-content'>
 <div class='description'>Required data pack.
-For Gaia Sky 3.7.2 and above. Contains the solar system planets and moons, minor planets, satellites, orbits, constellations, the Milky Way, grids, locations and other important objects. Without this data pack Gaia Sky won't start.</div>
+Contains the solar system planets and moons, minor planets, satellites, orbits, constellations, the Milky Way, grids, locations and other important objects. Without this data pack Gaia Sky won't start.</div>
 
 - **Type:** `data-pack`
-- **Dataset version:** v62
-- **Minimum Gaia Sky version:** 3.7.2
-- **Size:** 73.0MiB <span class='unimportant'>(76556544)</span>
-- **Number of objects:** 9.94k <span class='unimportant'>(9936)</span>
+- **Dataset version:** v63
+- **Minimum Gaia Sky version:** 3.7.3
+- **Size:** 0.0B <span class='unimportant'>(0)</span>
+- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Credits:**
    - Gaia Sky development team
@@ -42,7 +42,7 @@ For Gaia Sky 3.7.2 and above. Contains the solar system planets and moons, minor
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata)
    - [https://gaiasky.space/resources/datasets](https://gaiasky.space/resources/datasets)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v062_20260408/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v062_20260408/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v063_20260508/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v063_20260508/index.html)
 </div>
 </article>
 </details>
@@ -771,7 +771,7 @@ For Gaia Sky 3.7.2 and above. Contains the solar system planets and moons, minor
 <h2 id='catalog-other'>Other catalogs</h2>
 <a href='#catalog-nebulae'></a><details id="catalog-nebulae">
 <summary>
-<h3>NGC2000 Nebulae <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/nebulae/v11_20260331/index.html' title='NGC2000 Nebulae files'>🔗</a></span><br/><i class="gs-mdi-cube" title="Type: catalog-other"></i> <code title="Key: catalog-nebulae">catalog-nebulae</code></h3>
+<h3>NGC2000 Nebulae <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/nebulae/v12_20260410/index.html' title='NGC2000 Nebulae files'>🔗</a></span><br/><i class="gs-mdi-cube" title="Type: catalog-other"></i> <code title="Key: catalog-nebulae">catalog-nebulae</code></h3>
 <img src="/img/datasets/catalog-nebulae.jpg" title="catalog-nebulae"></img>
 </summary>
 <article>
@@ -779,15 +779,15 @@ For Gaia Sky 3.7.2 and above. Contains the solar system planets and moons, minor
 <div class='description'>Catalog of bright emisison or reflection nebulae, planetary nebulae and clusters associated with nebulosity in the NGC2000 catalog. This catalog contains 47 of the most well-known nebulae in the Milky Way. Some of the nebulae are represented as volumes, and some are represented as 3D decals.</div>
 
 - **Type:** `catalog-other`
-- **Dataset version:** v11
+- **Dataset version:** v12
 - **Minimum Gaia Sky version:** 3.7.2
-- **Size:** 3.0MiB <span class='unimportant'>(3197290)</span>
+- **Size:** 4.6MiB <span class='unimportant'>(4833849)</span>
 - **Number of objects:** 47 <span class='unimportant'>(47)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
    - [https://heasarc.gsfc.nasa.gov/W3Browse/all/ngc2000.html](https://heasarc.gsfc.nasa.gov/W3Browse/all/ngc2000.html)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/nebulae/v11_20260331/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/nebulae/v11_20260331/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/nebulae/v12_20260410/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/nebulae/v12_20260410/index.html)
 </div>
 </article>
 </details>
@@ -1329,9 +1329,38 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 </details>
 
 <h2 id='spacecraft'>Missions, spacecraft and satellites</h2>
+<a href='#mission-gaia'></a><details id="mission-gaia">
+<summary>
+<h3>ESA's Gaia mission <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-gaia/v001_20260508/index.html' title='ESA's Gaia mission files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: mission-gaia">mission-gaia</code></h3>
+<img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>ESA's Gaia mission is a global space astrometry mission that built the largest, most precise three-dimensional map of our Galaxy by surveying nearly two billion objects. Launched on 19 December 2013 and operating from the Sun–Earth L2 Lagrange point, Gaia precisely charted the positions, distances, motions, brightness, and chemical compositions of stars throughout the Milky Way and beyond. Over its operational lifetime (27 July 2014 – 15 January 2025), the spacecraft made more than three trillion observations, achieving astrometric accuracy down to 24 microarcseconds — comparable to measuring the diameter of a human hair at a distance of 1000 km. Beyond stellar cartography, Gaia discovered exoplanets, brown dwarfs, asteroids, supernovae, and quasars, while providing stringent tests of general relativity. Its legacy is an unprecedentedly rich multi-dimensional catalogue of the cosmos, processed by the Gaia Data Processing and Analysis Consortium (DPAC) and released in successive data releases.</div>
+
+- **Type:** `spacecraft`
+- **Dataset version:** v1
+- **Minimum Gaia Sky version:** 3.7.3
+- **Size:** 0.0B <span class='unimportant'>(0)</span>
+- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
+- **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
+- **Credits:**
+   - Gaia Sky development team
+   - ESA/Gaia/DPAC
+   - Gaia 3D model: Toni Sagristà
+- **Sources/links:**
+   - [https://www.esa.int/Science_Exploration/Space_Science/Gaia](https://www.esa.int/Science_Exploration/Space_Science/Gaia)
+   - [https://www.cosmos.esa.int/web/gaia/home](https://www.cosmos.esa.int/web/gaia/home)
+   - [https://gaiasky.space/resources/datasets](https://gaiasky.space/resources/datasets)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-gaia/v001_20260508/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-gaia/v001_20260508/index.html)
+</div>
+</article>
+</details>
+
 <a href='#spacecraft-euclid'></a><details id="spacecraft-euclid">
 <summary>
-<h3>ESA Euclid <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/euclid/v003_20240626/index.html' title='ESA Euclid files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-euclid">spacecraft-euclid</code></h3>
+<h3>ESA Euclid <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/euclid/v004_20260428/index.html' title='ESA Euclid files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-euclid">spacecraft-euclid</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
 </summary>
 <article>
@@ -1339,91 +1368,168 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 <div class='description'>ESA Euclid spacecraft, with its orbit and model. Euclid is an ESA mission to map the geometry of the Universe and better understand the mysterious dark matter and dark energy, which make up most of the energy budget of the cosmos. The mission will investigate the distance-redshift relationship and the evolution of cosmic structures by measuring shapes and redshifts of galaxies and clusters of galaxies out to redshifts ~2, or equivalently to a look-back time of 10 billion years. In this way, Euclid will cover the entire period over which dark energy played a significant role in accelerating the expansion of the Universe.</div>
 
 - **Type:** `spacecraft`
-- **Dataset version:** v3
-- **Minimum Gaia Sky version:** 3.6.1
-- **Size:** 21.6MiB <span class='unimportant'>(22600082)</span>
+- **Dataset version:** v4
+- **Minimum Gaia Sky version:** 3.7.3
+- **Size:** 0.0B <span class='unimportant'>(0)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
-- **Creator:** Kevin Jardine, Toni Sagristà
+- **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
+- **Credits:**
+   - ESA's Euclid mission
+   - Euclid Consortium
+   - Orbit data: Florian Renk, ESOC/ESA
+   - Gaia Sky orbit conversion: Toni Sagristà
 - **Sources/links:**
    - [https://www.esa.int/Science_Exploration/Space_Science/Euclid](https://www.esa.int/Science_Exploration/Space_Science/Euclid)
+   - [https://www.euclid-ec.org/](https://www.euclid-ec.org/)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/euclid/v003_20240626/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/euclid/v003_20240626/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/euclid/v004_20260428/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/euclid/v004_20260428/index.html)
 </div>
 </article>
 </details>
 
 <a href='#spacecraft-jwst'></a><details id="spacecraft-jwst">
 <summary>
-<h3>James Webb Space Telescope <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/jwst/v004_20240531/index.html' title='James Webb Space Telescope files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-jwst">spacecraft-jwst</code></h3>
+<h3>James Webb Space Telescope <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/jwst/v005_20260428/index.html' title='James Webb Space Telescope files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-jwst">spacecraft-jwst</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>The James Webb Space Telescope, with its orbit around L2 and a wavefront (.obj) 3D model.</div>
+<div class='description'>The James Webb Space Telescope (JWST), with its orbit and 3D model. The James Webb Space Telescope is a NASA/ESA infrared observatory launched on December 25, 2021. It operates in a halo orbit around the Sun-Earth L2 Lagrange point and features a 6.5-meter segmented, gold-coated beryllium primary mirror paired with four scientific instruments (NIRCam, NIRSpec, MIRI, and NIRISS) to conduct near- and mid-infrared observations of the early universe, star and planetary system formation, and exoplanet atmospheres.</div>
 
 - **Type:** `spacecraft`
-- **Dataset version:** v4
-- **Minimum Gaia Sky version:** 3.6.1
-- **Size:** 3.4MiB <span class='unimportant'>(3540638)</span>
+- **Dataset version:** v5
+- **Minimum Gaia Sky version:** N/A
+- **Size:** 0.0B <span class='unimportant'>(0)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
-- **Creator:** Toni Sagristà
+- **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
+- **Credits:**
+   - James Webb Space Telescope - NASA Science
+   - ESA/Webb
+   - Gaia Sky orbit conversion: Toni Sagristà
 - **Sources/links:**
    - [https://sci.esa.int/web/jwst](https://sci.esa.int/web/jwst)
+   - [https://science.nasa.gov/mission/webb/](https://science.nasa.gov/mission/webb/)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/jwst/v004_20240531/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/jwst/v004_20240531/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/jwst/v005_20260428/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/jwst/v005_20260428/index.html)
 </div>
 </article>
 </details>
 
 <a href='#spacecraft-hst'></a><details id="spacecraft-hst">
 <summary>
-<h3>Hubble Space Telescope <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/hst/v002_20240523/index.html' title='Hubble Space Telescope files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-hst">spacecraft-hst</code></h3>
+<h3>Hubble Space Telescope <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/hst/v003_20260428/index.html' title='Hubble Space Telescope files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-hst">spacecraft-hst</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>The Hubble Space Telescope (often referred to as HST or Hubble) is a space telescope that was launched into low Earth orbit in 1990 and remains in operation.</div>
+<div class='description'>The Hubble Space Telescope (HST) is a NASA/ESA space observatory launched on April 24, 1990, aboard Space Shuttle Discovery. It operates in low Earth orbit at an altitude of approximately 540 km with an inclination of 28.5°, completing an orbit every 96 minutes. HST features a 2.4-meter Ritchey–Chrétien reflecting mirror and a suite of scientific instruments—including Wide Field Camera 3 (WFC3), Cosmic Origins Spectrograph (COS), Advanced Camera for Surveys (ACS), and Space Telescope Imaging Spectrograph (STIS)—enabling high-resolution observations in ultraviolet, visible, and near-infrared wavelengths. Serviced by five Space Shuttle missions between 1993 and 2009, HST has contributed to breakthroughs in cosmology, galaxy evolution, exoplanet atmospheres, and solar system science. It continues to operate via NASA's Goddard Space Flight Center, transmitting data through the Tracking and Data Relay Satellite System (TDRSS).</div>
 
 - **Type:** `spacecraft`
-- **Dataset version:** v2
-- **Minimum Gaia Sky version:** 3.6.1
-- **Size:** 8.7MiB <span class='unimportant'>(9162078)</span>
+- **Dataset version:** v3
+- **Minimum Gaia Sky version:** N/A
+- **Size:** 0.0B <span class='unimportant'>(0)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
-- **Creator:** Toni Sagristà
+- **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
+- **Credits:**
+   - NASA/ESA
+   - 3D model: NASA Visualization Technology Applications And Development (VTAD)
 - **Sources/links:**
    - [https://www.esa.int/Science_Exploration/Space_Science/Hubble_overview](https://www.esa.int/Science_Exploration/Space_Science/Hubble_overview)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/hst/v002_20240523/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/hst/v002_20240523/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/hst/v003_20260428/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/hst/v003_20260428/index.html)
 </div>
 </article>
 </details>
 
 <a href='#spacecraft-iss'></a><details id="spacecraft-iss">
 <summary>
-<h3>International Space Station <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/iss/v002_20240523/index.html' title='International Space Station files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-iss">spacecraft-iss</code></h3>
+<h3>International Space Station <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/iss/v003_20260428/index.html' title='International Space Station files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-iss">spacecraft-iss</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>The International Space Station on its low-Earth orbit.</div>
+<div class='description'>The International Space Station (ISS) on its low-Earth orbit. The ISS is a multinational modular space station operated by NASA, Roscosmos, ESA, JAXA, and CSA. Assembly began in low Earth orbit in 1998 with the launch of the Zarya module, and the station has been continuously crewed since November 2000. It orbits at an altitude of approximately 400 km with an inclination of 51.6°, completing about 15.5 orbits per day. The ISS features a pressurized volume of ~916 m³, solar arrays generating 75–120 kW of power, and multiple docking ports for crew and cargo vehicles. It serves as a microgravity laboratory for research in life sciences, physical sciences, astronomy, and technology demonstration, while also testing systems for future deep-space exploration. The station is supported by regular resupply missions and crew rotations via Soyuz, Crew Dragon, Cargo Dragon, Cygnus, and HTV spacecraft.</div>
 
 - **Type:** `spacecraft`
-- **Dataset version:** v2
-- **Minimum Gaia Sky version:** 3.6.1
-- **Size:** 29.2MiB <span class='unimportant'>(30599574)</span>
+- **Dataset version:** v3
+- **Minimum Gaia Sky version:** N/A
+- **Size:** 0.0B <span class='unimportant'>(0)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
-- **Creator:** Toni Sagristà
+- **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
+- **Credits:**
+   - ESA, NASA, Roscosmos, JAXA, CSA
+   - 3D model: NASA Visualization Technology Applications And Development (VTAD)
 - **Sources/links:**
    - [https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station](https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station)
+   - [https://www.nasa.gov/international-space-station/](https://www.nasa.gov/international-space-station/)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/iss/v002_20240523/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/iss/v002_20240523/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/iss/v003_20260428/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/iss/v003_20260428/index.html)
+</div>
+</article>
+</details>
+
+<a href='#mission-artemis'></a><details id="mission-artemis">
+<summary>
+<h3>Artemis I and II missions <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-artemis/v001_20260428/index.html' title='Artemis I and II missions files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: mission-artemis">mission-artemis</code></h3>
+<img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>NASA's Artemis missions attempt to bring humans to the Moon. The dataset contains Artemis I and II missions. Artemis I was the first integrated flight test of DSES: the Orion spacecraft, the SLS (Space Launch System) rocket and more. It traveled thousands of kilometers beyond the Moon in November 2022. Artemis II was the first crewed mission in the Artemis program, and was built on the success of the first Artemis. It performed a Lunar flyby on April 2026 with a crew of 4 austronauts abord the SLS rocket and Orion spacecraft.</div>
+
+- **Type:** `spacecraft`
+- **Dataset version:** v1
+- **Minimum Gaia Sky version:** 3.7.3
+- **Size:** 0.0B <span class='unimportant'>(0)</span>
+- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
+- **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
+- **Credits:**
+   - State vectors (trajectory): NASA Horizons system - https://ssd.jpl.nasa.gov/horizons/
+   - Gaia Sky orbit conversion: Toni Sagristà
+   - 3D model source: NASA Eyes on the Solar System, public domain (CC-0)
+   - 3D model modifications: Project Artemis Celestia add-on (DaveBowman2001, andreas9343)
+   - 3D model adaptation for Gaia Sky and conversion to Wavefront: Toni Sagristà
+- **Sources/links:**
+   - [https://nasa.gov/humans-in-space/artemis/](https://nasa.gov/humans-in-space/artemis/)
+   - [https://ssd.jpl.nasa.gov/horizons/](https://ssd.jpl.nasa.gov/horizons/)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-artemis/v001_20260428/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-artemis/v001_20260428/index.html)
+</div>
+</article>
+</details>
+
+<a href='#mission-pioneer'></a><details id="mission-pioneer">
+<summary>
+<h3>Pioneer 10 and 11 missions <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-pioneer/v001_20260428/index.html' title='Pioneer 10 and 11 missions files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: mission-pioneer">mission-pioneer</code></h3>
+<img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>This dataset contains the Pioneer 10 and 11 missions. The Pioneer program encompasses a series of NASA lunar and interplanetary probes launched between 1958 and 1978. Early missions (Pioneer 0–5, 1958–1960) attempted lunar orbiters and flybys, with Pioneer 4 becoming the first U.S. spacecraft to escape Earth's gravity. The interplanetary weather network (Pioneer 6–9, 1965–1969) deployed spin-stabilized probes in heliocentric orbits at 0.8–1.1 AU to study solar wind, cosmic rays, and magnetic fields. The outer Solar System missions, Pioneer 10 (launched March 2, 1972) and Pioneer 11 (launched April 5, 1973), were the first spacecraft to traverse the asteroid belt and conduct flybys of Jupiter; Pioneer 11 additionally performed the first Saturn flyby (1979). Both probes featured a 2.74-meter dish high-gain antenna, radioisotope thermoelectric generators (RTGs), and instruments including magnetometers, plasma analyzers, cosmic ray telescopes, photopolarimeters, and meteoroid detectors. Pioneer 10 ceased communications in 2003; Pioneer 11 in 1995. Both carry the Pioneer Plaque depicting human figures and Solar System location. The program concluded with the Pioneer Venus project (1978): the Orbiter (Pioneer 12) mapped Venus via radar for over a decade, while the Multiprobe (Pioneer 13) deployed one large and three small atmospheric probes to study Venusian atmospheric composition and dynamics.</div>
+
+- **Type:** `spacecraft`
+- **Dataset version:** v1
+- **Minimum Gaia Sky version:** 3.7.3
+- **Size:** 0.0B <span class='unimportant'>(0)</span>
+- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
+- **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
+- **Credits:**
+   - State vectors (trajectory): NASA Horizons system - https://ssd.jpl.nasa.gov/horizons/
+   - Gaia Sky orbit conversion: Toni Sagristà
+   - 3D model source: NASA Eyes on the Solar System, public domain (CC-0)
+   - 3D model adaptation for Gaia Sky and conversion to Wavefront: Toni Sagristà
+- **Sources/links:**
+   - [https://nasa.gov/humans-in-space/artemis/](https://nasa.gov/humans-in-space/artemis/)
+   - [https://ssd.jpl.nasa.gov/horizons/](https://ssd.jpl.nasa.gov/horizons/)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-pioneer/v001_20260428/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-pioneer/v001_20260428/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-gps'></a><details id="catalog-gps">
 <summary>
-<h3>GPS Satellite Network <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v001_20250925/index.html' title='GPS Satellite Network files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: catalog-gps">catalog-gps</code></h3>
+<h3>GPS Satellite Network <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v002_20260414/index.html' title='GPS Satellite Network files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: catalog-gps">catalog-gps</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
 </summary>
 <article>
@@ -1431,45 +1537,37 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 <div class='description'>Constellation of GPS satellites with their true orbits and locations. The orbital data is pulled on-demand from Celestrak servers in TLE format and updated live. The satellites' 3D models are only an approximation for illustration purposes.</div>
 
 - **Type:** `spacecraft`
-- **Dataset version:** v1
-- **Minimum Gaia Sky version:** 3.6.11
-- **Size:** 999.9KiB <span class='unimportant'>(1023911)</span>
-- **Number of objects:** 31 <span class='unimportant'>(31)</span>
+- **Dataset version:** v2
+- **Minimum Gaia Sky version:** 3.7.3
+- **Size:** 999.9KiB <span class='unimportant'>(1023916)</span>
+- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
 - **Creator:** Trevor Kjorlien, Plateau Astro
-- **Credits:**
-   - GPS: USSF
-   - Dataset: Trevor Kjorlien, Plateau Astro
-   - 3D model: dh14300 at cgtrader.com, modified by Toni Sagristà
-   - GPS elements: Celestrak
 - **Sources/links:**
-   - [https://www.nasa.gov/directorates/somd/space-communications-navigation-program/gps/](https://www.nasa.gov/directorates/somd/space-communications-navigation-program/gps/)
-   - [https://www.cgtrader.com/free-3d-models/space/spaceship/gps-block-iii-satellite](https://www.cgtrader.com/free-3d-models/space/spaceship/gps-block-iii-satellite)
-   - [https://celestrak.org/NORAD/elements/gp.php?GROUP=gps-ops&FORMAT=tle](https://celestrak.org/NORAD/elements/gp.php?GROUP=gps-ops&FORMAT=tle)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v001_20250925/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v001_20250925/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v002_20260414/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v002_20260414/index.html)
 </div>
 </article>
 </details>
 
 <a href='#spacecraft-voyagers'></a><details id="spacecraft-voyagers">
 <summary>
-<h3>Voyagers 1 and 2 <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/voyagers/v02_20240523/index.html' title='Voyagers 1 and 2 files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-voyagers">spacecraft-voyagers</code></h3>
+<h3>Voyager 1 and 2 <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/voyagers/v003_20260428/index.html' title='Voyager 1 and 2 files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-voyagers">spacecraft-voyagers</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>NASA's two Voyager spacecraft, which represent the furthest man-made objects go have ever left Earth.</div>
+<div class='description'>NASA's two Voyager spacecrafts, which represent the furthest man-made objects go have ever left Earth. The Voyager mission consists of twin NASA spacecraft, Voyager 1 and Voyager 2, launched in August and September 1977 to conduct a Grand Tour of the outer Solar System. Using gravity-assist trajectories, both probes studied Jupiter and Saturn; Voyager 2 continued to Uranus (1986) and Neptune (1989), remaining the only spacecraft to visit the ice giants. Each carries a 3.7-meter high-gain antenna, imaging systems, spectrometers, magnetometers, and plasma instruments, powered by radioisotope thermoelectric generators (RTGs). Both spacecraft have exited the heliosphere—Voyager 1 in 2012 and Voyager 2 in 2018—and now operate in interstellar space, continuing to transmit heliophysics and plasma data via NASA's Deep Space Network. Each probe carries the Golden Record, a curated collection of Earth sounds and images intended for any potential extraterrestrial encounter.</div>
 
 - **Type:** `spacecraft`
-- **Dataset version:** v2
-- **Minimum Gaia Sky version:** 3.6.1
-- **Size:** 2.9MiB <span class='unimportant'>(3031608)</span>
+- **Dataset version:** v3
+- **Minimum Gaia Sky version:** N/A
+- **Size:** 0.0B <span class='unimportant'>(0)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
-- **Creator:** Toni Sagristà
+- **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Sources/links:**
    - [https://voyager.jpl.nasa.gov/](https://voyager.jpl.nasa.gov/)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/voyagers/v02_20240523/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/voyagers/v02_20240523/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/voyagers/v003_20260428/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/voyagers/v003_20260428/index.html)
 </div>
 </article>
 </details>
