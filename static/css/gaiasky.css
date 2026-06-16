@@ -379,7 +379,7 @@ div#breadcrumbs ul >  li:first-child {
   background: url("../img/backgrounds/earth.avif") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 10% 0%;
+  background-position: 50% 0%;
   padding: 1em 0 6em 0;
   position: relative;
 }
