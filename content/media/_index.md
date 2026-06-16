@@ -23,7 +23,7 @@ tags = ["media", "screnshots", "videos", "audiovisual"]
   {{< figure src="img/screenshots/enterprise.jpg" caption="USS Enterprise above the surface of Mars." >}}
   {{< figure src="img/screenshots/exoplanets.jpg" caption="A view of two procedurally generated exoplanets." >}}
   {{< figure src="img/screenshots/gaia-sky-VR.jpg" caption="Gaia Sky VR, with its control panel and controller renderings." >}}
-  {{< figure src="img/screenshots/iss.jpg" caption="The International Space Station." >}}
+  {{< figure src="img/screenshots/orion-moon-earth.jpg" caption="Orion from Artemis-II with the Moon and Earth." >}}
   {{< figure src="img/screenshots/mars-phobos.jpg" caption="Mars and its moon Phobos." >}}
   {{< figure src="img/screenshots/milky-way.jpg" caption="The Milky Way and some of the SDSS galaxies." >}}
   {{< figure src="img/screenshots/moon.jpg" caption="The surface of the Moon." >}}
