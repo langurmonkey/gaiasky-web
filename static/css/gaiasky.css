@@ -376,7 +376,7 @@ div#breadcrumbs ul >  li:first-child {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/backgrounds/aurora.avif") no-repeat;
+  background: url("../img/backgrounds/earth.avif") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
