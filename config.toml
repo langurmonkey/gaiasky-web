@@ -116,12 +116,12 @@ enableGitInfo = true
   copyright = "The Gaia Sky Project"
 
   [params.release]
-    version = "3.7.3"
-    versionFlat = "3_7_3"
-    versionBuild = "3.7.3.df3c0655b"
-    build = "df3c0655b"
-    date = 2026-06-02T11:01:41
-    post = "/news/2026/gaiasky_3.7.3.md"
+    version = "3.7.4"
+    versionFlat = "3_7_4"
+    versionBuild = "3.7.4.932d351e1"
+    build = "932d351e1"
+    date = 2026-06-17T09:01:41
+    post = "/news/2026/gaiasky_3.7.4.md"
 
   [params.meta]
     description = "Homepage of Gaia Sky, an open source 3D universe platform"
