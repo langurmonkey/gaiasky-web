@@ -121,7 +121,7 @@ enableGitInfo = true
     versionBuild = "3.7.4.932d351e1"
     build = "932d351e1"
     date = 2026-06-17T09:01:41
-    post = "/news/2026/gaiasky_3.7.4.md"
+    post = "/news/2026/gaiasky_3.7.4"
 
   [params.meta]
     description = "Homepage of Gaia Sky, an open source 3D universe platform"
