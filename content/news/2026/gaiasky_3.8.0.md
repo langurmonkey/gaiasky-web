@@ -9,6 +9,10 @@ categories = ["release", "version"]
 
 We are proud to announce the release of Gaia Sky **3.8.0**. This release brings a mainor overhaul of the procedural planet generation system, with domain warping, 3D biome LUTs, new presets, and a consolidated single-pass generation pipeline. It also introduces higher resolution icons for HiDPI, custom view mode panes, and many bug fixes.
 
+{{< notice "Important" >}}
+Gaia Sky 3.8.0 requires an update in the default data package. You will be notified on startup that an update is available. Please, update!
+{{</ notice >}}
+
 {{< fig src="img/2026/07/procedural-grid.s.jpg" link="/img/2026/07/procedural-grid.jpg" width="70%" class="fig-center fig-post" title="Procedural planet generation in 3.8.0 featuring lava, tropical, and desert presets." loading="lazy" >}}
 
 <!--more-->
