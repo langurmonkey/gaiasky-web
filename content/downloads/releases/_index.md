@@ -15,6 +15,18 @@ You can also browse **all Gaia Sky** tags in our [repository](https://codeberg.o
 
 <section class="releases-list">
 <div class="releaseentry">
+<a href="./v3.8.0" class="versionlink">
+<i class="gs-mdi-tag tag"></i>
+<div class="release">
+Gaia Sky 3.8.0
+</div>
+<a href='https://codeberg.org/gaiasky/gaiasky/commit/aa0f9c68c' target='_blank'><code class="build">aa0f9c68c</code></a>
+<div class="releasedate">
+<i class="gs-mdi-calendar calendar"></i>
+<time datetime="2026-07-23T12:03:14" title="Published: 2026-07-23T12:03:14">2026-07-23</time></div>
+</a>
+</div>
+<div class="releaseentry">
 <a href="./v3.7.4" class="versionlink">
 <i class="gs-mdi-tag tag"></i>
 <div class="release">
