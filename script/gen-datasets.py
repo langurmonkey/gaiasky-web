@@ -198,16 +198,19 @@ for dstype, datasets in datasets_by_type.items():
         if replaces:
             markdown_content.append(f"- **Replaces:**\n")
             for rpl in replaces:
-                markdown_content.append(f"    - {rpl}\n")
+                markdown_content.append(f"    - [{rpl}](#{rpl})\n")
 
         if replaced_by:
             markdown_content.append(f"- **Replaced by:**\n")
             for rpl in replaced_by:
-                markdown_content.append(f"    - {rpl}\n")
+                markdown_content.append(f"    - [{rpl}](#{rpl})\n")
         
-        markdown_content.append(f"- **Sources/links:**\n")
-        for link in links:
-            markdown_content.append(f"   - [{link}]({link})\n")
+        if links:
+            markdown_content.append(f"- **Sources/links:**\n")
+            for link in links:
+                markdown_content.append(f"   - [{link}]({link})\n")
+
+            
         markdown_content.append(f"- **Files:**\n")
         markdown_content.append(f"     - [{file}]({file})\n")
         markdown_content.append(f"</div>\n")

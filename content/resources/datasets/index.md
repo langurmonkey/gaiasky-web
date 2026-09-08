@@ -203,7 +203,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Number of objects:** 359.07k <span class='unimportant'>(359073)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Replaces:**
-    - catalog-whitedwarfs-dr2
+    - [catalog-whitedwarfs-dr2](#catalog-whitedwarfs-dr2)
 - **Sources/links:**
    - [https://arxiv.org/abs/2106.07669](https://arxiv.org/abs/2106.07669)
 - **Files:**
@@ -251,7 +251,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Number of objects:** 186.93k <span class='unimportant'>(186928)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Replaces:**
-    - catalog-variablestars-dr2
+    - [catalog-variablestars-dr2](#catalog-variablestars-dr2)
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de](https://gaia.ari.uni-heidelberg.de)
 - **Files:**
@@ -860,7 +860,6 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Size:** 430.8KiB <span class='unimportant'>(441156)</span>
 - **Number of objects:** 10k <span class='unimportant'>(10000.0)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
-- **Sources/links:**
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud/v004_20260220/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud/v004_20260220/index.html)
 </div>
@@ -884,9 +883,9 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Number of objects:** 156.59k <span class='unimportant'>(156588)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Replaces:**
-    - catalog-asteroids-dr3
-    - catalog-asteroids-dr3-nea
-    - catalog-asteroids-dr3-trojan
+    - [catalog-asteroids-dr3](#catalog-asteroids-dr3)
+    - [catalog-asteroids-dr3-nea](#catalog-asteroids-dr3-nea)
+    - [catalog-asteroids-dr3-trojan](#catalog-asteroids-dr3-trojan)
 - **Sources/links:**
    - [https://www.cosmos.esa.int/web/gaia/fpr](https://www.cosmos.esa.int/web/gaia/fpr)
    - [https://gea.esac.esa.int/archive](https://gea.esac.esa.int/archive)
@@ -913,8 +912,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Number of objects:** 154.79k <span class='unimportant'>(154787)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Replaces:**
-    - catalog-asteroids-dr2
-- **Sources/links:**
+    - [catalog-asteroids-dr2](#catalog-asteroids-dr2)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3/v02_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3/v02_20221116/index.html)
 </div>
@@ -936,7 +934,6 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Size:** 15.3MiB <span class='unimportant'>(16080022)</span>
 - **Number of objects:** 154.79k <span class='unimportant'>(154787)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Sources/links:**
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-nea/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-nea/v01_20221116/index.html)
 </div>
@@ -958,7 +955,6 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Size:** 161.1KiB <span class='unimportant'>(164988)</span>
 - **Number of objects:** 1.54k <span class='unimportant'>(1545)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Sources/links:**
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-trojan/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-trojan/v01_20221116/index.html)
 </div>
@@ -980,7 +976,6 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Size:** 908.5KiB <span class='unimportant'>(930272)</span>
 - **Number of objects:** 14.1k <span class='unimportant'>(14104)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Sources/links:**
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr2/v02_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr2/v02_20221116/index.html)
 </div>
@@ -1033,7 +1028,6 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Size:** 2.4MiB <span class='unimportant'>(2556785)</span>
 - **Number of objects:** 7 <span class='unimportant'>(7)</span>
 - **Creator:** N/A
-- **Sources/links:**
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v04_20260109/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v04_20260109/index.html)
 </div>
@@ -1055,7 +1049,6 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Size:** 1.5KiB <span class='unimportant'>(1540)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Sources/links:**
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gl876/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gl876/v01_20221116/index.html)
 </div>
@@ -1077,7 +1070,6 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Size:** 1.5KiB <span class='unimportant'>(1534)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Sources/links:**
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd40503/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd40503/v01_20221116/index.html)
 </div>
@@ -1099,7 +1091,6 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Size:** 1.5KiB <span class='unimportant'>(1517)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Sources/links:**
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd81040/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd81040/v01_20221116/index.html)
 </div>
@@ -1121,7 +1112,6 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Size:** 1.3KiB <span class='unimportant'>(1320)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Sources/links:**
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd114762/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd114762/v01_20221116/index.html)
 </div>
@@ -1143,7 +1133,6 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Size:** 1.2KiB <span class='unimportant'>(1264)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Sources/links:**
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/j0805-4812/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/j0805-4812/v01_20221116/index.html)
 </div>
@@ -1165,7 +1154,6 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Size:** 1.2KiB <span class='unimportant'>(1244)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Sources/links:**
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/ucac2-1151977/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/ucac2-1151977/v01_20221116/index.html)
 </div>
@@ -1187,7 +1175,6 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Size:** 1.5KiB <span class='unimportant'>(1522)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Sources/links:**
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/wd0141-675/v02_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/wd0141-675/v02_20221116/index.html)
 </div>
@@ -1215,9 +1202,9 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Credits:**
    - ESA/Gaia/DPAC
 - **Replaces:**
-    - system-gaia-BH1
-    - system-gaia-BH2
-    - system-gaia-BH3
+    - [system-gaia-BH1](#system-gaia-BH1)
+    - [system-gaia-BH2](#system-gaia-BH2)
+    - [system-gaia-BH3](#system-gaia-BH3)
 - **Sources/links:**
    - [https://academic.oup.com//article/521/3/4323/7093135](https://academic.oup.com//article/521/3/4323/7093135)
    - [https://academic.oup.com/mnras/article/521/3/4323/7093135](https://academic.oup.com/mnras/article/521/3/4323/7093135)
@@ -1314,7 +1301,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** N/A
 - **Replaces:**
-    - mesh-dust-dr2
+    - [mesh-dust-dr2](#mesh-dust-dr2)
 - **Sources/links:**
    - [https://galaxymap.org](https://galaxymap.org)
    - [https://gruze.org/posters_dr3/readme.pdf](https://gruze.org/posters_dr3/readme.pdf)
@@ -1340,7 +1327,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Kevin Jardine, Toni Sagristà
 - **Replaces:**
-    - mesh-hii-dr2
+    - [mesh-hii-dr2](#mesh-hii-dr2)
 - **Sources/links:**
    - [https://gruze.org/posters_dr3/readme.pdf](https://gruze.org/posters_dr3/readme.pdf)
 - **Files:**
@@ -1365,7 +1352,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Kevin Jardine, Toni Sagristà
 - **Replaces:**
-    - mesh-stardensity-dr2
+    - [mesh-stardensity-dr2](#mesh-stardensity-dr2)
 - **Sources/links:**
    - [https://gruze.org/posters_dr3/readme.pdf](https://gruze.org/posters_dr3/readme.pdf)
 - **Files:**
@@ -1588,7 +1575,6 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Size:** 999.9KiB <span class='unimportant'>(1023916)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
 - **Creator:** Trevor Kjorlien, Plateau Astro
-- **Sources/links:**
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v002_20260414/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v002_20260414/index.html)
 </div>
@@ -1638,7 +1624,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
    - Contains modified Copernicus Sentinel-2 data 2023-2025, processed by tsagrista
    - Reto Stöckli, NASA Earth Observatory
 - **Replaces:**
-    - vt-earth-diffuse-nasa
+    - [vt-earth-diffuse-nasa](#vt-earth-diffuse-nasa)
 - **Sources/links:**
    - [https://www.copernicus.eu](https://www.copernicus.eu)
    - [https://visibleearth.nasa.gov/collection/1484/blue-marble](https://visibleearth.nasa.gov/collection/1484/blue-marble)
