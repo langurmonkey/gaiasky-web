@@ -14,7 +14,7 @@ Click on the dataset title to reveal more information.
 <h2 id='data-pack'>Data packs</h2>
 <a href='#default-data'></a><details id="default-data">
 <summary>
-<h3>Base data pack <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v063_20260508/index.html' title='Base data pack files'>🔗</a></span><br/><i class="gs-mdi-database-outline" title="Type: data-pack"></i> <code title="Key: default-data">default-data</code></h3>
+<h3>Base data pack <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v064_20260716/index.html' title='Base data pack files'>🔗</a></span><br/><i class="gs-mdi-database-outline" title="Type: data-pack"></i> <code title="Key: default-data">default-data</code></h3>
 <img src="/img/datasets/default-data.jpg" title="default-data"></img>
 </summary>
 <article>
@@ -23,9 +23,9 @@ Click on the dataset title to reveal more information.
 Contains the solar system planets and moons, minor planets, satellites, orbits, constellations, the Milky Way, grids, locations and other important objects. Without this data pack Gaia Sky won't start.</div>
 
 - **Type:** `data-pack`
-- **Dataset version:** v63
-- **Minimum Gaia Sky version:** 3.7.3
-- **Size:** 0.0B <span class='unimportant'>(0)</span>
+- **Dataset version:** v64
+- **Minimum Gaia Sky version:** 3.8.0
+- **Size:** 71.1MiB <span class='unimportant'>(74590528)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Credits:**
@@ -42,7 +42,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata)
    - [https://gaiasky.space/resources/datasets](https://gaiasky.space/resources/datasets)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v063_20260508/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v063_20260508/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v064_20260716/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v064_20260716/index.html)
 </div>
 </article>
 </details>
@@ -202,6 +202,8 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Size:** 31.2MiB <span class='unimportant'>(32715468)</span>
 - **Number of objects:** 359.07k <span class='unimportant'>(359073)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Replaces:**
+    - catalog-whitedwarfs-dr2
 - **Sources/links:**
    - [https://arxiv.org/abs/2106.07669](https://arxiv.org/abs/2106.07669)
 - **Files:**
@@ -248,6 +250,8 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Size:** 148.8MiB <span class='unimportant'>(156012917)</span>
 - **Number of objects:** 186.93k <span class='unimportant'>(186928)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Replaces:**
+    - catalog-variablestars-dr2
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de](https://gaia.ari.uni-heidelberg.de)
 - **Files:**
@@ -581,6 +585,32 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </article>
 </details>
 
+<a href='#catalog-atnf-pulsars'></a><details id="catalog-atnf-pulsars">
+<summary>
+<h3>ATNF Pulsar Catalogue <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/atnf-pulsars/v01_20260630/index.html' title='ATNF Pulsar Catalogue files'>🔗</a></span><br/><i class="gs-game-icons-stars-stack" title="Type: catalog-star"></i> <code title="Key: catalog-atnf-pulsars">catalog-atnf-pulsars</code></h3>
+<img src="/img/datasets/catalog-star.jpg" title="catalog-star"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>285 pulsars from the Australia Telescope National Facility. The ATNF Pulsar Catalog is a comprehensive database of known pulsars compiled by G. Hobbs, R.N. Manchester et al., which includes data from various radio surveys, notably the Parkes Multibeam Pulsar Survey. It serves as a key resource for astronomers studying pulsars and their properties.</div>
+
+- **Type:** `catalog-star`
+- **Dataset version:** v1
+- **Minimum Gaia Sky version:** 3.7.5
+- **Size:** 66.7KiB <span class='unimportant'>(68261)</span>
+- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
+- **Creator:** Robero Zacco
+- **Credits:**
+   - Australia Telescope National Facility
+   - CSIRO
+- **Sources/links:**
+   - [https://www.atnf.csiro.au/research/pulsar/psrcat/](https://www.atnf.csiro.au/research/pulsar/psrcat/)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/atnf-pulsars/v01_20260630/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/atnf-pulsars/v01_20260630/index.html)
+</div>
+</article>
+</details>
+
 <h2 id='catalog-gal'>Galaxy catalogs</h2>
 <a href='#catalog-nbg'></a><details id="catalog-nbg">
 <summary>
@@ -853,6 +883,10 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Size:** 12.8MiB <span class='unimportant'>(13439576)</span>
 - **Number of objects:** 156.59k <span class='unimportant'>(156588)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Replaces:**
+    - catalog-asteroids-dr3
+    - catalog-asteroids-dr3-nea
+    - catalog-asteroids-dr3-trojan
 - **Sources/links:**
    - [https://www.cosmos.esa.int/web/gaia/fpr](https://www.cosmos.esa.int/web/gaia/fpr)
    - [https://gea.esac.esa.int/archive](https://gea.esac.esa.int/archive)
@@ -878,6 +912,8 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Size:** 15.3MiB <span class='unimportant'>(16080022)</span>
 - **Number of objects:** 154.79k <span class='unimportant'>(154787)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Replaces:**
+    - catalog-asteroids-dr2
 - **Sources/links:**
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3/v02_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3/v02_20221116/index.html)
@@ -954,7 +990,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 <h2 id='system'>Exoplanets and extrasolar systems</h2>
 <a href='#nasa-exoplanet-archive'></a><details id="nasa-exoplanet-archive">
 <summary>
-<h3>NASA Exoplanet Archive <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/nasa-exoplanet-archive/v02_20260317/index.html' title='NASA Exoplanet Archive files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: nasa-exoplanet-archive">nasa-exoplanet-archive</code></h3>
+<h3>NASA Exoplanet Archive <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/nasa-exoplanet-archive//v03_20260625/index.html' title='NASA Exoplanet Archive files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: nasa-exoplanet-archive">nasa-exoplanet-archive</code></h3>
 <img src="/img/datasets/nasa-exoplanet-archive.jpg" title="nasa-exoplanet-archive"></img>
 </summary>
 <article>
@@ -964,10 +1000,10 @@ The systems in this dataset are shown with glyphs according to the number of pla
 Note that this dataset also includes the stars as defined in the NASA Exoplanet Archive, so if you already have a star catalog you will end up with duplicate objects.</div>
 
 - **Type:** `system`
-- **Dataset version:** v2
+- **Dataset version:** v3
 - **Minimum Gaia Sky version:** 3.7.1
-- **Size:** 2.9MiB <span class='unimportant'>(3079372)</span>
-- **Number of objects:** 9.79k <span class='unimportant'>(9793)</span>
+- **Size:** 3.2MiB <span class='unimportant'>(3312438)</span>
+- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Credits:**
    - NASA Exoplanet Archive
@@ -977,7 +1013,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Sources/links:**
    - [http://exoplanetarchive.ipac.caltech.edu](http://exoplanetarchive.ipac.caltech.edu)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/nasa-exoplanet-archive/v02_20260317/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/nasa-exoplanet-archive/v02_20260317/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/nasa-exoplanet-archive//v03_20260625/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/nasa-exoplanet-archive//v03_20260625/index.html)
 </div>
 </article>
 </details>
@@ -1178,6 +1214,10 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Creator:** Toni Sagristà
 - **Credits:**
    - ESA/Gaia/DPAC
+- **Replaces:**
+    - system-gaia-BH1
+    - system-gaia-BH2
+    - system-gaia-BH3
 - **Sources/links:**
    - [https://academic.oup.com//article/521/3/4323/7093135](https://academic.oup.com//article/521/3/4323/7093135)
    - [https://academic.oup.com/mnras/article/521/3/4323/7093135](https://academic.oup.com/mnras/article/521/3/4323/7093135)
@@ -1273,6 +1313,8 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Size:** 1.4MiB <span class='unimportant'>(1459180)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** N/A
+- **Replaces:**
+    - mesh-dust-dr2
 - **Sources/links:**
    - [https://galaxymap.org](https://galaxymap.org)
    - [https://gruze.org/posters_dr3/readme.pdf](https://gruze.org/posters_dr3/readme.pdf)
@@ -1297,6 +1339,8 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Size:** 8.9MiB <span class='unimportant'>(9336476)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Kevin Jardine, Toni Sagristà
+- **Replaces:**
+    - mesh-hii-dr2
 - **Sources/links:**
    - [https://gruze.org/posters_dr3/readme.pdf](https://gruze.org/posters_dr3/readme.pdf)
 - **Files:**
@@ -1320,6 +1364,8 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Size:** 24.0MiB <span class='unimportant'>(25168342)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Kevin Jardine, Toni Sagristà
+- **Replaces:**
+    - mesh-stardensity-dr2
 - **Sources/links:**
    - [https://gruze.org/posters_dr3/readme.pdf](https://gruze.org/posters_dr3/readme.pdf)
 - **Files:**
@@ -1341,7 +1387,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `spacecraft`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.7.3
-- **Size:** 0.0B <span class='unimportant'>(0)</span>
+- **Size:** 2.2MiB <span class='unimportant'>(2275023)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
 - **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
 - **Credits:**
@@ -1370,7 +1416,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `spacecraft`
 - **Dataset version:** v4
 - **Minimum Gaia Sky version:** 3.7.3
-- **Size:** 0.0B <span class='unimportant'>(0)</span>
+- **Size:** 21.7MiB <span class='unimportant'>(22764219)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
 - **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
 - **Credits:**
@@ -1399,7 +1445,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `spacecraft`
 - **Dataset version:** v5
 - **Minimum Gaia Sky version:** N/A
-- **Size:** 0.0B <span class='unimportant'>(0)</span>
+- **Size:** 3.6MiB <span class='unimportant'>(3738915)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Credits:**
@@ -1427,7 +1473,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `spacecraft`
 - **Dataset version:** v3
 - **Minimum Gaia Sky version:** N/A
-- **Size:** 0.0B <span class='unimportant'>(0)</span>
+- **Size:** 8.9MiB <span class='unimportant'>(9305345)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
 - **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
 - **Credits:**
@@ -1453,7 +1499,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `spacecraft`
 - **Dataset version:** v3
 - **Minimum Gaia Sky version:** N/A
-- **Size:** 0.0B <span class='unimportant'>(0)</span>
+- **Size:** 24.0MiB <span class='unimportant'>(25184914)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
 - **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
 - **Credits:**
@@ -1480,7 +1526,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `spacecraft`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.7.3
-- **Size:** 0.0B <span class='unimportant'>(0)</span>
+- **Size:** 11.0MiB <span class='unimportant'>(11572137)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
 - **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
 - **Credits:**
@@ -1510,7 +1556,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `spacecraft`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.7.3
-- **Size:** 0.0B <span class='unimportant'>(0)</span>
+- **Size:** 11.6MiB <span class='unimportant'>(12154073)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
 - **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
 - **Credits:**
@@ -1561,7 +1607,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `spacecraft`
 - **Dataset version:** v3
 - **Minimum Gaia Sky version:** N/A
-- **Size:** 0.0B <span class='unimportant'>(0)</span>
+- **Size:** 3.0MiB <span class='unimportant'>(3131386)</span>
 - **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Sources/links:**
@@ -1591,6 +1637,8 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Credits:**
    - Contains modified Copernicus Sentinel-2 data 2023-2025, processed by tsagrista
    - Reto Stöckli, NASA Earth Observatory
+- **Replaces:**
+    - vt-earth-diffuse-nasa
 - **Sources/links:**
    - [https://www.copernicus.eu](https://www.copernicus.eu)
    - [https://visibleearth.nasa.gov/collection/1484/blue-marble](https://visibleearth.nasa.gov/collection/1484/blue-marble)

@@ -6,7 +6,6 @@ import gzip
 import requests
 import io
 import os.path
-import math
 from pathlib import Path
 from millify import millify
 
@@ -31,6 +30,13 @@ def pretty_number(n):
         return millify(n, precision=2)
     except ValueError:
         return "N/A"
+
+# Get attribute by trying multiple names, with a default fallback
+def get_attr(dataset: dict, names: list[str], default=None):
+    for name in names:
+        if name in dataset:
+            return dataset[name]
+    return default
 
 # Decode an integer into the version string
 def decode_version(s: str) -> str:
@@ -132,22 +138,25 @@ for dstype, datasets in datasets_by_type.items():
     markdown_content.append(f"<h2 id='{dstype}'>{type_n}</h2>\n")
 
     for dataset in datasets:
+        ds_url = os.path.dirname(update_link(dataset.get('file', ''), base_url))
+        file = ds_url + "/index.html"
         name = dataset.get('name', 'N/A')
         key = dataset.get('key', 'N/A')  # Use 'name' as key
         description = dataset.get('description', 'N/A')
         dstype = dataset.get('type', 'N/A')
         version = dataset.get('version', 'N/A')
-        mingsversion = dataset.get('mingsversion', 'N/A')
+        mingsversion = get_attr(dataset, ['mingsversion', 'minGsVersion'], 'N/A')
         minversion_str = decode_version(mingsversion)
         credits = dataset.get('credits', None)
         creator = dataset.get('creator', 'N/A')
-        size_bytes = dataset.get('size', 0)
-        nobjects = dataset.get('nobjects', 'N/A')
+        size_bytes = get_attr(dataset, ['size', 'sizeBytes'], 0)
+        nobjects = get_attr(dataset, ['nobjects', 'nObjects'], 'N/A')
         nobjects_pretty = pretty_number(nobjects)
+        replaces = get_attr(dataset, ['replaces'], [])
+        replaced_by = get_attr(dataset, ['replacedBy', 'replacedby'], [])
         link = update_link(dataset.get('link', ''), base_url)
         links = [update_link(s, base_url) for s in dataset.get('links', [])]
         links = combine(link, links)
-        file = os.path.dirname(update_link(dataset.get('file', ''), base_url)) + "/index.html"
 
         dataicon = type_icon(dstype)
 
@@ -185,6 +194,16 @@ for dstype, datasets in datasets_by_type.items():
             markdown_content.append(f"- **Credits:**\n")
             for credit in credits:
                 markdown_content.append(f"   - {credit}\n")
+
+        if replaces:
+            markdown_content.append(f"- **Replaces:**\n")
+            for rpl in replaces:
+                markdown_content.append(f"    - {rpl}\n")
+
+        if replaced_by:
+            markdown_content.append(f"- **Replaced by:**\n")
+            for rpl in replaced_by:
+                markdown_content.append(f"    - {rpl}\n")
         
         markdown_content.append(f"- **Sources/links:**\n")
         for link in links:
