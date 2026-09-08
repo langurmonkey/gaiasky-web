@@ -178,6 +178,13 @@ for dataset in files:
         datasets_by_type[dstype] = []
     datasets_by_type[dstype].append(enriched_dataset)
 
+# Sort datasets within each type: first non-replaced (alphabetically), then replaced (alphabetically)
+for dstype in datasets_by_type:
+    datasets_by_type[dstype].sort(key=lambda d: (
+        1 if get_attr(d, ['replacedBy', 'replacedby'], []) else 0,
+        d.get('name', '').lower()
+    ))
+
 # Generate Markdown
 markdown_content = []
 webdir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))

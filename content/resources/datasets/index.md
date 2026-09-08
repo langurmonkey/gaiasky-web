@@ -72,6 +72,79 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </details>
 
 <h2 id='catalog-gaia'>Gaia star catalogs</h2>
+<a href='#catalog-variablestars-dr3'></a><details id="catalog-variablestars-dr3">
+<summary>
+<h3>DR3 Cepheid and RR Lyrae <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr3/v01_20221115/index.html' title='DR3 Cepheid and RR Lyrae files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-variablestars-dr3">catalog-variablestars-dr3</code></h3>
+<img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>Cepheid and RR Lyrae stars in Gaia DR3, brightened up by 5 magnitudes.</div>
+
+- **Type:** `catalog-gaia`
+- **Dataset version:** v1
+- **Minimum Gaia Sky version:** 3.3.1
+- **Size:** 353.0MiB <span class='unimportant'>(370118101)</span>
+- **Number of objects:** 186.93k <span class='unimportant'>(186928)</span>
+- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Replaces:**
+    - [catalog-variablestars-dr2](#catalog-variablestars-dr2)
+- **Sources/links:**
+   - [https://gaia.ari.uni-heidelberg.de](https://gaia.ari.uni-heidelberg.de)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr3/v01_20221115/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr3/v01_20221115/index.html)
+</div>
+</article>
+</details>
+
+<a href='#catalog-whitedwarfs-edr3'></a><details id="catalog-whitedwarfs-edr3">
+<summary>
+<h3>eDR3 White Dwarfs <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/edr3/v01_20221115/index.html' title='eDR3 White Dwarfs files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-whitedwarfs-edr3">catalog-whitedwarfs-edr3</code></h3>
+<img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>White dwarfs catalog based on Gaia eDR3 data, by Gentile Fusillo et al. 2021, MNRAS. Contains 359073 high-confidence white dwarf candidates (Pwd>0.75).</div>
+
+- **Type:** `catalog-gaia`
+- **Dataset version:** v1
+- **Minimum Gaia Sky version:** 3.3.1
+- **Size:** 31.2MiB <span class='unimportant'>(32715467)</span>
+- **Number of objects:** 359.07k <span class='unimportant'>(359073)</span>
+- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Replaces:**
+    - [catalog-whitedwarfs-dr2](#catalog-whitedwarfs-dr2)
+- **Sources/links:**
+   - [https://arxiv.org/abs/2106.07669](https://arxiv.org/abs/2106.07669)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/edr3/v01_20221115/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/edr3/v01_20221115/index.html)
+</div>
+</article>
+</details>
+
+<a href='#catalog-gcns'></a><details id="catalog-gcns">
+<summary>
+<h3>Gaia Catalog of Nearby Stars <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gcns/v03_20230306/index.html' title='Gaia Catalog of Nearby Stars files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-gcns">catalog-gcns</code></h3>
+<img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>The Gaia Catalog of Nearby Stars (R.L. Smart et. al., 2020) is a clean and well-characterised catalogue of objects within 100 pc of the Sun from the Gaia Early Data Release 3. The catalogue is estimated to contain at least 92% of stars of stellar type M9 within 100 pc of the Sun.</div>
+
+- **Type:** `catalog-gaia`
+- **Dataset version:** v3
+- **Minimum Gaia Sky version:** 3.3.1
+- **Size:** 588.4MiB <span class='unimportant'>(616995788)</span>
+- **Number of objects:** 331.08k <span class='unimportant'>(331078)</span>
+- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Sources/links:**
+   - [https://arxiv.org/abs/2012.02061](https://arxiv.org/abs/2012.02061)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gcns/v03_20230306/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gcns/v03_20230306/index.html)
+</div>
+</article>
+</details>
+
 <a href='#gaia-dr3-best'></a><details id="gaia-dr3-best">
 <summary>
 <h3>Gaia DR3 best <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/014-best/v01_20250530/index.html' title='Gaia DR3 best files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: gaia-dr3-best">gaia-dr3-best</code></h3>
@@ -141,25 +214,25 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </article>
 </details>
 
-<a href='#catalog-gcns'></a><details id="catalog-gcns">
+<a href='#catalog-gd1'></a><details id="catalog-gd1">
 <summary>
-<h3>Gaia Catalog of Nearby Stars <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gcns/v03_20230306/index.html' title='Gaia Catalog of Nearby Stars files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-gcns">catalog-gcns</code></h3>
+<h3>GD-1 stellar stream <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gd1/v02_20221116/index.html' title='GD-1 stellar stream files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-gd1">catalog-gd1</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>The Gaia Catalog of Nearby Stars (R.L. Smart et. al., 2020) is a clean and well-characterised catalogue of objects within 100 pc of the Sun from the Gaia Early Data Release 3. The catalogue is estimated to contain at least 92% of stars of stellar type M9 within 100 pc of the Sun.</div>
+<div class='description'>GD-1 stream, one of the longest and coldest stellar streams in the Milky Way, with brighter magnitudes for visibility.</div>
 
 - **Type:** `catalog-gaia`
-- **Dataset version:** v3
+- **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 588.4MiB <span class='unimportant'>(616995788)</span>
-- **Number of objects:** 331.08k <span class='unimportant'>(331078)</span>
+- **Size:** 360.0KiB <span class='unimportant'>(368633)</span>
+- **Number of objects:** 1.36k <span class='unimportant'>(1365)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://arxiv.org/abs/2012.02061](https://arxiv.org/abs/2012.02061)
+   - [https://arxiv.org/abs/1805.00425](https://arxiv.org/abs/1805.00425)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gcns/v03_20230306/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gcns/v03_20230306/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gd1/v02_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gd1/v02_20221116/index.html)
 </div>
 </article>
 </details>
@@ -189,31 +262,6 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </article>
 </details>
 
-<a href='#catalog-whitedwarfs-edr3'></a><details id="catalog-whitedwarfs-edr3">
-<summary>
-<h3>eDR3 White Dwarfs <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/edr3/v01_20221115/index.html' title='eDR3 White Dwarfs files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-whitedwarfs-edr3">catalog-whitedwarfs-edr3</code></h3>
-<img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>White dwarfs catalog based on Gaia eDR3 data, by Gentile Fusillo et al. 2021, MNRAS. Contains 359073 high-confidence white dwarf candidates (Pwd>0.75).</div>
-
-- **Type:** `catalog-gaia`
-- **Dataset version:** v1
-- **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 31.2MiB <span class='unimportant'>(32715467)</span>
-- **Number of objects:** 359.07k <span class='unimportant'>(359073)</span>
-- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Replaces:**
-    - [catalog-whitedwarfs-dr2](#catalog-whitedwarfs-dr2)
-- **Sources/links:**
-   - [https://arxiv.org/abs/2106.07669](https://arxiv.org/abs/2106.07669)
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/edr3/v01_20221115/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/edr3/v01_20221115/index.html)
-</div>
-</article>
-</details>
-
 <a href='#catalog-variablestars-dr2'></a><details id="catalog-variablestars-dr2">
 <summary>
 <h3>Gaia DR2 Cepheid and RR Lyrae <span class="replaced-warning" title="Replaced by: catalog-variablestars-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr2/v03_20221115/index.html' title='Gaia DR2 Cepheid and RR Lyrae files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-variablestars-dr2">catalog-variablestars-dr2</code></h3>
@@ -239,55 +287,53 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </article>
 </details>
 
-<a href='#catalog-variablestars-dr3'></a><details id="catalog-variablestars-dr3">
+<h2 id='catalog-lod'>Level-of-detail catalogs</h2>
+<a href='#gaia-dr3-geodist'></a><details id="gaia-dr3-geodist">
 <summary>
-<h3>DR3 Cepheid and RR Lyrae <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr3/v01_20221115/index.html' title='DR3 Cepheid and RR Lyrae files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-variablestars-dr3">catalog-variablestars-dr3</code></h3>
-<img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
+<h3>Gaia DR3 bayesian distances <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/008-geodist/v02_20221117/index.html' title='Gaia DR3 bayesian distances files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-geodist">gaia-dr3-geodist</code></h3>
+<img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Cepheid and RR Lyrae stars in Gaia DR3, brightened up by 5 magnitudes.</div>
+<div class='description'>Star catalog based on Gaia DR3. Contains all stars with bayesian distances as determined by Bailer-Jones et. al.</div>
 
-- **Type:** `catalog-gaia`
-- **Dataset version:** v1
-- **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 353.0MiB <span class='unimportant'>(370118101)</span>
-- **Number of objects:** 186.93k <span class='unimportant'>(186928)</span>
-- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Replaces:**
-    - [catalog-variablestars-dr2](#catalog-variablestars-dr2)
-- **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de](https://gaia.ari.uni-heidelberg.de)
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr3/v01_20221115/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr3/v01_20221115/index.html)
-</div>
-</article>
-</details>
-
-<a href='#catalog-gd1'></a><details id="catalog-gd1">
-<summary>
-<h3>GD-1 stellar stream <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gd1/v02_20221116/index.html' title='GD-1 stellar stream files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-gd1">catalog-gd1</code></h3>
-<img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>GD-1 stream, one of the longest and coldest stellar streams in the Milky Way, with brighter magnitudes for visibility.</div>
-
-- **Type:** `catalog-gaia`
+- **Type:** `catalog-lod`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 360.0KiB <span class='unimportant'>(368633)</span>
-- **Number of objects:** 1.36k <span class='unimportant'>(1365)</span>
+- **Size:** 109.3GiB <span class='unimportant'>(117384320464)</span>
+- **Number of objects:** 1.47B <span class='unimportant'>(1465231014)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://arxiv.org/abs/1805.00425](https://arxiv.org/abs/1805.00425)
+   - [https://iopscience.iop.org/article/10.3847/1538-3881/abd806](https://iopscience.iop.org/article/10.3847/1538-3881/abd806)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gd1/v02_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gd1/v02_20221116/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/008-geodist/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/008-geodist/v02_20221117/index.html)
 </div>
 </article>
 </details>
 
-<h2 id='catalog-lod'>Level-of-detail catalogs</h2>
+<a href='#gaia-dr3-bright'></a><details id="gaia-dr3-bright">
+<summary>
+<h3>Gaia DR3 bright <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/006-bright/v02_20221117/index.html' title='Gaia DR3 bright files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-bright">gaia-dr3-bright</code></h3>
+<img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>Star catalog based on Gaia DR3 with the brightest stars in the catalog. Contains all stars with up to 90%/1% bright/faint parallax relative error.</div>
+
+- **Type:** `catalog-lod`
+- **Dataset version:** v2
+- **Minimum Gaia Sky version:** 3.3.1
+- **Size:** 863.0MiB <span class='unimportant'>(904931436)</span>
+- **Number of objects:** 11.27M <span class='unimportant'>(11269665)</span>
+- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Sources/links:**
+   - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/006-bright/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/006-bright/v02_20221117/index.html)
+</div>
+</article>
+</details>
+
 <a href='#gaia-dr3-default'></a><details id="gaia-dr3-default">
 <summary>
 <h3>Gaia DR3 default <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/000-default/v03_20240423/index.html' title='Gaia DR3 default files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-default">gaia-dr3-default</code></h3>
@@ -311,25 +357,71 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </article>
 </details>
 
-<a href='#gaia-dr3-small'></a><details id="gaia-dr3-small">
+<a href='#gaia-dr3-extralarge'></a><details id="gaia-dr3-extralarge">
 <summary>
-<h3>Gaia DR3 small <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/001-small/v02_20221117/index.html' title='Gaia DR3 small files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-small">gaia-dr3-small</code></h3>
+<h3>Gaia DR3 extra large <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/005-extralarge/v02_20221117/index.html' title='Gaia DR3 extra large files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-extralarge">gaia-dr3-extralarge</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3 with a small number of stars. Contains all stars with up to 10%/0.5% bright/faint parallax relative error.</div>
+<div class='description'>Star catalog based on Gaia DR3 with an extremely large number of stars. Contains all stars with up to 95% parallax relative error.</div>
 
 - **Type:** `catalog-lod`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 628.6MiB <span class='unimportant'>(659181456)</span>
-- **Number of objects:** 8.2M <span class='unimportant'>(8199560)</span>
+- **Size:** 52.8GiB <span class='unimportant'>(56672114111)</span>
+- **Number of objects:** 707.16M <span class='unimportant'>(707157643)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/001-small/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/001-small/v02_20221117/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/005-extralarge/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/005-extralarge/v02_20221117/index.html)
+</div>
+</article>
+</details>
+
+<a href='#gaia-dr3-fidelity'></a><details id="gaia-dr3-fidelity">
+<summary>
+<h3>Gaia DR3 fidelity <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/009-fidelity/v02_20221117/index.html' title='Gaia DR3 fidelity files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-fidelity">gaia-dr3-fidelity</code></h3>
+<img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>Star catalog based on Gaia DR3. Contains all stars for which the fidelity value is > 0.5.</div>
+
+- **Type:** `catalog-lod`
+- **Dataset version:** v2
+- **Minimum Gaia Sky version:** 3.3.1
+- **Size:** 29.4GiB <span class='unimportant'>(31516391181)</span>
+- **Number of objects:** 393.68M <span class='unimportant'>(393678770)</span>
+- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Sources/links:**
+   - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/009-fidelity/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/009-fidelity/v02_20221117/index.html)
+</div>
+</article>
+</details>
+
+<a href='#gaia-dr3-large'></a><details id="gaia-dr3-large">
+<summary>
+<h3>Gaia DR3 large <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/003-large/v02_20221117/index.html' title='Gaia DR3 large files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-large">gaia-dr3-large</code></h3>
+<img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>Star catalog based on Gaia DR3 with a large number of stars. Contains all stars with up to 50%/12.5% bright/faint parallax relative error.</div>
+
+- **Type:** `catalog-lod`
+- **Dataset version:** v2
+- **Minimum Gaia Sky version:** 3.3.1
+- **Size:** 9.1GiB <span class='unimportant'>(9788956560)</span>
+- **Number of objects:** 122.18M <span class='unimportant'>(122183859)</span>
+- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Sources/links:**
+   - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/003-large/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/003-large/v02_20221117/index.html)
 </div>
 </article>
 </details>
@@ -359,94 +451,25 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </article>
 </details>
 
-<a href='#gaia-dr3-large'></a><details id="gaia-dr3-large">
+<a href='#gaia-dr3-photdist'></a><details id="gaia-dr3-photdist">
 <summary>
-<h3>Gaia DR3 large <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/003-large/v02_20221117/index.html' title='Gaia DR3 large files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-large">gaia-dr3-large</code></h3>
+<h3>Gaia DR3 photometric distances <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/010-photdist/v02_20221117/index.html' title='Gaia DR3 photometric distances files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-photdist">gaia-dr3-photdist</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3 with a large number of stars. Contains all stars with up to 50%/12.5% bright/faint parallax relative error.</div>
+<div class='description'>Star catalog based on Gaia DR3. Contains all stars with photometric distances from GSP-Phot Aeneas best library using BP/RP spectra.</div>
 
 - **Type:** `catalog-lod`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 9.1GiB <span class='unimportant'>(9788956560)</span>
-- **Number of objects:** 122.18M <span class='unimportant'>(122183859)</span>
+- **Size:** 35.2GiB <span class='unimportant'>(37749371374)</span>
+- **Number of objects:** 470.81M <span class='unimportant'>(470805079)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/003-large/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/003-large/v02_20221117/index.html)
-</div>
-</article>
-</details>
-
-<a href='#gaia-dr3-verylarge'></a><details id="gaia-dr3-verylarge">
-<summary>
-<h3>Gaia DR3 very large <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/004-verylarge/v02_20221117/index.html' title='Gaia DR3 very large files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-verylarge">gaia-dr3-verylarge</code></h3>
-<img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3 with a very large number of stars. Contains all stars with up to 50% parallax relative error.</div>
-
-- **Type:** `catalog-lod`
-- **Dataset version:** v2
-- **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 34.8GiB <span class='unimportant'>(37361487707)</span>
-- **Number of objects:** 466.14M <span class='unimportant'>(466144211)</span>
-- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/004-verylarge/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/004-verylarge/v02_20221117/index.html)
-</div>
-</article>
-</details>
-
-<a href='#gaia-dr3-extralarge'></a><details id="gaia-dr3-extralarge">
-<summary>
-<h3>Gaia DR3 extra large <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/005-extralarge/v02_20221117/index.html' title='Gaia DR3 extra large files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-extralarge">gaia-dr3-extralarge</code></h3>
-<img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3 with an extremely large number of stars. Contains all stars with up to 95% parallax relative error.</div>
-
-- **Type:** `catalog-lod`
-- **Dataset version:** v2
-- **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 52.8GiB <span class='unimportant'>(56672114111)</span>
-- **Number of objects:** 707.16M <span class='unimportant'>(707157643)</span>
-- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/005-extralarge/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/005-extralarge/v02_20221117/index.html)
-</div>
-</article>
-</details>
-
-<a href='#gaia-dr3-bright'></a><details id="gaia-dr3-bright">
-<summary>
-<h3>Gaia DR3 bright <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/006-bright/v02_20221117/index.html' title='Gaia DR3 bright files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-bright">gaia-dr3-bright</code></h3>
-<img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3 with the brightest stars in the catalog. Contains all stars with up to 90%/1% bright/faint parallax relative error.</div>
-
-- **Type:** `catalog-lod`
-- **Dataset version:** v2
-- **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 863.0MiB <span class='unimportant'>(904931436)</span>
-- **Number of objects:** 11.27M <span class='unimportant'>(11269665)</span>
-- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/006-bright/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/006-bright/v02_20221117/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/010-photdist/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/010-photdist/v02_20221117/index.html)
 </div>
 </article>
 </details>
@@ -474,76 +497,79 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </article>
 </details>
 
-<a href='#gaia-dr3-geodist'></a><details id="gaia-dr3-geodist">
+<a href='#gaia-dr3-small'></a><details id="gaia-dr3-small">
 <summary>
-<h3>Gaia DR3 bayesian distances <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/008-geodist/v02_20221117/index.html' title='Gaia DR3 bayesian distances files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-geodist">gaia-dr3-geodist</code></h3>
+<h3>Gaia DR3 small <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/001-small/v02_20221117/index.html' title='Gaia DR3 small files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-small">gaia-dr3-small</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3. Contains all stars with bayesian distances as determined by Bailer-Jones et. al.</div>
+<div class='description'>Star catalog based on Gaia DR3 with a small number of stars. Contains all stars with up to 10%/0.5% bright/faint parallax relative error.</div>
 
 - **Type:** `catalog-lod`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 109.3GiB <span class='unimportant'>(117384320464)</span>
-- **Number of objects:** 1.47B <span class='unimportant'>(1465231014)</span>
-- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Sources/links:**
-   - [https://iopscience.iop.org/article/10.3847/1538-3881/abd806](https://iopscience.iop.org/article/10.3847/1538-3881/abd806)
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/008-geodist/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/008-geodist/v02_20221117/index.html)
-</div>
-</article>
-</details>
-
-<a href='#gaia-dr3-fidelity'></a><details id="gaia-dr3-fidelity">
-<summary>
-<h3>Gaia DR3 fidelity <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/009-fidelity/v02_20221117/index.html' title='Gaia DR3 fidelity files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-fidelity">gaia-dr3-fidelity</code></h3>
-<img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3. Contains all stars for which the fidelity value is > 0.5.</div>
-
-- **Type:** `catalog-lod`
-- **Dataset version:** v2
-- **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 29.4GiB <span class='unimportant'>(31516391181)</span>
-- **Number of objects:** 393.68M <span class='unimportant'>(393678770)</span>
+- **Size:** 628.6MiB <span class='unimportant'>(659181456)</span>
+- **Number of objects:** 8.2M <span class='unimportant'>(8199560)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/009-fidelity/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/009-fidelity/v02_20221117/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/001-small/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/001-small/v02_20221117/index.html)
 </div>
 </article>
 </details>
 
-<a href='#gaia-dr3-photdist'></a><details id="gaia-dr3-photdist">
+<a href='#gaia-dr3-verylarge'></a><details id="gaia-dr3-verylarge">
 <summary>
-<h3>Gaia DR3 photometric distances <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/010-photdist/v02_20221117/index.html' title='Gaia DR3 photometric distances files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-photdist">gaia-dr3-photdist</code></h3>
+<h3>Gaia DR3 very large <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/004-verylarge/v02_20221117/index.html' title='Gaia DR3 very large files'>🔗</a></span><br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-verylarge">gaia-dr3-verylarge</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3. Contains all stars with photometric distances from GSP-Phot Aeneas best library using BP/RP spectra.</div>
+<div class='description'>Star catalog based on Gaia DR3 with a very large number of stars. Contains all stars with up to 50% parallax relative error.</div>
 
 - **Type:** `catalog-lod`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 35.2GiB <span class='unimportant'>(37749371374)</span>
-- **Number of objects:** 470.81M <span class='unimportant'>(470805079)</span>
+- **Size:** 34.8GiB <span class='unimportant'>(37361487707)</span>
+- **Number of objects:** 466.14M <span class='unimportant'>(466144211)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/010-photdist/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/010-photdist/v02_20221117/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/004-verylarge/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/004-verylarge/v02_20221117/index.html)
 </div>
 </article>
 </details>
 
 <h2 id='catalog-star'>Star catalogs</h2>
+<a href='#catalog-atnf-pulsars'></a><details id="catalog-atnf-pulsars">
+<summary>
+<h3>ATNF Pulsar Catalogue <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/atnf-pulsars/v01_20260630/index.html' title='ATNF Pulsar Catalogue files'>🔗</a></span><br/><i class="gs-game-icons-stars-stack" title="Type: catalog-star"></i> <code title="Key: catalog-atnf-pulsars">catalog-atnf-pulsars</code></h3>
+<img src="/img/datasets/catalog-star.jpg" title="catalog-star"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>285 pulsars from the Australia Telescope National Facility. The ATNF Pulsar Catalog is a comprehensive database of known pulsars compiled by G. Hobbs, R.N. Manchester et al., which includes data from various radio surveys, notably the Parkes Multibeam Pulsar Survey. It serves as a key resource for astronomers studying pulsars and their properties.</div>
+
+- **Type:** `catalog-star`
+- **Dataset version:** v1
+- **Minimum Gaia Sky version:** 3.7.5
+- **Size:** 230.3KiB <span class='unimportant'>(235873)</span>
+- **Number of objects:** 285 <span class='unimportant'>(285)</span>
+- **Creator:** Robero Zacco
+- **Credits:**
+   - Australia Telescope National Facility
+   - CSIRO
+- **Sources/links:**
+   - [https://www.atnf.csiro.au/research/pulsar/psrcat/](https://www.atnf.csiro.au/research/pulsar/psrcat/)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/atnf-pulsars/v01_20260630/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/atnf-pulsars/v01_20260630/index.html)
+</div>
+</article>
+</details>
+
 <a href='#catalog-cns5'></a><details id="catalog-cns5">
 <summary>
 <h3>Fifth Catalog of Nearby Stars (CNS5) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/cns5/v03_20230110/index.html' title='Fifth Catalog of Nearby Stars (CNS5) files'>🔗</a></span><br/><i class="gs-game-icons-stars-stack" title="Type: catalog-star"></i> <code title="Key: catalog-cns5">catalog-cns5</code></h3>
@@ -586,32 +612,6 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
    - [http://adsabs.harvard.edu/abs/2007ASSL..350.....V](http://adsabs.harvard.edu/abs/2007ASSL..350.....V)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/hipparcos/v06_20250506/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/hipparcos/v06_20250506/index.html)
-</div>
-</article>
-</details>
-
-<a href='#catalog-atnf-pulsars'></a><details id="catalog-atnf-pulsars">
-<summary>
-<h3>ATNF Pulsar Catalogue <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/atnf-pulsars/v01_20260630/index.html' title='ATNF Pulsar Catalogue files'>🔗</a></span><br/><i class="gs-game-icons-stars-stack" title="Type: catalog-star"></i> <code title="Key: catalog-atnf-pulsars">catalog-atnf-pulsars</code></h3>
-<img src="/img/datasets/catalog-star.jpg" title="catalog-star"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>285 pulsars from the Australia Telescope National Facility. The ATNF Pulsar Catalog is a comprehensive database of known pulsars compiled by G. Hobbs, R.N. Manchester et al., which includes data from various radio surveys, notably the Parkes Multibeam Pulsar Survey. It serves as a key resource for astronomers studying pulsars and their properties.</div>
-
-- **Type:** `catalog-star`
-- **Dataset version:** v1
-- **Minimum Gaia Sky version:** 3.7.5
-- **Size:** 230.3KiB <span class='unimportant'>(235873)</span>
-- **Number of objects:** 285 <span class='unimportant'>(285)</span>
-- **Creator:** Robero Zacco
-- **Credits:**
-   - Australia Telescope National Facility
-   - CSIRO
-- **Sources/links:**
-   - [https://www.atnf.csiro.au/research/pulsar/psrcat/](https://www.atnf.csiro.au/research/pulsar/psrcat/)
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/atnf-pulsars/v01_20260630/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/atnf-pulsars/v01_20260630/index.html)
 </div>
 </article>
 </details>
@@ -757,29 +757,6 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </article>
 </details>
 
-<a href='#catalog-ocdr2'></a><details id="catalog-ocdr2">
-<summary>
-<h3>Open Clusters DR2 Catalog <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/ocdr2/v07_20230601/index.html' title='Open Clusters DR2 Catalog files'>🔗</a></span><br/><i class="gs-ph-graph" title="Type: catalog-cluster"></i> <code title="Key: catalog-ocdr2">catalog-ocdr2</code></h3>
-<img src="/img/datasets/catalog-cluster.jpg" title="catalog-cluster"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>Open Clusters catalog based on Gaia DR2 data, by A. Castro-Ginard et al.</div>
-
-- **Type:** `catalog-cluster`
-- **Dataset version:** v7
-- **Minimum Gaia Sky version:** 3.5.0
-- **Size:** 349.2KiB <span class='unimportant'>(357605)</span>
-- **Number of objects:** 2.02k <span class='unimportant'>(2017)</span>
-- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Sources/links:**
-   - [https://doi.org/10.1051/0004-6361/201937386](https://doi.org/10.1051/0004-6361/201937386)
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/ocdr2/v07_20230601/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/ocdr2/v07_20230601/index.html)
-</div>
-</article>
-</details>
-
 <a href='#catalog-mwsc'></a><details id="catalog-mwsc">
 <summary>
 <h3>MWSC (Karachenko et. al. 2013) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/mwsc/v07_20230601/index.html' title='MWSC (Karachenko et. al. 2013) files'>🔗</a></span><br/><i class="gs-ph-graph" title="Type: catalog-cluster"></i> <code title="Key: catalog-mwsc">catalog-mwsc</code></h3>
@@ -803,30 +780,30 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </article>
 </details>
 
-<h2 id='catalog-other'>Other catalogs</h2>
-<a href='#catalog-nebulae'></a><details id="catalog-nebulae">
+<a href='#catalog-ocdr2'></a><details id="catalog-ocdr2">
 <summary>
-<h3>NGC2000 Nebulae <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/nebulae/v12_20260410/index.html' title='NGC2000 Nebulae files'>🔗</a></span><br/><i class="gs-mdi-cube" title="Type: catalog-other"></i> <code title="Key: catalog-nebulae">catalog-nebulae</code></h3>
-<img src="/img/datasets/catalog-nebulae.jpg" title="catalog-nebulae"></img>
+<h3>Open Clusters DR2 Catalog <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/ocdr2/v07_20230601/index.html' title='Open Clusters DR2 Catalog files'>🔗</a></span><br/><i class="gs-ph-graph" title="Type: catalog-cluster"></i> <code title="Key: catalog-ocdr2">catalog-ocdr2</code></h3>
+<img src="/img/datasets/catalog-cluster.jpg" title="catalog-cluster"></img>
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Catalog of bright emisison or reflection nebulae, planetary nebulae and clusters associated with nebulosity in the NGC2000 catalog. This catalog contains 47 of the most well-known nebulae in the Milky Way. Some of the nebulae are represented as volumes, and some are represented as 3D decals.</div>
+<div class='description'>Open Clusters catalog based on Gaia DR2 data, by A. Castro-Ginard et al.</div>
 
-- **Type:** `catalog-other`
-- **Dataset version:** v12
-- **Minimum Gaia Sky version:** 3.7.2
-- **Size:** 5.5MiB <span class='unimportant'>(5812242)</span>
-- **Number of objects:** 47 <span class='unimportant'>(47)</span>
+- **Type:** `catalog-cluster`
+- **Dataset version:** v7
+- **Minimum Gaia Sky version:** 3.5.0
+- **Size:** 349.2KiB <span class='unimportant'>(357605)</span>
+- **Number of objects:** 2.02k <span class='unimportant'>(2017)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://heasarc.gsfc.nasa.gov/W3Browse/all/ngc2000.html](https://heasarc.gsfc.nasa.gov/W3Browse/all/ngc2000.html)
+   - [https://doi.org/10.1051/0004-6361/201937386](https://doi.org/10.1051/0004-6361/201937386)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/nebulae/v12_20260410/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/nebulae/v12_20260410/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/ocdr2/v07_20230601/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/ocdr2/v07_20230601/index.html)
 </div>
 </article>
 </details>
 
+<h2 id='catalog-other'>Other catalogs</h2>
 <a href='#gargantua-blackhole'></a><details id="gargantua-blackhole">
 <summary>
 <h3>Gargantua black hole <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/blackhole/v05_20250109/index.html' title='Gargantua black hole files'>🔗</a></span><br/><i class="gs-mdi-cube" title="Type: catalog-other"></i> <code title="Key: gargantua-blackhole">gargantua-blackhole</code></h3>
@@ -846,6 +823,29 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
    - [https://www.shadertoy.com/view/tsBXW3](https://www.shadertoy.com/view/tsBXW3)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/blackhole/v05_20250109/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/blackhole/v05_20250109/index.html)
+</div>
+</article>
+</details>
+
+<a href='#catalog-nebulae'></a><details id="catalog-nebulae">
+<summary>
+<h3>NGC2000 Nebulae <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/nebulae/v12_20260410/index.html' title='NGC2000 Nebulae files'>🔗</a></span><br/><i class="gs-mdi-cube" title="Type: catalog-other"></i> <code title="Key: catalog-nebulae">catalog-nebulae</code></h3>
+<img src="/img/datasets/catalog-nebulae.jpg" title="catalog-nebulae"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>Catalog of bright emisison or reflection nebulae, planetary nebulae and clusters associated with nebulosity in the NGC2000 catalog. This catalog contains 47 of the most well-known nebulae in the Milky Way. Some of the nebulae are represented as volumes, and some are represented as 3D decals.</div>
+
+- **Type:** `catalog-other`
+- **Dataset version:** v12
+- **Minimum Gaia Sky version:** 3.7.2
+- **Size:** 5.5MiB <span class='unimportant'>(5812242)</span>
+- **Number of objects:** 47 <span class='unimportant'>(47)</span>
+- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Sources/links:**
+   - [https://heasarc.gsfc.nasa.gov/W3Browse/all/ngc2000.html](https://heasarc.gsfc.nasa.gov/W3Browse/all/ngc2000.html)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/nebulae/v12_20260410/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/nebulae/v12_20260410/index.html)
 </div>
 </article>
 </details>
@@ -900,6 +900,30 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
    - [https://gaiasky.space/resources/datasets](https://gaiasky.space/resources/datasets)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/fpr/004_20260331/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/fpr/004_20260331/index.html)
+</div>
+</article>
+</details>
+
+<a href='#catalog-asteroids-dr2'></a><details id="catalog-asteroids-dr2">
+<summary>
+<h3>Asteroids and SSO (Gaia DR2) <span class="replaced-warning" title="Replaced by: catalog-asteroids-fpr, catalog-asteroids-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr2/v02_20221116/index.html' title='Asteroids and SSO (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-dr2">catalog-asteroids-dr2</code></h3>
+<img src="/img/datasets/catalog-sso.jpg" title="catalog-sso"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>Some 14k asteroids and other SSO, based on Gaia DR2 data.</div>
+
+- **Type:** `catalog-sso`
+- **Dataset version:** v2
+- **Minimum Gaia Sky version:** 3.3.1
+- **Size:** 7.0MiB <span class='unimportant'>(7311360)</span>
+- **Number of objects:** 14.1k <span class='unimportant'>(14104)</span>
+- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Replaced by:**
+    - [catalog-asteroids-fpr](#catalog-asteroids-fpr)
+    - [catalog-asteroids-dr3](#catalog-asteroids-dr3)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr2/v02_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr2/v02_20221116/index.html)
 </div>
 </article>
 </details>
@@ -975,61 +999,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </article>
 </details>
 
-<a href='#catalog-asteroids-dr2'></a><details id="catalog-asteroids-dr2">
-<summary>
-<h3>Asteroids and SSO (Gaia DR2) <span class="replaced-warning" title="Replaced by: catalog-asteroids-fpr, catalog-asteroids-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr2/v02_20221116/index.html' title='Asteroids and SSO (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-dr2">catalog-asteroids-dr2</code></h3>
-<img src="/img/datasets/catalog-sso.jpg" title="catalog-sso"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>Some 14k asteroids and other SSO, based on Gaia DR2 data.</div>
-
-- **Type:** `catalog-sso`
-- **Dataset version:** v2
-- **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 7.0MiB <span class='unimportant'>(7311360)</span>
-- **Number of objects:** 14.1k <span class='unimportant'>(14104)</span>
-- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Replaced by:**
-    - [catalog-asteroids-fpr](#catalog-asteroids-fpr)
-    - [catalog-asteroids-dr3](#catalog-asteroids-dr3)
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr2/v02_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr2/v02_20221116/index.html)
-</div>
-</article>
-</details>
-
 <h2 id='system'>Exoplanets and extrasolar systems</h2>
-<a href='#nasa-exoplanet-archive'></a><details id="nasa-exoplanet-archive">
-<summary>
-<h3>NASA Exoplanet Archive <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/nasa-exoplanet-archive//v03_20260625/index.html' title='NASA Exoplanet Archive files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: nasa-exoplanet-archive">nasa-exoplanet-archive</code></h3>
-<img src="/img/datasets/nasa-exoplanet-archive.jpg" title="nasa-exoplanet-archive"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>The NASA Exoplanet Archive is an astronomical exoplanet catalog and data service that collects and serves public data that support the search for and characterization of extra-solar planets (exoplanets) and their host stars. This dataset contains all planet and host star solutions, regardless of their relationship. This includes atypical systems such as free-floating planets and those with multiple stars. This table also contains Kepler, K2, and TESS candidate solutions for confirmed planet systems, a nearly complete identification of published stellar companions, and projected and true planet obliquities.
-The systems in this dataset are shown with glyphs according to the number of planets in the system, and colored accordingly. When approaching a system, the glyph disappears and the actual stars and planets get loaded.
-Note that this dataset also includes the stars as defined in the NASA Exoplanet Archive, so if you already have a star catalog you will end up with duplicate objects.</div>
-
-- **Type:** `system`
-- **Dataset version:** v3
-- **Minimum Gaia Sky version:** 3.7.1
-- **Size:** 18.8MiB <span class='unimportant'>(19668671)</span>
-- **Number of objects:** 9.79k <span class='unimportant'>(9793)</span>
-- **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
-- **Credits:**
-   - NASA Exoplanet Archive
-   - California Institute of Technology
-   - National Aeronautics and Space Administration
-   - Exoplanet Exploration Program
-- **Sources/links:**
-   - [http://exoplanetarchive.ipac.caltech.edu](http://exoplanetarchive.ipac.caltech.edu)
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/nasa-exoplanet-archive//v03_20260625/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/nasa-exoplanet-archive//v03_20260625/index.html)
-</div>
-</article>
-</details>
-
 <a href='#system-exonia'></a><details id="system-exonia">
 <summary>
 <h3>Exonia extrasolar system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v04_20260109/index.html' title='Exonia extrasolar system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-exonia">system-exonia</code></h3>
@@ -1053,6 +1023,40 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
+<a href='#system-gaia-bhs'></a><details id="system-gaia-bhs">
+<summary>
+<h3>Gaia DR3 black holes <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/system-gaia-bhs/v002_20251018/index.html' title='Gaia DR3 black holes files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-gaia-bhs">system-gaia-bhs</code></h3>
+<img src="/img/datasets/system.jpg" title="system"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>This dataset contains the systems of three black holes discovered by Gaia until DR3 (named BH1, BH2, and BH3).
+Gaia BH1 is the first dormant black hole candidate. The system contains a slowly rotating G dwarf of 0.92 solar masses orbits around a dark object of 9.62+-0.18 solar masses, which is very likely a BH. The orbital period of the BH is 185.6 days.
+Gaia BH2 is in a system with a 1 solar mass red giant plus a dark companion with mass 2.89+-0.3 solar masses, that is very likely a BH. The orbital period of BH2 is 1277 days.
+Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant black hole. The system sits at about 590 pc (1926 light years) from us, in a halo orbit around the Milky Way. It is the most massive stellar black hole found to date in our Galaxy. The dormant black hole was found in the preliminary Gaia DR4 astrometry. A 0.76+-0.05 solar mass very metal-poor giant plus a dark companion with mass 32.70+-1.46 solar masses, that is very likely a BH. The orbital period is 4253 days. Paper: Discovery of a dormant 33 solar-masses black hole in pre-release Gaia astrometry, Gaia Collaboration, et al., 2024.</div>
+
+- **Type:** `system`
+- **Dataset version:** v2
+- **Minimum Gaia Sky version:** 3.6.5
+- **Size:** 384.8KiB <span class='unimportant'>(393999)</span>
+- **Number of objects:** 6 <span class='unimportant'>(6)</span>
+- **Creator:** Toni Sagristà
+- **Credits:**
+   - ESA/Gaia/DPAC
+- **Replaces:**
+    - [system-gaia-BH1](#system-gaia-BH1)
+    - [system-gaia-BH2](#system-gaia-BH2)
+    - [system-gaia-BH3](#system-gaia-BH3)
+- **Sources/links:**
+   - [https://academic.oup.com//article/521/3/4323/7093135](https://academic.oup.com//article/521/3/4323/7093135)
+   - [https://academic.oup.com/mnras/article/521/3/4323/7093135](https://academic.oup.com/mnras/article/521/3/4323/7093135)
+   - [https://www.esa.int/Science_Exploration/Space_Science/Gaia/Sleeping_giant_surprises_Gaia_scientists](https://www.esa.int/Science_Exploration/Space_Science/Gaia/Sleeping_giant_surprises_Gaia_scientists)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/system-gaia-bhs/v002_20251018/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/system-gaia-bhs/v002_20251018/index.html)
+</div>
+</article>
+</details>
+
 <a href='#system-dr3-gl876'></a><details id="system-dr3-gl876">
 <summary>
 <h3>Gl876 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gl876/v01_20221116/index.html' title='Gl876 system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-dr3-gl876">system-dr3-gl876</code></h3>
@@ -1070,6 +1074,27 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gl876/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gl876/v01_20221116/index.html)
+</div>
+</article>
+</details>
+
+<a href='#system-dr3-hd114762'></a><details id="system-dr3-hd114762">
+<summary>
+<h3>HD114762 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd114762/v01_20221116/index.html' title='HD114762 system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-dr3-hd114762">system-dr3-hd114762</code></h3>
+<img src="/img/datasets/system.jpg" title="system"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>This star hosts the first substellar companion candidate around a solar-type star which was identified from radial velocities in 1989. The Gaia results show that the orbit is seen almost face-on and the companion is, therefore, a low-mass M dwarf.</div>
+
+- **Type:** `system`
+- **Dataset version:** v1
+- **Minimum Gaia Sky version:** 3.3.1
+- **Size:** 4.4KiB <span class='unimportant'>(4485)</span>
+- **Number of objects:** 2 <span class='unimportant'>(2)</span>
+- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd114762/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd114762/v01_20221116/index.html)
 </div>
 </article>
 </details>
@@ -1116,27 +1141,6 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<a href='#system-dr3-hd114762'></a><details id="system-dr3-hd114762">
-<summary>
-<h3>HD114762 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd114762/v01_20221116/index.html' title='HD114762 system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-dr3-hd114762">system-dr3-hd114762</code></h3>
-<img src="/img/datasets/system.jpg" title="system"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>This star hosts the first substellar companion candidate around a solar-type star which was identified from radial velocities in 1989. The Gaia results show that the orbit is seen almost face-on and the companion is, therefore, a low-mass M dwarf.</div>
-
-- **Type:** `system`
-- **Dataset version:** v1
-- **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 4.4KiB <span class='unimportant'>(4485)</span>
-- **Number of objects:** 2 <span class='unimportant'>(2)</span>
-- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd114762/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd114762/v01_20221116/index.html)
-</div>
-</article>
-</details>
-
 <a href='#system-dr3-j0805-4812'></a><details id="system-dr3-j0805-4812">
 <summary>
 <h3>J0805+4812 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/j0805-4812/v01_20221116/index.html' title='J0805+4812 system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-dr3-j0805-4812">system-dr3-j0805-4812</code></h3>
@@ -1154,6 +1158,36 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/j0805-4812/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/j0805-4812/v01_20221116/index.html)
+</div>
+</article>
+</details>
+
+<a href='#nasa-exoplanet-archive'></a><details id="nasa-exoplanet-archive">
+<summary>
+<h3>NASA Exoplanet Archive <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/nasa-exoplanet-archive//v03_20260625/index.html' title='NASA Exoplanet Archive files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: nasa-exoplanet-archive">nasa-exoplanet-archive</code></h3>
+<img src="/img/datasets/nasa-exoplanet-archive.jpg" title="nasa-exoplanet-archive"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>The NASA Exoplanet Archive is an astronomical exoplanet catalog and data service that collects and serves public data that support the search for and characterization of extra-solar planets (exoplanets) and their host stars. This dataset contains all planet and host star solutions, regardless of their relationship. This includes atypical systems such as free-floating planets and those with multiple stars. This table also contains Kepler, K2, and TESS candidate solutions for confirmed planet systems, a nearly complete identification of published stellar companions, and projected and true planet obliquities.
+The systems in this dataset are shown with glyphs according to the number of planets in the system, and colored accordingly. When approaching a system, the glyph disappears and the actual stars and planets get loaded.
+Note that this dataset also includes the stars as defined in the NASA Exoplanet Archive, so if you already have a star catalog you will end up with duplicate objects.</div>
+
+- **Type:** `system`
+- **Dataset version:** v3
+- **Minimum Gaia Sky version:** 3.7.1
+- **Size:** 18.8MiB <span class='unimportant'>(19668671)</span>
+- **Number of objects:** 9.79k <span class='unimportant'>(9793)</span>
+- **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
+- **Credits:**
+   - NASA Exoplanet Archive
+   - California Institute of Technology
+   - National Aeronautics and Space Administration
+   - Exoplanet Exploration Program
+- **Sources/links:**
+   - [http://exoplanetarchive.ipac.caltech.edu](http://exoplanetarchive.ipac.caltech.edu)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/nasa-exoplanet-archive//v03_20260625/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/nasa-exoplanet-archive//v03_20260625/index.html)
 </div>
 </article>
 </details>
@@ -1200,116 +1234,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </article>
 </details>
 
-<a href='#system-gaia-bhs'></a><details id="system-gaia-bhs">
-<summary>
-<h3>Gaia DR3 black holes <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/system-gaia-bhs/v002_20251018/index.html' title='Gaia DR3 black holes files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-gaia-bhs">system-gaia-bhs</code></h3>
-<img src="/img/datasets/system.jpg" title="system"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>This dataset contains the systems of three black holes discovered by Gaia until DR3 (named BH1, BH2, and BH3).
-Gaia BH1 is the first dormant black hole candidate. The system contains a slowly rotating G dwarf of 0.92 solar masses orbits around a dark object of 9.62+-0.18 solar masses, which is very likely a BH. The orbital period of the BH is 185.6 days.
-Gaia BH2 is in a system with a 1 solar mass red giant plus a dark companion with mass 2.89+-0.3 solar masses, that is very likely a BH. The orbital period of BH2 is 1277 days.
-Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant black hole. The system sits at about 590 pc (1926 light years) from us, in a halo orbit around the Milky Way. It is the most massive stellar black hole found to date in our Galaxy. The dormant black hole was found in the preliminary Gaia DR4 astrometry. A 0.76+-0.05 solar mass very metal-poor giant plus a dark companion with mass 32.70+-1.46 solar masses, that is very likely a BH. The orbital period is 4253 days. Paper: Discovery of a dormant 33 solar-masses black hole in pre-release Gaia astrometry, Gaia Collaboration, et al., 2024.</div>
-
-- **Type:** `system`
-- **Dataset version:** v2
-- **Minimum Gaia Sky version:** 3.6.5
-- **Size:** 384.8KiB <span class='unimportant'>(393999)</span>
-- **Number of objects:** 6 <span class='unimportant'>(6)</span>
-- **Creator:** Toni Sagristà
-- **Credits:**
-   - ESA/Gaia/DPAC
-- **Replaces:**
-    - [system-gaia-BH1](#system-gaia-BH1)
-    - [system-gaia-BH2](#system-gaia-BH2)
-    - [system-gaia-BH3](#system-gaia-BH3)
-- **Sources/links:**
-   - [https://academic.oup.com//article/521/3/4323/7093135](https://academic.oup.com//article/521/3/4323/7093135)
-   - [https://academic.oup.com/mnras/article/521/3/4323/7093135](https://academic.oup.com/mnras/article/521/3/4323/7093135)
-   - [https://www.esa.int/Science_Exploration/Space_Science/Gaia/Sleeping_giant_surprises_Gaia_scientists](https://www.esa.int/Science_Exploration/Space_Science/Gaia/Sleeping_giant_surprises_Gaia_scientists)
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/system-gaia-bhs/v002_20251018/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/system-gaia-bhs/v002_20251018/index.html)
-</div>
-</article>
-</details>
-
 <h2 id='mesh'>3D iso-density meshes</h2>
-<a href='#mesh-dust-dr2'></a><details id="mesh-dust-dr2">
-<summary>
-<h3>Dust iso-density maps (Gaia DR2) <span class="replaced-warning" title="Replaced by: mesh-dust-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/dust/v04_20230704/index.html' title='Dust iso-density maps (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-dust-dr2">mesh-dust-dr2</code></h3>
-<img src="/img/datasets/mesh.jpg" title="mesh"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>Dust isosurface meshes (15% and 60% density) based on Gaia DR2 by Kevin Jardine.</div>
-
-- **Type:** `mesh`
-- **Dataset version:** v4
-- **Minimum Gaia Sky version:** 3.5.0
-- **Size:** 2.7MiB <span class='unimportant'>(2828309)</span>
-- **Number of objects:** 2 <span class='unimportant'>(2)</span>
-- **Creator:** Kevin Jardine, Toni Sagristà
-- **Replaced by:**
-    - [mesh-dust-dr3](#mesh-dust-dr3)
-- **Sources/links:**
-   - [http://galaxymap.org](http://galaxymap.org)
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/dust/v04_20230704/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/dust/v04_20230704/index.html)
-</div>
-</article>
-</details>
-
-<a href='#mesh-hii-dr2'></a><details id="mesh-hii-dr2">
-<summary>
-<h3>HII regions map (Gaia DR2) <span class="replaced-warning" title="Replaced by: mesh-hii-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/hii/v04_20230704/index.html' title='HII regions map (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-hii-dr2">mesh-hii-dr2</code></h3>
-<img src="/img/datasets/mesh.jpg" title="mesh"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>HII regions (clouds of partially ionized gas) based on DR2 data, produced by Kevin Jardine.</div>
-
-- **Type:** `mesh`
-- **Dataset version:** v4
-- **Minimum Gaia Sky version:** 3.5.0
-- **Size:** 2.4MiB <span class='unimportant'>(2475017)</span>
-- **Number of objects:** 1 <span class='unimportant'>(1)</span>
-- **Creator:** Kevin Jardine, Toni Sagristà
-- **Replaced by:**
-    - [mesh-hii-dr3](#mesh-hii-dr3)
-- **Sources/links:**
-   - [http://galaxymap.org](http://galaxymap.org)
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/hii/v04_20230704/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/hii/v04_20230704/index.html)
-</div>
-</article>
-</details>
-
-<a href='#mesh-stardensity-dr2'></a><details id="mesh-stardensity-dr2">
-<summary>
-<h3>Star density map (Gaia DR2) <span class="replaced-warning" title="Replaced by: mesh-stardensity-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/isodensity/v03_20230704/index.html' title='Star density map (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-stardensity-dr2">mesh-stardensity-dr2</code></h3>
-<img src="/img/datasets/mesh.jpg" title="mesh"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>Hot star iso-surface density maps based on Gaia DR2 data. Contains eight iso-density surface maps of hot stars for different preset values</div>
-
-- **Type:** `mesh`
-- **Dataset version:** v3
-- **Minimum Gaia Sky version:** 3.5.0
-- **Size:** 159.9MiB <span class='unimportant'>(167662284)</span>
-- **Number of objects:** 8 <span class='unimportant'>(8)</span>
-- **Creator:** Kevin Jardine, Toni Sagristà
-- **Replaced by:**
-    - [mesh-stardensity-dr3](#mesh-stardensity-dr3)
-- **Sources/links:**
-   - [http://galaxymap.org](http://galaxymap.org)
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/isodensity/v03_20230704/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/isodensity/v03_20230704/index.html)
-</div>
-</article>
-</details>
-
 <a href='#mesh-dust-dr3'></a><details id="mesh-dust-dr3">
 <summary>
 <h3>Dust iso-density maps (Gaia DR3) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/dust/v01_20221117/index.html' title='Dust iso-density maps (Gaia DR3) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-dust-dr3">mesh-dust-dr3</code></h3>
@@ -1386,32 +1311,108 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 </article>
 </details>
 
-<h2 id='spacecraft'>Missions, spacecraft and satellites</h2>
-<a href='#mission-gaia'></a><details id="mission-gaia">
+<a href='#mesh-dust-dr2'></a><details id="mesh-dust-dr2">
 <summary>
-<h3>ESA's Gaia mission <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-gaia/v001_20260508/index.html' title='ESA's Gaia mission files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: mission-gaia">mission-gaia</code></h3>
+<h3>Dust iso-density maps (Gaia DR2) <span class="replaced-warning" title="Replaced by: mesh-dust-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/dust/v04_20230704/index.html' title='Dust iso-density maps (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-dust-dr2">mesh-dust-dr2</code></h3>
+<img src="/img/datasets/mesh.jpg" title="mesh"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>Dust isosurface meshes (15% and 60% density) based on Gaia DR2 by Kevin Jardine.</div>
+
+- **Type:** `mesh`
+- **Dataset version:** v4
+- **Minimum Gaia Sky version:** 3.5.0
+- **Size:** 2.7MiB <span class='unimportant'>(2828309)</span>
+- **Number of objects:** 2 <span class='unimportant'>(2)</span>
+- **Creator:** Kevin Jardine, Toni Sagristà
+- **Replaced by:**
+    - [mesh-dust-dr3](#mesh-dust-dr3)
+- **Sources/links:**
+   - [http://galaxymap.org](http://galaxymap.org)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/dust/v04_20230704/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/dust/v04_20230704/index.html)
+</div>
+</article>
+</details>
+
+<a href='#mesh-hii-dr2'></a><details id="mesh-hii-dr2">
+<summary>
+<h3>HII regions map (Gaia DR2) <span class="replaced-warning" title="Replaced by: mesh-hii-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/hii/v04_20230704/index.html' title='HII regions map (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-hii-dr2">mesh-hii-dr2</code></h3>
+<img src="/img/datasets/mesh.jpg" title="mesh"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>HII regions (clouds of partially ionized gas) based on DR2 data, produced by Kevin Jardine.</div>
+
+- **Type:** `mesh`
+- **Dataset version:** v4
+- **Minimum Gaia Sky version:** 3.5.0
+- **Size:** 2.4MiB <span class='unimportant'>(2475017)</span>
+- **Number of objects:** 1 <span class='unimportant'>(1)</span>
+- **Creator:** Kevin Jardine, Toni Sagristà
+- **Replaced by:**
+    - [mesh-hii-dr3](#mesh-hii-dr3)
+- **Sources/links:**
+   - [http://galaxymap.org](http://galaxymap.org)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/hii/v04_20230704/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/hii/v04_20230704/index.html)
+</div>
+</article>
+</details>
+
+<a href='#mesh-stardensity-dr2'></a><details id="mesh-stardensity-dr2">
+<summary>
+<h3>Star density map (Gaia DR2) <span class="replaced-warning" title="Replaced by: mesh-stardensity-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/isodensity/v03_20230704/index.html' title='Star density map (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-stardensity-dr2">mesh-stardensity-dr2</code></h3>
+<img src="/img/datasets/mesh.jpg" title="mesh"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>Hot star iso-surface density maps based on Gaia DR2 data. Contains eight iso-density surface maps of hot stars for different preset values</div>
+
+- **Type:** `mesh`
+- **Dataset version:** v3
+- **Minimum Gaia Sky version:** 3.5.0
+- **Size:** 159.9MiB <span class='unimportant'>(167662284)</span>
+- **Number of objects:** 8 <span class='unimportant'>(8)</span>
+- **Creator:** Kevin Jardine, Toni Sagristà
+- **Replaced by:**
+    - [mesh-stardensity-dr3](#mesh-stardensity-dr3)
+- **Sources/links:**
+   - [http://galaxymap.org](http://galaxymap.org)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/isodensity/v03_20230704/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/isodensity/v03_20230704/index.html)
+</div>
+</article>
+</details>
+
+<h2 id='spacecraft'>Missions, spacecraft and satellites</h2>
+<a href='#mission-artemis'></a><details id="mission-artemis">
+<summary>
+<h3>Artemis I and II missions <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-artemis/v001_20260428/index.html' title='Artemis I and II missions files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: mission-artemis">mission-artemis</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>ESA's Gaia mission is a global space astrometry mission that built the largest, most precise three-dimensional map of our Galaxy by surveying nearly two billion objects. Launched on 19 December 2013 and operating from the Sun–Earth L2 Lagrange point, Gaia precisely charted the positions, distances, motions, brightness, and chemical compositions of stars throughout the Milky Way and beyond. Over its operational lifetime (27 July 2014 – 15 January 2025), the spacecraft made more than three trillion observations, achieving astrometric accuracy down to 24 microarcseconds — comparable to measuring the diameter of a human hair at a distance of 1000 km. Beyond stellar cartography, Gaia discovered exoplanets, brown dwarfs, asteroids, supernovae, and quasars, while providing stringent tests of general relativity. Its legacy is an unprecedentedly rich multi-dimensional catalogue of the cosmos, processed by the Gaia Data Processing and Analysis Consortium (DPAC) and released in successive data releases.</div>
+<div class='description'>NASA's Artemis missions attempt to bring humans to the Moon. The dataset contains Artemis I and II missions. Artemis I was the first integrated flight test of DSES: the Orion spacecraft, the SLS (Space Launch System) rocket and more. It traveled thousands of kilometers beyond the Moon in November 2022. Artemis II was the first crewed mission in the Artemis program, and was built on the success of the first Artemis. It performed a Lunar flyby on April 2026 with a crew of 4 austronauts abord the SLS rocket and Orion spacecraft.</div>
 
 - **Type:** `spacecraft`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.7.3
-- **Size:** 3.9MiB <span class='unimportant'>(4101818)</span>
+- **Size:** 28.1MiB <span class='unimportant'>(29433076)</span>
 - **Number of objects:** 6 <span class='unimportant'>(6)</span>
 - **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
 - **Credits:**
-   - Gaia Sky development team
-   - ESA/Gaia/DPAC
-   - Gaia 3D model: Toni Sagristà
+   - State vectors (trajectory): NASA Horizons system - https://ssd.jpl.nasa.gov/horizons/
+   - Gaia Sky orbit conversion: Toni Sagristà
+   - 3D model source: NASA Eyes on the Solar System, public domain (CC-0)
+   - 3D model modifications: Project Artemis Celestia add-on (DaveBowman2001, andreas9343)
+   - 3D model adaptation for Gaia Sky and conversion to Wavefront: Toni Sagristà
 - **Sources/links:**
-   - [https://www.esa.int/Science_Exploration/Space_Science/Gaia](https://www.esa.int/Science_Exploration/Space_Science/Gaia)
-   - [https://www.cosmos.esa.int/web/gaia/home](https://www.cosmos.esa.int/web/gaia/home)
-   - [https://gaiasky.space/resources/datasets](https://gaiasky.space/resources/datasets)
+   - [https://nasa.gov/humans-in-space/artemis/](https://nasa.gov/humans-in-space/artemis/)
+   - [https://ssd.jpl.nasa.gov/horizons/](https://ssd.jpl.nasa.gov/horizons/)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-gaia/v001_20260508/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-gaia/v001_20260508/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-artemis/v001_20260428/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-artemis/v001_20260428/index.html)
 </div>
 </article>
 </details>
@@ -1445,30 +1446,61 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 </article>
 </details>
 
-<a href='#spacecraft-jwst'></a><details id="spacecraft-jwst">
+<a href='#mission-gaia'></a><details id="mission-gaia">
 <summary>
-<h3>James Webb Space Telescope <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/jwst/v005_20260428/index.html' title='James Webb Space Telescope files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-jwst">spacecraft-jwst</code></h3>
+<h3>ESA's Gaia mission <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-gaia/v001_20260508/index.html' title='ESA's Gaia mission files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: mission-gaia">mission-gaia</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>The James Webb Space Telescope (JWST), with its orbit and 3D model. The James Webb Space Telescope is a NASA/ESA infrared observatory launched on December 25, 2021. It operates in a halo orbit around the Sun-Earth L2 Lagrange point and features a 6.5-meter segmented, gold-coated beryllium primary mirror paired with four scientific instruments (NIRCam, NIRSpec, MIRI, and NIRISS) to conduct near- and mid-infrared observations of the early universe, star and planetary system formation, and exoplanet atmospheres.</div>
+<div class='description'>ESA's Gaia mission is a global space astrometry mission that built the largest, most precise three-dimensional map of our Galaxy by surveying nearly two billion objects. Launched on 19 December 2013 and operating from the Sun–Earth L2 Lagrange point, Gaia precisely charted the positions, distances, motions, brightness, and chemical compositions of stars throughout the Milky Way and beyond. Over its operational lifetime (27 July 2014 – 15 January 2025), the spacecraft made more than three trillion observations, achieving astrometric accuracy down to 24 microarcseconds — comparable to measuring the diameter of a human hair at a distance of 1000 km. Beyond stellar cartography, Gaia discovered exoplanets, brown dwarfs, asteroids, supernovae, and quasars, while providing stringent tests of general relativity. Its legacy is an unprecedentedly rich multi-dimensional catalogue of the cosmos, processed by the Gaia Data Processing and Analysis Consortium (DPAC) and released in successive data releases.</div>
 
 - **Type:** `spacecraft`
-- **Dataset version:** v5
-- **Minimum Gaia Sky version:** N/A
-- **Size:** 18.0MiB <span class='unimportant'>(18902927)</span>
-- **Number of objects:** 2 <span class='unimportant'>(2)</span>
-- **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
+- **Dataset version:** v1
+- **Minimum Gaia Sky version:** 3.7.3
+- **Size:** 3.9MiB <span class='unimportant'>(4101818)</span>
+- **Number of objects:** 6 <span class='unimportant'>(6)</span>
+- **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
 - **Credits:**
-   - James Webb Space Telescope - NASA Science
-   - ESA/Webb
-   - Gaia Sky orbit conversion: Toni Sagristà
+   - Gaia Sky development team
+   - ESA/Gaia/DPAC
+   - Gaia 3D model: Toni Sagristà
 - **Sources/links:**
-   - [https://sci.esa.int/web/jwst](https://sci.esa.int/web/jwst)
-   - [https://science.nasa.gov/mission/webb/](https://science.nasa.gov/mission/webb/)
+   - [https://www.esa.int/Science_Exploration/Space_Science/Gaia](https://www.esa.int/Science_Exploration/Space_Science/Gaia)
+   - [https://www.cosmos.esa.int/web/gaia/home](https://www.cosmos.esa.int/web/gaia/home)
+   - [https://gaiasky.space/resources/datasets](https://gaiasky.space/resources/datasets)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/jwst/v005_20260428/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/jwst/v005_20260428/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-gaia/v001_20260508/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-gaia/v001_20260508/index.html)
+</div>
+</article>
+</details>
+
+<a href='#catalog-gps'></a><details id="catalog-gps">
+<summary>
+<h3>GPS Satellite Network <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v002_20260414/index.html' title='GPS Satellite Network files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: catalog-gps">catalog-gps</code></h3>
+<img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>Constellation of GPS satellites with their true orbits and locations. The orbital data is pulled on-demand from Celestrak servers in TLE format and updated live. The satellites' 3D models are only an approximation for illustration purposes.</div>
+
+- **Type:** `spacecraft`
+- **Dataset version:** v2
+- **Minimum Gaia Sky version:** 3.7.3
+- **Size:** 3.6MiB <span class='unimportant'>(3784250)</span>
+- **Number of objects:** 31 <span class='unimportant'>(31)</span>
+- **Creator:** Trevor Kjorlien, Plateau Astro
+- **Credits:**
+   - GPS: USSF
+   - Dataset: Trevor Kjorlien, Plateau Astro
+   - 3D model: dh14300 at cgtrader.com, modified by Toni Sagristà
+   - GPS elements: Celestrak
+- **Sources/links:**
+   - [https://www.nasa.gov/directorates/somd/space-communications-navigation-program/gps/](https://www.nasa.gov/directorates/somd/space-communications-navigation-program/gps/)
+   - [https://www.cgtrader.com/free-3d-models/space/spaceship/gps-block-iii-satellite](https://www.cgtrader.com/free-3d-models/space/spaceship/gps-block-iii-satellite)
+   - [https://celestrak.org/NORAD/elements/gp.php?GROUP=gps-ops&FORMAT=tle](https://celestrak.org/NORAD/elements/gp.php?GROUP=gps-ops&FORMAT=tle)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v002_20260414/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v002_20260414/index.html)
 </div>
 </article>
 </details>
@@ -1526,32 +1558,30 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 </article>
 </details>
 
-<a href='#mission-artemis'></a><details id="mission-artemis">
+<a href='#spacecraft-jwst'></a><details id="spacecraft-jwst">
 <summary>
-<h3>Artemis I and II missions <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-artemis/v001_20260428/index.html' title='Artemis I and II missions files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: mission-artemis">mission-artemis</code></h3>
+<h3>James Webb Space Telescope <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/jwst/v005_20260428/index.html' title='James Webb Space Telescope files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-jwst">spacecraft-jwst</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>NASA's Artemis missions attempt to bring humans to the Moon. The dataset contains Artemis I and II missions. Artemis I was the first integrated flight test of DSES: the Orion spacecraft, the SLS (Space Launch System) rocket and more. It traveled thousands of kilometers beyond the Moon in November 2022. Artemis II was the first crewed mission in the Artemis program, and was built on the success of the first Artemis. It performed a Lunar flyby on April 2026 with a crew of 4 austronauts abord the SLS rocket and Orion spacecraft.</div>
+<div class='description'>The James Webb Space Telescope (JWST), with its orbit and 3D model. The James Webb Space Telescope is a NASA/ESA infrared observatory launched on December 25, 2021. It operates in a halo orbit around the Sun-Earth L2 Lagrange point and features a 6.5-meter segmented, gold-coated beryllium primary mirror paired with four scientific instruments (NIRCam, NIRSpec, MIRI, and NIRISS) to conduct near- and mid-infrared observations of the early universe, star and planetary system formation, and exoplanet atmospheres.</div>
 
 - **Type:** `spacecraft`
-- **Dataset version:** v1
-- **Minimum Gaia Sky version:** 3.7.3
-- **Size:** 28.1MiB <span class='unimportant'>(29433076)</span>
-- **Number of objects:** 6 <span class='unimportant'>(6)</span>
-- **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
+- **Dataset version:** v5
+- **Minimum Gaia Sky version:** N/A
+- **Size:** 18.0MiB <span class='unimportant'>(18902927)</span>
+- **Number of objects:** 2 <span class='unimportant'>(2)</span>
+- **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Credits:**
-   - State vectors (trajectory): NASA Horizons system - https://ssd.jpl.nasa.gov/horizons/
+   - James Webb Space Telescope - NASA Science
+   - ESA/Webb
    - Gaia Sky orbit conversion: Toni Sagristà
-   - 3D model source: NASA Eyes on the Solar System, public domain (CC-0)
-   - 3D model modifications: Project Artemis Celestia add-on (DaveBowman2001, andreas9343)
-   - 3D model adaptation for Gaia Sky and conversion to Wavefront: Toni Sagristà
 - **Sources/links:**
-   - [https://nasa.gov/humans-in-space/artemis/](https://nasa.gov/humans-in-space/artemis/)
-   - [https://ssd.jpl.nasa.gov/horizons/](https://ssd.jpl.nasa.gov/horizons/)
+   - [https://sci.esa.int/web/jwst](https://sci.esa.int/web/jwst)
+   - [https://science.nasa.gov/mission/webb/](https://science.nasa.gov/mission/webb/)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-artemis/v001_20260428/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-artemis/v001_20260428/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/jwst/v005_20260428/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/jwst/v005_20260428/index.html)
 </div>
 </article>
 </details>
@@ -1585,36 +1615,6 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 </article>
 </details>
 
-<a href='#catalog-gps'></a><details id="catalog-gps">
-<summary>
-<h3>GPS Satellite Network <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v002_20260414/index.html' title='GPS Satellite Network files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: catalog-gps">catalog-gps</code></h3>
-<img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>Constellation of GPS satellites with their true orbits and locations. The orbital data is pulled on-demand from Celestrak servers in TLE format and updated live. The satellites' 3D models are only an approximation for illustration purposes.</div>
-
-- **Type:** `spacecraft`
-- **Dataset version:** v2
-- **Minimum Gaia Sky version:** 3.7.3
-- **Size:** 3.6MiB <span class='unimportant'>(3784250)</span>
-- **Number of objects:** 31 <span class='unimportant'>(31)</span>
-- **Creator:** Trevor Kjorlien, Plateau Astro
-- **Credits:**
-   - GPS: USSF
-   - Dataset: Trevor Kjorlien, Plateau Astro
-   - 3D model: dh14300 at cgtrader.com, modified by Toni Sagristà
-   - GPS elements: Celestrak
-- **Sources/links:**
-   - [https://www.nasa.gov/directorates/somd/space-communications-navigation-program/gps/](https://www.nasa.gov/directorates/somd/space-communications-navigation-program/gps/)
-   - [https://www.cgtrader.com/free-3d-models/space/spaceship/gps-block-iii-satellite](https://www.cgtrader.com/free-3d-models/space/spaceship/gps-block-iii-satellite)
-   - [https://celestrak.org/NORAD/elements/gp.php?GROUP=gps-ops&FORMAT=tle](https://celestrak.org/NORAD/elements/gp.php?GROUP=gps-ops&FORMAT=tle)
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v002_20260414/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v002_20260414/index.html)
-</div>
-</article>
-</details>
-
 <a href='#spacecraft-voyagers'></a><details id="spacecraft-voyagers">
 <summary>
 <h3>Voyager 1 and 2 <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/voyagers/v003_20260428/index.html' title='Voyager 1 and 2 files'>🔗</a></span><br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-voyagers">spacecraft-voyagers</code></h3>
@@ -1639,60 +1639,6 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 </details>
 
 <h2 id='virtualtex-pack'>Virtual textures</h2>
-<a href='#vt-earth-diffuse-sentinel'></a><details id="vt-earth-diffuse-sentinel">
-<summary>
-<h3>Earth surface VT (Sentinel-2, Blue Marble) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-sentinel/000_20250711/index.html' title='Earth surface VT (Sentinel-2, Blue Marble) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-earth-diffuse-sentinel">vt-earth-diffuse-sentinel</code></h3>
-<img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>Ultra high-resolution (down to 10 m/px) virtual texture for 31 selected urban areas, and 128K elsewhere. Levels 0-5 extracted from NASA's Blue Marble July 86K image. Level 6 and below are processed from Sentinel-2 data. Includes the following urban areas down to 10-20 m/px resolution: Heidelberg, Barcelona, Montreal, New York, Paris, Rome, Berlin, Edinburgh, London, Madrid, Prague, Lisbon, Chicago, San Francisco, Los Angeles, New Delhi, Beijing, Tokyo, Ankara, Budapest, Amsterdam, Cape Town, Kathmandu, Vienna, Bratislava, Mumbai, Cairo, Istanbul, Copenhagen, Cape Canaveral, Shanghai, Sao Paulo, Mexico City, Tehran, Buenos Aires, Rio de Janeiro, Lagos, Bogota, Lima, Hong Kong, Bangkok, and Andorra la Vella.</div>
-
-- **Type:** `virtualtex-pack`
-- **Dataset version:** v0
-- **Minimum Gaia Sky version:** 3.6.8
-- **Size:** 3.4GiB <span class='unimportant'>(3696717048)</span>
-- **Number of objects:** 1 <span class='unimportant'>(1)</span>
-- **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
-- **Credits:**
-   - Contains modified Copernicus Sentinel-2 data 2023-2025, processed by tsagrista
-   - Reto Stöckli, NASA Earth Observatory
-- **Replaces:**
-    - [vt-earth-diffuse-nasa](#vt-earth-diffuse-nasa)
-- **Sources/links:**
-   - [https://www.copernicus.eu](https://www.copernicus.eu)
-   - [https://visibleearth.nasa.gov/collection/1484/blue-marble](https://visibleearth.nasa.gov/collection/1484/blue-marble)
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-sentinel/000_20250711/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-sentinel/000_20250711/index.html)
-</div>
-</article>
-</details>
-
-<a href='#vt-earth-diffuse-nasa'></a><details id="vt-earth-diffuse-nasa">
-<summary>
-<h3>128K Earth surface VT (NASA) <span class="replaced-warning" title="Replaced by: vt-earth-diffuse-sentinel">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-nasa/000_20230125/index.html' title='128K Earth surface VT (NASA) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-earth-diffuse-nasa">vt-earth-diffuse-nasa</code></h3>
-<img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>128K Surface virtual texture for the Earth, with 7 global levels and 4 more on the UK. Levels 0-6 extracted from NASA's visible Earth portal, levels 7-10 from Jestr's Celestia dataset.</div>
-
-- **Type:** `virtualtex-pack`
-- **Dataset version:** v0
-- **Minimum Gaia Sky version:** 3.4.0
-- **Size:** 1.3GiB <span class='unimportant'>(1427321218)</span>
-- **Number of objects:** 1 <span class='unimportant'>(1)</span>
-- **Creator:** Toni Sagristà
-- **Replaced by:**
-    - [vt-earth-diffuse-sentinel](#vt-earth-diffuse-sentinel)
-- **Sources/links:**
-   - [https://visibleearth.nasa.gov/images/73909/december-blue-marble-next-generation-w-topography-and-bathymetry](https://visibleearth.nasa.gov/images/73909/december-blue-marble-next-generation-w-topography-and-bathymetry)
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-nasa/000_20230125/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-nasa/000_20230125/index.html)
-</div>
-</article>
-</details>
-
 <a href='#vt-earth-topography-gmted2010'></a><details id="vt-earth-topography-gmted2010">
 <summary>
 <h3>128K Earth elevation VT (USGS) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-topography-gmted2010/000_20230125/index.html' title='128K Earth elevation VT (USGS) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-earth-topography-gmted2010">vt-earth-topography-gmted2010</code></h3>
@@ -1712,6 +1658,30 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
    - [https://www.usgs.gov/coastal-changes-and-impacts/gmted2010](https://www.usgs.gov/coastal-changes-and-impacts/gmted2010)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-topography-gmted2010/000_20230125/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-topography-gmted2010/000_20230125/index.html)
+</div>
+</article>
+</details>
+
+<a href='#vt-moon-topography-nasa'></a><details id="vt-moon-topography-nasa">
+<summary>
+<h3>32K Moon topography NASA (SVS, DEM LRO:LOLA) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-topography-nasa/01_20250218/index.html' title='32K Moon topography NASA (SVS, DEM LRO:LOLA) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-moon-topography-nasa">vt-moon-topography-nasa</code></h3>
+<img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>32K Moon topography virtual texture (NASA Scientific Visualization Studio, dataset: DEM LRO:LOLA). he displacement map (also known as a height map or elevation map) was taken directly from the latest (as of spring 2019) gridded data products of the Lunar Orbiter Laser Altimeter instrument team. LOLA data is archived on the Geosciences Node of the Planetary Data System. A small subset of the LOLA data stored there, the global cylindrical projections at 4, 16, and 64 pixels per degree, has been reformatted here as uncompressed TIFF files, in vertical units of either floating-point kilometers or 16-bit unsigned integer half-meters.
+The reference surface for all LRO data is a sphere of radius 1737.4 km. LOLA's gridded elevation data is published as signed 16-bit integers in units of half-meters relative to this radius. For the floating-point TIFFs, the source data was divided by 2000. For the unsigned 16-bit TIFFs, the source data was offset by +20,000 (10 km) so that all of the values are positive. This latter format is provided for software that doesn't work well with either floating-point or signed integer files. Credits: Ernie Wright (USRA), Noah Petro (NASA/GSFC).</div>
+
+- **Type:** `virtualtex-pack`
+- **Dataset version:** v1
+- **Minimum Gaia Sky version:** 3.4.0
+- **Size:** 46.1MiB <span class='unimportant'>(48323624)</span>
+- **Number of objects:** 1 <span class='unimportant'>(1)</span>
+- **Creator:** Toni Sagristà
+- **Sources/links:**
+   - [https://svs.gsfc.nasa.gov/4720](https://svs.gsfc.nasa.gov/4720)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-topography-nasa/01_20250218/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-topography-nasa/01_20250218/index.html)
 </div>
 </article>
 </details>
@@ -1831,54 +1801,61 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 </article>
 </details>
 
-<a href='#vt-moon-topography-nasa'></a><details id="vt-moon-topography-nasa">
+<a href='#vt-earth-diffuse-sentinel'></a><details id="vt-earth-diffuse-sentinel">
 <summary>
-<h3>32K Moon topography NASA (SVS, DEM LRO:LOLA) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-topography-nasa/01_20250218/index.html' title='32K Moon topography NASA (SVS, DEM LRO:LOLA) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-moon-topography-nasa">vt-moon-topography-nasa</code></h3>
+<h3>Earth surface VT (Sentinel-2, Blue Marble) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-sentinel/000_20250711/index.html' title='Earth surface VT (Sentinel-2, Blue Marble) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-earth-diffuse-sentinel">vt-earth-diffuse-sentinel</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>32K Moon topography virtual texture (NASA Scientific Visualization Studio, dataset: DEM LRO:LOLA). he displacement map (also known as a height map or elevation map) was taken directly from the latest (as of spring 2019) gridded data products of the Lunar Orbiter Laser Altimeter instrument team. LOLA data is archived on the Geosciences Node of the Planetary Data System. A small subset of the LOLA data stored there, the global cylindrical projections at 4, 16, and 64 pixels per degree, has been reformatted here as uncompressed TIFF files, in vertical units of either floating-point kilometers or 16-bit unsigned integer half-meters.
-The reference surface for all LRO data is a sphere of radius 1737.4 km. LOLA's gridded elevation data is published as signed 16-bit integers in units of half-meters relative to this radius. For the floating-point TIFFs, the source data was divided by 2000. For the unsigned 16-bit TIFFs, the source data was offset by +20,000 (10 km) so that all of the values are positive. This latter format is provided for software that doesn't work well with either floating-point or signed integer files. Credits: Ernie Wright (USRA), Noah Petro (NASA/GSFC).</div>
+<div class='description'>Ultra high-resolution (down to 10 m/px) virtual texture for 31 selected urban areas, and 128K elsewhere. Levels 0-5 extracted from NASA's Blue Marble July 86K image. Level 6 and below are processed from Sentinel-2 data. Includes the following urban areas down to 10-20 m/px resolution: Heidelberg, Barcelona, Montreal, New York, Paris, Rome, Berlin, Edinburgh, London, Madrid, Prague, Lisbon, Chicago, San Francisco, Los Angeles, New Delhi, Beijing, Tokyo, Ankara, Budapest, Amsterdam, Cape Town, Kathmandu, Vienna, Bratislava, Mumbai, Cairo, Istanbul, Copenhagen, Cape Canaveral, Shanghai, Sao Paulo, Mexico City, Tehran, Buenos Aires, Rio de Janeiro, Lagos, Bogota, Lima, Hong Kong, Bangkok, and Andorra la Vella.</div>
 
 - **Type:** `virtualtex-pack`
-- **Dataset version:** v1
+- **Dataset version:** v0
+- **Minimum Gaia Sky version:** 3.6.8
+- **Size:** 3.4GiB <span class='unimportant'>(3696717048)</span>
+- **Number of objects:** 1 <span class='unimportant'>(1)</span>
+- **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
+- **Credits:**
+   - Contains modified Copernicus Sentinel-2 data 2023-2025, processed by tsagrista
+   - Reto Stöckli, NASA Earth Observatory
+- **Replaces:**
+    - [vt-earth-diffuse-nasa](#vt-earth-diffuse-nasa)
+- **Sources/links:**
+   - [https://www.copernicus.eu](https://www.copernicus.eu)
+   - [https://visibleearth.nasa.gov/collection/1484/blue-marble](https://visibleearth.nasa.gov/collection/1484/blue-marble)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-sentinel/000_20250711/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-sentinel/000_20250711/index.html)
+</div>
+</article>
+</details>
+
+<a href='#vt-earth-diffuse-nasa'></a><details id="vt-earth-diffuse-nasa">
+<summary>
+<h3>128K Earth surface VT (NASA) <span class="replaced-warning" title="Replaced by: vt-earth-diffuse-sentinel">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-nasa/000_20230125/index.html' title='128K Earth surface VT (NASA) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-earth-diffuse-nasa">vt-earth-diffuse-nasa</code></h3>
+<img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>128K Surface virtual texture for the Earth, with 7 global levels and 4 more on the UK. Levels 0-6 extracted from NASA's visible Earth portal, levels 7-10 from Jestr's Celestia dataset.</div>
+
+- **Type:** `virtualtex-pack`
+- **Dataset version:** v0
 - **Minimum Gaia Sky version:** 3.4.0
-- **Size:** 46.1MiB <span class='unimportant'>(48323624)</span>
+- **Size:** 1.3GiB <span class='unimportant'>(1427321218)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Toni Sagristà
+- **Replaced by:**
+    - [vt-earth-diffuse-sentinel](#vt-earth-diffuse-sentinel)
 - **Sources/links:**
-   - [https://svs.gsfc.nasa.gov/4720](https://svs.gsfc.nasa.gov/4720)
+   - [https://visibleearth.nasa.gov/images/73909/december-blue-marble-next-generation-w-topography-and-bathymetry](https://visibleearth.nasa.gov/images/73909/december-blue-marble-next-generation-w-topography-and-bathymetry)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-topography-nasa/01_20250218/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-topography-nasa/01_20250218/index.html)
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-nasa/000_20230125/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-nasa/000_20230125/index.html)
 </div>
 </article>
 </details>
 
 <h2 id='volume'>Volumetric objects and effects</h2>
-<a href='#volumetric-aurora'></a><details id="volumetric-aurora">
-<summary>
-<h3>Volumetric Aurora <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora/v02_20250124/index.html' title='Volumetric Aurora files'>🔗</a></span><br/><i class="gs-material-symbols-cloud" title="Type: volume"></i> <code title="Key: volumetric-aurora">volumetric-aurora</code></h3>
-<img src="/img/datasets/volumetric-aurora.jpg" title="volumetric-aurora"></img>
-</summary>
-<article>
-<div class='article-content'>
-<div class='description'>A volumetric aurora borealis and australis for the Earth. This is based on the paper by Lawlor et al. The aurora is rendered using a ray-marching algorithm, producing a volumetric object.</div>
-
-- **Type:** `volume`
-- **Dataset version:** v2
-- **Minimum Gaia Sky version:** 3.6.5
-- **Size:** 183.9KiB <span class='unimportant'>(188285)</span>
-- **Number of objects:** 1 <span class='unimportant'>(1)</span>
-- **Creator:** Toni Sagristà
-- **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora)
-- **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora/v02_20250124/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora/v02_20250124/index.html)
-</div>
-</article>
-</details>
-
 <a href='#saturn-rings'></a><details id="saturn-rings">
 <summary>
 <h3>Saturn rings <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/saturn-rings/v01_20260326/index.html' title='Saturn rings files'>🔗</a></span><br/><i class="gs-material-symbols-cloud" title="Type: volume"></i> <code title="Key: saturn-rings">saturn-rings</code></h3>
@@ -1898,6 +1875,29 @@ The reference surface for all LRO data is a sphere of radius 1737.4 km. LOLA's g
    - [https://gaiasky.space/resources/datasets](https://gaiasky.space/resources/datasets)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/saturn-rings/v01_20260326/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/saturn-rings/v01_20260326/index.html)
+</div>
+</article>
+</details>
+
+<a href='#volumetric-aurora'></a><details id="volumetric-aurora">
+<summary>
+<h3>Volumetric Aurora <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora/v02_20250124/index.html' title='Volumetric Aurora files'>🔗</a></span><br/><i class="gs-material-symbols-cloud" title="Type: volume"></i> <code title="Key: volumetric-aurora">volumetric-aurora</code></h3>
+<img src="/img/datasets/volumetric-aurora.jpg" title="volumetric-aurora"></img>
+</summary>
+<article>
+<div class='article-content'>
+<div class='description'>A volumetric aurora borealis and australis for the Earth. This is based on the paper by Lawlor et al. The aurora is rendered using a ray-marching algorithm, producing a volumetric object.</div>
+
+- **Type:** `volume`
+- **Dataset version:** v2
+- **Minimum Gaia Sky version:** 3.6.5
+- **Size:** 183.9KiB <span class='unimportant'>(188285)</span>
+- **Number of objects:** 1 <span class='unimportant'>(1)</span>
+- **Creator:** Toni Sagristà
+- **Sources/links:**
+   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora)
+- **Files:**
+     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora/v02_20250124/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora/v02_20250124/index.html)
 </div>
 </article>
 </details>
