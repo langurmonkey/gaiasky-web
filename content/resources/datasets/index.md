@@ -25,8 +25,8 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `data-pack`
 - **Dataset version:** v64
 - **Minimum Gaia Sky version:** 3.8.0
-- **Size:** 71.1MiB <span class='unimportant'>(74590528)</span>
-- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
+- **Size:** 104.7MiB <span class='unimportant'>(109794598)</span>
+- **Number of objects:** 9.93k <span class='unimportant'>(9933)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Credits:**
    - Gaia Sky development team
@@ -60,7 +60,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `texture-pack`
 - **Dataset version:** v15
 - **Minimum Gaia Sky version:** 3.7.1-2
-- **Size:** 248.1MiB <span class='unimportant'>(260203930)</span>
+- **Size:** 259.6MiB <span class='unimportant'>(272190911)</span>
 - **Number of objects:** 76 <span class='unimportant'>(76)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
@@ -84,11 +84,11 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-gaia`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.6.1
-- **Size:** 43.9MiB <span class='unimportant'>(45993709)</span>
+- **Size:** 51.9MiB <span class='unimportant'>(54472471)</span>
 - **Number of objects:** 646.4k <span class='unimportant'>(646400)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://gaiasky.space/news/2025/new-catalog-dr3-best](https://gaiasky.space/news/2025/new-catalog-dr3-best)
+   - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/014-best/v01_20250530/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/014-best/v01_20250530/index.html)
 </div>
@@ -102,16 +102,16 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3 with a tiny number of the best bright and faint stars in terms of parallax relative error. Contains all stars with up to 1%/0.01% bright/faint parallax relative error, and all Hipparcos stars.</div>
+<div class='description'>Star catalog based on Gaia DR3 with a tiny number of stars. Contains all stars with up to 1%/0.01% bright/faint parallax relative error, and all Hipparcos stars.</div>
 
 - **Type:** `catalog-gaia`
 - **Dataset version:** v3
 - **Minimum Gaia Sky version:** 3.6.1
-- **Size:** 170.5MiB <span class='unimportant'>(178807376)</span>
+- **Size:** 197.4MiB <span class='unimportant'>(206947413)</span>
 - **Number of objects:** 2.55M <span class='unimportant'>(2552302)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/011-tiny](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/011-tiny)
+   - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/011-tiny/v03_20240423/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/011-tiny/v03_20240423/index.html)
 </div>
@@ -125,16 +125,16 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3 with only the very best bright and faint stars in terms of parallax relative error. Contains all stars with up to 0.8%/0.01% bright/faint parallax relative error, and all Hipparcos stars.</div>
+<div class='description'>Star catalog based on Gaia DR3 with only the very best stars in terms of parallax relative error. Contains all stars with up to 0.8%/0.01% bright/faint parallax relative error, and all Hipparcos stars.</div>
 
 - **Type:** `catalog-gaia`
 - **Dataset version:** v3
 - **Minimum Gaia Sky version:** 3.6.1
-- **Size:** 129.7MiB <span class='unimportant'>(135993182)</span>
+- **Size:** 150.6MiB <span class='unimportant'>(157904615)</span>
 - **Number of objects:** 1.94M <span class='unimportant'>(1939279)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/012-weeny](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/012-weeny)
+   - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/012-weeny/v03_20240423/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/012-weeny/v03_20240423/index.html)
 </div>
@@ -153,7 +153,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-gaia`
 - **Dataset version:** v3
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 138.4MiB <span class='unimportant'>(145106200)</span>
+- **Size:** 588.4MiB <span class='unimportant'>(616995788)</span>
 - **Number of objects:** 331.08k <span class='unimportant'>(331078)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
@@ -171,16 +171,16 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>White dwarfs catalog based on GDR2 by Gentile Fusillo et al. 2018, MNRAS 482, 4579 - Brightnesses increased by 10 mag</div>
+<div class='description'>White dwarfs catalog (+ 10 mag) based on Gaia DR2 data, by Gentile Fusillo et al. 2018, MNRAS 482, 4579.  256082 white dwarfs.</div>
 
 - **Type:** `catalog-gaia`
 - **Dataset version:** v3
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 31.2MiB <span class='unimportant'>(32715467)</span>
+- **Size:** 120.7MiB <span class='unimportant'>(126516020)</span>
 - **Number of objects:** 256.08k <span class='unimportant'>(256082)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://adsabs.harvard.edu/abs/2019MNRAS.482.4570G](https://adsabs.harvard.edu/abs/2019MNRAS.482.4570G)
+   - [http://adsabs.harvard.edu/abs/2019MNRAS.482.4570G](http://adsabs.harvard.edu/abs/2019MNRAS.482.4570G)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/dr2/v03_20221115/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/dr2/v03_20221115/index.html)
 </div>
@@ -199,7 +199,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-gaia`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 31.2MiB <span class='unimportant'>(32715468)</span>
+- **Size:** 31.2MiB <span class='unimportant'>(32715467)</span>
 - **Number of objects:** 359.07k <span class='unimportant'>(359073)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Replaces:**
@@ -219,16 +219,16 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Chepeid and RR Lyrae stars in Gaia DR2, brightened up by 5 magnitudes.</div>
+<div class='description'>Cepheids and RR Lyrae stars in Gaia DR2, brightened up by 5 magnitudes.</div>
 
 - **Type:** `catalog-gaia`
 - **Dataset version:** v3
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 59.3MiB <span class='unimportant'>(62219038)</span>
+- **Size:** 143.1MiB <span class='unimportant'>(150038565)</span>
 - **Number of objects:** 106.34k <span class='unimportant'>(106339)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://gaia.ari.uni-heidleberg.de](https://gaia.ari.uni-heidleberg.de)
+   - [https://gaia.ari.uni-heidelberg.de](https://gaia.ari.uni-heidelberg.de)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr2/v03_20221115/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr2/v03_20221115/index.html)
 </div>
@@ -237,7 +237,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 
 <a href='#catalog-variablestars-dr3'></a><details id="catalog-variablestars-dr3">
 <summary>
-<h3>Gaia DR3 Cepheid and RR Lyrae <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr3/v01_20221115/index.html' title='Gaia DR3 Cepheid and RR Lyrae files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-variablestars-dr3">catalog-variablestars-dr3</code></h3>
+<h3>DR3 Cepheid and RR Lyrae <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr3/v01_20221115/index.html' title='DR3 Cepheid and RR Lyrae files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-variablestars-dr3">catalog-variablestars-dr3</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
 </summary>
 <article>
@@ -247,7 +247,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-gaia`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 148.8MiB <span class='unimportant'>(156012917)</span>
+- **Size:** 353.0MiB <span class='unimportant'>(370118101)</span>
 - **Number of objects:** 186.93k <span class='unimportant'>(186928)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Replaces:**
@@ -272,7 +272,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-gaia`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 109.8KiB <span class='unimportant'>(112421)</span>
+- **Size:** 360.0KiB <span class='unimportant'>(368633)</span>
 - **Number of objects:** 1.36k <span class='unimportant'>(1365)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
@@ -296,11 +296,11 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-lod`
 - **Dataset version:** v3
 - **Minimum Gaia Sky version:** 3.6.1
-- **Size:** 1010.2MiB <span class='unimportant'>(1059314876)</span>
+- **Size:** 1.1GiB <span class='unimportant'>(1213474126)</span>
 - **Number of objects:** 15.13M <span class='unimportant'>(15127025)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/000-default](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/000-default)
+   - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/000-default/v03_20240423/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/000-default/v03_20240423/index.html)
 </div>
@@ -314,16 +314,16 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3 with a small number of stars. Contains all stars with up to 10%/0.5% bright/faint parallax relative error, and all Hipparcos stars.</div>
+<div class='description'>Star catalog based on Gaia DR3 with a small number of stars. Contains all stars with up to 10%/0.5% bright/faint parallax relative error.</div>
 
 - **Type:** `catalog-lod`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 534.1MiB <span class='unimportant'>(560062416)</span>
+- **Size:** 628.6MiB <span class='unimportant'>(659181456)</span>
 - **Number of objects:** 8.2M <span class='unimportant'>(8199560)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/001-small](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/001-small)
+   - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/001-small/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/001-small/v02_20221117/index.html)
 </div>
@@ -337,17 +337,18 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3 with a moderate number of stars. Contains all stars with up to 30%/5% bright/faint parallax relative error, and all Hipparcos stars.</div>
+<div class='description'>Star catalog based on Gaia DR3 with a moderate number of stars. Contains all stars with up to 30%/5% bright/faint parallax relative error.</div>
 
 - **Type:** `catalog-lod`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 3.1GiB <span class='unimportant'>(3297560681)</span>
+- **Size:** 3.7GiB <span class='unimportant'>(4001198931)</span>
 - **Number of objects:** 49.94M <span class='unimportant'>(49939229)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/002-medium](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/002-medium)
    - [https://gaiasky.space/resources/datasets](https://gaiasky.space/resources/datasets)
+   - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/002-medium/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/002-medium/v02_20221117/index.html)
 </div>
@@ -361,16 +362,16 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3 with a large number of stars. Contains all stars with up to 50%/12.5% bright/faint parallax relative error, and all Hipparcos stars.</div>
+<div class='description'>Star catalog based on Gaia DR3 with a large number of stars. Contains all stars with up to 50%/12.5% bright/faint parallax relative error.</div>
 
 - **Type:** `catalog-lod`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 7.4GiB <span class='unimportant'>(7955471359)</span>
+- **Size:** 9.1GiB <span class='unimportant'>(9788956560)</span>
 - **Number of objects:** 122.18M <span class='unimportant'>(122183859)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/003-large](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/003-large)
+   - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/003-large/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/003-large/v02_20221117/index.html)
 </div>
@@ -384,16 +385,16 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3 with a very large number of stars. Contains all stars with up to 50% parallax relative error, and all Hipparcos stars.</div>
+<div class='description'>Star catalog based on Gaia DR3 with a very large number of stars. Contains all stars with up to 50% parallax relative error.</div>
 
 - **Type:** `catalog-lod`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 27.9GiB <span class='unimportant'>(29923785876)</span>
+- **Size:** 34.8GiB <span class='unimportant'>(37361487707)</span>
 - **Number of objects:** 466.14M <span class='unimportant'>(466144211)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/004-verylarge](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/004-verylarge)
+   - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/004-verylarge/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/004-verylarge/v02_20221117/index.html)
 </div>
@@ -407,16 +408,16 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3 with an extremely large number of stars. Contains all stars with up to 95% parallax relative error, and all Hipparcos stars.</div>
+<div class='description'>Star catalog based on Gaia DR3 with an extremely large number of stars. Contains all stars with up to 95% parallax relative error.</div>
 
 - **Type:** `catalog-lod`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 42.1GiB <span class='unimportant'>(45256595158)</span>
+- **Size:** 52.8GiB <span class='unimportant'>(56672114111)</span>
 - **Number of objects:** 707.16M <span class='unimportant'>(707157643)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/005-extralarge](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/005-extralarge)
+   - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/005-extralarge/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/005-extralarge/v02_20221117/index.html)
 </div>
@@ -430,16 +431,16 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3 with the brightest stars in the catalog. Contains all stars with up to 90%/1% bright/faint parallax relative error, and all Hipparcos stars.</div>
+<div class='description'>Star catalog based on Gaia DR3 with the brightest stars in the catalog. Contains all stars with up to 90%/1% bright/faint parallax relative error.</div>
 
 - **Type:** `catalog-lod`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 731.0MiB <span class='unimportant'>(766497858)</span>
+- **Size:** 863.0MiB <span class='unimportant'>(904931436)</span>
 - **Number of objects:** 11.27M <span class='unimportant'>(11269665)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/006-bright](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/006-bright)
+   - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/006-bright/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/006-bright/v02_20221117/index.html)
 </div>
@@ -453,16 +454,16 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3. Contains the stars for which the RUWE (re-normalized unit weight error) is <= 1.4, and all Hipparcos stars.</div>
+<div class='description'>Star catalog based on Gaia DR3. Contains the stars for which the RUWE (re-normalized unit weight error) is <= 1.4.</div>
 
 - **Type:** `catalog-lod`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 57.1GiB <span class='unimportant'>(61309496907)</span>
+- **Size:** 71.5GiB <span class='unimportant'>(76826010256)</span>
 - **Number of objects:** 957.75M <span class='unimportant'>(957749159)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://gea.esac.esa.int/archive/documentation/GDR2/Gaia_archive/chap_datamodel/sec_dm_main_tables/ssec_dm_ruwe.html](https://gea.esac.esa.int/archive/documentation/GDR2/Gaia_archive/chap_datamodel/sec_dm_main_tables/ssec_dm_ruwe.html)
+   - [http://www.rssd.esa.int/doc_fetch.php?id=3757412](http://www.rssd.esa.int/doc_fetch.php?id=3757412)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/007-ruwe/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/007-ruwe/v02_20221117/index.html)
 </div>
@@ -476,13 +477,13 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3. Contains all stars with bayesian distances as determined by Bailer-Jones et. al., and all Hipparcos stars</div>
+<div class='description'>Star catalog based on Gaia DR3. Contains all stars with bayesian distances as determined by Bailer-Jones et. al.</div>
 
 - **Type:** `catalog-lod`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 86.9GiB <span class='unimportant'>(93280033261)</span>
-- **Number of objects:** 1.47B <span class='unimportant'>(1467764764)</span>
+- **Size:** 109.3GiB <span class='unimportant'>(117384320464)</span>
+- **Number of objects:** 1.47B <span class='unimportant'>(1465231014)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
    - [https://iopscience.iop.org/article/10.3847/1538-3881/abd806](https://iopscience.iop.org/article/10.3847/1538-3881/abd806)
@@ -499,16 +500,16 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3. Contains all stars for which the fidelity value is > 0.5, and all Hipparcos stars.</div>
+<div class='description'>Star catalog based on Gaia DR3. Contains all stars for which the fidelity value is > 0.5.</div>
 
 - **Type:** `catalog-lod`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 23.5GiB <span class='unimportant'>(25267306839)</span>
+- **Size:** 29.4GiB <span class='unimportant'>(31516391181)</span>
 - **Number of objects:** 393.68M <span class='unimportant'>(393678770)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/009-fidelity](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/009-fidelity)
+   - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/009-fidelity/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/009-fidelity/v02_20221117/index.html)
 </div>
@@ -522,16 +523,16 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Star catalog based on Gaia DR3. Contains all stars with photometric distances from GSP-Phot Aeneas best library using BP/RP spectra, and all Hipparcos stars.</div>
+<div class='description'>Star catalog based on Gaia DR3. Contains all stars with photometric distances from GSP-Phot Aeneas best library using BP/RP spectra.</div>
 
 - **Type:** `catalog-lod`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 28.1GiB <span class='unimportant'>(30156685637)</span>
-- **Number of objects:** 470.81M <span class='unimportant'>(470812656)</span>
+- **Size:** 35.2GiB <span class='unimportant'>(37749371374)</span>
+- **Number of objects:** 470.81M <span class='unimportant'>(470805079)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/010-photdist](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/010-photdist)
+   - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/010-photdist/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/010-photdist/v02_20221117/index.html)
 </div>
@@ -549,9 +550,9 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 <div class='description'>The Fifth Catalogue of Nearby Stars (CNS5) aims to provide the most volume-complete sample of stars in the solar neighbourhood. The CNS5 is compiled based on trigonometric parallaxes from Gaia EDR3 and Hipparcos, and supplemented with astrometric data from Spitzer and ground-based surveys carried out in the infrared. The CNS5 catalogue is statistically complete down to 19.7 mag in G-band and 11.8 mag in W1-band absolute magnitudes, corresponding to a spectral type of L8. Continuous updates of observational data for nearby stars from all sources were collected and evaluated. For all known stars in the 25 pc sphere around the Sun, the best values of positions in space, velocities, and magnitudes in different filters are presented.</div>
 
 - **Type:** `catalog-star`
-- **Dataset version:** v3
+- **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 1.2MiB <span class='unimportant'>(1211990)</span>
+- **Size:** 3.0MiB <span class='unimportant'>(3107992)</span>
 - **Number of objects:** 5.93k <span class='unimportant'>(5931)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
@@ -569,16 +570,16 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Hipparcos new reduction (van Leeuwen, 2007) with curated star names, already included in all Gaia catalogs.</div>
+<div class='description'>Hipparcos new reduction (van Leeuwen, 2007) with curated star names.</div>
 
 - **Type:** `catalog-star`
 - **Dataset version:** v6
 - **Minimum Gaia Sky version:** 3.6.8
-- **Size:** 7.7MiB <span class='unimportant'>(8094183)</span>
-- **Number of objects:** 117.95k <span class='unimportant'>(117955)</span>
+- **Size:** 11.2MiB <span class='unimportant'>(11738224)</span>
+- **Number of objects:** 177.96k <span class='unimportant'>(177955)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://adsabs.harvard.edu/abs/2007ASSL..350.....V](https://adsabs.harvard.edu/abs/2007ASSL..350.....V)
+   - [http://adsabs.harvard.edu/abs/2007ASSL..350.....V](http://adsabs.harvard.edu/abs/2007ASSL..350.....V)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/hipparcos/v06_20250506/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/hipparcos/v06_20250506/index.html)
 </div>
@@ -597,8 +598,8 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-star`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.7.5
-- **Size:** 66.7KiB <span class='unimportant'>(68261)</span>
-- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
+- **Size:** 230.3KiB <span class='unimportant'>(235873)</span>
+- **Number of objects:** 285 <span class='unimportant'>(285)</span>
 - **Creator:** Robero Zacco
 - **Credits:**
    - Australia Telescope National Facility
@@ -624,7 +625,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-gal`
 - **Dataset version:** v17
 - **Minimum Gaia Sky version:** 3.7.2
-- **Size:** 4.6MiB <span class='unimportant'>(4874364)</span>
+- **Size:** 4.9MiB <span class='unimportant'>(5143697)</span>
 - **Number of objects:** 875 <span class='unimportant'>(875)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
@@ -648,7 +649,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-gal`
 - **Dataset version:** v8
 - **Minimum Gaia Sky version:** 3.5.8
-- **Size:** 10.9MiB <span class='unimportant'>(11425140)</span>
+- **Size:** 13.8MiB <span class='unimportant'>(14492179)</span>
 - **Number of objects:** 327.83k <span class='unimportant'>(327835)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
@@ -671,7 +672,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-gal`
 - **Dataset version:** v8
 - **Minimum Gaia Sky version:** 3.5.8
-- **Size:** 79.0MiB <span class='unimportant'>(82844533)</span>
+- **Size:** 106.9MiB <span class='unimportant'>(112139328)</span>
 - **Number of objects:** 3.04M <span class='unimportant'>(3040257)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
@@ -694,7 +695,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-gal`
 - **Dataset version:** v5
 - **Minimum Gaia Sky version:** 3.5.8
-- **Size:** 69.9MiB <span class='unimportant'>(73293039)</span>
+- **Size:** 96.6MiB <span class='unimportant'>(101246729)</span>
 - **Number of objects:** 2.81M <span class='unimportant'>(2812409)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
@@ -717,7 +718,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-gal`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.5.8
-- **Size:** 98.3MiB <span class='unimportant'>(103124179)</span>
+- **Size:** 124.9MiB <span class='unimportant'>(130962565)</span>
 - **Number of objects:** 3.64M <span class='unimportant'>(3637836)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
@@ -731,7 +732,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 <h2 id='catalog-cluster'>Cluster catalogs</h2>
 <a href='#catalog-clusters-hunt-reffert-2023'></a><details id="catalog-clusters-hunt-reffert-2023">
 <summary>
-<h3>DR3 Open Clusters (Hunt, Reffert) 2023 <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/clusters-hunt-reffert-2023/002_20230601/index.html' title='DR3 Open Clusters (Hunt, Reffert) 2023 files'>🔗</a></span><br/><i class="gs-ph-graph" title="Type: catalog-cluster"></i> <code title="Key: catalog-clusters-hunt-reffert-2023">catalog-clusters-hunt-reffert-2023</code></h3>
+<h3>DR3 Open Clusters Hunt-Reffert 2023 <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/clusters-hunt-reffert-2023/002_20230601/index.html' title='DR3 Open Clusters Hunt-Reffert 2023 files'>🔗</a></span><br/><i class="gs-ph-graph" title="Type: catalog-cluster"></i> <code title="Key: catalog-clusters-hunt-reffert-2023">catalog-clusters-hunt-reffert-2023</code></h3>
 <img src="/img/datasets/catalog-cluster.jpg" title="catalog-cluster"></img>
 </summary>
 <article>
@@ -741,7 +742,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-cluster`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.5.0
-- **Size:** 991.7KiB <span class='unimportant'>(1015463)</span>
+- **Size:** 1.4MiB <span class='unimportant'>(1520425)</span>
 - **Number of objects:** 7.17k <span class='unimportant'>(7167)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
@@ -759,16 +760,16 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Open Clusters catalog based on DR2 data, by A. Castro-Ginard et al.</div>
+<div class='description'>Open Clusters catalog based on Gaia DR2 data, by A. Castro-Ginard et al.</div>
 
 - **Type:** `catalog-cluster`
 - **Dataset version:** v7
 - **Minimum Gaia Sky version:** 3.5.0
-- **Size:** 140.5KiB <span class='unimportant'>(143890)</span>
+- **Size:** 349.2KiB <span class='unimportant'>(357605)</span>
 - **Number of objects:** 2.02k <span class='unimportant'>(2017)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://ui.adsabs.harvard.edu/abs/2020A&A...635A..45C/](https://ui.adsabs.harvard.edu/abs/2020A&A...635A..45C/)
+   - [https://doi.org/10.1051/0004-6361/201937386](https://doi.org/10.1051/0004-6361/201937386)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/ocdr2/v07_20230601/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/ocdr2/v07_20230601/index.html)
 </div>
@@ -777,7 +778,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 
 <a href='#catalog-mwsc'></a><details id="catalog-mwsc">
 <summary>
-<h3>MWSC <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/mwsc/v07_20230601/index.html' title='MWSC files'>🔗</a></span><br/><i class="gs-ph-graph" title="Type: catalog-cluster"></i> <code title="Key: catalog-mwsc">catalog-mwsc</code></h3>
+<h3>MWSC (Karachenko et. al. 2013) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/mwsc/v07_20230601/index.html' title='MWSC (Karachenko et. al. 2013) files'>🔗</a></span><br/><i class="gs-ph-graph" title="Type: catalog-cluster"></i> <code title="Key: catalog-mwsc">catalog-mwsc</code></h3>
 <img src="/img/datasets/catalog-cluster.jpg" title="catalog-cluster"></img>
 </summary>
 <article>
@@ -787,7 +788,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-cluster`
 - **Dataset version:** v7
 - **Minimum Gaia Sky version:** 3.5.0
-- **Size:** 150.6KiB <span class='unimportant'>(154260)</span>
+- **Size:** 380.1KiB <span class='unimportant'>(389172)</span>
 - **Number of objects:** 3.01k <span class='unimportant'>(3006)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
@@ -811,7 +812,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-other`
 - **Dataset version:** v12
 - **Minimum Gaia Sky version:** 3.7.2
-- **Size:** 4.6MiB <span class='unimportant'>(4833849)</span>
+- **Size:** 5.5MiB <span class='unimportant'>(5812242)</span>
 - **Number of objects:** 47 <span class='unimportant'>(47)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
@@ -857,9 +858,11 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-other`
 - **Dataset version:** v4
 - **Minimum Gaia Sky version:** 3.7.2
-- **Size:** 430.8KiB <span class='unimportant'>(441156)</span>
-- **Number of objects:** 10k <span class='unimportant'>(10000.0)</span>
+- **Size:** 705.3KiB <span class='unimportant'>(722247)</span>
+- **Number of objects:** 10k <span class='unimportant'>(10000)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
+- **Sources/links:**
+   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud/v004_20260220/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud/v004_20260220/index.html)
 </div>
@@ -879,10 +882,11 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-sso`
 - **Dataset version:** v4
 - **Minimum Gaia Sky version:** 3.7.2
-- **Size:** 12.8MiB <span class='unimportant'>(13439576)</span>
-- **Number of objects:** 156.59k <span class='unimportant'>(156588)</span>
-- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Size:** 21.3MiB <span class='unimportant'>(22338745)</span>
+- **Number of objects:** 156.76k <span class='unimportant'>(156762)</span>
+- **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Replaces:**
+    - [catalog-asteroids-dr2](#catalog-asteroids-dr2)
     - [catalog-asteroids-dr3](#catalog-asteroids-dr3)
     - [catalog-asteroids-dr3-nea](#catalog-asteroids-dr3-nea)
     - [catalog-asteroids-dr3-trojan](#catalog-asteroids-dr3-trojan)
@@ -903,12 +907,12 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>About 154k asteroids and other SSO, based on Gaia DR3 data.</div>
+<div class='description'>More than 150k asteroids and other SSO, based on Gaia DR3 data.</div>
 
 - **Type:** `catalog-sso`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 15.3MiB <span class='unimportant'>(16080022)</span>
+- **Size:** 77.9MiB <span class='unimportant'>(81663547)</span>
 - **Number of objects:** 154.79k <span class='unimportant'>(154787)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Replaces:**
@@ -931,8 +935,8 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-sso`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 15.3MiB <span class='unimportant'>(16080022)</span>
-- **Number of objects:** 154.79k <span class='unimportant'>(154787)</span>
+- **Size:** 315.8KiB <span class='unimportant'>(323354)</span>
+- **Number of objects:** 394 <span class='unimportant'>(394)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-nea/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-nea/v01_20221116/index.html)
@@ -947,12 +951,12 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Some 390 near Earth asteroids found in the Gaia DR3 catalog.</div>
+<div class='description'>The Jupiter Trojan asteroids in the Gaia DR3 catalog.</div>
 
 - **Type:** `catalog-sso`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 161.1KiB <span class='unimportant'>(164988)</span>
+- **Size:** 1.5MiB <span class='unimportant'>(1540159)</span>
 - **Number of objects:** 1.54k <span class='unimportant'>(1545)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
@@ -973,7 +977,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Type:** `catalog-sso`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 908.5KiB <span class='unimportant'>(930272)</span>
+- **Size:** 7.0MiB <span class='unimportant'>(7311360)</span>
 - **Number of objects:** 14.1k <span class='unimportant'>(14104)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
@@ -997,8 +1001,8 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Type:** `system`
 - **Dataset version:** v3
 - **Minimum Gaia Sky version:** 3.7.1
-- **Size:** 3.2MiB <span class='unimportant'>(3312438)</span>
-- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
+- **Size:** 18.8MiB <span class='unimportant'>(19668671)</span>
+- **Number of objects:** 9.79k <span class='unimportant'>(9793)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Credits:**
    - NASA Exoplanet Archive
@@ -1015,19 +1019,21 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 
 <a href='#system-exonia'></a><details id="system-exonia">
 <summary>
-<h3>Exonia system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v04_20260109/index.html' title='Exonia system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-exonia">system-exonia</code></h3>
+<h3>Exonia extrasolar system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v04_20260109/index.html' title='Exonia extrasolar system files'>🔗</a></span><br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-exonia">system-exonia</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>A made-up partially procedurally generated extra-solar system with two stars, four planets and a moon.</div>
+<div class='description'>A made-up, partially procedurally generated extra-solar system with two stars, four planets and a moon.</div>
 
 - **Type:** `system`
 - **Dataset version:** v4
 - **Minimum Gaia Sky version:** 3.7.1
-- **Size:** 2.4MiB <span class='unimportant'>(2556785)</span>
+- **Size:** 2.5MiB <span class='unimportant'>(2663993)</span>
 - **Number of objects:** 7 <span class='unimportant'>(7)</span>
 - **Creator:** N/A
+- **Sources/links:**
+   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v04_20260109/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v04_20260109/index.html)
 </div>
@@ -1041,12 +1047,12 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>A system with a star and a planet. The Gaia orbit corresponds to the M-dwarf's reflex motion due to the orbiting planet, which is a gas giant. It was one of the earliest radial-velocity discovery. The system is less than 5 pc from the Sun.</div>
+<div class='description'>A system with a star and a planet. The Gaia orbit corresponds to the M-dwarf's reflex motion due to the orbting planet, which is a gas giant. It was one of the earliest radial-velocity discovery. The system is less than 5 pc from the Sun.</div>
 
 - **Type:** `system`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 1.5KiB <span class='unimportant'>(1540)</span>
+- **Size:** 5.0KiB <span class='unimportant'>(5160)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
@@ -1067,7 +1073,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Type:** `system`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 1.5KiB <span class='unimportant'>(1534)</span>
+- **Size:** 5.2KiB <span class='unimportant'>(5314)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
@@ -1088,7 +1094,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Type:** `system`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 1.5KiB <span class='unimportant'>(1517)</span>
+- **Size:** 5.0KiB <span class='unimportant'>(5152)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
@@ -1109,7 +1115,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Type:** `system`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 1.3KiB <span class='unimportant'>(1320)</span>
+- **Size:** 4.4KiB <span class='unimportant'>(4485)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
@@ -1130,7 +1136,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Type:** `system`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 1.2KiB <span class='unimportant'>(1264)</span>
+- **Size:** 4.4KiB <span class='unimportant'>(4472)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
@@ -1151,7 +1157,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Type:** `system`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 1.2KiB <span class='unimportant'>(1244)</span>
+- **Size:** 4.0KiB <span class='unimportant'>(4100)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
@@ -1172,7 +1178,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Type:** `system`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.3.1
-- **Size:** 1.5KiB <span class='unimportant'>(1522)</span>
+- **Size:** 4.8KiB <span class='unimportant'>(4867)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
@@ -1196,7 +1202,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `system`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.6.5
-- **Size:** 145.0KiB <span class='unimportant'>(148529)</span>
+- **Size:** 384.8KiB <span class='unimportant'>(393999)</span>
 - **Number of objects:** 6 <span class='unimportant'>(6)</span>
 - **Creator:** Toni Sagristà
 - **Credits:**
@@ -1223,16 +1229,16 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Dust map iso-density surface map for 15% and 60% density, based on Gaia DR2 data.</div>
+<div class='description'>Dust isosurface meshes (15% and 60% density) based on Gaia DR2 by Kevin Jardine.</div>
 
 - **Type:** `mesh`
 - **Dataset version:** v4
 - **Minimum Gaia Sky version:** 3.5.0
-- **Size:** 2.7MiB <span class='unimportant'>(2828359)</span>
+- **Size:** 2.7MiB <span class='unimportant'>(2828309)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Kevin Jardine, Toni Sagristà
 - **Sources/links:**
-   - [https://galaxymap.org](https://galaxymap.org)
+   - [http://galaxymap.org](http://galaxymap.org)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/dust/v04_20230704/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/dust/v04_20230704/index.html)
 </div>
@@ -1251,11 +1257,11 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `mesh`
 - **Dataset version:** v4
 - **Minimum Gaia Sky version:** 3.5.0
-- **Size:** 2.4MiB <span class='unimportant'>(2475047)</span>
-- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
+- **Size:** 2.4MiB <span class='unimportant'>(2475017)</span>
+- **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Kevin Jardine, Toni Sagristà
 - **Sources/links:**
-   - [https://galaxymap.org](https://galaxymap.org)
+   - [http://galaxymap.org](http://galaxymap.org)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/hii/v04_20230704/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/hii/v04_20230704/index.html)
 </div>
@@ -1274,11 +1280,11 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `mesh`
 - **Dataset version:** v3
 - **Minimum Gaia Sky version:** 3.5.0
-- **Size:** 80.1MiB <span class='unimportant'>(83981902)</span>
+- **Size:** 159.9MiB <span class='unimportant'>(167662284)</span>
 - **Number of objects:** 8 <span class='unimportant'>(8)</span>
 - **Creator:** Kevin Jardine, Toni Sagristà
 - **Sources/links:**
-   - [https://galaxymap.org](https://galaxymap.org)
+   - [http://galaxymap.org](http://galaxymap.org)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/isodensity/v03_20230704/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/isodensity/v03_20230704/index.html)
 </div>
@@ -1297,7 +1303,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `mesh`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.6.0
-- **Size:** 1.4MiB <span class='unimportant'>(1459180)</span>
+- **Size:** 7.7MiB <span class='unimportant'>(8078371)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** N/A
 - **Replaces:**
@@ -1323,7 +1329,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `mesh`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.6.0
-- **Size:** 8.9MiB <span class='unimportant'>(9336476)</span>
+- **Size:** 49.3MiB <span class='unimportant'>(51701865)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Kevin Jardine, Toni Sagristà
 - **Replaces:**
@@ -1348,7 +1354,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `mesh`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.6.0
-- **Size:** 24.0MiB <span class='unimportant'>(25168342)</span>
+- **Size:** 85.7MiB <span class='unimportant'>(89860887)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Kevin Jardine, Toni Sagristà
 - **Replaces:**
@@ -1374,8 +1380,8 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `spacecraft`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.7.3
-- **Size:** 2.2MiB <span class='unimportant'>(2275023)</span>
-- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
+- **Size:** 3.9MiB <span class='unimportant'>(4101818)</span>
+- **Number of objects:** 6 <span class='unimportant'>(6)</span>
 - **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
 - **Credits:**
    - Gaia Sky development team
@@ -1403,8 +1409,8 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `spacecraft`
 - **Dataset version:** v4
 - **Minimum Gaia Sky version:** 3.7.3
-- **Size:** 21.7MiB <span class='unimportant'>(22764219)</span>
-- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
+- **Size:** 36.9MiB <span class='unimportant'>(38667666)</span>
+- **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
 - **Credits:**
    - ESA's Euclid mission
@@ -1432,8 +1438,8 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `spacecraft`
 - **Dataset version:** v5
 - **Minimum Gaia Sky version:** N/A
-- **Size:** 3.6MiB <span class='unimportant'>(3738915)</span>
-- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
+- **Size:** 18.0MiB <span class='unimportant'>(18902927)</span>
+- **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Credits:**
    - James Webb Space Telescope - NASA Science
@@ -1460,8 +1466,8 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `spacecraft`
 - **Dataset version:** v3
 - **Minimum Gaia Sky version:** N/A
-- **Size:** 8.9MiB <span class='unimportant'>(9305345)</span>
-- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
+- **Size:** 9.3MiB <span class='unimportant'>(9701091)</span>
+- **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
 - **Credits:**
    - NASA/ESA
@@ -1486,8 +1492,8 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `spacecraft`
 - **Dataset version:** v3
 - **Minimum Gaia Sky version:** N/A
-- **Size:** 24.0MiB <span class='unimportant'>(25184914)</span>
-- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
+- **Size:** 31.9MiB <span class='unimportant'>(33403076)</span>
+- **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
 - **Credits:**
    - ESA, NASA, Roscosmos, JAXA, CSA
@@ -1513,8 +1519,8 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `spacecraft`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.7.3
-- **Size:** 11.0MiB <span class='unimportant'>(11572137)</span>
-- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
+- **Size:** 28.1MiB <span class='unimportant'>(29433076)</span>
+- **Number of objects:** 6 <span class='unimportant'>(6)</span>
 - **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
 - **Credits:**
    - State vectors (trajectory): NASA Horizons system - https://ssd.jpl.nasa.gov/horizons/
@@ -1543,8 +1549,8 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `spacecraft`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.7.3
-- **Size:** 11.6MiB <span class='unimportant'>(12154073)</span>
-- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
+- **Size:** 15.9MiB <span class='unimportant'>(16663997)</span>
+- **Number of objects:** 4 <span class='unimportant'>(4)</span>
 - **Creator:** Toni Sagrsità - tsagrista@ari.uni-heidelberg.de
 - **Credits:**
    - State vectors (trajectory): NASA Horizons system - https://ssd.jpl.nasa.gov/horizons/
@@ -1572,9 +1578,18 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `spacecraft`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.7.3
-- **Size:** 999.9KiB <span class='unimportant'>(1023916)</span>
-- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
+- **Size:** 3.6MiB <span class='unimportant'>(3784250)</span>
+- **Number of objects:** 31 <span class='unimportant'>(31)</span>
 - **Creator:** Trevor Kjorlien, Plateau Astro
+- **Credits:**
+   - GPS: USSF
+   - Dataset: Trevor Kjorlien, Plateau Astro
+   - 3D model: dh14300 at cgtrader.com, modified by Toni Sagristà
+   - GPS elements: Celestrak
+- **Sources/links:**
+   - [https://www.nasa.gov/directorates/somd/space-communications-navigation-program/gps/](https://www.nasa.gov/directorates/somd/space-communications-navigation-program/gps/)
+   - [https://www.cgtrader.com/free-3d-models/space/spaceship/gps-block-iii-satellite](https://www.cgtrader.com/free-3d-models/space/spaceship/gps-block-iii-satellite)
+   - [https://celestrak.org/NORAD/elements/gp.php?GROUP=gps-ops&FORMAT=tle](https://celestrak.org/NORAD/elements/gp.php?GROUP=gps-ops&FORMAT=tle)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v002_20260414/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v002_20260414/index.html)
 </div>
@@ -1593,8 +1608,8 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `spacecraft`
 - **Dataset version:** v3
 - **Minimum Gaia Sky version:** N/A
-- **Size:** 3.0MiB <span class='unimportant'>(3131386)</span>
-- **Number of objects:** N/A <span class='unimportant'>(N/A)</span>
+- **Size:** 3.5MiB <span class='unimportant'>(3634635)</span>
+- **Number of objects:** 4 <span class='unimportant'>(4)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Sources/links:**
    - [https://voyager.jpl.nasa.gov/](https://voyager.jpl.nasa.gov/)
@@ -1612,12 +1627,12 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 </summary>
 <article>
 <div class='article-content'>
-<div class='description'>Ultra high-resolution (down to 10 m/px) virtual texture for 31 selected urban areas, and 128K elsewhere. Levels 0-5 extracted from NASA's Blue Marble July 86K image. Level 6 and below are processed from Sentinel-2 data. Includes the following urban areas down to 10-20 m/px resolution: Heidelberg, Barcelona, Montreal, New York, Paris, Rome, Berlin, Edinburgh, London, Madrid, Prague, Lisbon, Chicago, San Francisco, Los Angeles, New Delhi, Beijing, Tokyo, Ankara, Budapest, Amsterdam, Cape Town, Kathmandu, Vienna, Bratislava, Mumbai, Cairo, Istanbul, Copenhagen, Cape Canaveral, Andorra la Vella.</div>
+<div class='description'>Ultra high-resolution (down to 10 m/px) virtual texture for 31 selected urban areas, and 128K elsewhere. Levels 0-5 extracted from NASA's Blue Marble July 86K image. Level 6 and below are processed from Sentinel-2 data. Includes the following urban areas down to 10-20 m/px resolution: Heidelberg, Barcelona, Montreal, New York, Paris, Rome, Berlin, Edinburgh, London, Madrid, Prague, Lisbon, Chicago, San Francisco, Los Angeles, New Delhi, Beijing, Tokyo, Ankara, Budapest, Amsterdam, Cape Town, Kathmandu, Vienna, Bratislava, Mumbai, Cairo, Istanbul, Copenhagen, Cape Canaveral, Shanghai, Sao Paulo, Mexico City, Tehran, Buenos Aires, Rio de Janeiro, Lagos, Bogota, Lima, Hong Kong, Bangkok, and Andorra la Vella.</div>
 
 - **Type:** `virtualtex-pack`
 - **Dataset version:** v0
-- **Minimum Gaia Sky version:** 3.6.10
-- **Size:** 3.4GiB <span class='unimportant'>(3659020622)</span>
+- **Minimum Gaia Sky version:** 3.6.8
+- **Size:** 3.4GiB <span class='unimportant'>(3696717048)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Credits:**
@@ -1646,7 +1661,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `virtualtex-pack`
 - **Dataset version:** v0
 - **Minimum Gaia Sky version:** 3.4.0
-- **Size:** 1.3GiB <span class='unimportant'>(1373115642)</span>
+- **Size:** 1.3GiB <span class='unimportant'>(1427321218)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Toni Sagristà
 - **Sources/links:**
@@ -1669,7 +1684,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `virtualtex-pack`
 - **Dataset version:** v0
 - **Minimum Gaia Sky version:** 3.4.0
-- **Size:** 645.9MiB <span class='unimportant'>(677264527)</span>
+- **Size:** 802.6MiB <span class='unimportant'>(841604384)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Toni Sagristà
 - **Sources/links:**
@@ -1692,7 +1707,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `virtualtex-pack`
 - **Dataset version:** v0
 - **Minimum Gaia Sky version:** 3.4.0
-- **Size:** 378.3MiB <span class='unimportant'>(396667328)</span>
+- **Size:** 399.9MiB <span class='unimportant'>(419326290)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Toni Sagristà
 - **Sources/links:**
@@ -1705,7 +1720,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 
 <a href='#vt-mars-diffuse-vanvliet'></a><details id="vt-mars-diffuse-vanvliet">
 <summary>
-<h3>64K Mars diffuse VT (Celestia) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-mars-diffuse-vanvliet/000_20230125/index.html' title='64K Mars diffuse VT (Celestia) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-mars-diffuse-vanvliet">vt-mars-diffuse-vanvliet</code></h3>
+<h3>64K Mars difuse VT (Celestia) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-mars-diffuse-vanvliet/000_20230125/index.html' title='64K Mars difuse VT (Celestia) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-mars-diffuse-vanvliet">vt-mars-diffuse-vanvliet</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
 </summary>
 <article>
@@ -1715,7 +1730,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `virtualtex-pack`
 - **Dataset version:** v0
 - **Minimum Gaia Sky version:** 3.4.0
-- **Size:** 1.2GiB <span class='unimportant'>(1340485779)</span>
+- **Size:** 1.2GiB <span class='unimportant'>(1340083517)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Toni Sagristà
 - **Sources/links:**
@@ -1738,7 +1753,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `virtualtex-pack`
 - **Dataset version:** v0
 - **Minimum Gaia Sky version:** 3.4.0
-- **Size:** 67.7MiB <span class='unimportant'>(71003938)</span>
+- **Size:** 93.5MiB <span class='unimportant'>(98024559)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Toni Sagristà
 - **Sources/links:**
@@ -1751,7 +1766,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 
 <a href='#vt-moon-diffuse-vanvliet'></a><details id="vt-moon-diffuse-vanvliet">
 <summary>
-<h3>64K Moon diffuse VT (Celestia) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-diffuse-vanvliet/000_20230125/index.html' title='64K Moon diffuse VT (Celestia) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-moon-diffuse-vanvliet">vt-moon-diffuse-vanvliet</code></h3>
+<h3>64K Moon difuse VT (Celestia) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-diffuse-vanvliet/000_20230125/index.html' title='64K Moon difuse VT (Celestia) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-moon-diffuse-vanvliet">vt-moon-diffuse-vanvliet</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
 </summary>
 <article>
@@ -1761,7 +1776,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Type:** `virtualtex-pack`
 - **Dataset version:** v0
 - **Minimum Gaia Sky version:** 3.4.0
-- **Size:** 2.7GiB <span class='unimportant'>(2938258080)</span>
+- **Size:** 2.7GiB <span class='unimportant'>(2938286856)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Toni Sagristà
 - **Sources/links:**
@@ -1808,7 +1823,7 @@ The reference surface for all LRO data is a sphere of radius 1737.4 km. LOLA's g
 - **Type:** `virtualtex-pack`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.4.0
-- **Size:** 41.1MiB <span class='unimportant'>(43124453)</span>
+- **Size:** 46.1MiB <span class='unimportant'>(48323624)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Toni Sagristà
 - **Sources/links:**
@@ -1832,7 +1847,7 @@ The reference surface for all LRO data is a sphere of radius 1737.4 km. LOLA's g
 - **Type:** `volume`
 - **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.6.5
-- **Size:** 46.9KiB <span class='unimportant'>(48046)</span>
+- **Size:** 183.9KiB <span class='unimportant'>(188285)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Toni Sagristà
 - **Sources/links:**
@@ -1855,12 +1870,11 @@ The reference surface for all LRO data is a sphere of radius 1737.4 km. LOLA's g
 - **Type:** `volume`
 - **Dataset version:** v1
 - **Minimum Gaia Sky version:** 3.7.2
-- **Size:** 77.4MiB <span class='unimportant'>(81153250)</span>
-- **Number of objects:** 1.5M <span class='unimportant'>(1500000.0)</span>
+- **Size:** 139.7MiB <span class='unimportant'>(146508089)</span>
+- **Number of objects:** 1.5M <span class='unimportant'>(1500000)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Sources/links:**
    - [https://gaiasky.space/resources/datasets](https://gaiasky.space/resources/datasets)
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/saturn-rings](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/saturn-rings)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/saturn-rings/v01_20260326/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/saturn-rings/v01_20260326/index.html)
 </div>

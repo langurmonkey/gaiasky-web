@@ -139,6 +139,17 @@ for dstype, datasets in datasets_by_type.items():
 
     for dataset in datasets:
         ds_url = os.path.dirname(update_link(dataset.get('file', ''), base_url))
+        # Try to fetch a per-dataset dataset.json for more up-to-date metadata
+        try:
+            ds_json_url = ds_url + "/dataset.json"
+            ds_response = requests.get(ds_json_url, timeout=5)
+            if ds_response.status_code == 200:
+                ds_json = ds_response.json()
+                # Merge: dataset.json values take precedence, original dataset fills gaps
+                dataset = {**dataset, **ds_json}
+        except Exception:
+            pass
+
         file = ds_url + "/index.html"
         name = dataset.get('name', 'N/A')
         key = dataset.get('key', 'N/A')  # Use 'name' as key
