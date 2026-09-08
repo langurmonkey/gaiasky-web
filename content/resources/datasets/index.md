@@ -166,7 +166,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 
 <a href='#catalog-whitedwarfs-dr2'></a><details id="catalog-whitedwarfs-dr2">
 <summary>
-<h3>DR2 White Dwarfs <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/dr2/v03_20221115/index.html' title='DR2 White Dwarfs files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-whitedwarfs-dr2">catalog-whitedwarfs-dr2</code></h3>
+<h3>DR2 White Dwarfs <span class="replaced-warning" title="Replaced by: catalog-whitedwarfs-edr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/dr2/v03_20221115/index.html' title='DR2 White Dwarfs files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-whitedwarfs-dr2">catalog-whitedwarfs-dr2</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
 </summary>
 <article>
@@ -179,6 +179,8 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Size:** 120.7MiB <span class='unimportant'>(126516020)</span>
 - **Number of objects:** 256.08k <span class='unimportant'>(256082)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Replaced by:**
+    - [catalog-whitedwarfs-edr3](#catalog-whitedwarfs-edr3)
 - **Sources/links:**
    - [http://adsabs.harvard.edu/abs/2019MNRAS.482.4570G](http://adsabs.harvard.edu/abs/2019MNRAS.482.4570G)
 - **Files:**
@@ -214,7 +216,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 
 <a href='#catalog-variablestars-dr2'></a><details id="catalog-variablestars-dr2">
 <summary>
-<h3>Gaia DR2 Cepheid and RR Lyrae <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr2/v03_20221115/index.html' title='Gaia DR2 Cepheid and RR Lyrae files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-variablestars-dr2">catalog-variablestars-dr2</code></h3>
+<h3>Gaia DR2 Cepheid and RR Lyrae <span class="replaced-warning" title="Replaced by: catalog-variablestars-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr2/v03_20221115/index.html' title='Gaia DR2 Cepheid and RR Lyrae files'>🔗</a></span><br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-variablestars-dr2">catalog-variablestars-dr2</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
 </summary>
 <article>
@@ -227,6 +229,8 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Size:** 143.1MiB <span class='unimportant'>(150038565)</span>
 - **Number of objects:** 106.34k <span class='unimportant'>(106339)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Replaced by:**
+    - [catalog-variablestars-dr3](#catalog-variablestars-dr3)
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de](https://gaia.ari.uni-heidelberg.de)
 - **Files:**
@@ -902,7 +906,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 
 <a href='#catalog-asteroids-dr3'></a><details id="catalog-asteroids-dr3">
 <summary>
-<h3>Asteroids and SSO (Gaia DR3) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3/v02_20221116/index.html' title='Asteroids and SSO (Gaia DR3) files'>🔗</a></span><br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-dr3">catalog-asteroids-dr3</code></h3>
+<h3>Asteroids and SSO (Gaia DR3) <span class="replaced-warning" title="Replaced by: catalog-asteroids-fpr">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3/v02_20221116/index.html' title='Asteroids and SSO (Gaia DR3) files'>🔗</a></span><br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-dr3">catalog-asteroids-dr3</code></h3>
 <img src="/img/datasets/catalog-sso.jpg" title="catalog-sso"></img>
 </summary>
 <article>
@@ -917,6 +921,8 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Replaces:**
     - [catalog-asteroids-dr2](#catalog-asteroids-dr2)
+- **Replaced by:**
+    - [catalog-asteroids-fpr](#catalog-asteroids-fpr)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3/v02_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3/v02_20221116/index.html)
 </div>
@@ -925,7 +931,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 
 <a href='#catalog-asteroids-dr3-nea'></a><details id="catalog-asteroids-dr3-nea">
 <summary>
-<h3>NEA asteroids (Gaia DR3, coloured) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-nea/v01_20221116/index.html' title='NEA asteroids (Gaia DR3, coloured) files'>🔗</a></span><br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-dr3-nea">catalog-asteroids-dr3-nea</code></h3>
+<h3>NEA asteroids (Gaia DR3, coloured) <span class="replaced-warning" title="Replaced by: catalog-asteroids-fpr">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-nea/v01_20221116/index.html' title='NEA asteroids (Gaia DR3, coloured) files'>🔗</a></span><br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-dr3-nea">catalog-asteroids-dr3-nea</code></h3>
 <img src="/img/datasets/catalog-sso.jpg" title="catalog-sso"></img>
 </summary>
 <article>
@@ -938,6 +944,8 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Size:** 315.8KiB <span class='unimportant'>(323354)</span>
 - **Number of objects:** 394 <span class='unimportant'>(394)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Replaced by:**
+    - [catalog-asteroids-fpr](#catalog-asteroids-fpr)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-nea/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-nea/v01_20221116/index.html)
 </div>
@@ -946,7 +954,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 
 <a href='#catalog-asteroids-dr3-trojan'></a><details id="catalog-asteroids-dr3-trojan">
 <summary>
-<h3>Trojan asteroids (Gaia DR3, coloured) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-trojan/v01_20221116/index.html' title='Trojan asteroids (Gaia DR3, coloured) files'>🔗</a></span><br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-dr3-trojan">catalog-asteroids-dr3-trojan</code></h3>
+<h3>Trojan asteroids (Gaia DR3, coloured) <span class="replaced-warning" title="Replaced by: catalog-asteroids-fpr">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-trojan/v01_20221116/index.html' title='Trojan asteroids (Gaia DR3, coloured) files'>🔗</a></span><br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-dr3-trojan">catalog-asteroids-dr3-trojan</code></h3>
 <img src="/img/datasets/catalog-sso.jpg" title="catalog-sso"></img>
 </summary>
 <article>
@@ -959,6 +967,8 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Size:** 1.5MiB <span class='unimportant'>(1540159)</span>
 - **Number of objects:** 1.54k <span class='unimportant'>(1545)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Replaced by:**
+    - [catalog-asteroids-fpr](#catalog-asteroids-fpr)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-trojan/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-trojan/v01_20221116/index.html)
 </div>
@@ -967,7 +977,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 
 <a href='#catalog-asteroids-dr2'></a><details id="catalog-asteroids-dr2">
 <summary>
-<h3>Asteroids and SSO (Gaia DR2) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr2/v02_20221116/index.html' title='Asteroids and SSO (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-dr2">catalog-asteroids-dr2</code></h3>
+<h3>Asteroids and SSO (Gaia DR2) <span class="replaced-warning" title="Replaced by: catalog-asteroids-fpr, catalog-asteroids-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr2/v02_20221116/index.html' title='Asteroids and SSO (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-dr2">catalog-asteroids-dr2</code></h3>
 <img src="/img/datasets/catalog-sso.jpg" title="catalog-sso"></img>
 </summary>
 <article>
@@ -980,6 +990,9 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Size:** 7.0MiB <span class='unimportant'>(7311360)</span>
 - **Number of objects:** 14.1k <span class='unimportant'>(14104)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Replaced by:**
+    - [catalog-asteroids-fpr](#catalog-asteroids-fpr)
+    - [catalog-asteroids-dr3](#catalog-asteroids-dr3)
 - **Files:**
      - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr2/v02_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr2/v02_20221116/index.html)
 </div>
@@ -1224,7 +1237,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 <h2 id='mesh'>3D iso-density meshes</h2>
 <a href='#mesh-dust-dr2'></a><details id="mesh-dust-dr2">
 <summary>
-<h3>Dust iso-density maps (Gaia DR2) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/dust/v04_20230704/index.html' title='Dust iso-density maps (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-dust-dr2">mesh-dust-dr2</code></h3>
+<h3>Dust iso-density maps (Gaia DR2) <span class="replaced-warning" title="Replaced by: mesh-dust-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/dust/v04_20230704/index.html' title='Dust iso-density maps (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-dust-dr2">mesh-dust-dr2</code></h3>
 <img src="/img/datasets/mesh.jpg" title="mesh"></img>
 </summary>
 <article>
@@ -1237,6 +1250,8 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Size:** 2.7MiB <span class='unimportant'>(2828309)</span>
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Kevin Jardine, Toni Sagristà
+- **Replaced by:**
+    - [mesh-dust-dr3](#mesh-dust-dr3)
 - **Sources/links:**
    - [http://galaxymap.org](http://galaxymap.org)
 - **Files:**
@@ -1247,7 +1262,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 
 <a href='#mesh-hii-dr2'></a><details id="mesh-hii-dr2">
 <summary>
-<h3>HII regions map (Gaia DR2) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/hii/v04_20230704/index.html' title='HII regions map (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-hii-dr2">mesh-hii-dr2</code></h3>
+<h3>HII regions map (Gaia DR2) <span class="replaced-warning" title="Replaced by: mesh-hii-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/hii/v04_20230704/index.html' title='HII regions map (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-hii-dr2">mesh-hii-dr2</code></h3>
 <img src="/img/datasets/mesh.jpg" title="mesh"></img>
 </summary>
 <article>
@@ -1260,6 +1275,8 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Size:** 2.4MiB <span class='unimportant'>(2475017)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Kevin Jardine, Toni Sagristà
+- **Replaced by:**
+    - [mesh-hii-dr3](#mesh-hii-dr3)
 - **Sources/links:**
    - [http://galaxymap.org](http://galaxymap.org)
 - **Files:**
@@ -1270,7 +1287,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 
 <a href='#mesh-stardensity-dr2'></a><details id="mesh-stardensity-dr2">
 <summary>
-<h3>Star density map (Gaia DR2) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/isodensity/v03_20230704/index.html' title='Star density map (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-stardensity-dr2">mesh-stardensity-dr2</code></h3>
+<h3>Star density map (Gaia DR2) <span class="replaced-warning" title="Replaced by: mesh-stardensity-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/isodensity/v03_20230704/index.html' title='Star density map (Gaia DR2) files'>🔗</a></span><br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-stardensity-dr2">mesh-stardensity-dr2</code></h3>
 <img src="/img/datasets/mesh.jpg" title="mesh"></img>
 </summary>
 <article>
@@ -1283,6 +1300,8 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Size:** 159.9MiB <span class='unimportant'>(167662284)</span>
 - **Number of objects:** 8 <span class='unimportant'>(8)</span>
 - **Creator:** Kevin Jardine, Toni Sagristà
+- **Replaced by:**
+    - [mesh-stardensity-dr3](#mesh-stardensity-dr3)
 - **Sources/links:**
    - [http://galaxymap.org](http://galaxymap.org)
 - **Files:**
@@ -1651,7 +1670,7 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 
 <a href='#vt-earth-diffuse-nasa'></a><details id="vt-earth-diffuse-nasa">
 <summary>
-<h3>128K Earth surface VT (NASA) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-nasa/000_20230125/index.html' title='128K Earth surface VT (NASA) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-earth-diffuse-nasa">vt-earth-diffuse-nasa</code></h3>
+<h3>128K Earth surface VT (NASA) <span class="replaced-warning" title="Replaced by: vt-earth-diffuse-sentinel">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-nasa/000_20230125/index.html' title='128K Earth surface VT (NASA) files'>🔗</a></span><br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-earth-diffuse-nasa">vt-earth-diffuse-nasa</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
 </summary>
 <article>
@@ -1664,6 +1683,8 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Size:** 1.3GiB <span class='unimportant'>(1427321218)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
 - **Creator:** Toni Sagristà
+- **Replaced by:**
+    - [vt-earth-diffuse-sentinel](#vt-earth-diffuse-sentinel)
 - **Sources/links:**
    - [https://visibleearth.nasa.gov/images/73909/december-blue-marble-next-generation-w-topography-and-bathymetry](https://visibleearth.nasa.gov/images/73909/december-blue-marble-next-generation-w-topography-and-bathymetry)
 - **Files:**

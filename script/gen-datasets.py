@@ -11,7 +11,7 @@ from millify import millify
 
 # Generates a datasets.md file from the online dataset descriptor file.
 
-# Function to convert bytes to a huma-readable format
+# Function to convert bytes to a human-readable format
 def sizeof_fmt(num, suffix="B"):
     for unit in ("", "Ki", "Mi", "Gi", "Ti", "Pi", "Ei", "Zi"):
         if abs(num) < 1024.0:
@@ -111,8 +111,51 @@ for dataset in files:
         if key not in latest_datasets or int(version) > int(latest_datasets[key]['version']):
             latest_datasets[key] = dataset
 
+# Base URL for repository
+base_url = 'https://gaia.ari.uni-heidelberg.de/gaiasky/repository/'
+
+# Step 1: Enrich each dataset with its per-dataset dataset.json (more up-to-date metadata)
+for key, dataset in list(latest_datasets.items()):
+    ds_url = os.path.dirname(update_link(dataset.get('file', ''), base_url))
+    try:
+        ds_json_url = ds_url + "/dataset.json"
+        ds_response = requests.get(ds_json_url, timeout=5)
+        if ds_response.status_code == 200:
+            ds_json = ds_response.json()
+            # Merge: dataset.json values take precedence, original dataset fills gaps
+            dataset = {**dataset, **ds_json}
+            latest_datasets[key] = dataset
+    except Exception:
+        pass
+
+# Step 2: Cross-populate replaces/replacedBy so relationships are complete both ways
+for key, dataset in list(latest_datasets.items()):
+    replaces = get_attr(dataset, ['replaces'], [])
+    replaced_by = get_attr(dataset, ['replacedBy', 'replacedby'], [])
+
+    # For each dataset this one replaces, ensure this dataset appears in its replacedBy
+    for rpl_key in replaces:
+        if rpl_key in latest_datasets:
+            rpl_dataset = latest_datasets[rpl_key]
+            rpl_replaced_by = get_attr(rpl_dataset, ['replacedBy', 'replacedby'], [])
+            if key not in rpl_replaced_by:
+                rpl_replaced_by.append(key)
+                rpl_dataset['replacedBy'] = rpl_replaced_by
+                latest_datasets[rpl_key] = rpl_dataset
+
+    # For each dataset that replaces this one, ensure this dataset appears in its replaces
+    for rpl_key in replaced_by:
+        if rpl_key in latest_datasets:
+            rpl_dataset = latest_datasets[rpl_key]
+            rpl_replaces = get_attr(rpl_dataset, ['replaces'], [])
+            if key not in rpl_replaces:
+                rpl_replaces.append(key)
+                rpl_dataset['replaces'] = rpl_replaces
+                latest_datasets[rpl_key] = rpl_dataset
+
 # Now: group by type, preserving type order as seen in the original files
 datasets_by_type = OrderedDict()
+already_grouped = set()
 for dataset in files:
     key = dataset.get('key')
     version = dataset.get('version')
@@ -121,15 +164,21 @@ for dataset in files:
     # Only consider the latest version
     if key is None or version is None:
         continue
-    if latest_datasets.get(key) != dataset:
+    if key not in latest_datasets:
         continue
+    if key in already_grouped:
+        continue
+    already_grouped.add(key)
+
+    # Use the enriched dataset from latest_datasets
+    enriched_dataset = latest_datasets[key]
+    dstype = enriched_dataset.get('type', dstype)
 
     if dstype not in datasets_by_type:
         datasets_by_type[dstype] = []
-    datasets_by_type[dstype].append(dataset)
+    datasets_by_type[dstype].append(enriched_dataset)
 
 # Generate Markdown
-base_url = 'https://gaia.ari.uni-heidelberg.de/gaiasky/repository/'
 markdown_content = []
 webdir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 
@@ -139,17 +188,6 @@ for dstype, datasets in datasets_by_type.items():
 
     for dataset in datasets:
         ds_url = os.path.dirname(update_link(dataset.get('file', ''), base_url))
-        # Try to fetch a per-dataset dataset.json for more up-to-date metadata
-        try:
-            ds_json_url = ds_url + "/dataset.json"
-            ds_response = requests.get(ds_json_url, timeout=5)
-            if ds_response.status_code == 200:
-                ds_json = ds_response.json()
-                # Merge: dataset.json values take precedence, original dataset fills gaps
-                dataset = {**dataset, **ds_json}
-        except Exception:
-            pass
-
         file = ds_url + "/index.html"
         name = dataset.get('name', 'N/A')
         key = dataset.get('key', 'N/A')  # Use 'name' as key
@@ -183,13 +221,19 @@ for dstype, datasets in datasets_by_type.items():
         else:
             img = None
 
+        # Warning icon if this dataset is replaced by others
+        replaced_warning = ""
+        if replaced_by:
+            replaced_titles = ", ".join(replaced_by)
+            replaced_warning = f' <span class="replaced-warning" title="Replaced by: {replaced_titles}">\u26a0\ufe0f</span>'
+
         markdown_content.append(f"<a href='#{key}'></a>")
-        markdown_content.append(f"<details id=\"{key}\">\n")
+        markdown_content.append(f'<details id="{key}">\n')
         markdown_content.append(f"<summary>\n")
-        markdown_content.append(f"<h3>{name} <span style='font-size: 0.4em;'><a href='{file}' title='{name} files'>🔗</a></span><br/><i class=\"gs-{dataicon}\" title=\"Type: {dstype}\"></i> <code title=\"Key: {key}\">{key}</code></h3>\n")
+        markdown_content.append(f"<h3>{name}{replaced_warning} <span style='font-size: 0.4em;'><a href='{file}' title='{name} files'>\U0001f517</a></span><br/><i class=\"gs-{dataicon}\" title=\"Type: {dstype}\"></i> <code title=\"Key: {key}\">{key}</code></h3>\n")
         if img:
             imgname = os.path.splitext(img)[0]
-            markdown_content.append(f"<img src=\"/img/datasets/{img}\" title=\"{imgname}\"></img>\n")
+            markdown_content.append(f'<img src="/img/datasets/{img}" title="{imgname}"></img>\n')
         markdown_content.append(f"</summary>\n")
         markdown_content.append(f"<article>\n")
         markdown_content.append(f"<div class='article-content'>\n")
