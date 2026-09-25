@@ -1057,6 +1057,10 @@ p.hint-title {
   padding: 0.1em 0.6em 0.1em 0;
 }
 
+#post-content blockquote p {
+  margin-top: 0 !important;
+}
+
 #post-content p {
   margin-top: 1em;
 }
