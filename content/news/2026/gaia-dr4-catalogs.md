@@ -1,6 +1,6 @@
 ---
-title: "Gaia DR4 star catalogs in Gaia Sky"
-date: 2026-09-24
+title: "DR4 star catalogs"
+date: 2026-09-29
 author: "tsagrista"
 tags: ["datasets", "catalogs", "data", "dr4", "gaiadr4"]
 category: "Catalogs"
@@ -9,15 +9,17 @@ draft: false
 
 In a little over a month, on December 2, [Gaia Data Release 4 (DR4)](https://www.cosmos.esa.int/en/web/gaia/data-release-4) will be made public. This data release will bring a new generation of star catalogs to Gaia Sky. Along with the release of DR4, we have taken the opportunity to simplify the way the Gaia catalogs are selected and presented.
 
+{{< fig src="img/2026/09/gaia_mw_panorama.jpg" class="fig-center fig-post" title="Gaia Milky Way panorama. ESA/Gaia/DPAC; Map: CC BY-SA 3.0 IGO" loading="lazy" >}}
+
 The main changes are simple:
 
 - **Fewer catalogs**
 - **Clearer names**
-- **Transparent relationship between catalog size and selection criteria**
+- **Upfront catalog size and selection criteria**
 
 In Gaia DR3, Gaia Sky offered a large collection of catalogs with names such as `tiny`, `weeny`, `small`, `medium`, `large`, `very large`, and `extra large`. While these names distinguished the datasets, they did not tell users how many stars they actually contained or what made one selection different from another.
 
-For DR4, we have replaced this collection with a smaller set of **8 catalogs**, using names that indicate their approximate number of stars. This makes it easier to understand the available choices at a glance and to select a dataset according to the desired balance between catalog size, astrometric quality, and graphics-memory requirements.
+For DR4, we have replaced this collection with a smaller set of **8 catalogs**, using names that indicate their approximate number of stars. This makes it easier to understand the available choices at a glance and to select a dataset according to the desired balance between catalog size, astrometric quality, and hardware.
 
 ## The new Gaia DR4 catalogs
 
