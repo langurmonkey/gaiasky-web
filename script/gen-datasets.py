@@ -236,8 +236,10 @@ for dstype, datasets in datasets_by_type.items():
 
         markdown_content.append(f"<a href='#{key}'></a>")
         markdown_content.append(f'<details id="{key}">\n')
-        markdown_content.append(f"<summary>\n")
-        markdown_content.append(f"<h3>{name}{replaced_warning} <span style='font-size: 0.4em;'><a href='{file}' title='{name} files'>\U0001f517</a></span><br/><i class=\"gs-{dataicon}\" title=\"Type: {dstype}\"></i> <code title=\"Key: {key}\">{key}</code></h3>\n")
+        markdown_content.append("<summary>\n")
+        markdown_content.append(f"<h3>{name}{replaced_warning} <span style='font-size: 0.4em;'><a href='{file}' title='{name} files'>\U0001f517</a></span>\n")
+        markdown_content.append(f"<a href='gaiasky://load?dataset={key}' title='Open \"{name}\" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>\n")
+        markdown_content.append(f"<br/><i class=\"gs-{dataicon}\" title=\"Type: {dstype}\"></i> <code title=\"Key: {key}\">{key}</code></h3>\n")
         if img:
             imgname = os.path.splitext(img)[0]
             markdown_content.append(f'<img src="/img/datasets/{img}" title="{imgname}"></img>\n')
