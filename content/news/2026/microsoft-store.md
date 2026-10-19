@@ -8,7 +8,7 @@ category: "Windows"
 css: ["css/downloads.css"]
 ---
 
-Gaia Sky is now available on the Microsoft Store! Windows users can install it directly from the store, making it easier than ever to get started exploring the universe.
+Gaia Sky is now [available on the Microsoft Store](https://apps.microsoft.com/detail/xpdbzffv2qtw9m)! Windows users can install it directly from the store, making it easier than ever to get started exploring the universe.
 
 Publishing the app turned out to be surprisingly quick and painless. Kudos to Microsoft for making the process so straightforward for developers!
 
