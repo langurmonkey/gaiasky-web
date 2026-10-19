@@ -32,7 +32,7 @@ content:
   - icon: gs-ph-graphics-card-duotone
     name: Advanced graphics
     text: >
-      Virtual textures, screen space reflections, shadows, HDR, volumes, dynamic resolution, etc.
+      Virtual textures, volumetric rendering, SSR, shadows, HDR, dynamic resolution, etc.
 
   - icon: gs-solar-planet-4-bold
     name: Planetary surfaces
