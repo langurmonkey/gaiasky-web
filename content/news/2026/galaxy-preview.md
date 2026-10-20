@@ -15,4 +15,4 @@ The video has been captured with a dataset of \\( 800 \times 800 \times 80 \\) v
 
 The Galaxy is based on Gaia DR3 data, prepared for Gaia Sky as a particle dataset by Stefan Payne-Wardenaar (check out his [Milky Way model](https://www.esa.int/Science_Exploration/Space_Science/Gaia/Last_starlight_for_ground-breaking_Gaia)), and then converted to a volume as a voxel grid.
 
-{{< yt id="3BWCaxGOCzs" title="Volumetric Milky Way rendering in Gaia Sky" caption="Credits: The Gaia Sky Project, ESA/DPAC/Gaia." >}}
+{{< yt id="3BWCaxGOCzs" title="Volumetric Milky Way rendering in Gaia Sky" caption="Credits: The Gaia Sky Project, ESA/Gaia/DPAC." >}}
