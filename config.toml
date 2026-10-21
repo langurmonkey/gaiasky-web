@@ -1,253 +1,253 @@
 title = "Gaia Sky"
-baseurl =  "https://gaiasky.space"
+baseurl = "https://gaiasky.space"
 locale = "en-us"
-theme = [ "hugo-easy-gallery" ]
+theme = ["hugo-easy-gallery"]
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 uglyurls = false
 enableGitInfo = true
 
 [outputs]
-  home = ["HTML", "RSS"]
+home = ["HTML", "RSS"]
 
 [taxonomies]
-  tags = "tags"
+tags = "tags"
 
 [services]
-  [services.rss]
-    limit = 50
+[services.rss]
+limit = 50
 
 [menu]
 
-  [[menu.header]]
-    weight = -1
-    name = "Home"
-    title = " "
-    pageRef = "/"
-  [[menu.header]]
-    weight = 1
-    name = "News"
-    title = " "
-    pageRef = "news"
-  [[menu.header]]
-    weight = 2
-    name = "Gallery"
-    title = " "
-    pageRef = "media"
-  [[menu.header]]
-    weight = 3
-    name = "Downloads"
-    title = " "
-    pageRef = "downloads"
-  [[menu.header]]
-    weight = 4
-    name = "Docs"
-    title = " "
-    pageRef = "docs"
-  [[menu.header]]
-    weight = 5
-    name = "Resources"
-    title = " "
-    pageRef = "resources"
-  [[menu.header]]
-    weight = 6
-    name = "Contact"
-    title = " "
-    pageRef = "contact"
-  [[menu.header]]
-    weight = 8
-    name = "  "
-    title = "Source repository"
-    pre = '<i class="gs-codeberg"></i>'
-    url = "https://codeberg.org/gaiasky/gaiasky"
-  [[menu.header]]
-    weight = 9
-    name = " "
-    title = "Search"
-    pre = '<i class="gs-raphael-search"></i>'
-    pageRef = "search"
+[[menu.header]]
+weight = -1
+name = "Home"
+title = " "
+pageRef = "/"
+[[menu.header]]
+weight = 1
+name = "News"
+title = " "
+pageRef = "news"
+[[menu.header]]
+weight = 2
+name = "Gallery"
+title = " "
+pageRef = "media"
+[[menu.header]]
+weight = 3
+name = "Downloads"
+title = " "
+pageRef = "downloads"
+[[menu.header]]
+weight = 4
+name = "Docs"
+title = " "
+pageRef = "docs"
+[[menu.header]]
+weight = 5
+name = "Resources"
+title = " "
+pageRef = "resources"
+[[menu.header]]
+weight = 6
+name = "Contact"
+title = " "
+pageRef = "contact"
+[[menu.header]]
+weight = 8
+name = "  "
+title = "Source repository"
+pre = '<i class="gs-codeberg"></i>'
+url = "https://codeberg.org/gaiasky/gaiasky"
+[[menu.header]]
+weight = 9
+name = " "
+title = "Search"
+pre = '<i class="gs-raphael-search"></i>'
+pageRef = "search"
 
-  [[menu.footer]]
-    weight = 1
-    name = "Contact Us"
-    pageRef = "contact"
-  [[menu.footer]]
-    weight = 2
-    name = "News"
-    pageRef = "news"
-  [[menu.footer]]
-    weight = 3
-    name = "Downloads"
-    pageRef = "downloads"
-  [[menu.footer]]
-    weight = 4
-    name = "Old Releases"
-    pageRef = "downloads/releases"
-  [[menu.footer]]
-    weight = 5
-    name = "Gallery"
-    pageRef = "media"
-  [[menu.footer]]
-    weight = 6
-    name = "Documentation"
-    url = "http://docs.gaiasky.space"
-  [[menu.footer]]
-    weight = 7
-    name = "Resources"
-    pageRef = "resources"
-  [[menu.footer]]
-    weight = 8
-    name = "Datasets"
-    pageRef = "resources/datasets"
-  [[menu.footer]]
-    weight = 9
-    name = "Licenses"
-    pageRef = "licenses"
-  [[menu.footer]]
-    weight = 10
-    name = "Privacy"
-    pageRef = "privacypolicy"
+[[menu.footer]]
+weight = 1
+name = "Contact Us"
+pageRef = "contact"
+[[menu.footer]]
+weight = 2
+name = "News"
+pageRef = "news"
+[[menu.footer]]
+weight = 3
+name = "Downloads"
+pageRef = "downloads"
+[[menu.footer]]
+weight = 4
+name = "Old Releases"
+pageRef = "downloads/releases"
+[[menu.footer]]
+weight = 5
+name = "Gallery"
+pageRef = "media"
+[[menu.footer]]
+weight = 6
+name = "Documentation"
+url = "http://docs.gaiasky.space"
+[[menu.footer]]
+weight = 7
+name = "Resources"
+pageRef = "resources"
+[[menu.footer]]
+weight = 8
+name = "Datasets"
+pageRef = "resources/datasets"
+[[menu.footer]]
+weight = 9
+name = "Licenses"
+pageRef = "licenses"
+[[menu.footer]]
+weight = 10
+name = "Privacy"
+pageRef = "privacypolicy"
 
 
 # The site's parameters
 [params]
 
-  date_format = "2 Jan 2006"
-  copyright = "The Gaia Sky Project"
+date_format = "2 Jan 2006"
+copyright = "The Gaia Sky Project"
 
-  [params.release]
-    version = "3.8.0"
-    versionFlat = "3_8_0"
-    versionBuild = "3.8.0.aa0f9c68c"
-    build = "aa0f9c68c"
-    date = 2026-07-23T11:03:14
-    post = "/news/2026/gaiasky_3.8.0.md"
+[params.release]
+version = "3.9.0"
+versionFlat = "3_9_0"
+versionBuild = "3.9.0.353366a6f"
+build = "353366a6f"
+date = "2026-10-21T12:20:56"
+post = "/news/2026/gaiasky_3.9.0.md"
 
-  [params.meta]
-    description = "Homepage of Gaia Sky, an open source 3D universe platform"
-    author = "tsagrista"
-    favicon = true
+[params.meta]
+description = "Homepage of Gaia Sky, an open source 3D universe platform"
+author = "tsagrista"
+favicon = true
 
-  [params.slider]
-    enable = true
-    title = "Gaia Sky"
-    subtitle = "Open source 3D Universe visualization platform with support for a billion objects"
-    buttonTitle = "Download Gaia Sky"
-    buttonurl = "downloads"
+[params.slider]
+enable = true
+title = "Gaia Sky"
+subtitle = "Open source 3D Universe visualization platform with support for a billion objects"
+buttonTitle = "Download Gaia Sky"
+buttonurl = "downloads"
 
-  [params.latest]
-    enable = true
-    title = "Latest news"
+[params.latest]
+enable = true
+title = "Latest news"
 
-  [params.wrapper]
-    enable = true
-    title = "What is Gaia Sky?"
-    italic = "**Gaia Sky** is a real-time, 3D, astronomy visualisation platform for desktop and VR that runs on *Windows*, *Linux*, and *macOS*. Open source and libre."
-    paragraph = "Gaia Sky enables the exploration of our Universe by means of scientific datasets. The software includes an integrated dataset manager that grants access to several [cutting-edge astronomical catalogs](/resources/datasets) such as the Gaia DR1/2/3 star catalogs, SDSS galaxies, or the nearby galaxies catalog. It is developed in the framework of [ESA](http://www.esa.int/ESA)'s [Gaia mission](http://sci.esa.int/gaia) to chart about 1 billion stars of our Galaxy in the Gaia group of the [Astronomisches Rechen-Institut](http://www.ari.uni-heidelberg.de/) ([ZAH](http://www.zah.uni-heidelberg.de/), [Universität Heidelberg](http://www.uni-heidelberg.de/)). Explore the cosmos without leaving the comfort of your home!"
-    imagejxl = "img/special/galaxy.jxl"
-    imageavif = "img/special/galaxy.avif"
-    image = "img/special/galaxy.png"
+[params.wrapper]
+enable = true
+title = "What is Gaia Sky?"
+italic = "**Gaia Sky** is a real-time, 3D, astronomy visualisation platform for desktop and VR that runs on *Windows*, *Linux*, and *macOS*. Open source and libre."
+paragraph = "Gaia Sky enables the exploration of our Universe by means of scientific datasets. The software includes an integrated dataset manager that grants access to several [cutting-edge astronomical catalogs](/resources/datasets) such as the Gaia DR1/2/3 star catalogs, SDSS galaxies, or the nearby galaxies catalog. It is developed in the framework of [ESA](http://www.esa.int/ESA)'s [Gaia mission](http://sci.esa.int/gaia) to chart about 1 billion stars of our Galaxy in the Gaia group of the [Astronomisches Rechen-Institut](http://www.ari.uni-heidelberg.de/) ([ZAH](http://www.zah.uni-heidelberg.de/), [Universität Heidelberg](http://www.uni-heidelberg.de/)). Explore the cosmos without leaving the comfort of your home!"
+imagejxl = "img/special/galaxy.jxl"
+imageavif = "img/special/galaxy.avif"
+image = "img/special/galaxy.png"
 
-  [params.news]
-    enable = true
-    title = "News"
-    subtitle = "Latest blog posts, news, features, and dev stories"
+[params.news]
+enable = true
+title = "News"
+subtitle = "Latest blog posts, news, features, and dev stories"
 
-  [params.postslist]
-    enable = true
-    title = "News (list view)"
-    subtitle = "Condensed list of all news and dev stories"
+[params.postslist]
+enable = true
+title = "News (list view)"
+subtitle = "Condensed list of all news and dev stories"
 
-  [params.datasets]
-    enable = true
-    title = "Worlds of data"
-    content = "We have curated a long list of scientific datasets for you to explore in Gaia Sky. Planets, moons, asteroids, stars, nebulae, galaxies, quasars, black holes, star clusters, iso-density maps, virtual textures, and much, much more!<br>Use the in-app dataset manager to pick and choose the datasets you want to explore."
-    [params.datasets.button]
-      caption = "Available datasets"
-      url = "resources/datasets"
-      pre = '<i class="gs-mdi-database"></i>'
+[params.datasets]
+enable = true
+title = "Worlds of data"
+content = "We have curated a long list of scientific datasets for you to explore in Gaia Sky. Planets, moons, asteroids, stars, nebulae, galaxies, quasars, black holes, star clusters, iso-density maps, virtual textures, and much, much more!<br>Use the in-app dataset manager to pick and choose the datasets you want to explore."
+[params.datasets.button]
+caption = "Available datasets"
+url = "resources/datasets"
+pre = '<i class="gs-mdi-database"></i>'
 
-  [params.media]
-    enable = true
-    title = "Gallery"
-    subtitle = "Screenshots, videos, and more"
+[params.media]
+enable = true
+title = "Gallery"
+subtitle = "Screenshots, videos, and more"
 
-  [params.downloads]
-    enable = true
-    title = "Downloads"
-    subtitle = "Get Gaia Sky for your system"
+[params.downloads]
+enable = true
+title = "Downloads"
+subtitle = "Get Gaia Sky for your system"
 
-  [params.resources]
-    enable = true
-    title = "Resources"
-    subtitle = "Datasets, learning material, icons, etc."
+[params.resources]
+enable = true
+title = "Resources"
+subtitle = "Datasets, learning material, icons, etc."
 
-  [params.contact]
-    enable = true
-    title = "Contact"
-    subtitle = "Get in touch with us"
+[params.contact]
+enable = true
+title = "Contact"
+subtitle = "Get in touch with us"
 
-  [params.docs]
-    enable = true
-    title = "Documentation"
-    subtitle = "Learn and share"
+[params.docs]
+enable = true
+title = "Documentation"
+subtitle = "Learn and share"
 
-  [[params.social]]
-    name = "RSS"
-    url = "/index.xml"
-    icon = "gs-mdi-rss-box"
-  [[params.social]]
-    name = "BlueSky"
-    url = "https://bsky.app/profile/gaiasky.bsky.social"
-    icon = "gs-ri-bluesky-fill"
-  [[params.social]]
-    name = "Mastodon"
-    url = "https://mastodon.social/@jumpinglangur"
-    icon = "gs-ri-mastodon-fill"
-  [[params.social]]
-    name = "YouTube"
-    url = "https://youtube.com/@gaiaskydev"
-    icon = "gs-ri-youtube-fill"
-  [[params.social]]
-    name = "Codeberg"
-    url = "https://codeberg.org/gaiasky/gaiasky"
-    icon = "gs-codeberg"
-  [[params.social]]
-    name = "Email"
-    url = "mailto:tsagrista@ari.uni-heidelberg.de?subject=Gaia Sky"
-    icon = "gs-material-symbols-mail-rounded"
+[[params.social]]
+name = "RSS"
+url = "/index.xml"
+icon = "gs-mdi-rss-box"
+[[params.social]]
+name = "BlueSky"
+url = "https://bsky.app/profile/gaiasky.bsky.social"
+icon = "gs-ri-bluesky-fill"
+[[params.social]]
+name = "Mastodon"
+url = "https://mastodon.social/@jumpinglangur"
+icon = "gs-ri-mastodon-fill"
+[[params.social]]
+name = "YouTube"
+url = "https://youtube.com/@gaiaskydev"
+icon = "gs-ri-youtube-fill"
+[[params.social]]
+name = "Codeberg"
+url = "https://codeberg.org/gaiasky/gaiasky"
+icon = "gs-codeberg"
+[[params.social]]
+name = "Email"
+url = "mailto:tsagrista@ari.uni-heidelberg.de?subject=Gaia Sky"
+icon = "gs-material-symbols-mail-rounded"
 
 
-  [[params.ack]]
-    name = "ZAH"
-    url = "https://zah.uni-heidelberg.de"
-    img = "img/zah.png"
-  [[params.ack]]
-    name = "DLR"
-    url = "https://www.dlr.de"
-    img = "img/dlr.png"
-  [[params.ack]]
-    name = "BMFTR"
-    url = "https://www.bmftr.bund.de"
-    img = "img/bftr.png"
+[[params.ack]]
+name = "ZAH"
+url = "https://zah.uni-heidelberg.de"
+img = "img/zah.png"
+[[params.ack]]
+name = "DLR"
+url = "https://www.dlr.de"
+img = "img/dlr.png"
+[[params.ack]]
+name = "BMFTR"
+url = "https://www.bmftr.bund.de"
+img = "img/bftr.png"
 
 [pagination]
-  disableAliases = false
-  pagerSize = 8
-  path = 'page'
+disableAliases = false
+pagerSize = 8
+path = 'page'
 
 # Properties of the markdown renderer.
 [markup]
 
-  defaultMarkdownHandler = "goldmark"
+defaultMarkdownHandler = "goldmark"
 
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-    [markup.goldmark.parser]
-      attribute = true
-    [markup.goldmark.extensions]
-      [markup.goldmark.extensions.passthrough]
-        [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['\[', '\]'], ['$$', '$$']]
-          inline = [['\(', '\)']]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.goldmark.parser]
+attribute = true
+[markup.goldmark.extensions]
+[markup.goldmark.extensions.passthrough]
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['\[', '\]'], ['$$', '$$']]
+inline = [['\(', '\)']]
