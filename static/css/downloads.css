@@ -87,6 +87,10 @@ i[class^='gs-'].icon-button {
     display: block;
     margin-bottom: 2rem;
 }
+/* Microsoft Store button, shown only on Windows (see downloads-table.html) */
+.windows-only {
+    display: none !important;
+}
 .download-container span.downloads-version {
   color: var(--accent-color);
   font-weight: 800;

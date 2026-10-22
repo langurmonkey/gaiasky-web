@@ -15,7 +15,7 @@
   <div class="download-section">
     <h2><i class="gs-uil-windows download-icon"></i> Windows</h2>
     <a href="ms-windows-store://pdp/?productid=XPDBZFFV2QTW9M"
-      class="download-button" aria-label="Install Gaia Sky from Microsoft Store"><i class="gs-microsoft-store"></i>
+      class="download-button windows-only" aria-label="Install Gaia Sky from Microsoft Store"><i class="gs-microsoft-store"></i>
       Microsoft Store <i class="gs-link-external"></i>
       <span class="download-sub">For Windows 10/11 x86_64</span>
     </a>
@@ -122,5 +122,17 @@
       class="external-link" target="_blank" title="Full change log">Change log</a>&nbsp; • &nbsp;<a
       href="/downloads/releases" class="external-link" title="Browse old releases">Old versions</a>
   </div>
-
 </div>
+<script>
+  // The Microsoft Store link only works on Windows, so reveal it there
+  (function () {
+    var uaData = navigator.userAgentData;
+    var isWindows = (uaData && uaData.platform === 'Windows') ||
+      /Windows/i.test(navigator.userAgent);
+    if (isWindows) {
+      document.querySelectorAll('.windows-only').forEach(function (el) {
+        el.classList.remove('windows-only');
+      });
+    }
+  })();
+</script>
