@@ -5,6 +5,7 @@ date = 2026-10-21
 tags = ["release"]
 author = "tsagrista"
 categories = ["release", "version"]
+css = ["css/downloads.css"]
 math = true
 +++
 
@@ -92,6 +93,29 @@ The light glow has been reworked so that the halos follow the physics of the lig
 - The intensity of each light is derived from its apparent magnitude, on a linear-in-magnitude scale that runs from the faintest glowing star to the Sun at 1 AU.
 - The light-glow pre-pass is replaced by a depth-buffer test in the post-process filter.
 - The time-driven angular mask of the halos is restored, and driven by the frame-time accumulator, so that captures and camcorder recordings animate at the target frame rate.
+
+## Microsoft Store package
+
+We have published Gaia Sky to the Microsoft Store, so that users of this operating system can enjoy one-click install integrated in their OS.
+
+{{< rawhtml >}}
+<div style="text-align: center; align-content: center;">
+    <a href="https://apps.microsoft.com/store/detail/XPDBZFFV2QTW9M"
+      class="download-button" aria-label="Install Gaia Sky from the Microsoft Store"><i class="gs-microsoft-store"></i>
+      Microsoft Store listing <i class="gs-link-external"></i>
+    </a>
+</div>
+{{</ rawhtml >}}
+
+{{< rawhtml >}}
+<div style="text-align: center; align-content: center;">
+    <a href="ms-windows-store://pdp/?productid=XPDBZFFV2QTW9M"
+      class="download-button" aria-label="Install Gaia Sky from the Microsoft Store"><i class="gs-microsoft-store"></i>
+      Install Gaia Sky <i class="gs-link-external"></i>
+      <span class="download-sub">(only works on Windows)<br/>For Windows 10/11 (x86_64)</span>
+    </a>
+</div>
+{{</ rawhtml >}}
 
 ## User interface & other
 
