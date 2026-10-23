@@ -1945,6 +1945,21 @@ px      68    160    252    */
     border: 1px solid #ddd !important;
   }
 
+  /* Mobile menu: slide open/closed (Bootstrap's JS used to animate this) */
+  header .navbar-default .navbar-collapse.collapse {
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.35s ease, visibility 0.35s;
+  }
+
+  header .navbar-default .navbar-collapse.collapse.in {
+    visibility: visible;
+    overflow: hidden;
+    max-height: 100vh;
+  }
+
   #slider {
     padding-top: 40px;
     padding-bottom: 50px;
