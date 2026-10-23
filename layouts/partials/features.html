@@ -4,7 +4,7 @@
 
     <!-- Intro -->
     <div class="row">
-      <div class="section-title">
+      <div class="section-title reveal">
         <h2>{{ hugo.Data.features.title }}</h2>
         <p>{{ hugo.Data.features.subtitle }}</p>
       </div>
@@ -12,12 +12,12 @@
 
     <!-- Content -->
     <div class="row">
-      {{ range hugo.Data.features.content }}
+      {{ range $i, $feature := hugo.Data.features.content }}
       <div class="col-sm-6 col-md-3">
-        <div class="features-item">
-          <i class="{{ .icon }}"></i>
-          <h4>{{ .name }}</h4>
-          <p>{{ .text | markdownify }}</p>
+        <div class="features-item reveal" style="--reveal-delay: {{ mul (mod $i 4) 80 }}ms">
+          <i class="{{ $feature.icon }}"></i>
+          <h4>{{ $feature.name }}</h4>
+          <p>{{ $feature.text | markdownify }}</p>
         </div>
       </div>
       {{ end }}

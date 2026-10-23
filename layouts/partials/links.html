@@ -4,7 +4,7 @@
 
     <!-- Intro -->
     <div class="row">
-      <div class="section-title">
+      <div class="section-title reveal">
         <h2>{{ hugo.Data.links.title }}</h2>
         <p>{{ hugo.Data.links.subtitle }}</p>
       </div>
@@ -12,14 +12,14 @@
 
     <!-- Content -->
     <div class="row">
-      {{ range hugo.Data.links.content }}
-      <div class="links-item">
-        <i class="{{ .icon }}"></i>
+      {{ range $i, $link := hugo.Data.links.content }}
+      <div class="links-item reveal" style="--reveal-delay: {{ mul (mod $i 4) 80 }}ms">
+        <i class="{{ $link.icon }}"></i>
         <div>
-          <a href="{{ .url }}" alt="{{ .name }}">
-            <h4>{{ .name }}</h4>
+          <a href="{{ $link.url }}" alt="{{ $link.name }}">
+            <h4>{{ $link.name }}</h4>
           </a>
-          <p>{{ .text | markdownify }}</p>
+          <p>{{ $link.text | markdownify }}</p>
         </div>
 
       </div>

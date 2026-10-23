@@ -11,8 +11,8 @@
       </div>
       <div class="block">
         <div class="col-sm-12">
-          {{ range first 3 (where .Site.Pages "Type" "news") }}
-          <article>
+          {{ range $i, $article := first 3 (where .Site.Pages "Type" "news") }}
+          <article class="reveal" style="--reveal-delay: {{ mul $i 80 }}ms">
             <div>
               <a class="title" href="{{ .RelPermalink }}" title="{{ .Title | markdownify }}" class="bold">{{ .Title |
                 markdownify |

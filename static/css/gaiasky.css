@@ -48,6 +48,42 @@
   animation-name: fadeInUp;
 }
 
+/*-- Scroll reveal (see static/js/reveal.js) --*/
+html.js .reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+html.js .reveal.revealed {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  html.js .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  section#features .features-item,
+  section#features .features-item i,
+  section#links .links-item,
+  section#links .links-item i,
+  header .navbar-default .navbar-nav li a::after {
+    transition: none;
+  }
+
+  section#features .features-item:hover,
+  section#links .links-item:hover,
+  section#features .features-item:hover i {
+    transform: none;
+  }
+}
+
 @keyframes old-out {
   0% {
     opacity: 1;
@@ -90,6 +126,25 @@ h6 {
   font-variant: small-caps;
   margin-top: 0;
   padding-top: 0.7em;
+}
+
+/* Headings over imagery keep a shadow for legibility; body headings stay clean */
+#slider h1,
+#slider h2,
+#slider h3,
+#slider h4,
+#global-header h1,
+#global-header h2,
+#global-header h3,
+#global-header h4,
+#datasets h1,
+#datasets h2,
+#datasets h3,
+#datasets h4,
+section.random-background h1,
+section.random-background h2,
+section.random-background h3,
+section.random-background h4 {
   text-shadow: 2px 2px 2px black;
 }
 
@@ -346,6 +401,38 @@ header .navbar-default .navbar-nav li a {
   font-size: 1.4rem;
   font-variant: small-caps;
   font-weight: 600;
+  position: relative;
+}
+
+/* Animated underline replaces the old gradient pill */
+header .navbar-default .navbar-nav li a::after {
+  content: "";
+  position: absolute;
+  left: 0.8em;
+  right: 0.8em;
+  bottom: 0.1em;
+  height: 2px;
+  border-radius: 2px;
+  background-color: var(--accent-color);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.25s ease;
+}
+
+header .navbar-default .navbar-nav li a:hover::after,
+header .navbar-default .navbar-nav li a.active::after {
+  transform: scaleX(1);
+}
+
+/* Icon-only entries (repo, search) get a divider instead of an underline */
+header .navbar-default .navbar-nav li:not(.nav-icon-item) + li.nav-icon-item {
+  margin-left: 0.9em;
+  padding-left: 0.9em;
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+header .navbar-default .navbar-nav li.nav-icon-item a::after {
+  display: none;
 }
 
 header .navbar-default .navbar-nav i[class^='gs-'] {
@@ -360,21 +447,12 @@ button.navbar-toggle {
   padding: 7px 7px;
 }
 
-font header .navbar-default .navbar-nav li a:hover {
+header .navbar-default .navbar-nav li a:hover {
   color: var(--accent-color) !important;
 }
 
 header .navbar-default .navbar-nav li a.active {
   color: var(--text-color);
-  text-shadow: 1px 1px 3px black;
-  background-image: linear-gradient(to bottom, var(--button1-color), var(--button2-color));
-  border-radius: 0.4em;
-}
-
-header .navbar-default .navbar-nav li a.active:hover {
-  color: var(--text-color) !important;
-  background: var(--link-color);
-  background-image: linear-gradient(to bottom, var(--accent-color), black);
 }
 
 /** Table of contents **/
@@ -583,13 +661,32 @@ section#features {
 }
 
 section#features .features-item {
-  padding-bottom: 3rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  padding: 2rem 1.4rem 1.6rem 1.4rem;
+  margin-bottom: 2rem;
+  transition: transform 0.25s ease, background-color 0.25s ease,
+    border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+section#features .features-item:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: var(--accent-color);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
 }
 
 section#features .features-item i[class^='gs-'],
 section#features .features-item i {
   font-size: 5.7em;
   color: var(--accent-color);
+  transition: transform 0.25s ease;
+}
+
+section#features .features-item:hover i[class^='gs-'],
+section#features .features-item:hover i {
+  transform: scale(1.08);
 }
 
 section#features .features-item h4 {
@@ -602,10 +699,25 @@ section#features .features-item p {
   color: var(--text-dim-color);
   padding-top: 10px;
   margin: 0;
-  /* Force fixed height to avoid positioning errors. */
-  height: 13rem;
   font-size: 1.6rem;
   line-height: 1.8;
+}
+
+/* Equal-height cards per row */
+@media (min-width: 768px) {
+  section#features .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  section#features .col-sm-6,
+  section#features .col-md-3 {
+    display: flex;
+  }
+
+  section#features .features-item {
+    width: 100%;
+  }
 }
 
 /*--
@@ -618,7 +730,20 @@ section#links {
 
 section#links .links-item {
   text-align: left;
-  padding-bottom: 2.4em;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  padding: 1.4rem 1.4rem 1rem 1.4rem;
+  margin-bottom: 2rem;
+  transition: transform 0.25s ease, background-color 0.25s ease,
+    border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+section#links .links-item:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: var(--accent-color);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
 }
 
 section#links .links-item i[class^='gs-'] {
@@ -627,6 +752,11 @@ section#links .links-item i[class^='gs-'] {
   float: left;
   margin-right: 0.5em;
   margin-top: -0.3em;
+  transition: color 0.25s ease;
+}
+
+section#links .links-item:hover i[class^='gs-'] {
+  color: var(--link-color);
 }
 
 section#links div.links-item div {
@@ -1541,6 +1671,13 @@ px      68    160    252    */
   hr {
     margin-top: 0.0em;
     margin-bottom: 1.0em;
+  }
+
+  /* Icon entries sit in the stacked menu: no vertical divider there */
+  header .navbar-default .navbar-nav li:not(.nav-icon-item) + li.nav-icon-item {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
   }
 
   #global-header {
