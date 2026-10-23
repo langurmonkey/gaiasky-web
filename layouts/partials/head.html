@@ -59,15 +59,21 @@
       'gaia.avif', 'hst3.avif', 'iss2.avif', 'landscape.avif', 'mooncloseup.avif',
       'moonsurface.avif', 'saturn.avif', 'scattering.avif', 'sdss.avif',
       'sunset.avif', 'trifid.avif', 'voyager.avif'];
-    var url = '{{ "img/backgrounds/" | absURL }}' + bgm[Math.floor(Math.random() * bgm.length)];
-    // Consumed by .random-background in gaiasky.css (inherited custom property).
-    document.documentElement.style.setProperty('--bg-image', 'url("' + url + '")');
+    var name = bgm[Math.floor(Math.random() * bgm.length)];
+    var base = '{{ "img/backgrounds/" | absURL }}';
+    var root = document.documentElement.style;
+    // Consumed by .random-background in gaiasky.css (inherited custom properties).
+    // --bg-image-sm only wins under the 767px media query, so just one is fetched.
+    root.setProperty('--bg-image', 'url("' + base + name + '")');
+    root.setProperty('--bg-image-sm', 'url("' + base + 'sm/' + name + '")');
   })();
 </script>
 {{- if .IsHome }}
 <!-- Home hero is a fixed CSS background (#slider); it is the LCP element, so
-     start it here instead of waiting for the stylesheet to be parsed. -->
-<link rel="preload" as="image" href="{{ "img/backgrounds/earth.avif" | absURL }}" fetchpriority="high">
+     start it here instead of waiting for the stylesheet to be parsed. Split by
+     media so only the variant the viewport needs is downloaded. -->
+<link rel="preload" as="image" href="{{ "img/backgrounds/earth.avif" | absURL }}" media="(min-width: 768px)" fetchpriority="high">
+<link rel="preload" as="image" href="{{ "img/backgrounds/sm/earth.avif" | absURL }}" media="(max-width: 767px)" fetchpriority="high">
 {{- end }}
 
 

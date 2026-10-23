@@ -1821,6 +1821,16 @@ px      68    160    252    344    436    528    620    712    */
 cols    1     2      3
 px      68    160    252    */
 @media only screen and (max-width: 767px) {
+  /* Hero backgrounds: 1280px variants (static/img/backgrounds/sm/) instead of
+     the 2560px originals. Both properties come from the same pick in head.html. */
+  .random-background {
+    background-image: var(--bg-image-sm, var(--bg-image, none));
+  }
+
+  #slider {
+    background-image: url("../img/backgrounds/sm/earth.avif");
+  }
+
   hr {
     margin-top: 0.0em;
     margin-bottom: 1.0em;
