@@ -1,14 +1,47 @@
 <meta charset="utf-8">
 <script>document.documentElement.classList.add('js');</script>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="">
-<meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:title" content="{{ .Site.Title }} | {{ .Title }}">
-<meta name="twitter:title" content="{{ .Site.Title }} | {{ .Title }}">
-<meta property="og:image" content="{{ .Site.BaseURL }}img/icon.png">
-<meta name="twitter:image" content="{{ .Site.BaseURL }}img/icon.png">
-<title>{{ .Site.Title }} | {{ .Title }}</title>
+{{- /* Several sections have an empty title but a name in [params.<section>].title
+       (e.g. docs -> "Documentation"); fall back through it to the site title. */ -}}
+{{- $title := .Title -}}
+{{- if not $title -}}
+  {{- with index .Site.Params .Section -}}
+    {{- $title = .title -}}
+  {{- end -}}
+{{- end -}}
+{{- $title = $title | default .Site.Title -}}
+{{- $fullTitle := cond (eq $title .Site.Title) .Site.Title (printf "%s | %s" $title .Site.Title) -}}
+{{- /* Prefer a curated section subtitle over scraped summary text, which pulls
+       in dates and shortcode output (e.g. on /downloads/). */ -}}
+{{- $section := index .Site.Params .Section -}}
+{{- $desc := .Description | default (index $section "subtitle") | default .Summary | default .Site.Params.meta.description -}}
+{{- $desc = $desc | plainify | htmlUnescape | replaceRE "\\s+" " " | chomp | truncate 160 -}}
+{{- $locale := .Site.Language.LanguageCode -}}
+{{- with split (lower ($locale | default "")) "-" -}}
+  {{- if eq (len .) 2 -}}{{- $locale = printf "%s_%s" (index . 0) (upper (index . 1)) -}}{{- end -}}
+{{- end -}}
+{{- /* 1200x630 card for link previews; the small icon is the favicon. */ -}}
+{{- $img := absURL "img/share.avif" -}}
+{{- $icon := absURL "img/icon.png" -}}
+<title>{{ $fullTitle }}</title>
+<meta name="description" content="{{ $desc }}">
+{{ with .Site.Params.meta.author }}<meta name="author" content="{{ . }}">
+{{ end -}}
+<meta name="theme-color" content="#181818">
+<link rel="icon" type="image/png" href="{{ $icon }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:title" content="{{ $fullTitle }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ $img }}">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ $fullTitle }}">
+{{ with $locale }}<meta property="og:locale" content="{{ replace . "-" "_" }}">
+{{ end -}}
 
 {{ hugo.Generator }}
 
