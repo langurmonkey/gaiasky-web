@@ -1,0 +1,33 @@
++++
+title = "Gaia Sky 3.9.1"
+description = "Bugfix release to address issues with 3.9.0."
+date = 2026-10-23
+tags = ["release"]
+author = "tsagrista"
+categories = ["release", "version"]
+math = true
++++
+
+Two days after 3.9.0, we are here again with 3.9.1, a bugfix release that addresses a major issue with the previous version. In that issue, the internal scene graph was not constructed correctly for proximity-enabled datasets (like the NASA Exoplanet Archive), causing a crash.
+
+<!--more-->
+
+This bugfix release restores the occlusion of the procedurally generated galaxy channels by the volume dust, and fixes several issues that surfaced when creating galaxies from the UI and when inserting entities into the scene graph.
+
+## Bug Fixes
+
+{{< notice "Important" >}}
+Gaia Sky 3.9.1 comes with a new release of the base data pack that moves the volume galaxy rendering to a low-resolution buffer. This provides major performance gains.
+{{</ notice >}}
+
+### Rendering
+- Half-resolution channels are occluded by full-resolution occluders again. The full- and half-resolution buffers have independent depth attachments, and the half-resolution pass cleared its own before drawing, so the billboard channels of procedural galaxies were never depth-tested against the volume dust and showed through it. The full-resolution depth is now blitted into the half-resolution buffer before the half-resolution pass, where the billboard renderers already read it without writing.
+- Runtime-created billboards bind their texture array. A galaxy created from the UI resolved its texture array in the same callback that queued it, before the asynchronous loader had built anything, so the field stayed `null` for good and the renderers sampled whatever array other passes had left on texture unit 0. The asset is now waited for, and an error is logged if it cannot be resolved.
+- Billboard texture arrays are bound to the correct texture unit, which fixes particle sets' arrays leaking into the unit the billboard shader samples.
+
+### UI & interface
+- Galaxies added via the UI get their parent populated correctly again. Entities inserted while their parent node has no children yet were not getting their graph parent set, which broke proximity descriptors and crashed on focus. This prevents a crash with the NASA Exoplanet Archive dataset.
+- Fix the guard in the code that adds children to nodes, which made it function improperly.
+
+## Performance Improvements
+- Always run the volume depth pre-pass at full resolution, so that its depth occludes half-resolution content, and skip the full-to-half depth blit when the half-resolution pass is empty.
