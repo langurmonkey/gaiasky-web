@@ -1,38 +1,36 @@
 <!-- Latest news start -->
 <section id="latestnews">
   <div class="container">
+
+    <!-- Intro -->
     <div class="row">
-      <div class="col-sm-12">
-        <div class="block">
-          <div class="section-title">
-            <h2>{{ .Site.Params.latest.title }}</h2>
-          </div>
-        </div>
+      <div class="section-title reveal">
+        <h2>{{ .Site.Params.latest.title }}</h2>
       </div>
-      <div class="block">
-        <div class="col-sm-12">
-          {{ range $i, $article := first 3 (where .Site.Pages "Type" "news") }}
-          <article class="reveal" style="--reveal-delay: {{ mul $i 80 }}ms">
-            <div>
-              <a class="title" href="{{ .RelPermalink }}" title="{{ .Title | markdownify }}" class="bold">{{ .Title |
-                markdownify |
-                truncate 60 }}</a>
-              <span class="details"><time class="published" datetime="{{ .Date }}" title="Published: {{ .Date }}">{{
-                  .Date.Format .Site.Params.date_format }}</time>
-              </span>
-            </div>
-            <div>
-              <span>
-                {{ .Summary | truncate 140 }}
-              </span>
-            </div>
-          </article>
-          {{ end }}
+    </div>
 
-
-          <a href="/news" class="next">All news <i class="gs-mdi-arrow-right-bold-circle"></i></a>
-        </div>
+    <!-- Cards -->
+    <div class="row news-row">
+      {{ range $i, $article := first 3 (where .Site.Pages "Type" "news") }}
+      <div class="col-sm-4">
+        <article class="news-card reveal" style="--reveal-delay: {{ mul $i 80 }}ms">
+          <a href="{{ .RelPermalink }}" title="{{ .Title | markdownify }}">
+            <time class="news-date" datetime="{{ .Date.Format "2006-01-02" }}"
+              title="Published: {{ .Date.Format .Site.Params.date_format }}">
+              <span class="news-day">{{ .Date.Format "2" }}</span>
+              <span class="news-month">{{ .Date.Format "Jan 2006" }}</span>
+            </time>
+            <h3 class="news-title">{{ .Title | markdownify }}</h3>
+            <p class="news-summary">{{ .Summary | plainify | truncate 130 }}</p>
+            <span class="news-more">Read more <i class="gs-mdi-arrow-right-bold-circle"></i></span>
+          </a>
+        </article>
       </div>
+      {{ end }}
+    </div>
+
+    <div class="row">
+      <a href="/news" class="next">All news <i class="gs-mdi-arrow-right-bold-circle"></i></a>
     </div>
   </div>
 </section>

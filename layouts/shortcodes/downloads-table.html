@@ -12,7 +12,7 @@
         .Site.Params.Release.Build
         }}</a></div>
   </div>
-  <div class="download-section">
+  <div class="download-section" id="windows">
     <h2><i class="gs-uil-windows download-icon"></i> Windows</h2>
     <a href="ms-windows-store://pdp/?productid=XPDBZFFV2QTW9M"
       class="download-button windows-only" aria-label="Install Gaia Sky from Microsoft Store"><i class="gs-microsoft-store"></i>
@@ -30,7 +30,7 @@
       by <a
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a></span>
   </div>
-  <div class="download-section">
+  <div class="download-section" id="macos">
     <h2><i class="gs-fa6-brands-apple download-icon"></i> macOS</h2>
     <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_macos_{{ .Site.Params.Release.versionFlat }}.dmg"
       class="download-button" aria-label="Download Gaia Sky for macOS (Apple Silicon and x86_64)"><i
@@ -44,7 +44,7 @@
       by <a
         href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a></span>
   </div>
-  <div class="download-section">
+  <div class="download-section" id="linux">
     <h2><i class="gs-mdi-linux download-icon"></i> Linux</h2>
     <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_{{ .Site.Params.Release.versionFlat }}.deb"
       class="download-button" aria-label="Download Gaia Sky for Linux (DEB)"><i class="gs-mdi-debian icon-button"></i>
@@ -95,7 +95,7 @@
       <span class="download-sub">Via flathub.org</span>
     </a>
   </div>
-  <div class="download-section">
+  <div class="download-section" id="tarball">
     <h2><i class="gs-ic-sharp-laptop-windows download-icon"></i> OS-agnostic</h2>
     <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky-{{ .Site.Params.Release.versionBuild }}.tar.gz"
       class="download-button" aria-label="Download Gaia Sky as a .tar.gz tarball"><i

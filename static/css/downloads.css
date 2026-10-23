@@ -38,6 +38,8 @@ i[class^='gs-'].icon-button {
 }
 .download-section {
     margin: 20px 0;
+    /* Clear the sticky header when linked to (#windows, #macos, ...) */
+    scroll-margin-top: 5rem;
 }
 .download-button {
     font-size: 1.2em;

@@ -12,15 +12,20 @@
           <a href="{{ .Site.Params.slider.buttonurl | safeHTML }}">
             <button id="download-button" class="btn" aria-label="Download {{ .Title }}">
               <span class="title"><i class="gs-mdi-box-download"></i>
-                {{ .Site.Params.slider.buttonTitle | safeHTML }}
-                <b>{{ .Site.Params.version | safeHTML }}</b></span><br>
-
-              <span class="subtext">linux | windows | macos | tgz</span><br>
-              <span class="subtext releasedate">version: <strong>{{ .Site.Params.Release.Version | safeHTML }}</strong>
-                release
-                date: <strong>{{ .Site.Params.Release.Date | safeHTML }}</strong></span><br>
+                {{ .Site.Params.slider.buttonTitle | safeHTML }}</span><br>
+              <span class="subtext">version {{ .Site.Params.Release.Version | safeHTML }}
+                &middot; {{ time.Format "2 Jan 2006" .Site.Params.Release.Date }}</span>
             </button>
           </a>
+
+          <div class="hero-platforms">
+            <a class="hero-platform" href="{{ .Site.BaseURL }}downloads/#windows"><i
+                class="gs-uil-windows"></i>Windows</a>
+            <a class="hero-platform" href="{{ .Site.BaseURL }}downloads/#macos"><i
+                class="gs-fa6-brands-apple"></i>macOS</a>
+            <a class="hero-platform" href="{{ .Site.BaseURL }}downloads/#linux"><i class="gs-mdi-linux"></i>Linux</a>
+            <a class="hero-platform" href="{{ .Site.BaseURL }}downloads/#tarball"><i class="gs-mdi-zip-box"></i>TGZ</a>
+          </div>
         </div>
       </div>
     </div>
