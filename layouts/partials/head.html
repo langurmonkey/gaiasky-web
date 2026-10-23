@@ -45,6 +45,32 @@
 
 {{ hugo.Generator }}
 
+<!-- Hero background: pick it here, early in the head, so .random-background
+     can start fetching as soon as it is laid out, instead of waiting for the
+     whole document (this used to run at the end of <body>). Setting the
+     property costs nothing on pages with no such section. -->
+<script>
+  (function () {
+    var bgm = [
+      'asteroids.avif', 'aurora-top.avif', 'backlit.avif', 'blackhole.avif',
+      'blur.avif', 'cluster.avif', 'constel.avif', 'crab.avif', 'datasets.avif',
+      'dramatic.avif', 'earth.avif', 'earthrise.avif', 'earthgal.avif',
+      'enterprise.avif', 'euclid.avif', 'exoplanet.avif', 'exoplanets.avif',
+      'gaia.avif', 'hst3.avif', 'iss2.avif', 'landscape.avif', 'mooncloseup.avif',
+      'moonsurface.avif', 'saturn.avif', 'scattering.avif', 'sdss.avif',
+      'sunset.avif', 'trifid.avif', 'voyager.avif'];
+    var url = '{{ "img/backgrounds/" | absURL }}' + bgm[Math.floor(Math.random() * bgm.length)];
+    // Consumed by .random-background in gaiasky.css (inherited custom property).
+    document.documentElement.style.setProperty('--bg-image', 'url("' + url + '")');
+  })();
+</script>
+{{- if .IsHome }}
+<!-- Home hero is a fixed CSS background (#slider); it is the LCP element, so
+     start it here instead of waiting for the stylesheet to be parsed. -->
+<link rel="preload" as="image" href="{{ "img/backgrounds/earth.avif" | absURL }}" fetchpriority="high">
+{{- end }}
+
+
 <!-- CSS -->
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/theme-yellow.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css" />
