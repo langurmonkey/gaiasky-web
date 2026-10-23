@@ -21,7 +21,7 @@
   {{- if eq (len .) 2 -}}{{- $locale = printf "%s_%s" (index . 0) (upper (index . 1)) -}}{{- end -}}
 {{- end -}}
 {{- /* 1200x630 card for link previews; the small icon is the favicon. */ -}}
-{{- $img := absURL "img/share.avif" -}}
+{{- $img := absURL "img/share.jpg" -}}
 {{- $icon := absURL "img/icon.png" -}}
 <title>{{ $fullTitle }}</title>
 <meta name="description" content="{{ $desc }}">
@@ -36,7 +36,7 @@
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:image" content="{{ $img }}">
-<meta property="og:image:type" content="image/avif">
+<meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="{{ $fullTitle }}">
