@@ -86,9 +86,10 @@
       'trifid.avif',
       'voyager.avif'];
 
-    var path = window.location.pathname;
-    $('.random-background').css({
-      'background-image': 'url(/img/backgrounds/' + bgm[Math.floor(Math.random() * bgm.length)] + ')',
+    // Image goes through a custom property, consumed by .random-background in gaiasky.css.
+    var bg = 'url(/img/backgrounds/' + bgm[Math.floor(Math.random() * bgm.length)] + ')';
+    document.querySelectorAll('.random-background').forEach(function (el) {
+      el.style.setProperty('--bg-image', bg);
     });
   }
 </script>

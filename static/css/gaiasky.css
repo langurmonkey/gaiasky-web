@@ -110,7 +110,8 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: var(--bg-color);
   color: var(--text-dim-color);
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 1.65;
 }
 
 main {
@@ -149,17 +150,17 @@ section.random-background h4 {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2.6em;
   font-weight: 600;
 }
 
 h2 {
-  font-size: 2.3em;
+  font-size: 2.4em;
   font-weight: 600;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 2.1em;
   font-weight: 500;
 }
 
@@ -169,7 +170,7 @@ h4 {
 }
 
 p {
-  line-height: 1.4em;
+  line-height: 1.65;
 }
 
 li p {
@@ -425,7 +426,7 @@ header .navbar-default .navbar-nav li a.active::after {
 }
 
 /* Icon-only entries (repo, search) get a divider instead of an underline */
-header .navbar-default .navbar-nav li:not(.nav-icon-item) + li.nav-icon-item {
+header .navbar-default .navbar-nav li:not(.nav-icon-item)+li.nav-icon-item {
   margin-left: 0.9em;
   padding-left: 0.9em;
   border-left: 1px solid rgba(255, 255, 255, 0.15);
@@ -751,7 +752,7 @@ section#links .links-item i[class^='gs-'] {
   color: var(--accent-color);
   float: left;
   margin-right: 0.5em;
-  margin-top: -0.3em;
+  margin-top: -0.5em;
   transition: color 0.25s ease;
 }
 
@@ -787,12 +788,7 @@ section#datasets {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -850,10 +846,13 @@ div.datasets-box i[class^='gs-'] {
 					Work Start
 -----------------------------------------------*/
 .random-background {
+  /* Image comes from the --bg-image custom property (set in footer.html) */
+  background-image: var(--bg-image, none);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-blend-mode: darken;
+  background-attachment: fixed;
+  position: relative;
 }
 
 /*--
@@ -1082,7 +1081,7 @@ section#latestnews article {
 
 /*--------- Footer ------------*/
 svg.separator-round {
-  margin-bottom: -0.1em;
+  margin-bottom: -0.2em;
 }
 
 footer {
@@ -1674,7 +1673,7 @@ px      68    160    252    */
   }
 
   /* Icon entries sit in the stacked menu: no vertical divider there */
-  header .navbar-default .navbar-nav li:not(.nav-icon-item) + li.nav-icon-item {
+  header .navbar-default .navbar-nav li:not(.nav-icon-item)+li.nav-icon-item {
     margin-left: 0;
     padding-left: 0;
     border-left: 0;
