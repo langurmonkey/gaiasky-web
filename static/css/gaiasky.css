@@ -569,7 +569,7 @@ canvas[data-starfield] {
 
 /* Keep section content above the canvas. */
 #slider .container,
-#global-header > .container {
+#global-header>.container {
   position: relative;
   z-index: 1;
 }
@@ -621,17 +621,188 @@ canvas[data-starfield] {
   text-align: center;
 }
 
-#slider button#download-button span.title {
+/* Split pill: main download link + caret that opens the per-OS file menu */
+#slider .hero-download {
+  position: relative;
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#slider a#download-button {
+  flex: 1 1 auto;
+  display: block;
+  width: auto;
+  background-image: linear-gradient(to bottom, var(--button1-color), var(--button2-color));
+  color: white;
+  padding: 10px 15px;
+  font-size: 1.4rem;
+  border-radius: 20px 0 0 20px;
+  border-width: 0;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+}
+
+#slider a#download-button:hover,
+#slider a#download-button:focus {
+  background-image: linear-gradient(to bottom, var(--accent-color), black);
+  color: white;
+  text-decoration: none;
+}
+
+#slider button.hero-download-toggle {
+  flex: 0 0 3.2em;
+  width: 3.2em;
+  padding: 0;
+  border: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 0 20px 20px 0;
+  background-image: linear-gradient(to bottom, var(--button1-color), var(--button2-color));
+  color: white;
+  cursor: pointer;
+}
+
+#slider button.hero-download-toggle>svg {
+  transition: transform 0.2s ease;
+}
+
+#slider .hero-download-toggle[aria-expanded='true']>svg {
+  transform: rotate(180deg);
+}
+
+#slider button.hero-download-toggle:focus-visible {
+  outline: 2px solid var(--accent-color) !important;
+  outline-offset: 2px !important;
+}
+
+/* No JS: the caret cannot open anything, so hide it and keep the plain link */
+html:not(.js) #slider .hero-download-toggle {
+  display: none;
+}
+
+html:not(.js) #slider a#download-button {
+  border-radius: 20px;
+}
+
+#slider .hero-download-menu {
+  position: absolute;
+  z-index: 25;
+  top: calc(100% + 0.5em);
+  left: 0;
+  right: 0;
+  padding: 0.5em;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 12px;
+  background: rgba(12, 12, 12, 0.98);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.65);
+  text-align: left;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+#slider .hero-download-menu[hidden] {
+  display: none;
+}
+
+#slider .hero-download-menu[data-single] .hero-download-group-title {
+  display: none;
+}
+
+#slider .hero-download-group-title {
+  margin: 0.3em 0.6em 0.35em;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim-color);
+}
+
+#slider .hero-download-item {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  padding: 0.5em 0.6em;
+  border-radius: 8px;
+  color: var(--text-color);
+}
+
+#slider .hero-download-item:hover,
+#slider .hero-download-item:focus {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+#slider .hero-download-item-icon {
+  flex: 0 0 1.4em;
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--accent-color);
+}
+
+#slider .hero-download-item-text {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+
+#slider .hero-download-item-label {
+  font-size: 1.4rem;
+}
+
+#slider .hero-download-item-label code {
+  font-size: 0.85em;
+  color: var(--text-dim-color);
+}
+
+#slider .hero-download-item-sub {
+  font-size: 1.15rem;
+  color: var(--text-dim-color);
+}
+
+#slider .hero-download-item-trail {
+  flex: 0 0 auto;
+  font-size: 1.4rem;
+  color: var(--text-dimmer-color);
+}
+
+#slider .hero-download-recommended {
+  margin-left: 0.35em;
+  font-size: 0.8em;
+  color: var(--accent-color);
+}
+
+#slider .hero-download-all {
+  display: block;
+  margin: 0.4em 0.6em 0.2em;
+  font-size: 1.2rem;
+  color: var(--text-dim-color);
+}
+
+#slider .hero-download-arch {
+  margin-left: 0.5em;
+  padding: 0 0.35em;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  font-size: 0.55em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  vertical-align: 0.35em;
+  opacity: 0.75;
+}
+
+#slider #download-button span.title {
   font-size: 1.6em;
 }
 
-#slider button#download-button span.title i[class^='gs-'] {
+#slider #download-button span.title i[class^='gs-'] {
   position: relative;
   top: 0.1em;
 }
 
 /* Version and release date, tucked inside the main button */
-#slider button#download-button span.subtext {
+#slider #download-button span.subtext {
   display: inline-block;
   margin-top: 0.3em;
   font-size: 1.25rem;
@@ -1759,12 +1930,12 @@ px      68    160    252    344    436    528    620    712    */
     font-size: 15px;
   }
 
-  #slider button#download-button {
+  #slider .hero-download {
     width: 100%;
   }
 
   /*--
-	wrapper Start 
+	wrapper Start
 --*/
   #wrapper-work ul li .items-text {
     padding-top: 0;
@@ -1821,6 +1992,7 @@ px      68    160    252    344    436    528    620    712    */
 cols    1     2      3
 px      68    160    252    */
 @media only screen and (max-width: 767px) {
+
   /* Hero backgrounds: 1280px variants (static/img/backgrounds/sm/) instead of
      the 2560px originals. Both properties come from the same pick in head.html. */
   .random-background {
@@ -1998,18 +2170,20 @@ px      68    160    252    */
     /* text-align: center; */
   }
 
-  #slider button#download-button {
+  #slider .hero-download {
     width: 100%;
-    border: none;
-    color: white;
-    padding: 10px 15px;
-    margin: auto;
-    cursor: pointer;
-    font-size: 1.0em;
-    border-radius: 10px;
   }
 
-  #slider button#download-button span.title {
+  #slider a#download-button {
+    font-size: 1.0em;
+    border-radius: 10px 0 0 10px;
+  }
+
+  #slider button.hero-download-toggle {
+    border-radius: 0 10px 10px 0;
+  }
+
+  #slider #download-button span.title {
     font-size: 1.3em;
   }
 
@@ -2244,18 +2418,20 @@ px      68    160    252    344    436    */
     /* text-align: center; */
   }
 
-  #slider button#download-button {
+  #slider .hero-download {
     width: 100%;
-    border: none;
-    color: white;
-    padding: 10px 15px;
-    margin: auto;
-    cursor: pointer;
-    font-size: 0.7em;
-    border-radius: 10px;
   }
 
-  #slider button#download-button>span.title {
+  #slider a#download-button {
+    font-size: 0.7em;
+    border-radius: 10px 0 0 10px;
+  }
+
+  #slider button.hero-download-toggle {
+    border-radius: 0 10px 10px 0;
+  }
+
+  #slider #download-button>span.title {
     font-size: 1.5em;
   }
 

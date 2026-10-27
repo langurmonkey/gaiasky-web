@@ -9,15 +9,50 @@
           <h1 class="animated fadeInUp text-uppercase">{{ .Site.Params.slider.title | safeHTML }}</h1>
           <p class="animated fadeInUp">{{ .Site.Params.slider.subtitle | safeHTML }}</p>
         </div>
+        {{- $dl := partial "download-links.html" . -}}
         <div class="col-md-download">
-          <a href="{{ .Site.Params.slider.buttonurl | safeHTML }}">
-            <button id="download-button" class="btn" aria-label="Download {{ .Title }}">
-              <span class="title"><i class="gs-mdi-box-download"></i>
-                {{ .Site.Params.slider.buttonTitle | safeHTML }}</span><br>
+          {{- /* Split pill: the main link downloads the package for the visitor's
+                 OS (swapped in by the script below), the caret opens a menu with
+                 every package for that OS. Without JS the link goes to /downloads/
+                 and the caret is hidden. */ -}}
+          <div class="hero-download">
+            <a id="download-button" class="btn" href="{{ .Site.Params.slider.buttonurl | safeHTML }}">
+              <span class="title"><i class="gs-mdi-box-download" data-download-icon></i>
+                <span data-download-label>{{ .Site.Params.slider.buttonTitle | safeHTML }}</span></span><br>
               <span class="subtext">version {{ .Site.Params.Release.Version | safeHTML }}
                 &middot; {{ time.Format "2 Jan 2006" .Site.Params.Release.Date }}</span>
+            </a>
+            <button type="button" class="hero-download-toggle" aria-expanded="false" aria-haspopup="true"
+              aria-controls="hero-download-menu" aria-label="Other download options">
+              <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false">
+                <path d="M3.5 6L8 10.5 12.5 6" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
             </button>
-          </a>
+            <div id="hero-download-menu" class="hero-download-menu" hidden>
+              {{- range $dl }}
+              <div class="hero-download-group" data-os="{{ .id }}" data-name="{{ .name }}"
+                data-arch="{{ .arch }}" data-icon="{{ .icon }}">
+                <p class="hero-download-group-title">{{ .name }}</p>
+                {{- range $f := .files }}
+                {{- /* safeURL: the Store entry uses a ms-windows-store:// scheme */}}
+                <a class="hero-download-item" href="{{ $f.url | safeURL }}">
+                  <i class="{{ $f.icon }} hero-download-item-icon"></i>
+                  <span class="hero-download-item-text">
+                    <span class="hero-download-item-label">{{ $f.label }}{{ with $f.ext }} <code>{{ . }}</code>{{ end }}</span>
+                    <span class="hero-download-item-sub">{{ $f.sub }}</span>
+                  </span>
+                  {{- if $f.sig }}<i class="gs-mdi-script-text hero-download-item-trail"
+                    title="Signed, .sig available"></i>{{ end }}
+                  {{- if not $f.sig }}<i class="gs-link-external hero-download-item-trail" title="External site"></i>{{ end }}
+                </a>
+                {{- end }}
+              </div>
+              {{- end }}
+              <a class="hero-download-all" href="{{ .Site.BaseURL }}downloads/">All downloads, signatures and
+                older versions &rarr;</a>
+            </div>
+          </div>
 
           <div class="hero-platforms">
             <a class="hero-platform" href="{{ .Site.BaseURL }}downloads/#windows"><i
@@ -45,3 +80,65 @@
     </g>
   </svg>
 </section>
+<script>
+  // Hero download: point the button at the package for the visitor's OS and
+  // narrow the menu to that OS. Arch is not sniffed (the UA does not carry it
+  // reliably); each group states what it actually ships.
+  (function () {
+    var wrap = document.querySelector('#slider .hero-download');
+    if (!wrap) return;
+    var link = wrap.querySelector('a#download-button');
+    var toggle = wrap.querySelector('.hero-download-toggle');
+    var menu = wrap.querySelector('.hero-download-menu');
+    var label = wrap.querySelector('[data-download-label]');
+    var icon = wrap.querySelector('[data-download-icon]');
+    var groups = [].slice.call(wrap.querySelectorAll('.hero-download-group'));
+
+    var ua = navigator.userAgent || '';
+    var plat = (navigator.userAgentData && navigator.userAgentData.platform) ||
+      navigator.platform || '';
+    var sig = (plat + ' ' + ua).toLowerCase();
+    var os = /android|iphone|ipad|ipod/.test(sig) ? null          // mobile: not a target
+      : /win/.test(sig) ? 'windows'
+        : /mac|darwin/.test(sig) ? 'macos'
+          : /linux/.test(sig) ? 'linux'
+            : null;
+
+    var current = groups.filter(function (g) { return g.dataset.os === os; })[0];
+    if (current) {
+      var first = current.querySelector('.hero-download-item');
+      if (first) link.href = first.getAttribute('href');
+      if (label) {
+        label.textContent = 'Download for ' + current.dataset.name;
+        if (current.dataset.arch) {
+          var arch = document.createElement('span');
+          arch.className = 'hero-download-arch';
+          arch.textContent = current.dataset.arch;
+          label.parentNode.insertBefore(arch, label.nextSibling);
+        }
+      }
+      if (icon && current.dataset.icon) icon.className = current.dataset.icon;
+      // Menu shows only the visitor's OS; otherwise keep everything, with titles.
+      groups.forEach(function (g) { g.hidden = g !== current; });
+      menu.setAttribute('data-single', 'true');
+    }
+
+    function setOpen(open) {
+      menu.hidden = !open;
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    }
+
+    toggle.addEventListener('click', function () { setOpen(menu.hidden); });
+
+    document.addEventListener('click', function (e) {
+      if (!wrap.contains(e.target)) setOpen(false);
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !menu.hidden) {
+        setOpen(false);
+        toggle.focus();
+      }
+    });
+  })();
+</script>

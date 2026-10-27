@@ -1,0 +1,54 @@
+{{- /* Release download links, in one place.
+       Returns an ordered slice of os groups: id, name, icon, arch, files.
+       Each file: label, sub, ext, icon, url, sig (has a .sig next to it).
+       The first file of each group is the one the hero button points at.
+       downloads-table.html can switch over to this later. */ -}}
+{{- $r := .Site.Params.release -}}
+{{- $base := "https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/" -}}
+{{- $flat := $r.versionflat -}}
+{{- $full := $r.versionbuild -}}
+
+{{- return (slice
+  (dict
+    "id" "windows"
+    "name" "Windows"
+    "icon" "gs-uil-windows"
+    "arch" "x64"
+    "files" (slice
+      (dict "label" "Windows installer" "sub" "Windows 10/11 · x86_64" "ext" ".exe" "icon" "gs-uil-windows"
+            "url" (printf "%sgaiasky_windows-x64_%s.exe" $base $flat) "sig" true)
+      (dict "label" "Microsoft Store" "sub" "Windows 10/11" "ext" "" "icon" "gs-microsoft-store"
+            "url" "ms-windows-store://pdp/?productid=XPDBZFFV2QTW9M" "sig" false)
+    )
+  )
+  (dict
+    "id" "macos"
+    "name" "macOS"
+    "icon" "gs-fa6-brands-apple"
+    "arch" "universal"
+    "files" (slice
+      (dict "label" "macOS package" "sub" "Apple silicon and Intel" "ext" ".dmg" "icon" "gs-fa6-brands-apple"
+            "url" (printf "%sgaiasky_macos_%s.dmg" $base $flat) "sig" true)
+    )
+  )
+  (dict
+    "id" "linux"
+    "name" "Linux"
+    "icon" "gs-mdi-linux"
+    "arch" "x64"
+    "files" (slice
+      (dict "label" "AppImage" "sub" "Any distro, self-contained" "ext" "" "icon" "gs-material-symbols-box"
+            "url" (printf "%sgaiasky_%s_x86_64.appimage" $base $full) "sig" true)
+      (dict "label" "DEB package" "sub" "Debian, Ubuntu, Mint" "ext" ".deb" "icon" "gs-mdi-debian"
+            "url" (printf "%sgaiasky_linux_%s.deb" $base $flat) "sig" true)
+      (dict "label" "RPM package" "sub" "Fedora, Red Hat, SUSE" "ext" ".rpm" "icon" "gs-mdi-fedora"
+            "url" (printf "%sgaiasky_linux_%s.rpm" $base $flat) "sig" true)
+      (dict "label" "UNIX installer" "sub" "Distro-agnostic script" "ext" ".sh" "icon" "gs-token-unix"
+            "url" (printf "%sgaiasky_linux_%s.sh" $base $flat) "sig" true)
+      (dict "label" "AUR package" "sub" "Arch Linux User Repository" "ext" "" "icon" "gs-mdi-arch"
+            "url" "https://aur.archlinux.org/packages/gaiasky/" "sig" false)
+      (dict "label" "Flatpak" "sub" "via flathub.org" "ext" "" "icon" "gs-simple-icons-flatpak"
+            "url" "https://flathub.org/apps/details/space.gaiasky.GaiaSky" "sig" false)
+    )
+  )
+) -}}
