@@ -116,12 +116,12 @@ date_format = "2 Jan 2006"
 copyright = "The Gaia Sky Project"
 
 [params.release]
-version = "3.9.1"
-versionFlat = "3_9_1"
-versionBuild = "3.9.1.0c8d86389"
-build = "0c8d86389"
-date = "2026-10-23T08:33:44"
-post = "/news/2026/gaiasky_3.9.1"
+version = "3.9.2"
+versionFlat = "3_9_2"
+versionBuild = "3.9.2.95a9305a9"
+build = "95a9305a9"
+date = "2026-10-27T07:50:46"
+post = "/news/2026/gaiasky_3.9.2"
 
 [params.meta]
 description = "Homepage of Gaia Sky, an open source 3D universe platform"
