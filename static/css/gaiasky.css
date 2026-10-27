@@ -781,14 +781,14 @@ html:not(.js) #slider a#download-button {
 }
 
 #slider .hero-download-arch {
-  margin-left: 0.5em;
+  margin-left: 1.0em;
   padding: 0 0.35em;
   border: 1px solid currentColor;
   border-radius: 4px;
   font-size: 0.55em;
   font-weight: 600;
   letter-spacing: 0.04em;
-  vertical-align: 0.35em;
+  vertical-align: 0.15em;
   opacity: 0.75;
 }
 
