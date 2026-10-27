@@ -11,6 +11,7 @@ tags = ["media", "screnshots", "videos", "audiovisual"]
 {{< gallery >}}
   {{< figure src="img/screenshots/earth.jpg" caption="A view of the Earth in Gaia Sky." >}}
   {{< figure src="img/screenshots/asteroids.jpg" caption="A view of the Asteroids in the Gaia FPR dataset." >}}
+  {{< figure src="img/screenshots/exoplanets-collage.jpg" caption="A view of two procedurally generated exoplanets." >}}
   {{< figure src="img/screenshots/aurora.jpg" caption="Volume rendering of the aurora borealis." >}}
   {{< figure src="img/screenshots/gaia.jpg" caption="The Gaia observatory." >}}
   {{< figure src="img/screenshots/black-hole.jpg" caption="Black hole with accretion disk and light bending, rendered using ray-marching." >}}
@@ -21,7 +22,6 @@ tags = ["media", "screnshots", "videos", "audiovisual"]
   {{< figure src="img/screenshots/iss.jpg" caption="The International Space Station from above." >}}
   {{< figure src="img/screenshots/eclipse.jpg" caption="Eclipse representation with umbra and penumbra outlines." >}}
   {{< figure src="img/screenshots/enterprise.jpg" caption="USS Enterprise above the surface of Mars." >}}
-  {{< figure src="img/screenshots/exoplanets.jpg" caption="A view of two procedurally generated exoplanets." >}}
   {{< figure src="img/screenshots/gaia-sky-VR.jpg" caption="Gaia Sky VR, with its control panel and controller renderings." >}}
   {{< figure src="img/screenshots/orion-moon-earth.jpg" caption="Orion from Artemis-II with the Moon and Earth." >}}
   {{< figure src="img/screenshots/mars-phobos.jpg" caption="Mars and its moon Phobos." >}}
