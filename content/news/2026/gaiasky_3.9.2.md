@@ -19,7 +19,7 @@ Gaia Sky 3.9.2 comes with a new release of the base data pack that fixes the vol
 {{</ notice >}}
 
 ### Volumes
-- Procedural galaxy volumes are drawn at the correct size and position (they were 5% too large and off-centre). Volumes generated with an older `particles-to-volume.py` must be regenerated.
+- The Milky Way volume is drawn at the correct size and position (it was too small and off-centre). Volumes generated with an older `particles-to-volume.py` must be regenerated.
 - Volume labels are no longer 10 times too large. Fixes [#943](https://codeberg.org/gaiasky/gaiasky/issues/943).
 
 ### Labels and grids
