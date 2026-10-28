@@ -81,16 +81,16 @@ name = "Downloads"
 pageRef = "downloads"
 [[menu.footer]]
 weight = 4
-name = "Old Releases"
-pageRef = "downloads/releases"
+name = "Docs"
+url = "http://docs.gaiasky.space"
 [[menu.footer]]
 weight = 5
 name = "Gallery"
 pageRef = "media"
 [[menu.footer]]
 weight = 6
-name = "Documentation"
-url = "http://docs.gaiasky.space"
+name = "Old Releases"
+pageRef = "downloads/releases"
 [[menu.footer]]
 weight = 7
 name = "Resources"
