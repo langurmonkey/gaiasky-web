@@ -82,7 +82,7 @@ pageRef = "downloads"
 [[menu.footer]]
 weight = 4
 name = "Docs"
-url = "http://docs.gaiasky.space"
+url = "https://docs.gaiasky.space"
 [[menu.footer]]
 weight = 5
 name = "Gallery"

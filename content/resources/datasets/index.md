@@ -14,7 +14,7 @@ Click on the dataset title to reveal more information.
 <h2 id='data-pack'>Data packs</h2>
 <a href='#default-data'></a><details id="default-data">
 <summary>
-<h3>Base data pack <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v065_20261008/index.html' title='Base data pack files'>🔗</a></span>
+<h3>Base data pack <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/basedata/v067_20261027/index.html' title='Base data pack files'>🔗</a></span>
 <a href='gaiasky://load?dataset=default-data' title='Open "Base data pack" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-database-outline" title="Type: data-pack"></i> <code title="Key: default-data">default-data</code></h3>
 <img src="/img/datasets/default-data.jpg" title="default-data"></img>
@@ -25,9 +25,9 @@ Click on the dataset title to reveal more information.
 Contains the solar system planets and moons, minor planets, satellites, orbits, constellations, the Milky Way, grids, locations and other important objects. Without this data pack Gaia Sky won't start.</div>
 
 - **Type:** `data-pack`
-- **Dataset version:** v65
-- **Minimum Gaia Sky version:** 3.8.1
-- **Size:** 104.7MiB <span class='unimportant'>(109794598)</span>
+- **Dataset version:** v67
+- **Minimum Gaia Sky version:** 3.9.2
+- **Size:** 111.2MiB <span class='unimportant'>(116646104)</span>
 - **Number of objects:** 9.93k <span class='unimportant'>(9933)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Credits:**
@@ -41,10 +41,10 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
    - Tom Patterson, www.shadedrelief.com
    - Phil Stooke, Grant Hutchison
 - **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata)
+   - [https://repository.gaiasky.space/basedata](https://repository.gaiasky.space/basedata)
    - [https://gaiasky.space/resources/datasets](https://gaiasky.space/resources/datasets)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v065_20261008/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/basedata/v065_20261008/index.html)
+     - [https://repository.gaiasky.space/basedata/v067_20261027/index.html](https://repository.gaiasky.space/basedata/v067_20261027/index.html)
 </div>
 </article>
 </details>
@@ -52,7 +52,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 <h2 id='texture-pack'>Texture packs</h2>
 <a href='#hi-res-textures'></a><details id="hi-res-textures">
 <summary>
-<h3>High resolution textures <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex/v015_20260109/index.html' title='High resolution textures files'>🔗</a></span>
+<h3>High resolution textures <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/tex/v015_20260109/index.html' title='High resolution textures files'>🔗</a></span>
 <a href='gaiasky://load?dataset=hi-res-textures' title='Open "High resolution textures" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-material-symbols-texture" title="Type: texture-pack"></i> <code title="Key: hi-res-textures">hi-res-textures</code></h3>
 <img src="/img/datasets/hi-res-textures.jpg" title="hi-res-textures"></img>
@@ -68,9 +68,9 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Number of objects:** 76 <span class='unimportant'>(76)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex)
+   - [https://repository.gaiasky.space/tex](https://repository.gaiasky.space/tex)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex/v015_20260109/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/tex/v015_20260109/index.html)
+     - [https://repository.gaiasky.space/tex/v015_20260109/index.html](https://repository.gaiasky.space/tex/v015_20260109/index.html)
 </div>
 </article>
 </details>
@@ -78,7 +78,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 <h2 id='catalog-gaia'>Gaia star catalogs</h2>
 <a href='#catalog-variablestars-dr3'></a><details id="catalog-variablestars-dr3">
 <summary>
-<h3>DR3 Cepheid and RR Lyrae <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr3/v01_20221115/index.html' title='DR3 Cepheid and RR Lyrae files'>🔗</a></span>
+<h3>DR3 Cepheid and RR Lyrae <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/variable/dr3/v01_20221115/index.html' title='DR3 Cepheid and RR Lyrae files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-variablestars-dr3' title='Open "DR3 Cepheid and RR Lyrae" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-variablestars-dr3">catalog-variablestars-dr3</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
@@ -98,14 +98,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de](https://gaia.ari.uni-heidelberg.de)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr3/v01_20221115/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr3/v01_20221115/index.html)
+     - [https://repository.gaiasky.space/catalog/variable/dr3/v01_20221115/index.html](https://repository.gaiasky.space/catalog/variable/dr3/v01_20221115/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-whitedwarfs-edr3'></a><details id="catalog-whitedwarfs-edr3">
 <summary>
-<h3>eDR3 White Dwarfs <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/edr3/v01_20221115/index.html' title='eDR3 White Dwarfs files'>🔗</a></span>
+<h3>eDR3 White Dwarfs <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/wd/edr3/v01_20221115/index.html' title='eDR3 White Dwarfs files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-whitedwarfs-edr3' title='Open "eDR3 White Dwarfs" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-whitedwarfs-edr3">catalog-whitedwarfs-edr3</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
@@ -125,14 +125,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://arxiv.org/abs/2106.07669](https://arxiv.org/abs/2106.07669)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/edr3/v01_20221115/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/edr3/v01_20221115/index.html)
+     - [https://repository.gaiasky.space/catalog/wd/edr3/v01_20221115/index.html](https://repository.gaiasky.space/catalog/wd/edr3/v01_20221115/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-gcns'></a><details id="catalog-gcns">
 <summary>
-<h3>Gaia Catalog of Nearby Stars <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gcns/v03_20230306/index.html' title='Gaia Catalog of Nearby Stars files'>🔗</a></span>
+<h3>Gaia Catalog of Nearby Stars <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/gcns/v03_20230306/index.html' title='Gaia Catalog of Nearby Stars files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-gcns' title='Open "Gaia Catalog of Nearby Stars" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-gcns">catalog-gcns</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
@@ -150,14 +150,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://arxiv.org/abs/2012.02061](https://arxiv.org/abs/2012.02061)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gcns/v03_20230306/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gcns/v03_20230306/index.html)
+     - [https://repository.gaiasky.space/catalog/gcns/v03_20230306/index.html](https://repository.gaiasky.space/catalog/gcns/v03_20230306/index.html)
 </div>
 </article>
 </details>
 
 <a href='#gaia-dr3-best'></a><details id="gaia-dr3-best">
 <summary>
-<h3>Gaia DR3 best <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/014-best/v01_20250530/index.html' title='Gaia DR3 best files'>🔗</a></span>
+<h3>Gaia DR3 best <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/dr3/014-best/v01_20250530/index.html' title='Gaia DR3 best files'>🔗</a></span>
 <a href='gaiasky://load?dataset=gaia-dr3-best' title='Open "Gaia DR3 best" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: gaia-dr3-best">gaia-dr3-best</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
@@ -175,14 +175,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/014-best/v01_20250530/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/014-best/v01_20250530/index.html)
+     - [https://repository.gaiasky.space/catalog/dr3/014-best/v01_20250530/index.html](https://repository.gaiasky.space/catalog/dr3/014-best/v01_20250530/index.html)
 </div>
 </article>
 </details>
 
 <a href='#gaia-dr3-tiny'></a><details id="gaia-dr3-tiny">
 <summary>
-<h3>Gaia DR3 tiny <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/011-tiny/v03_20240423/index.html' title='Gaia DR3 tiny files'>🔗</a></span>
+<h3>Gaia DR3 tiny <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/dr3/011-tiny/v03_20240423/index.html' title='Gaia DR3 tiny files'>🔗</a></span>
 <a href='gaiasky://load?dataset=gaia-dr3-tiny' title='Open "Gaia DR3 tiny" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: gaia-dr3-tiny">gaia-dr3-tiny</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
@@ -200,14 +200,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/011-tiny/v03_20240423/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/011-tiny/v03_20240423/index.html)
+     - [https://repository.gaiasky.space/catalog/dr3/011-tiny/v03_20240423/index.html](https://repository.gaiasky.space/catalog/dr3/011-tiny/v03_20240423/index.html)
 </div>
 </article>
 </details>
 
 <a href='#gaia-dr3-weeny'></a><details id="gaia-dr3-weeny">
 <summary>
-<h3>Gaia DR3 weeny <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/012-weeny/v03_20240423/index.html' title='Gaia DR3 weeny files'>🔗</a></span>
+<h3>Gaia DR3 weeny <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/dr3/012-weeny/v03_20240423/index.html' title='Gaia DR3 weeny files'>🔗</a></span>
 <a href='gaiasky://load?dataset=gaia-dr3-weeny' title='Open "Gaia DR3 weeny" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: gaia-dr3-weeny">gaia-dr3-weeny</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
@@ -225,14 +225,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/012-weeny/v03_20240423/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/012-weeny/v03_20240423/index.html)
+     - [https://repository.gaiasky.space/catalog/dr3/012-weeny/v03_20240423/index.html](https://repository.gaiasky.space/catalog/dr3/012-weeny/v03_20240423/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-gd1'></a><details id="catalog-gd1">
 <summary>
-<h3>GD-1 stellar stream <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gd1/v02_20221116/index.html' title='GD-1 stellar stream files'>🔗</a></span>
+<h3>GD-1 stellar stream <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/gd1/v02_20221116/index.html' title='GD-1 stellar stream files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-gd1' title='Open "GD-1 stellar stream" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-gd1">catalog-gd1</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
@@ -250,14 +250,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://arxiv.org/abs/1805.00425](https://arxiv.org/abs/1805.00425)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gd1/v02_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/gd1/v02_20221116/index.html)
+     - [https://repository.gaiasky.space/catalog/gd1/v02_20221116/index.html](https://repository.gaiasky.space/catalog/gd1/v02_20221116/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-whitedwarfs-dr2'></a><details id="catalog-whitedwarfs-dr2">
 <summary>
-<h3>DR2 White Dwarfs <span class="replaced-warning" title="Replaced by: catalog-whitedwarfs-edr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/dr2/v03_20221115/index.html' title='DR2 White Dwarfs files'>🔗</a></span>
+<h3>DR2 White Dwarfs <span class="replaced-warning" title="Replaced by: catalog-whitedwarfs-edr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/wd/dr2/v03_20221115/index.html' title='DR2 White Dwarfs files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-whitedwarfs-dr2' title='Open "DR2 White Dwarfs" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-whitedwarfs-dr2">catalog-whitedwarfs-dr2</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
@@ -277,14 +277,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [http://adsabs.harvard.edu/abs/2019MNRAS.482.4570G](http://adsabs.harvard.edu/abs/2019MNRAS.482.4570G)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/dr2/v03_20221115/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/wd/dr2/v03_20221115/index.html)
+     - [https://repository.gaiasky.space/catalog/wd/dr2/v03_20221115/index.html](https://repository.gaiasky.space/catalog/wd/dr2/v03_20221115/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-variablestars-dr2'></a><details id="catalog-variablestars-dr2">
 <summary>
-<h3>Gaia DR2 Cepheid and RR Lyrae <span class="replaced-warning" title="Replaced by: catalog-variablestars-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr2/v03_20221115/index.html' title='Gaia DR2 Cepheid and RR Lyrae files'>🔗</a></span>
+<h3>Gaia DR2 Cepheid and RR Lyrae <span class="replaced-warning" title="Replaced by: catalog-variablestars-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/variable/dr2/v03_20221115/index.html' title='Gaia DR2 Cepheid and RR Lyrae files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-variablestars-dr2' title='Open "Gaia DR2 Cepheid and RR Lyrae" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-tabler-stars-filled" title="Type: catalog-gaia"></i> <code title="Key: catalog-variablestars-dr2">catalog-variablestars-dr2</code></h3>
 <img src="/img/datasets/catalog-gaia.jpg" title="catalog-gaia"></img>
@@ -304,7 +304,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de](https://gaia.ari.uni-heidelberg.de)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr2/v03_20221115/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/variable/dr2/v03_20221115/index.html)
+     - [https://repository.gaiasky.space/catalog/variable/dr2/v03_20221115/index.html](https://repository.gaiasky.space/catalog/variable/dr2/v03_20221115/index.html)
 </div>
 </article>
 </details>
@@ -312,7 +312,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 <h2 id='catalog-lod'>Level-of-detail catalogs</h2>
 <a href='#gaia-dr3-geodist'></a><details id="gaia-dr3-geodist">
 <summary>
-<h3>Gaia DR3 bayesian distances <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/008-geodist/v02_20221117/index.html' title='Gaia DR3 bayesian distances files'>🔗</a></span>
+<h3>Gaia DR3 bayesian distances <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/dr3/008-geodist/v02_20221117/index.html' title='Gaia DR3 bayesian distances files'>🔗</a></span>
 <a href='gaiasky://load?dataset=gaia-dr3-geodist' title='Open "Gaia DR3 bayesian distances" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-geodist">gaia-dr3-geodist</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -330,14 +330,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://iopscience.iop.org/article/10.3847/1538-3881/abd806](https://iopscience.iop.org/article/10.3847/1538-3881/abd806)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/008-geodist/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/008-geodist/v02_20221117/index.html)
+     - [https://repository.gaiasky.space/catalog/dr3/008-geodist/v02_20221117/index.html](https://repository.gaiasky.space/catalog/dr3/008-geodist/v02_20221117/index.html)
 </div>
 </article>
 </details>
 
 <a href='#gaia-dr3-bright'></a><details id="gaia-dr3-bright">
 <summary>
-<h3>Gaia DR3 bright <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/006-bright/v02_20221117/index.html' title='Gaia DR3 bright files'>🔗</a></span>
+<h3>Gaia DR3 bright <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/dr3/006-bright/v02_20221117/index.html' title='Gaia DR3 bright files'>🔗</a></span>
 <a href='gaiasky://load?dataset=gaia-dr3-bright' title='Open "Gaia DR3 bright" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-bright">gaia-dr3-bright</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -355,14 +355,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/006-bright/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/006-bright/v02_20221117/index.html)
+     - [https://repository.gaiasky.space/catalog/dr3/006-bright/v02_20221117/index.html](https://repository.gaiasky.space/catalog/dr3/006-bright/v02_20221117/index.html)
 </div>
 </article>
 </details>
 
 <a href='#gaia-dr3-default'></a><details id="gaia-dr3-default">
 <summary>
-<h3>Gaia DR3 default <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/000-default/v03_20240423/index.html' title='Gaia DR3 default files'>🔗</a></span>
+<h3>Gaia DR3 default <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/dr3/000-default/v03_20240423/index.html' title='Gaia DR3 default files'>🔗</a></span>
 <a href='gaiasky://load?dataset=gaia-dr3-default' title='Open "Gaia DR3 default" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-default">gaia-dr3-default</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -380,14 +380,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/000-default/v03_20240423/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/000-default/v03_20240423/index.html)
+     - [https://repository.gaiasky.space/catalog/dr3/000-default/v03_20240423/index.html](https://repository.gaiasky.space/catalog/dr3/000-default/v03_20240423/index.html)
 </div>
 </article>
 </details>
 
 <a href='#gaia-dr3-extralarge'></a><details id="gaia-dr3-extralarge">
 <summary>
-<h3>Gaia DR3 extra large <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/005-extralarge/v02_20221117/index.html' title='Gaia DR3 extra large files'>🔗</a></span>
+<h3>Gaia DR3 extra large <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/dr3/005-extralarge/v02_20221117/index.html' title='Gaia DR3 extra large files'>🔗</a></span>
 <a href='gaiasky://load?dataset=gaia-dr3-extralarge' title='Open "Gaia DR3 extra large" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-extralarge">gaia-dr3-extralarge</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -405,14 +405,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/005-extralarge/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/005-extralarge/v02_20221117/index.html)
+     - [https://repository.gaiasky.space/catalog/dr3/005-extralarge/v02_20221117/index.html](https://repository.gaiasky.space/catalog/dr3/005-extralarge/v02_20221117/index.html)
 </div>
 </article>
 </details>
 
 <a href='#gaia-dr3-fidelity'></a><details id="gaia-dr3-fidelity">
 <summary>
-<h3>Gaia DR3 fidelity <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/009-fidelity/v02_20221117/index.html' title='Gaia DR3 fidelity files'>🔗</a></span>
+<h3>Gaia DR3 fidelity <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/dr3/009-fidelity/v02_20221117/index.html' title='Gaia DR3 fidelity files'>🔗</a></span>
 <a href='gaiasky://load?dataset=gaia-dr3-fidelity' title='Open "Gaia DR3 fidelity" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-fidelity">gaia-dr3-fidelity</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -430,14 +430,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/009-fidelity/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/009-fidelity/v02_20221117/index.html)
+     - [https://repository.gaiasky.space/catalog/dr3/009-fidelity/v02_20221117/index.html](https://repository.gaiasky.space/catalog/dr3/009-fidelity/v02_20221117/index.html)
 </div>
 </article>
 </details>
 
 <a href='#gaia-dr3-large'></a><details id="gaia-dr3-large">
 <summary>
-<h3>Gaia DR3 large <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/003-large/v02_20221117/index.html' title='Gaia DR3 large files'>🔗</a></span>
+<h3>Gaia DR3 large <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/dr3/003-large/v02_20221117/index.html' title='Gaia DR3 large files'>🔗</a></span>
 <a href='gaiasky://load?dataset=gaia-dr3-large' title='Open "Gaia DR3 large" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-large">gaia-dr3-large</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -455,14 +455,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/003-large/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/003-large/v02_20221117/index.html)
+     - [https://repository.gaiasky.space/catalog/dr3/003-large/v02_20221117/index.html](https://repository.gaiasky.space/catalog/dr3/003-large/v02_20221117/index.html)
 </div>
 </article>
 </details>
 
 <a href='#gaia-dr3-medium'></a><details id="gaia-dr3-medium">
 <summary>
-<h3>Gaia DR3 medium <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/002-medium/v02_20221117/index.html' title='Gaia DR3 medium files'>🔗</a></span>
+<h3>Gaia DR3 medium <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/dr3/002-medium/v02_20221117/index.html' title='Gaia DR3 medium files'>🔗</a></span>
 <a href='gaiasky://load?dataset=gaia-dr3-medium' title='Open "Gaia DR3 medium" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-medium">gaia-dr3-medium</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -478,18 +478,18 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Number of objects:** 49.94M <span class='unimportant'>(49939229)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/002-medium](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/002-medium)
+   - [https://repository.gaiasky.space/catalog/dr3/002-medium](https://repository.gaiasky.space/catalog/dr3/002-medium)
    - [https://gaiasky.space/resources/datasets](https://gaiasky.space/resources/datasets)
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/002-medium/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/002-medium/v02_20221117/index.html)
+     - [https://repository.gaiasky.space/catalog/dr3/002-medium/v02_20221117/index.html](https://repository.gaiasky.space/catalog/dr3/002-medium/v02_20221117/index.html)
 </div>
 </article>
 </details>
 
 <a href='#gaia-dr3-photdist'></a><details id="gaia-dr3-photdist">
 <summary>
-<h3>Gaia DR3 photometric distances <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/010-photdist/v02_20221117/index.html' title='Gaia DR3 photometric distances files'>🔗</a></span>
+<h3>Gaia DR3 photometric distances <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/dr3/010-photdist/v02_20221117/index.html' title='Gaia DR3 photometric distances files'>🔗</a></span>
 <a href='gaiasky://load?dataset=gaia-dr3-photdist' title='Open "Gaia DR3 photometric distances" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-photdist">gaia-dr3-photdist</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -507,14 +507,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/010-photdist/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/010-photdist/v02_20221117/index.html)
+     - [https://repository.gaiasky.space/catalog/dr3/010-photdist/v02_20221117/index.html](https://repository.gaiasky.space/catalog/dr3/010-photdist/v02_20221117/index.html)
 </div>
 </article>
 </details>
 
 <a href='#gaia-dr3-ruwe'></a><details id="gaia-dr3-ruwe">
 <summary>
-<h3>Gaia DR3 RUWE <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/007-ruwe/v02_20221117/index.html' title='Gaia DR3 RUWE files'>🔗</a></span>
+<h3>Gaia DR3 RUWE <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/dr3/007-ruwe/v02_20221117/index.html' title='Gaia DR3 RUWE files'>🔗</a></span>
 <a href='gaiasky://load?dataset=gaia-dr3-ruwe' title='Open "Gaia DR3 RUWE" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-ruwe">gaia-dr3-ruwe</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -532,14 +532,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [http://www.rssd.esa.int/doc_fetch.php?id=3757412](http://www.rssd.esa.int/doc_fetch.php?id=3757412)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/007-ruwe/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/007-ruwe/v02_20221117/index.html)
+     - [https://repository.gaiasky.space/catalog/dr3/007-ruwe/v02_20221117/index.html](https://repository.gaiasky.space/catalog/dr3/007-ruwe/v02_20221117/index.html)
 </div>
 </article>
 </details>
 
 <a href='#gaia-dr3-small'></a><details id="gaia-dr3-small">
 <summary>
-<h3>Gaia DR3 small <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/001-small/v02_20221117/index.html' title='Gaia DR3 small files'>🔗</a></span>
+<h3>Gaia DR3 small <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/dr3/001-small/v02_20221117/index.html' title='Gaia DR3 small files'>🔗</a></span>
 <a href='gaiasky://load?dataset=gaia-dr3-small' title='Open "Gaia DR3 small" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-small">gaia-dr3-small</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -557,14 +557,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/001-small/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/001-small/v02_20221117/index.html)
+     - [https://repository.gaiasky.space/catalog/dr3/001-small/v02_20221117/index.html](https://repository.gaiasky.space/catalog/dr3/001-small/v02_20221117/index.html)
 </div>
 </article>
 </details>
 
 <a href='#gaia-dr3-verylarge'></a><details id="gaia-dr3-verylarge">
 <summary>
-<h3>Gaia DR3 very large <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/004-verylarge/v02_20221117/index.html' title='Gaia DR3 very large files'>🔗</a></span>
+<h3>Gaia DR3 very large <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/dr3/004-verylarge/v02_20221117/index.html' title='Gaia DR3 very large files'>🔗</a></span>
 <a href='gaiasky://load?dataset=gaia-dr3-verylarge' title='Open "Gaia DR3 very large" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-la-cubes" title="Type: catalog-lod"></i> <code title="Key: gaia-dr3-verylarge">gaia-dr3-verylarge</code></h3>
 <img src="/img/datasets/catalog-lod.jpg" title="catalog-lod"></img>
@@ -582,7 +582,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository](https://gaia.ari.uni-heidelberg.de/gaiasky/files/repository)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/004-verylarge/v02_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/dr3/004-verylarge/v02_20221117/index.html)
+     - [https://repository.gaiasky.space/catalog/dr3/004-verylarge/v02_20221117/index.html](https://repository.gaiasky.space/catalog/dr3/004-verylarge/v02_20221117/index.html)
 </div>
 </article>
 </details>
@@ -590,7 +590,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 <h2 id='catalog-star'>Star catalogs</h2>
 <a href='#catalog-atnf-pulsars'></a><details id="catalog-atnf-pulsars">
 <summary>
-<h3>ATNF Pulsar Catalogue <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/atnf-pulsars/v01_20260630/index.html' title='ATNF Pulsar Catalogue files'>🔗</a></span>
+<h3>ATNF Pulsar Catalogue <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/atnf-pulsars/v01_20260630/index.html' title='ATNF Pulsar Catalogue files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-atnf-pulsars' title='Open "ATNF Pulsar Catalogue" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-game-icons-stars-stack" title="Type: catalog-star"></i> <code title="Key: catalog-atnf-pulsars">catalog-atnf-pulsars</code></h3>
 <img src="/img/datasets/catalog-star.jpg" title="catalog-star"></img>
@@ -611,14 +611,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://www.atnf.csiro.au/research/pulsar/psrcat/](https://www.atnf.csiro.au/research/pulsar/psrcat/)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/atnf-pulsars/v01_20260630/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/atnf-pulsars/v01_20260630/index.html)
+     - [https://repository.gaiasky.space/catalog/atnf-pulsars/v01_20260630/index.html](https://repository.gaiasky.space/catalog/atnf-pulsars/v01_20260630/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-cns5'></a><details id="catalog-cns5">
 <summary>
-<h3>Fifth Catalog of Nearby Stars (CNS5) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/cns5/v03_20230110/index.html' title='Fifth Catalog of Nearby Stars (CNS5) files'>🔗</a></span>
+<h3>Fifth Catalog of Nearby Stars (CNS5) <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/cns5/v03_20230110/index.html' title='Fifth Catalog of Nearby Stars (CNS5) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-cns5' title='Open "Fifth Catalog of Nearby Stars (CNS5)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-game-icons-stars-stack" title="Type: catalog-star"></i> <code title="Key: catalog-cns5">catalog-cns5</code></h3>
 <img src="/img/datasets/catalog-star.jpg" title="catalog-star"></img>
@@ -636,14 +636,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [http://dc.zah.uni-heidelberg.de/tableinfo/cns5.main](http://dc.zah.uni-heidelberg.de/tableinfo/cns5.main)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/cns5/v03_20230110/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/cns5/v03_20230110/index.html)
+     - [https://repository.gaiasky.space/catalog/cns5/v03_20230110/index.html](https://repository.gaiasky.space/catalog/cns5/v03_20230110/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-hipparcos'></a><details id="catalog-hipparcos">
 <summary>
-<h3>Hipparcos (new reduction) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/hipparcos/v06_20250506/index.html' title='Hipparcos (new reduction) files'>🔗</a></span>
+<h3>Hipparcos (new reduction) <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/hipparcos/v06_20250506/index.html' title='Hipparcos (new reduction) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-hipparcos' title='Open "Hipparcos (new reduction)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-game-icons-stars-stack" title="Type: catalog-star"></i> <code title="Key: catalog-hipparcos">catalog-hipparcos</code></h3>
 <img src="/img/datasets/catalog-star.jpg" title="catalog-star"></img>
@@ -661,7 +661,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [http://adsabs.harvard.edu/abs/2007ASSL..350.....V](http://adsabs.harvard.edu/abs/2007ASSL..350.....V)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/hipparcos/v06_20250506/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/hipparcos/v06_20250506/index.html)
+     - [https://repository.gaiasky.space/catalog/hipparcos/v06_20250506/index.html](https://repository.gaiasky.space/catalog/hipparcos/v06_20250506/index.html)
 </div>
 </article>
 </details>
@@ -669,7 +669,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 <h2 id='catalog-gal'>Galaxy catalogs</h2>
 <a href='#catalog-nbg'></a><details id="catalog-nbg">
 <summary>
-<h3>NEARGALCAT <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/nbg/v017_20260331/index.html' title='NEARGALCAT files'>🔗</a></span>
+<h3>NEARGALCAT <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/galaxies/nbg/v017_20260331/index.html' title='NEARGALCAT files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-nbg' title='Open "NEARGALCAT" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-streamline-galaxy-2-solid" title="Type: catalog-gal"></i> <code title="Key: catalog-nbg">catalog-nbg</code></h3>
 <img src="/img/datasets/catalog-nbg.jpg" title="catalog-nbg"></img>
@@ -688,14 +688,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
    - [https://heasarc.gsfc.nasa.gov/W3Browse/all/neargalcat.html](https://heasarc.gsfc.nasa.gov/W3Browse/all/neargalcat.html)
    - [https://catalog.data.gov/dataset/updated-nearby-galaxy-catalog](https://catalog.data.gov/dataset/updated-nearby-galaxy-catalog)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/nbg/v017_20260331/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/nbg/v017_20260331/index.html)
+     - [https://repository.gaiasky.space/galaxies/nbg/v017_20260331/index.html](https://repository.gaiasky.space/galaxies/nbg/v017_20260331/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-sdss-12'></a><details id="catalog-sdss-12">
 <summary>
-<h3>SDSS DR12 <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss12/v08_20240110/index.html' title='SDSS DR12 files'>🔗</a></span>
+<h3>SDSS DR12 <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/galaxies/sdss12/v08_20240110/index.html' title='SDSS DR12 files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-sdss-12' title='Open "SDSS DR12" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-streamline-galaxy-2-solid" title="Type: catalog-gal"></i> <code title="Key: catalog-sdss-12">catalog-sdss-12</code></h3>
 <img src="/img/datasets/catalog-gal.jpg" title="catalog-gal"></img>
@@ -713,14 +713,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://www.sdss.org/dr12](https://www.sdss.org/dr12)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss12/v08_20240110/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss12/v08_20240110/index.html)
+     - [https://repository.gaiasky.space/galaxies/sdss12/v08_20240110/index.html](https://repository.gaiasky.space/galaxies/sdss12/v08_20240110/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-sdss-14'></a><details id="catalog-sdss-14">
 <summary>
-<h3>SDSS DR14 <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss14/v08_20240110/index.html' title='SDSS DR14 files'>🔗</a></span>
+<h3>SDSS DR14 <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/galaxies/sdss14/v08_20240110/index.html' title='SDSS DR14 files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-sdss-14' title='Open "SDSS DR14" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-streamline-galaxy-2-solid" title="Type: catalog-gal"></i> <code title="Key: catalog-sdss-14">catalog-sdss-14</code></h3>
 <img src="/img/datasets/catalog-gal.jpg" title="catalog-gal"></img>
@@ -738,14 +738,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://www.sdss.org/dr14](https://www.sdss.org/dr14)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss14/v08_20240110/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss14/v08_20240110/index.html)
+     - [https://repository.gaiasky.space/galaxies/sdss14/v08_20240110/index.html](https://repository.gaiasky.space/galaxies/sdss14/v08_20240110/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-sdss-17'></a><details id="catalog-sdss-17">
 <summary>
-<h3>SDSS DR17 <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss17/v05_20240110/index.html' title='SDSS DR17 files'>🔗</a></span>
+<h3>SDSS DR17 <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/galaxies/sdss17/v05_20240110/index.html' title='SDSS DR17 files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-sdss-17' title='Open "SDSS DR17" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-streamline-galaxy-2-solid" title="Type: catalog-gal"></i> <code title="Key: catalog-sdss-17">catalog-sdss-17</code></h3>
 <img src="/img/datasets/catalog-gal.jpg" title="catalog-gal"></img>
@@ -763,14 +763,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [http://skyserver.sdss.org/dr17](http://skyserver.sdss.org/dr17)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss17/v05_20240110/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss17/v05_20240110/index.html)
+     - [https://repository.gaiasky.space/galaxies/sdss17/v05_20240110/index.html](https://repository.gaiasky.space/galaxies/sdss17/v05_20240110/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-sdss-18'></a><details id="catalog-sdss-18">
 <summary>
-<h3>SDSS DR18 <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss18/v02_20240110/index.html' title='SDSS DR18 files'>🔗</a></span>
+<h3>SDSS DR18 <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/galaxies/sdss18/v02_20240110/index.html' title='SDSS DR18 files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-sdss-18' title='Open "SDSS DR18" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-streamline-galaxy-2-solid" title="Type: catalog-gal"></i> <code title="Key: catalog-sdss-18">catalog-sdss-18</code></h3>
 <img src="/img/datasets/catalog-gal.jpg" title="catalog-gal"></img>
@@ -788,7 +788,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [http://skyserver.sdss.org/dr18](http://skyserver.sdss.org/dr18)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss18/v02_20240110/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/galaxies/sdss18/v02_20240110/index.html)
+     - [https://repository.gaiasky.space/galaxies/sdss18/v02_20240110/index.html](https://repository.gaiasky.space/galaxies/sdss18/v02_20240110/index.html)
 </div>
 </article>
 </details>
@@ -796,7 +796,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 <h2 id='catalog-cluster'>Cluster catalogs</h2>
 <a href='#catalog-clusters-hunt-reffert-2023'></a><details id="catalog-clusters-hunt-reffert-2023">
 <summary>
-<h3>DR3 Open Clusters Hunt-Reffert 2023 <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/clusters-hunt-reffert-2023/002_20230601/index.html' title='DR3 Open Clusters Hunt-Reffert 2023 files'>🔗</a></span>
+<h3>DR3 Open Clusters Hunt-Reffert 2023 <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/clusters/clusters-hunt-reffert-2023/002_20230601/index.html' title='DR3 Open Clusters Hunt-Reffert 2023 files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-clusters-hunt-reffert-2023' title='Open "DR3 Open Clusters Hunt-Reffert 2023" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-ph-graph" title="Type: catalog-cluster"></i> <code title="Key: catalog-clusters-hunt-reffert-2023">catalog-clusters-hunt-reffert-2023</code></h3>
 <img src="/img/datasets/catalog-cluster.jpg" title="catalog-cluster"></img>
@@ -814,14 +814,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://arxiv.org/abs/2303.13424](https://arxiv.org/abs/2303.13424)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/clusters-hunt-reffert-2023/002_20230601/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/clusters-hunt-reffert-2023/002_20230601/index.html)
+     - [https://repository.gaiasky.space/clusters/clusters-hunt-reffert-2023/002_20230601/index.html](https://repository.gaiasky.space/clusters/clusters-hunt-reffert-2023/002_20230601/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-mwsc'></a><details id="catalog-mwsc">
 <summary>
-<h3>MWSC (Karachenko et. al. 2013) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/mwsc/v07_20230601/index.html' title='MWSC (Karachenko et. al. 2013) files'>🔗</a></span>
+<h3>MWSC (Karachenko et. al. 2013) <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/clusters/mwsc/v07_20230601/index.html' title='MWSC (Karachenko et. al. 2013) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-mwsc' title='Open "MWSC (Karachenko et. al. 2013)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-ph-graph" title="Type: catalog-cluster"></i> <code title="Key: catalog-mwsc">catalog-mwsc</code></h3>
 <img src="/img/datasets/catalog-cluster.jpg" title="catalog-cluster"></img>
@@ -839,14 +839,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://heasarc.gsfc.nasa.gov/W3Browse/all/mwsc.html](https://heasarc.gsfc.nasa.gov/W3Browse/all/mwsc.html)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/mwsc/v07_20230601/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/mwsc/v07_20230601/index.html)
+     - [https://repository.gaiasky.space/clusters/mwsc/v07_20230601/index.html](https://repository.gaiasky.space/clusters/mwsc/v07_20230601/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-ocdr2'></a><details id="catalog-ocdr2">
 <summary>
-<h3>Open Clusters DR2 Catalog <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/ocdr2/v07_20230601/index.html' title='Open Clusters DR2 Catalog files'>🔗</a></span>
+<h3>Open Clusters DR2 Catalog <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/clusters/ocdr2/v08_20261021/index.html' title='Open Clusters DR2 Catalog files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-ocdr2' title='Open "Open Clusters DR2 Catalog" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-ph-graph" title="Type: catalog-cluster"></i> <code title="Key: catalog-ocdr2">catalog-ocdr2</code></h3>
 <img src="/img/datasets/catalog-cluster.jpg" title="catalog-cluster"></img>
@@ -856,15 +856,19 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 <div class='description'>Open Clusters catalog based on Gaia DR2 data, by A. Castro-Ginard et al.</div>
 
 - **Type:** `catalog-cluster`
-- **Dataset version:** v7
-- **Minimum Gaia Sky version:** 3.5.0
-- **Size:** 349.2KiB <span class='unimportant'>(357605)</span>
+- **Dataset version:** v8
+- **Minimum Gaia Sky version:** 3.8.0
+- **Size:** 172.1KiB <span class='unimportant'>(176232)</span>
 - **Number of objects:** 2.02k <span class='unimportant'>(2017)</span>
-- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
+- **Credits:**
+   - Gaia Sky development team
+   - ESA/Gaia/DPAC
+   - A. Castro-Ginard et al.
 - **Sources/links:**
    - [https://doi.org/10.1051/0004-6361/201937386](https://doi.org/10.1051/0004-6361/201937386)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/ocdr2/v07_20230601/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/clusters/ocdr2/v07_20230601/index.html)
+     - [https://repository.gaiasky.space/clusters/ocdr2/v08_20261021/index.html](https://repository.gaiasky.space/clusters/ocdr2/v08_20261021/index.html)
 </div>
 </article>
 </details>
@@ -872,7 +876,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 <h2 id='catalog-other'>Other catalogs</h2>
 <a href='#gargantua-blackhole'></a><details id="gargantua-blackhole">
 <summary>
-<h3>Gargantua black hole <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/blackhole/v05_20250109/index.html' title='Gargantua black hole files'>🔗</a></span>
+<h3>Gargantua black hole <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/extra/blackhole/v05_20250109/index.html' title='Gargantua black hole files'>🔗</a></span>
 <a href='gaiasky://load?dataset=gargantua-blackhole' title='Open "Gargantua black hole" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-cube" title="Type: catalog-other"></i> <code title="Key: gargantua-blackhole">gargantua-blackhole</code></h3>
 <img src="/img/datasets/gargantua-blackhole.jpg" title="gargantua-blackhole"></img>
@@ -890,14 +894,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Sources/links:**
    - [https://www.shadertoy.com/view/tsBXW3](https://www.shadertoy.com/view/tsBXW3)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/blackhole/v05_20250109/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/blackhole/v05_20250109/index.html)
+     - [https://repository.gaiasky.space/extra/blackhole/v05_20250109/index.html](https://repository.gaiasky.space/extra/blackhole/v05_20250109/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-nebulae'></a><details id="catalog-nebulae">
 <summary>
-<h3>NGC2000 Nebulae <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/nebulae/v12_20260410/index.html' title='NGC2000 Nebulae files'>🔗</a></span>
+<h3>NGC2000 Nebulae <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/nebulae/v13_20261027/index.html' title='NGC2000 Nebulae files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-nebulae' title='Open "NGC2000 Nebulae" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-cube" title="Type: catalog-other"></i> <code title="Key: catalog-nebulae">catalog-nebulae</code></h3>
 <img src="/img/datasets/catalog-nebulae.jpg" title="catalog-nebulae"></img>
@@ -907,22 +911,22 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 <div class='description'>Catalog of bright emisison or reflection nebulae, planetary nebulae and clusters associated with nebulosity in the NGC2000 catalog. This catalog contains 47 of the most well-known nebulae in the Milky Way. Some of the nebulae are represented as volumes, and some are represented as 3D decals.</div>
 
 - **Type:** `catalog-other`
-- **Dataset version:** v12
-- **Minimum Gaia Sky version:** 3.7.2
+- **Dataset version:** v13
+- **Minimum Gaia Sky version:** 3.9.1
 - **Size:** 5.5MiB <span class='unimportant'>(5812242)</span>
 - **Number of objects:** 47 <span class='unimportant'>(47)</span>
-- **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
+- **Creator:** N/A
 - **Sources/links:**
    - [https://heasarc.gsfc.nasa.gov/W3Browse/all/ngc2000.html](https://heasarc.gsfc.nasa.gov/W3Browse/all/ngc2000.html)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/nebulae/v12_20260410/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/nebulae/v12_20260410/index.html)
+     - [https://repository.gaiasky.space/nebulae/v13_20261027/index.html](https://repository.gaiasky.space/nebulae/v13_20261027/index.html)
 </div>
 </article>
 </details>
 
 <a href='#oort-cloud'></a><details id="oort-cloud">
 <summary>
-<h3>Oort cloud <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud/v004_20260220/index.html' title='Oort cloud files'>🔗</a></span>
+<h3>Oort cloud <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/extra/oortcloud/v004_20260220/index.html' title='Oort cloud files'>🔗</a></span>
 <a href='gaiasky://load?dataset=oort-cloud' title='Open "Oort cloud" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-cube" title="Type: catalog-other"></i> <code title="Key: oort-cloud">oort-cloud</code></h3>
 <img src="/img/datasets/catalog-other.jpg" title="catalog-other"></img>
@@ -938,9 +942,9 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Number of objects:** 10k <span class='unimportant'>(10000)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
 - **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud)
+   - [https://repository.gaiasky.space/extra/oortcloud](https://repository.gaiasky.space/extra/oortcloud)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud/v004_20260220/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/oortcloud/v004_20260220/index.html)
+     - [https://repository.gaiasky.space/extra/oortcloud/v004_20260220/index.html](https://repository.gaiasky.space/extra/oortcloud/v004_20260220/index.html)
 </div>
 </article>
 </details>
@@ -948,7 +952,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 <h2 id='catalog-sso'>Asteroids and SSO</h2>
 <a href='#catalog-asteroids-fpr'></a><details id="catalog-asteroids-fpr">
 <summary>
-<h3>Asteroids and SSO (Gaia FPR) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/fpr/004_20260331/index.html' title='Asteroids and SSO (Gaia FPR) files'>🔗</a></span>
+<h3>Asteroids and SSO (Gaia FPR) <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/sso/fpr/004_20260331/index.html' title='Asteroids and SSO (Gaia FPR) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-asteroids-fpr' title='Open "Asteroids and SSO (Gaia FPR)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-fpr">catalog-asteroids-fpr</code></h3>
 <img src="/img/datasets/catalog-sso.jpg" title="catalog-sso"></img>
@@ -973,14 +977,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
    - [https://gea.esac.esa.int/archive](https://gea.esac.esa.int/archive)
    - [https://gaiasky.space/resources/datasets](https://gaiasky.space/resources/datasets)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/fpr/004_20260331/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/fpr/004_20260331/index.html)
+     - [https://repository.gaiasky.space/catalog/sso/fpr/004_20260331/index.html](https://repository.gaiasky.space/catalog/sso/fpr/004_20260331/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-asteroids-dr2'></a><details id="catalog-asteroids-dr2">
 <summary>
-<h3>Asteroids and SSO (Gaia DR2) <span class="replaced-warning" title="Replaced by: catalog-asteroids-fpr, catalog-asteroids-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr2/v02_20221116/index.html' title='Asteroids and SSO (Gaia DR2) files'>🔗</a></span>
+<h3>Asteroids and SSO (Gaia DR2) <span class="replaced-warning" title="Replaced by: catalog-asteroids-fpr, catalog-asteroids-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/sso/dr2/v02_20221116/index.html' title='Asteroids and SSO (Gaia DR2) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-asteroids-dr2' title='Open "Asteroids and SSO (Gaia DR2)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-dr2">catalog-asteroids-dr2</code></h3>
 <img src="/img/datasets/catalog-sso.jpg" title="catalog-sso"></img>
@@ -999,14 +1003,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
     - [catalog-asteroids-fpr](#catalog-asteroids-fpr)
     - [catalog-asteroids-dr3](#catalog-asteroids-dr3)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr2/v02_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr2/v02_20221116/index.html)
+     - [https://repository.gaiasky.space/catalog/sso/dr2/v02_20221116/index.html](https://repository.gaiasky.space/catalog/sso/dr2/v02_20221116/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-asteroids-dr3'></a><details id="catalog-asteroids-dr3">
 <summary>
-<h3>Asteroids and SSO (Gaia DR3) <span class="replaced-warning" title="Replaced by: catalog-asteroids-fpr">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3/v02_20221116/index.html' title='Asteroids and SSO (Gaia DR3) files'>🔗</a></span>
+<h3>Asteroids and SSO (Gaia DR3) <span class="replaced-warning" title="Replaced by: catalog-asteroids-fpr">⚠️</span> <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/sso/dr3/v02_20221116/index.html' title='Asteroids and SSO (Gaia DR3) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-asteroids-dr3' title='Open "Asteroids and SSO (Gaia DR3)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-dr3">catalog-asteroids-dr3</code></h3>
 <img src="/img/datasets/catalog-sso.jpg" title="catalog-sso"></img>
@@ -1026,14 +1030,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Replaced by:**
     - [catalog-asteroids-fpr](#catalog-asteroids-fpr)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3/v02_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3/v02_20221116/index.html)
+     - [https://repository.gaiasky.space/catalog/sso/dr3/v02_20221116/index.html](https://repository.gaiasky.space/catalog/sso/dr3/v02_20221116/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-asteroids-dr3-nea'></a><details id="catalog-asteroids-dr3-nea">
 <summary>
-<h3>NEA asteroids (Gaia DR3, coloured) <span class="replaced-warning" title="Replaced by: catalog-asteroids-fpr">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-nea/v01_20221116/index.html' title='NEA asteroids (Gaia DR3, coloured) files'>🔗</a></span>
+<h3>NEA asteroids (Gaia DR3, coloured) <span class="replaced-warning" title="Replaced by: catalog-asteroids-fpr">⚠️</span> <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/sso/dr3-nea/v01_20221116/index.html' title='NEA asteroids (Gaia DR3, coloured) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-asteroids-dr3-nea' title='Open "NEA asteroids (Gaia DR3, coloured)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-dr3-nea">catalog-asteroids-dr3-nea</code></h3>
 <img src="/img/datasets/catalog-sso.jpg" title="catalog-sso"></img>
@@ -1051,14 +1055,14 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Replaced by:**
     - [catalog-asteroids-fpr](#catalog-asteroids-fpr)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-nea/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-nea/v01_20221116/index.html)
+     - [https://repository.gaiasky.space/catalog/sso/dr3-nea/v01_20221116/index.html](https://repository.gaiasky.space/catalog/sso/dr3-nea/v01_20221116/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-asteroids-dr3-trojan'></a><details id="catalog-asteroids-dr3-trojan">
 <summary>
-<h3>Trojan asteroids (Gaia DR3, coloured) <span class="replaced-warning" title="Replaced by: catalog-asteroids-fpr">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-trojan/v01_20221116/index.html' title='Trojan asteroids (Gaia DR3, coloured) files'>🔗</a></span>
+<h3>Trojan asteroids (Gaia DR3, coloured) <span class="replaced-warning" title="Replaced by: catalog-asteroids-fpr">⚠️</span> <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/catalog/sso/dr3-trojan/v01_20221116/index.html' title='Trojan asteroids (Gaia DR3, coloured) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-asteroids-dr3-trojan' title='Open "Trojan asteroids (Gaia DR3, coloured)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-game-icons-asteroid" title="Type: catalog-sso"></i> <code title="Key: catalog-asteroids-dr3-trojan">catalog-asteroids-dr3-trojan</code></h3>
 <img src="/img/datasets/catalog-sso.jpg" title="catalog-sso"></img>
@@ -1076,7 +1080,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Replaced by:**
     - [catalog-asteroids-fpr](#catalog-asteroids-fpr)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-trojan/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/catalog/sso/dr3-trojan/v01_20221116/index.html)
+     - [https://repository.gaiasky.space/catalog/sso/dr3-trojan/v01_20221116/index.html](https://repository.gaiasky.space/catalog/sso/dr3-trojan/v01_20221116/index.html)
 </div>
 </article>
 </details>
@@ -1084,7 +1088,7 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 <h2 id='system'>Exoplanets and extrasolar systems</h2>
 <a href='#system-exonia'></a><details id="system-exonia">
 <summary>
-<h3>Exonia extrasolar system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v04_20260109/index.html' title='Exonia extrasolar system files'>🔗</a></span>
+<h3>Exonia extrasolar system <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/systems/exonia/v04_20260109/index.html' title='Exonia extrasolar system files'>🔗</a></span>
 <a href='gaiasky://load?dataset=system-exonia' title='Open "Exonia extrasolar system" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-exonia">system-exonia</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1100,16 +1104,16 @@ Contains the solar system planets and moons, minor planets, satellites, orbits, 
 - **Number of objects:** 7 <span class='unimportant'>(7)</span>
 - **Creator:** N/A
 - **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia)
+   - [https://repository.gaiasky.space/systems/exonia](https://repository.gaiasky.space/systems/exonia)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v04_20260109/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/exonia/v04_20260109/index.html)
+     - [https://repository.gaiasky.space/systems/exonia/v04_20260109/index.html](https://repository.gaiasky.space/systems/exonia/v04_20260109/index.html)
 </div>
 </article>
 </details>
 
 <a href='#system-gaia-bhs'></a><details id="system-gaia-bhs">
 <summary>
-<h3>Gaia DR3 black holes <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/system-gaia-bhs/v002_20251018/index.html' title='Gaia DR3 black holes files'>🔗</a></span>
+<h3>Gaia DR3 black holes <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/systems/system-gaia-bhs/v002_20251018/index.html' title='Gaia DR3 black holes files'>🔗</a></span>
 <a href='gaiasky://load?dataset=system-gaia-bhs' title='Open "Gaia DR3 black holes" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-gaia-bhs">system-gaia-bhs</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1138,14 +1142,14 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
    - [https://academic.oup.com/mnras/article/521/3/4323/7093135](https://academic.oup.com/mnras/article/521/3/4323/7093135)
    - [https://www.esa.int/Science_Exploration/Space_Science/Gaia/Sleeping_giant_surprises_Gaia_scientists](https://www.esa.int/Science_Exploration/Space_Science/Gaia/Sleeping_giant_surprises_Gaia_scientists)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/system-gaia-bhs/v002_20251018/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/system-gaia-bhs/v002_20251018/index.html)
+     - [https://repository.gaiasky.space/systems/system-gaia-bhs/v002_20251018/index.html](https://repository.gaiasky.space/systems/system-gaia-bhs/v002_20251018/index.html)
 </div>
 </article>
 </details>
 
 <a href='#system-dr3-gl876'></a><details id="system-dr3-gl876">
 <summary>
-<h3>Gl876 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gl876/v01_20221116/index.html' title='Gl876 system files'>🔗</a></span>
+<h3>Gl876 system <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/systems/dr3/gl876/v01_20221116/index.html' title='Gl876 system files'>🔗</a></span>
 <a href='gaiasky://load?dataset=system-dr3-gl876' title='Open "Gl876 system" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-dr3-gl876">system-dr3-gl876</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1161,14 +1165,14 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gl876/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/gl876/v01_20221116/index.html)
+     - [https://repository.gaiasky.space/systems/dr3/gl876/v01_20221116/index.html](https://repository.gaiasky.space/systems/dr3/gl876/v01_20221116/index.html)
 </div>
 </article>
 </details>
 
 <a href='#system-dr3-hd114762'></a><details id="system-dr3-hd114762">
 <summary>
-<h3>HD114762 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd114762/v01_20221116/index.html' title='HD114762 system files'>🔗</a></span>
+<h3>HD114762 system <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/systems/dr3/hd114762/v01_20221116/index.html' title='HD114762 system files'>🔗</a></span>
 <a href='gaiasky://load?dataset=system-dr3-hd114762' title='Open "HD114762 system" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-dr3-hd114762">system-dr3-hd114762</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1184,14 +1188,14 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd114762/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd114762/v01_20221116/index.html)
+     - [https://repository.gaiasky.space/systems/dr3/hd114762/v01_20221116/index.html](https://repository.gaiasky.space/systems/dr3/hd114762/v01_20221116/index.html)
 </div>
 </article>
 </details>
 
 <a href='#system-dr3-hd40503'></a><details id="system-dr3-hd40503">
 <summary>
-<h3>HD40503 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd40503/v01_20221116/index.html' title='HD40503 system files'>🔗</a></span>
+<h3>HD40503 system <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/systems/dr3/hd40503/v01_20221116/index.html' title='HD40503 system files'>🔗</a></span>
 <a href='gaiasky://load?dataset=system-dr3-hd40503' title='Open "HD40503 system" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-dr3-hd40503">system-dr3-hd40503</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1207,14 +1211,14 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd40503/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd40503/v01_20221116/index.html)
+     - [https://repository.gaiasky.space/systems/dr3/hd40503/v01_20221116/index.html](https://repository.gaiasky.space/systems/dr3/hd40503/v01_20221116/index.html)
 </div>
 </article>
 </details>
 
 <a href='#system-dr3-hd81040'></a><details id="system-dr3-hd81040">
 <summary>
-<h3>HD81040 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd81040/v01_20221116/index.html' title='HD81040 system files'>🔗</a></span>
+<h3>HD81040 system <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/systems/dr3/hd81040/v01_20221116/index.html' title='HD81040 system files'>🔗</a></span>
 <a href='gaiasky://load?dataset=system-dr3-hd81040' title='Open "HD81040 system" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-dr3-hd81040">system-dr3-hd81040</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1230,14 +1234,14 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd81040/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/hd81040/v01_20221116/index.html)
+     - [https://repository.gaiasky.space/systems/dr3/hd81040/v01_20221116/index.html](https://repository.gaiasky.space/systems/dr3/hd81040/v01_20221116/index.html)
 </div>
 </article>
 </details>
 
 <a href='#system-dr3-j0805-4812'></a><details id="system-dr3-j0805-4812">
 <summary>
-<h3>J0805+4812 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/j0805-4812/v01_20221116/index.html' title='J0805+4812 system files'>🔗</a></span>
+<h3>J0805+4812 system <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/systems/dr3/j0805-4812/v01_20221116/index.html' title='J0805+4812 system files'>🔗</a></span>
 <a href='gaiasky://load?dataset=system-dr3-j0805-4812' title='Open "J0805+4812 system" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-dr3-j0805-4812">system-dr3-j0805-4812</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1253,14 +1257,14 @@ Gaia BH3 is a system which includes the BH3 star and the 33 solar mass dormant b
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/j0805-4812/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/j0805-4812/v01_20221116/index.html)
+     - [https://repository.gaiasky.space/systems/dr3/j0805-4812/v01_20221116/index.html](https://repository.gaiasky.space/systems/dr3/j0805-4812/v01_20221116/index.html)
 </div>
 </article>
 </details>
 
 <a href='#nasa-exoplanet-archive'></a><details id="nasa-exoplanet-archive">
 <summary>
-<h3>NASA Exoplanet Archive <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/nasa-exoplanet-archive//v03_20260625/index.html' title='NASA Exoplanet Archive files'>🔗</a></span>
+<h3>NASA Exoplanet Archive <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/systems/nasa-exoplanet-archive//v03_20260625/index.html' title='NASA Exoplanet Archive files'>🔗</a></span>
 <a href='gaiasky://load?dataset=nasa-exoplanet-archive' title='Open "NASA Exoplanet Archive" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: nasa-exoplanet-archive">nasa-exoplanet-archive</code></h3>
 <img src="/img/datasets/nasa-exoplanet-archive.jpg" title="nasa-exoplanet-archive"></img>
@@ -1285,14 +1289,14 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Sources/links:**
    - [http://exoplanetarchive.ipac.caltech.edu](http://exoplanetarchive.ipac.caltech.edu)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/nasa-exoplanet-archive//v03_20260625/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/nasa-exoplanet-archive//v03_20260625/index.html)
+     - [https://repository.gaiasky.space/systems/nasa-exoplanet-archive//v03_20260625/index.html](https://repository.gaiasky.space/systems/nasa-exoplanet-archive//v03_20260625/index.html)
 </div>
 </article>
 </details>
 
 <a href='#system-dr3-ucac2-1151977'></a><details id="system-dr3-ucac2-1151977">
 <summary>
-<h3>UCAC2 1151977 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/ucac2-1151977/v01_20221116/index.html' title='UCAC2 1151977 system files'>🔗</a></span>
+<h3>UCAC2 1151977 system <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/systems/dr3/ucac2-1151977/v01_20221116/index.html' title='UCAC2 1151977 system files'>🔗</a></span>
 <a href='gaiasky://load?dataset=system-dr3-ucac2-1151977' title='Open "UCAC2 1151977 system" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-dr3-ucac2-1151977">system-dr3-ucac2-1151977</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1308,14 +1312,14 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/ucac2-1151977/v01_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/ucac2-1151977/v01_20221116/index.html)
+     - [https://repository.gaiasky.space/systems/dr3/ucac2-1151977/v01_20221116/index.html](https://repository.gaiasky.space/systems/dr3/ucac2-1151977/v01_20221116/index.html)
 </div>
 </article>
 </details>
 
 <a href='#system-dr3-wd0141-675'></a><details id="system-dr3-wd0141-675">
 <summary>
-<h3>WD0141-675 system <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/wd0141-675/v02_20221116/index.html' title='WD0141-675 system files'>🔗</a></span>
+<h3>WD0141-675 system <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/systems/dr3/wd0141-675/v02_20221116/index.html' title='WD0141-675 system files'>🔗</a></span>
 <a href='gaiasky://load?dataset=system-dr3-wd0141-675' title='Open "WD0141-675 system" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-orbit" title="Type: system"></i> <code title="Key: system-dr3-wd0141-675">system-dr3-wd0141-675</code></h3>
 <img src="/img/datasets/system.jpg" title="system"></img>
@@ -1331,7 +1335,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Number of objects:** 2 <span class='unimportant'>(2)</span>
 - **Creator:** Toni Sagristà, tsagrsita@ari.uni-heidelberg.de
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/wd0141-675/v02_20221116/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/systems/dr3/wd0141-675/v02_20221116/index.html)
+     - [https://repository.gaiasky.space/systems/dr3/wd0141-675/v02_20221116/index.html](https://repository.gaiasky.space/systems/dr3/wd0141-675/v02_20221116/index.html)
 </div>
 </article>
 </details>
@@ -1339,7 +1343,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 <h2 id='mesh'>3D iso-density meshes</h2>
 <a href='#mesh-dust-dr3'></a><details id="mesh-dust-dr3">
 <summary>
-<h3>Dust iso-density maps (Gaia DR3) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/dust/v01_20221117/index.html' title='Dust iso-density maps (Gaia DR3) files'>🔗</a></span>
+<h3>Dust iso-density maps (Gaia DR3) <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/meshes/dr3/dust/v01_20221117/index.html' title='Dust iso-density maps (Gaia DR3) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=mesh-dust-dr3' title='Open "Dust iso-density maps (Gaia DR3)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-dust-dr3">mesh-dust-dr3</code></h3>
 <img src="/img/datasets/mesh.jpg" title="mesh"></img>
@@ -1360,14 +1364,14 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
    - [https://galaxymap.org](https://galaxymap.org)
    - [https://gruze.org/posters_dr3/readme.pdf](https://gruze.org/posters_dr3/readme.pdf)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/dust/v01_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/dust/v01_20221117/index.html)
+     - [https://repository.gaiasky.space/meshes/dr3/dust/v01_20221117/index.html](https://repository.gaiasky.space/meshes/dr3/dust/v01_20221117/index.html)
 </div>
 </article>
 </details>
 
 <a href='#mesh-hii-dr3'></a><details id="mesh-hii-dr3">
 <summary>
-<h3>HII regions map (Gaia DR3) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/hii/v01_20221117/index.html' title='HII regions map (Gaia DR3) files'>🔗</a></span>
+<h3>HII regions map (Gaia DR3) <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/meshes/dr3/hii/v01_20221117/index.html' title='HII regions map (Gaia DR3) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=mesh-hii-dr3' title='Open "HII regions map (Gaia DR3)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-hii-dr3">mesh-hii-dr3</code></h3>
 <img src="/img/datasets/mesh.jpg" title="mesh"></img>
@@ -1387,14 +1391,14 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Sources/links:**
    - [https://gruze.org/posters_dr3/readme.pdf](https://gruze.org/posters_dr3/readme.pdf)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/hii/v01_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/hii/v01_20221117/index.html)
+     - [https://repository.gaiasky.space/meshes/dr3/hii/v01_20221117/index.html](https://repository.gaiasky.space/meshes/dr3/hii/v01_20221117/index.html)
 </div>
 </article>
 </details>
 
 <a href='#mesh-stardensity-dr3'></a><details id="mesh-stardensity-dr3">
 <summary>
-<h3>Star density map (Gaia DR3) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/stars/v01_20221117/index.html' title='Star density map (Gaia DR3) files'>🔗</a></span>
+<h3>Star density map (Gaia DR3) <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/meshes/dr3/stars/v01_20221117/index.html' title='Star density map (Gaia DR3) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=mesh-stardensity-dr3' title='Open "Star density map (Gaia DR3)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-stardensity-dr3">mesh-stardensity-dr3</code></h3>
 <img src="/img/datasets/mesh.jpg" title="mesh"></img>
@@ -1414,14 +1418,14 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Sources/links:**
    - [https://gruze.org/posters_dr3/readme.pdf](https://gruze.org/posters_dr3/readme.pdf)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/stars/v01_20221117/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr3/stars/v01_20221117/index.html)
+     - [https://repository.gaiasky.space/meshes/dr3/stars/v01_20221117/index.html](https://repository.gaiasky.space/meshes/dr3/stars/v01_20221117/index.html)
 </div>
 </article>
 </details>
 
 <a href='#mesh-dust-dr2'></a><details id="mesh-dust-dr2">
 <summary>
-<h3>Dust iso-density maps (Gaia DR2) <span class="replaced-warning" title="Replaced by: mesh-dust-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/dust/v04_20230704/index.html' title='Dust iso-density maps (Gaia DR2) files'>🔗</a></span>
+<h3>Dust iso-density maps (Gaia DR2) <span class="replaced-warning" title="Replaced by: mesh-dust-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/meshes/dr2/dust/v04_20230704/index.html' title='Dust iso-density maps (Gaia DR2) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=mesh-dust-dr2' title='Open "Dust iso-density maps (Gaia DR2)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-dust-dr2">mesh-dust-dr2</code></h3>
 <img src="/img/datasets/mesh.jpg" title="mesh"></img>
@@ -1441,14 +1445,14 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Sources/links:**
    - [http://galaxymap.org](http://galaxymap.org)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/dust/v04_20230704/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/dust/v04_20230704/index.html)
+     - [https://repository.gaiasky.space/meshes/dr2/dust/v04_20230704/index.html](https://repository.gaiasky.space/meshes/dr2/dust/v04_20230704/index.html)
 </div>
 </article>
 </details>
 
 <a href='#mesh-hii-dr2'></a><details id="mesh-hii-dr2">
 <summary>
-<h3>HII regions map (Gaia DR2) <span class="replaced-warning" title="Replaced by: mesh-hii-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/hii/v04_20230704/index.html' title='HII regions map (Gaia DR2) files'>🔗</a></span>
+<h3>HII regions map (Gaia DR2) <span class="replaced-warning" title="Replaced by: mesh-hii-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/meshes/dr2/hii/v04_20230704/index.html' title='HII regions map (Gaia DR2) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=mesh-hii-dr2' title='Open "HII regions map (Gaia DR2)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-hii-dr2">mesh-hii-dr2</code></h3>
 <img src="/img/datasets/mesh.jpg" title="mesh"></img>
@@ -1468,14 +1472,14 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Sources/links:**
    - [http://galaxymap.org](http://galaxymap.org)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/hii/v04_20230704/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/hii/v04_20230704/index.html)
+     - [https://repository.gaiasky.space/meshes/dr2/hii/v04_20230704/index.html](https://repository.gaiasky.space/meshes/dr2/hii/v04_20230704/index.html)
 </div>
 </article>
 </details>
 
 <a href='#mesh-stardensity-dr2'></a><details id="mesh-stardensity-dr2">
 <summary>
-<h3>Star density map (Gaia DR2) <span class="replaced-warning" title="Replaced by: mesh-stardensity-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/isodensity/v03_20230704/index.html' title='Star density map (Gaia DR2) files'>🔗</a></span>
+<h3>Star density map (Gaia DR2) <span class="replaced-warning" title="Replaced by: mesh-stardensity-dr3">⚠️</span> <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/meshes/dr2/isodensity/v03_20230704/index.html' title='Star density map (Gaia DR2) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=mesh-stardensity-dr2' title='Open "Star density map (Gaia DR2)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-game-icons-mesh-network" title="Type: mesh"></i> <code title="Key: mesh-stardensity-dr2">mesh-stardensity-dr2</code></h3>
 <img src="/img/datasets/mesh.jpg" title="mesh"></img>
@@ -1495,7 +1499,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Sources/links:**
    - [http://galaxymap.org](http://galaxymap.org)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/isodensity/v03_20230704/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/meshes/dr2/isodensity/v03_20230704/index.html)
+     - [https://repository.gaiasky.space/meshes/dr2/isodensity/v03_20230704/index.html](https://repository.gaiasky.space/meshes/dr2/isodensity/v03_20230704/index.html)
 </div>
 </article>
 </details>
@@ -1503,7 +1507,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 <h2 id='spacecraft'>Missions, spacecraft and satellites</h2>
 <a href='#mission-artemis'></a><details id="mission-artemis">
 <summary>
-<h3>Artemis I and II missions <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-artemis/v001_20260428/index.html' title='Artemis I and II missions files'>🔗</a></span>
+<h3>Artemis I and II missions <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/extra/spacecraft/mission-artemis/v001_20260428/index.html' title='Artemis I and II missions files'>🔗</a></span>
 <a href='gaiasky://load?dataset=mission-artemis' title='Open "Artemis I and II missions" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: mission-artemis">mission-artemis</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
@@ -1528,14 +1532,14 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
    - [https://nasa.gov/humans-in-space/artemis/](https://nasa.gov/humans-in-space/artemis/)
    - [https://ssd.jpl.nasa.gov/horizons/](https://ssd.jpl.nasa.gov/horizons/)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-artemis/v001_20260428/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-artemis/v001_20260428/index.html)
+     - [https://repository.gaiasky.space/extra/spacecraft/mission-artemis/v001_20260428/index.html](https://repository.gaiasky.space/extra/spacecraft/mission-artemis/v001_20260428/index.html)
 </div>
 </article>
 </details>
 
 <a href='#spacecraft-euclid'></a><details id="spacecraft-euclid">
 <summary>
-<h3>ESA Euclid <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/euclid/v004_20260428/index.html' title='ESA Euclid files'>🔗</a></span>
+<h3>ESA Euclid <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/extra/spacecraft/euclid/v004_20260428/index.html' title='ESA Euclid files'>🔗</a></span>
 <a href='gaiasky://load?dataset=spacecraft-euclid' title='Open "ESA Euclid" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-euclid">spacecraft-euclid</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
@@ -1559,14 +1563,14 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
    - [https://www.esa.int/Science_Exploration/Space_Science/Euclid](https://www.esa.int/Science_Exploration/Space_Science/Euclid)
    - [https://www.euclid-ec.org/](https://www.euclid-ec.org/)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/euclid/v004_20260428/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/euclid/v004_20260428/index.html)
+     - [https://repository.gaiasky.space/extra/spacecraft/euclid/v004_20260428/index.html](https://repository.gaiasky.space/extra/spacecraft/euclid/v004_20260428/index.html)
 </div>
 </article>
 </details>
 
 <a href='#mission-gaia'></a><details id="mission-gaia">
 <summary>
-<h3>ESA's Gaia mission <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-gaia/v001_20260508/index.html' title='ESA's Gaia mission files'>🔗</a></span>
+<h3>ESA's Gaia mission <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/extra/spacecraft/mission-gaia/v001_20260508/index.html' title='ESA's Gaia mission files'>🔗</a></span>
 <a href='gaiasky://load?dataset=mission-gaia' title='Open "ESA's Gaia mission" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: mission-gaia">mission-gaia</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
@@ -1590,14 +1594,14 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
    - [https://www.cosmos.esa.int/web/gaia/home](https://www.cosmos.esa.int/web/gaia/home)
    - [https://gaiasky.space/resources/datasets](https://gaiasky.space/resources/datasets)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-gaia/v001_20260508/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-gaia/v001_20260508/index.html)
+     - [https://repository.gaiasky.space/extra/spacecraft/mission-gaia/v001_20260508/index.html](https://repository.gaiasky.space/extra/spacecraft/mission-gaia/v001_20260508/index.html)
 </div>
 </article>
 </details>
 
 <a href='#catalog-gps'></a><details id="catalog-gps">
 <summary>
-<h3>GPS Satellite Network <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v002_20260414/index.html' title='GPS Satellite Network files'>🔗</a></span>
+<h3>GPS Satellite Network <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/extra/spacecraft/gps/v002_20260414/index.html' title='GPS Satellite Network files'>🔗</a></span>
 <a href='gaiasky://load?dataset=catalog-gps' title='Open "GPS Satellite Network" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: catalog-gps">catalog-gps</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
@@ -1622,14 +1626,14 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
    - [https://www.cgtrader.com/free-3d-models/space/spaceship/gps-block-iii-satellite](https://www.cgtrader.com/free-3d-models/space/spaceship/gps-block-iii-satellite)
    - [https://celestrak.org/NORAD/elements/gp.php?GROUP=gps-ops&FORMAT=tle](https://celestrak.org/NORAD/elements/gp.php?GROUP=gps-ops&FORMAT=tle)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v002_20260414/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/gps/v002_20260414/index.html)
+     - [https://repository.gaiasky.space/extra/spacecraft/gps/v002_20260414/index.html](https://repository.gaiasky.space/extra/spacecraft/gps/v002_20260414/index.html)
 </div>
 </article>
 </details>
 
 <a href='#spacecraft-hst'></a><details id="spacecraft-hst">
 <summary>
-<h3>Hubble Space Telescope <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/hst/v003_20260428/index.html' title='Hubble Space Telescope files'>🔗</a></span>
+<h3>Hubble Space Telescope <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/extra/spacecraft/hst/v003_20260428/index.html' title='Hubble Space Telescope files'>🔗</a></span>
 <a href='gaiasky://load?dataset=spacecraft-hst' title='Open "Hubble Space Telescope" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-hst">spacecraft-hst</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
@@ -1650,14 +1654,14 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Sources/links:**
    - [https://www.esa.int/Science_Exploration/Space_Science/Hubble_overview](https://www.esa.int/Science_Exploration/Space_Science/Hubble_overview)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/hst/v003_20260428/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/hst/v003_20260428/index.html)
+     - [https://repository.gaiasky.space/extra/spacecraft/hst/v003_20260428/index.html](https://repository.gaiasky.space/extra/spacecraft/hst/v003_20260428/index.html)
 </div>
 </article>
 </details>
 
 <a href='#spacecraft-iss'></a><details id="spacecraft-iss">
 <summary>
-<h3>International Space Station <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/iss/v003_20260428/index.html' title='International Space Station files'>🔗</a></span>
+<h3>International Space Station <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/extra/spacecraft/iss/v003_20260428/index.html' title='International Space Station files'>🔗</a></span>
 <a href='gaiasky://load?dataset=spacecraft-iss' title='Open "International Space Station" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-iss">spacecraft-iss</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
@@ -1679,14 +1683,14 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
    - [https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station](https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station)
    - [https://www.nasa.gov/international-space-station/](https://www.nasa.gov/international-space-station/)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/iss/v003_20260428/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/iss/v003_20260428/index.html)
+     - [https://repository.gaiasky.space/extra/spacecraft/iss/v003_20260428/index.html](https://repository.gaiasky.space/extra/spacecraft/iss/v003_20260428/index.html)
 </div>
 </article>
 </details>
 
 <a href='#spacecraft-jwst'></a><details id="spacecraft-jwst">
 <summary>
-<h3>James Webb Space Telescope <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/jwst/v005_20260428/index.html' title='James Webb Space Telescope files'>🔗</a></span>
+<h3>James Webb Space Telescope <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/extra/spacecraft/jwst/v005_20260428/index.html' title='James Webb Space Telescope files'>🔗</a></span>
 <a href='gaiasky://load?dataset=spacecraft-jwst' title='Open "James Webb Space Telescope" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-jwst">spacecraft-jwst</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
@@ -1709,14 +1713,14 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
    - [https://sci.esa.int/web/jwst](https://sci.esa.int/web/jwst)
    - [https://science.nasa.gov/mission/webb/](https://science.nasa.gov/mission/webb/)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/jwst/v005_20260428/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/jwst/v005_20260428/index.html)
+     - [https://repository.gaiasky.space/extra/spacecraft/jwst/v005_20260428/index.html](https://repository.gaiasky.space/extra/spacecraft/jwst/v005_20260428/index.html)
 </div>
 </article>
 </details>
 
 <a href='#mission-pioneer'></a><details id="mission-pioneer">
 <summary>
-<h3>Pioneer 10 and 11 missions <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-pioneer/v001_20260428/index.html' title='Pioneer 10 and 11 missions files'>🔗</a></span>
+<h3>Pioneer 10 and 11 missions <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/extra/spacecraft/mission-pioneer/v001_20260428/index.html' title='Pioneer 10 and 11 missions files'>🔗</a></span>
 <a href='gaiasky://load?dataset=mission-pioneer' title='Open "Pioneer 10 and 11 missions" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: mission-pioneer">mission-pioneer</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
@@ -1740,14 +1744,14 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
    - [https://nasa.gov/humans-in-space/artemis/](https://nasa.gov/humans-in-space/artemis/)
    - [https://ssd.jpl.nasa.gov/horizons/](https://ssd.jpl.nasa.gov/horizons/)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-pioneer/v001_20260428/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/mission-pioneer/v001_20260428/index.html)
+     - [https://repository.gaiasky.space/extra/spacecraft/mission-pioneer/v001_20260428/index.html](https://repository.gaiasky.space/extra/spacecraft/mission-pioneer/v001_20260428/index.html)
 </div>
 </article>
 </details>
 
 <a href='#spacecraft-voyagers'></a><details id="spacecraft-voyagers">
 <summary>
-<h3>Voyager 1 and 2 <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/voyagers/v003_20260428/index.html' title='Voyager 1 and 2 files'>🔗</a></span>
+<h3>Voyager 1 and 2 <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/extra/spacecraft/voyagers/v003_20260428/index.html' title='Voyager 1 and 2 files'>🔗</a></span>
 <a href='gaiasky://load?dataset=spacecraft-voyagers' title='Open "Voyager 1 and 2" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-solar-satellite-bold" title="Type: spacecraft"></i> <code title="Key: spacecraft-voyagers">spacecraft-voyagers</code></h3>
 <img src="/img/datasets/spacecraft.jpg" title="spacecraft"></img>
@@ -1765,7 +1769,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Sources/links:**
    - [https://voyager.jpl.nasa.gov/](https://voyager.jpl.nasa.gov/)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/voyagers/v003_20260428/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/spacecraft/voyagers/v003_20260428/index.html)
+     - [https://repository.gaiasky.space/extra/spacecraft/voyagers/v003_20260428/index.html](https://repository.gaiasky.space/extra/spacecraft/voyagers/v003_20260428/index.html)
 </div>
 </article>
 </details>
@@ -1773,7 +1777,7 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 <h2 id='virtualtex-pack'>Virtual textures</h2>
 <a href='#vt-earth-topography-gmted2010'></a><details id="vt-earth-topography-gmted2010">
 <summary>
-<h3>128K Earth elevation VT (USGS) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-topography-gmted2010/000_20230125/index.html' title='128K Earth elevation VT (USGS) files'>🔗</a></span>
+<h3>128K Earth elevation VT (USGS) <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/vt/vt-earth-topography-gmted2010/000_20230125/index.html' title='128K Earth elevation VT (USGS) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=vt-earth-topography-gmted2010' title='Open "128K Earth elevation VT (USGS)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-earth-topography-gmted2010">vt-earth-topography-gmted2010</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
@@ -1791,14 +1795,14 @@ Note that this dataset also includes the stars as defined in the NASA Exoplanet 
 - **Sources/links:**
    - [https://www.usgs.gov/coastal-changes-and-impacts/gmted2010](https://www.usgs.gov/coastal-changes-and-impacts/gmted2010)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-topography-gmted2010/000_20230125/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-topography-gmted2010/000_20230125/index.html)
+     - [https://repository.gaiasky.space/vt/vt-earth-topography-gmted2010/000_20230125/index.html](https://repository.gaiasky.space/vt/vt-earth-topography-gmted2010/000_20230125/index.html)
 </div>
 </article>
 </details>
 
 <a href='#vt-moon-topography-nasa'></a><details id="vt-moon-topography-nasa">
 <summary>
-<h3>32K Moon topography NASA (SVS, DEM LRO:LOLA) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-topography-nasa/01_20250218/index.html' title='32K Moon topography NASA (SVS, DEM LRO:LOLA) files'>🔗</a></span>
+<h3>32K Moon topography NASA (SVS, DEM LRO:LOLA) <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/vt/vt-moon-topography-nasa/01_20250218/index.html' title='32K Moon topography NASA (SVS, DEM LRO:LOLA) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=vt-moon-topography-nasa' title='Open "32K Moon topography NASA (SVS, DEM LRO:LOLA)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-moon-topography-nasa">vt-moon-topography-nasa</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
@@ -1817,14 +1821,14 @@ The reference surface for all LRO data is a sphere of radius 1737.4 km. LOLA's g
 - **Sources/links:**
    - [https://svs.gsfc.nasa.gov/4720](https://svs.gsfc.nasa.gov/4720)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-topography-nasa/01_20250218/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-topography-nasa/01_20250218/index.html)
+     - [https://repository.gaiasky.space/vt/vt-moon-topography-nasa/01_20250218/index.html](https://repository.gaiasky.space/vt/vt-moon-topography-nasa/01_20250218/index.html)
 </div>
 </article>
 </details>
 
 <a href='#vt-earth-clouds-nasa'></a><details id="vt-earth-clouds-nasa">
 <summary>
-<h3>64K Earth cloud VT (NASA) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-clouds-nasa/000_20230125/index.html' title='64K Earth cloud VT (NASA) files'>🔗</a></span>
+<h3>64K Earth cloud VT (NASA) <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/vt/vt-earth-clouds-nasa/000_20230125/index.html' title='64K Earth cloud VT (NASA) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=vt-earth-clouds-nasa' title='Open "64K Earth cloud VT (NASA)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-earth-clouds-nasa">vt-earth-clouds-nasa</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
@@ -1842,14 +1846,14 @@ The reference surface for all LRO data is a sphere of radius 1737.4 km. LOLA's g
 - **Sources/links:**
    - [https://www.visibleearth.nasa.gov/images/57747/blue-marble-clouds](https://www.visibleearth.nasa.gov/images/57747/blue-marble-clouds)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-clouds-nasa/000_20230125/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-clouds-nasa/000_20230125/index.html)
+     - [https://repository.gaiasky.space/vt/vt-earth-clouds-nasa/000_20230125/index.html](https://repository.gaiasky.space/vt/vt-earth-clouds-nasa/000_20230125/index.html)
 </div>
 </article>
 </details>
 
 <a href='#vt-mars-diffuse-vanvliet'></a><details id="vt-mars-diffuse-vanvliet">
 <summary>
-<h3>64K Mars difuse VT (Celestia) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-mars-diffuse-vanvliet/000_20230125/index.html' title='64K Mars difuse VT (Celestia) files'>🔗</a></span>
+<h3>64K Mars difuse VT (Celestia) <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/vt/vt-mars-diffuse-vanvliet/000_20230125/index.html' title='64K Mars difuse VT (Celestia) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=vt-mars-diffuse-vanvliet' title='Open "64K Mars difuse VT (Celestia)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-mars-diffuse-vanvliet">vt-mars-diffuse-vanvliet</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
@@ -1867,14 +1871,14 @@ The reference surface for all LRO data is a sphere of radius 1737.4 km. LOLA's g
 - **Sources/links:**
    - [http://www.celestiamotherlode.net/addon/addon_240.html](http://www.celestiamotherlode.net/addon/addon_240.html)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-mars-diffuse-vanvliet/000_20230125/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-mars-diffuse-vanvliet/000_20230125/index.html)
+     - [https://repository.gaiasky.space/vt/vt-mars-diffuse-vanvliet/000_20230125/index.html](https://repository.gaiasky.space/vt/vt-mars-diffuse-vanvliet/000_20230125/index.html)
 </div>
 </article>
 </details>
 
 <a href='#vt-mars-topography-mola'></a><details id="vt-mars-topography-mola">
 <summary>
-<h3>64K Mars elevation VT (MOLA/USGS) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-mars-topography-mola/000_20230125/index.html' title='64K Mars elevation VT (MOLA/USGS) files'>🔗</a></span>
+<h3>64K Mars elevation VT (MOLA/USGS) <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/vt/vt-mars-topography-mola/000_20230125/index.html' title='64K Mars elevation VT (MOLA/USGS) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=vt-mars-topography-mola' title='Open "64K Mars elevation VT (MOLA/USGS)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-mars-topography-mola">vt-mars-topography-mola</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
@@ -1892,14 +1896,14 @@ The reference surface for all LRO data is a sphere of radius 1737.4 km. LOLA's g
 - **Sources/links:**
    - [https://astrogeology.usgs.gov/search/map/Mars/GlobalSurveyor/MOLA/Mars_MGS_MOLA_DEM_mosaic_global_463m](https://astrogeology.usgs.gov/search/map/Mars/GlobalSurveyor/MOLA/Mars_MGS_MOLA_DEM_mosaic_global_463m)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-mars-topography-mola/000_20230125/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-mars-topography-mola/000_20230125/index.html)
+     - [https://repository.gaiasky.space/vt/vt-mars-topography-mola/000_20230125/index.html](https://repository.gaiasky.space/vt/vt-mars-topography-mola/000_20230125/index.html)
 </div>
 </article>
 </details>
 
 <a href='#vt-moon-diffuse-vanvliet'></a><details id="vt-moon-diffuse-vanvliet">
 <summary>
-<h3>64K Moon difuse VT (Celestia) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-diffuse-vanvliet/000_20230125/index.html' title='64K Moon difuse VT (Celestia) files'>🔗</a></span>
+<h3>64K Moon difuse VT (Celestia) <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/vt/vt-moon-diffuse-vanvliet/000_20230125/index.html' title='64K Moon difuse VT (Celestia) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=vt-moon-diffuse-vanvliet' title='Open "64K Moon difuse VT (Celestia)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-moon-diffuse-vanvliet">vt-moon-diffuse-vanvliet</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
@@ -1917,14 +1921,14 @@ The reference surface for all LRO data is a sphere of radius 1737.4 km. LOLA's g
 - **Sources/links:**
    - [http://www.celestiamotherlode.net/addon/addon_1108.html](http://www.celestiamotherlode.net/addon/addon_1108.html)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-diffuse-vanvliet/000_20230125/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-diffuse-vanvliet/000_20230125/index.html)
+     - [https://repository.gaiasky.space/vt/vt-moon-diffuse-vanvliet/000_20230125/index.html](https://repository.gaiasky.space/vt/vt-moon-diffuse-vanvliet/000_20230125/index.html)
 </div>
 </article>
 </details>
 
 <a href='#vt-moon-topography-lro'></a><details id="vt-moon-topography-lro">
 <summary>
-<h3>8K Moon topography VT (LRO WAC DTM) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-topography-lro/000_20230125/index.html' title='8K Moon topography VT (LRO WAC DTM) files'>🔗</a></span>
+<h3>8K Moon topography VT (LRO WAC DTM) <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/vt/vt-moon-topography-lro/000_20230125/index.html' title='8K Moon topography VT (LRO WAC DTM) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=vt-moon-topography-lro' title='Open "8K Moon topography VT (LRO WAC DTM)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-moon-topography-lro">vt-moon-topography-lro</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
@@ -1942,14 +1946,14 @@ The reference surface for all LRO data is a sphere of radius 1737.4 km. LOLA's g
 - **Sources/links:**
    - [https://wms.lroc.asu.edu/lroc/view_rdr/WAC_GLD100](https://wms.lroc.asu.edu/lroc/view_rdr/WAC_GLD100)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-topography-lro/000_20230125/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-moon-topography-lro/000_20230125/index.html)
+     - [https://repository.gaiasky.space/vt/vt-moon-topography-lro/000_20230125/index.html](https://repository.gaiasky.space/vt/vt-moon-topography-lro/000_20230125/index.html)
 </div>
 </article>
 </details>
 
 <a href='#vt-earth-diffuse-sentinel'></a><details id="vt-earth-diffuse-sentinel">
 <summary>
-<h3>Earth surface VT (Sentinel-2, Blue Marble) <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-sentinel/000_20250711/index.html' title='Earth surface VT (Sentinel-2, Blue Marble) files'>🔗</a></span>
+<h3>Earth surface VT (Sentinel-2, Blue Marble) <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/vt/vt-earth-diffuse-sentinel/000_20250711/index.html' title='Earth surface VT (Sentinel-2, Blue Marble) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=vt-earth-diffuse-sentinel' title='Open "Earth surface VT (Sentinel-2, Blue Marble)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-earth-diffuse-sentinel">vt-earth-diffuse-sentinel</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
@@ -1973,14 +1977,14 @@ The reference surface for all LRO data is a sphere of radius 1737.4 km. LOLA's g
    - [https://www.copernicus.eu](https://www.copernicus.eu)
    - [https://visibleearth.nasa.gov/collection/1484/blue-marble](https://visibleearth.nasa.gov/collection/1484/blue-marble)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-sentinel/000_20250711/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-sentinel/000_20250711/index.html)
+     - [https://repository.gaiasky.space/vt/vt-earth-diffuse-sentinel/000_20250711/index.html](https://repository.gaiasky.space/vt/vt-earth-diffuse-sentinel/000_20250711/index.html)
 </div>
 </article>
 </details>
 
 <a href='#vt-earth-diffuse-nasa'></a><details id="vt-earth-diffuse-nasa">
 <summary>
-<h3>128K Earth surface VT (NASA) <span class="replaced-warning" title="Replaced by: vt-earth-diffuse-sentinel">⚠️</span> <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-nasa/000_20230125/index.html' title='128K Earth surface VT (NASA) files'>🔗</a></span>
+<h3>128K Earth surface VT (NASA) <span class="replaced-warning" title="Replaced by: vt-earth-diffuse-sentinel">⚠️</span> <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/vt/vt-earth-diffuse-nasa/000_20230125/index.html' title='128K Earth surface VT (NASA) files'>🔗</a></span>
 <a href='gaiasky://load?dataset=vt-earth-diffuse-nasa' title='Open "128K Earth surface VT (NASA)" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-mdi-grid" title="Type: virtualtex-pack"></i> <code title="Key: vt-earth-diffuse-nasa">vt-earth-diffuse-nasa</code></h3>
 <img src="/img/datasets/virtualtex-pack.jpg" title="virtualtex-pack"></img>
@@ -2000,7 +2004,7 @@ The reference surface for all LRO data is a sphere of radius 1737.4 km. LOLA's g
 - **Sources/links:**
    - [https://visibleearth.nasa.gov/images/73909/december-blue-marble-next-generation-w-topography-and-bathymetry](https://visibleearth.nasa.gov/images/73909/december-blue-marble-next-generation-w-topography-and-bathymetry)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-nasa/000_20230125/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/vt/vt-earth-diffuse-nasa/000_20230125/index.html)
+     - [https://repository.gaiasky.space/vt/vt-earth-diffuse-nasa/000_20230125/index.html](https://repository.gaiasky.space/vt/vt-earth-diffuse-nasa/000_20230125/index.html)
 </div>
 </article>
 </details>
@@ -2008,7 +2012,7 @@ The reference surface for all LRO data is a sphere of radius 1737.4 km. LOLA's g
 <h2 id='volume'>Volumetric objects and effects</h2>
 <a href='#saturn-rings'></a><details id="saturn-rings">
 <summary>
-<h3>Saturn rings <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/saturn-rings/v01_20260326/index.html' title='Saturn rings files'>🔗</a></span>
+<h3>Saturn rings <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/extra/saturn-rings/v02_20261020/index.html' title='Saturn rings files'>🔗</a></span>
 <a href='gaiasky://load?dataset=saturn-rings' title='Open "Saturn rings" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-material-symbols-cloud" title="Type: volume"></i> <code title="Key: saturn-rings">saturn-rings</code></h3>
 <img src="/img/datasets/volume.jpg" title="volume"></img>
@@ -2018,22 +2022,24 @@ The reference surface for all LRO data is a sphere of radius 1737.4 km. LOLA's g
 <div class='description'>The rings of Saturn as a cloud of 1.5 million rock and dust particles. The dataset has been generated with a custom script that uses the ring profile to approximate the radial density, and uses physically-grounded orbital elements for each particle.</div>
 
 - **Type:** `volume`
-- **Dataset version:** v1
+- **Dataset version:** v2
 - **Minimum Gaia Sky version:** 3.7.2
-- **Size:** 139.7MiB <span class='unimportant'>(146508089)</span>
+- **Size:** 139.7MiB <span class='unimportant'>(146496988)</span>
 - **Number of objects:** 1.5M <span class='unimportant'>(1500000)</span>
 - **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
+- **Credits:**
+   - Gaia Sky development team
 - **Sources/links:**
    - [https://gaiasky.space/resources/datasets](https://gaiasky.space/resources/datasets)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/saturn-rings/v01_20260326/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/extra/saturn-rings/v01_20260326/index.html)
+     - [https://repository.gaiasky.space/extra/saturn-rings/v02_20261020/index.html](https://repository.gaiasky.space/extra/saturn-rings/v02_20261020/index.html)
 </div>
 </article>
 </details>
 
 <a href='#volumetric-aurora'></a><details id="volumetric-aurora">
 <summary>
-<h3>Volumetric Aurora <span style='font-size: 0.4em;'><a href='https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora/v02_20250124/index.html' title='Volumetric Aurora files'>🔗</a></span>
+<h3>Volumetric Aurora <span style='font-size: 0.4em;'><a href='https://repository.gaiasky.space/volumes/volumetric-aurora/v03_20261104/index.html' title='Volumetric Aurora files'>🔗</a></span>
 <a href='gaiasky://load?dataset=volumetric-aurora' title='Open "Volumetric Aurora" in Gaia Sky. Only works with Gaia Sky 3.8.1+ installed from an OS package.' class='gs-url-protocol'><i class='gs-mdi-satellite-uplink'></i> Open in Gaia Sky</a>
 <br/><i class="gs-material-symbols-cloud" title="Type: volume"></i> <code title="Key: volumetric-aurora">volumetric-aurora</code></h3>
 <img src="/img/datasets/volumetric-aurora.jpg" title="volumetric-aurora"></img>
@@ -2043,15 +2049,20 @@ The reference surface for all LRO data is a sphere of radius 1737.4 km. LOLA's g
 <div class='description'>A volumetric aurora borealis and australis for the Earth. This is based on the paper by Lawlor et al. The aurora is rendered using a ray-marching algorithm, producing a volumetric object.</div>
 
 - **Type:** `volume`
-- **Dataset version:** v2
-- **Minimum Gaia Sky version:** 3.6.5
-- **Size:** 183.9KiB <span class='unimportant'>(188285)</span>
+- **Dataset version:** v3
+- **Minimum Gaia Sky version:** 3.9.2
+- **Size:** 184.5KiB <span class='unimportant'>(188927)</span>
 - **Number of objects:** 1 <span class='unimportant'>(1)</span>
-- **Creator:** Toni Sagristà
+- **Creator:** Toni Sagristà, tsagrista@ari.uni-heidelberg.de
+- **Credits:**
+   - Gaia Sky development team
+   - Lawlor, O. and Genetti, J. D., Interactive Volume Rendering Aurora on the GPU, 2011
 - **Sources/links:**
-   - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora)
+   - [https://repository.gaiasky.space/volumes/volumetric-aurora](https://repository.gaiasky.space/volumes/volumetric-aurora)
+   - [https://www.cs.uaf.edu/~olawlor/papers/2010/aurora/lawlor_aurora_2010.pdf](https://www.cs.uaf.edu/~olawlor/papers/2010/aurora/lawlor_aurora_2010.pdf)
+   - [https://gaiasky.space/resources/datasets/#volumetric-aurora](https://gaiasky.space/resources/datasets/#volumetric-aurora)
 - **Files:**
-     - [https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora/v02_20250124/index.html](https://gaia.ari.uni-heidelberg.de/gaiasky/repository/volumes/volumetric-aurora/v02_20250124/index.html)
+     - [https://repository.gaiasky.space/volumes/volumetric-aurora/v03_20261104/index.html](https://repository.gaiasky.space/volumes/volumetric-aurora/v03_20261104/index.html)
 </div>
 </article>
 </details>

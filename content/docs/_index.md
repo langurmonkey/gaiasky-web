@@ -7,13 +7,13 @@ author = "tsagrista"
 
 ## For users
 
-If you are looking to get started with Gaia Sky as a user, check out our [**quick start guide**](https://gaia.ari.uni-heidelberg.de/gaiasky/docs/master/quickstart/Quick-start-guide.html). Below are additional links to the official documentation and some of the most important sections.
+If you are looking to get started with Gaia Sky as a user, check out our [**quick start guide**](https://docs.gaiasky.space/master/quickstart/Quick-start-guide.html). Below are additional links to the official documentation and some of the most important sections.
 
-- {{< icon "gs-material-symbols-book" >}} --- [**Official documentation**](http://docs.gaiasky.space) [[PDF version](https://gaia.ari.uni-heidelberg.de/gaiasky/docs-pdf/GaiaSky-master.pdf)]
-- {{< icon "gs-mdi-human-male-female-child" >}} --- [**User manual**](https://gaia.ari.uni-heidelberg.de/gaiasky/docs/master/User-manual.html)
-- {{< icon "gs-ph-graph-bold" >}} --- [**Advanced topics**](https://gaia.ari.uni-heidelberg.de/gaiasky/docs/master/Advanced-topics.html)
-- {{< icon "gs-fa7-solid-vr-cardboard" >}} --- [**Gaia Sky VR docs**](https://gaia.ari.uni-heidelberg.de/gaiasky/docs/master/Gaia-sky-vr.html)
-- {{< icon "gs-streamline-faq-bold" >}} --- [**FAQ**](https://gaia.ari.uni-heidelberg.de/gaiasky/docs/master/FAQ.html)
+- {{< icon "gs-material-symbols-book" >}} --- [**Official documentation**](https://docs.gaiasky.space) [[PDF version](https://gaia.ari.uni-heidelberg.de/gaiasky/docs-pdf/GaiaSky-master.pdf)]
+- {{< icon "gs-mdi-human-male-female-child" >}} --- [**User manual**](https://docs.gaiasky.space/master/User-manual.html)
+- {{< icon "gs-ph-graph-bold" >}} --- [**Advanced topics**](https://docs.gaiasky.space/master/Advanced-topics.html)
+- {{< icon "gs-fa7-solid-vr-cardboard" >}} --- [**Gaia Sky VR docs**](https://docs.gaiasky.space/master/Gaia-sky-vr.html)
+- {{< icon "gs-streamline-faq-bold" >}} --- [**FAQ**](https://docs.gaiasky.space/master/FAQ.html)
 
 ## For developers
 

@@ -19,7 +19,7 @@ All of the **material** we produce with Gaia Sky (YouTube videos, images, presen
 
 ## Software <i class="gs-cib-mozilla"></i>
 
-The **software** Gaia Sky, Gaia Sky [catgen](https://codeberg.org/gaiasky/gaiasky-catgen) and Gaia Sky [documentation](http://docs.gaiasky.space) are licensed under the [Mozilla Public License (MPL) 2.0](https://www.mozilla.org/en-US/MPL/).
+The **software** Gaia Sky, Gaia Sky [catgen](https://codeberg.org/gaiasky/gaiasky-catgen) and Gaia Sky [documentation](https://docs.gaiasky.space) are licensed under the [Mozilla Public License (MPL) 2.0](https://www.mozilla.org/en-US/MPL/).
 
 ## Datasets <i class="gs-fa6-brands-creative-commons"></i><i class="gs-fa6-brands-creative-commons-by"></i>
 

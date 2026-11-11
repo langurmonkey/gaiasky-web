@@ -24,19 +24,19 @@ This playlist contains some (old) video tutorials. Gaia Sky has moved on, but so
 
 |                          |                                                        |
 |--------------------------|--------------------------------------------------------|
-|{{< img path="/img/resources/gs-crash-course.jpg" width="200" >}} | [**Crash course**<br>Web presentation, crash course to get started with Gaia Sky.](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/gaiasky-crash-course/)            |
-|{{< img path="/img/resources/gs-workshop2025.jpg" width="200" >}} | [**2025 scripting workshop**<br>Web presentation, 2025 DPAC Consortium Meeting, Cambridge, UK, 2025.](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/202504/)            |
-|{{< img path="/img/resources/gs-tutorial.jpg" width="200" >}} | [**2024 general tutorial**<br>Web presentation, MWGaiaDN Induction School, PLNT Leiden, Leiden, The Netherlands. 2024.](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/202402/mwgaiadn/)            |
-|{{< img path="/img/resources/gs-vr.jpg" width="200" >}} | [**2023 Gaia Sky VR**<br>Web presentation, AR/VR for Space Programmes, ESA/ESTEC, Noordwijk, The Netherlands. 2023.](https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/202312/)            |
+|{{< img path="/img/resources/gs-crash-course.jpg" width="200" >}} | [**Crash course**<br>Web presentation, crash course to get started with Gaia Sky.](https://presentation.gaiasky.space/gaiasky-crash-course/)            |
+|{{< img path="/img/resources/gs-workshop2025.jpg" width="200" >}} | [**2025 scripting workshop**<br>Web presentation, 2025 DPAC Consortium Meeting, Cambridge, UK, 2025.](https://presentation.gaiasky.space/202504/)            |
+|{{< img path="/img/resources/gs-tutorial.jpg" width="200" >}} | [**2024 general tutorial**<br>Web presentation, MWGaiaDN Induction School, PLNT Leiden, Leiden, The Netherlands. 2024.](https://presentation.gaiasky.space/202402/mwgaiadn/)            |
+|{{< img path="/img/resources/gs-vr.jpg" width="200" >}} | [**2023 Gaia Sky VR**<br>Web presentation, AR/VR for Space Programmes, ESA/ESTEC, Noordwijk, The Netherlands. 2023.](https://presentation.gaiasky.space/202312/)            |
 
 
 ### Written guides
 
-- [Quick Start guide](http://docs.gaiasky.space/master/Quick-start-guide.html) -- a quick start guide that stays relatively up-to-date with the software.
-- [DPAC Plenary 2025](http://docs.gaiasky.space/master/workshops/dpac-plenary-cambridge-2025.html) -- Scripting workshop, Cambridge (UK), 2025.
-- [MWGaiaDN 2024](http://docs.gaiasky.space/master/workshops/mwgaiadn-plntleiden-2024.html) -- Gaia Sky workshop notes, PLNT Leiden (Netherlands), 2024.
-- [DPAC Plenary 2023](http://docs.gaiasky.space/3.5.8/workshops/dpac-plenary-hdb-2023.html) -- Gaia Sky scripting tutorial, Heidelberg (Germany), 2023.
-- [DPAC Plenary 2021](http://docs.gaiasky.space/3.5.8/workshops/dpac-plenary-online-2021.html) -- Gaia Sky general tutorial, online, 2021.
+- [Quick Start guide](https://docs.gaiasky.space/master/quickstart/Quick-start-guide.html) -- a quick start guide that stays relatively up-to-date with the software.
+- [DPAC Plenary 2025](https://docs.gaiasky.space/master/workshops/dpac-plenary-cambridge-2025.html) -- Scripting workshop, Cambridge (UK), 2025.
+- [MWGaiaDN 2024](https://docs.gaiasky.space/master/workshops/mwgaiadn-plntleiden-2024.html) -- Gaia Sky workshop notes, PLNT Leiden (Netherlands), 2024.
+- [DPAC Plenary 2023](https://docs.gaiasky.space/3.5.8/workshops/dpac-plenary-hdb-2023.html) -- Gaia Sky scripting tutorial, Heidelberg (Germany), 2023.
+- [DPAC Plenary 2021](https://docs.gaiasky.space/3.5.8/workshops/dpac-plenary-online-2021.html) -- Gaia Sky general tutorial, online, 2021.
 
 ## Icons and branding
 
@@ -98,6 +98,6 @@ We use a few fonts:
 
 We maintain live statistics of Gaia Sky package downloads, documentation accesses, dataset requests, and more:
 
-- [Gaia Sky usage stats](https://gaia.ari.uni-heidelberg.de/gaiasky/stats/).
-- [Repository stats](https://gaia.ari.uni-heidelberg.de/gaiasky/gitstats/index.html).
+- [Gaia Sky usage stats](https://stats.gaiasky.space).
+- [Repository stats](https://gitstats.gaiasky.space).
 - [Flathub installs (see information tab at the bottom)](https://flathub.org/apps/space.gaiasky.GaiaSky).
