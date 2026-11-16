@@ -1,6 +1,6 @@
 // Occasional shooting stars for <canvas data-starfield>.
 // The canvas must live inside a positioned element (a <section>) that has a
-// cover background image; streaks are kept over the dark parts of that image.
+// background image; streaks are kept over the dark parts of that image.
 (function () {
   var canvases = document.querySelectorAll('canvas[data-starfield]');
   if (!canvases.length) return;
@@ -12,10 +12,11 @@
   // Luminance (0-1) where streaks are allowed / must disappear. Measured on the
   // hero photo: open space ~0.01-0.07, shadowed ocean ~0.19, lit globe ~0.33.
   var LOW = 0.05, HIGH = 0.18;
-  var masks = {}; // image URL -> {w, h, lum}; shared by canvases on the same photo
+  var masks = {}; // image URL -> {w, h, lum, iw, ih} | null while loading | false
 
-  // Sample an image into a luminance map, once per URL.
-  // Returns null while loading, false if it cannot be read.
+  // Sample an image into a luminance map, once per URL. The map is downscaled
+  // for sampling; iw/ih keep the real pixel size, which background-size: auto
+  // needs. Returns null while loading, false if it cannot be read.
   function maskFor(url) {
     if (masks[url] === undefined) {
       masks[url] = null;
@@ -34,7 +35,7 @@
           for (var i = 0, p = 0; i < lum.length; i++, p += 4) {
             lum[i] = (0.2126 * d[p] + 0.7152 * d[p + 1] + 0.0722 * d[p + 2]) / 255;
           }
-          masks[url] = { w: w, h: h, lum: lum };
+          masks[url] = { w: w, h: h, lum: lum, iw: img.width, ih: img.height };
         } catch (e) {
           masks[url] = false; // tainted canvas or decode failure: no mask
         }
@@ -43,6 +44,84 @@
       img.src = url;
     }
     return masks[url];
+  }
+
+  // --- background geometry ---------------------------------------------------
+  // A section can stack several layers (the home hero puts a jxl over an avif),
+  // and each layer carries its own attachment/position/size. Computed values
+  // are parallel comma lists, so split them before reading anything: comparing
+  // backgroundAttachment against 'fixed' fails when it comes back as "fixed, fixed".
+
+  function splitTop(s) {
+    var out = [], cur = '', depth = 0, q = '';
+    for (var i = 0; i < s.length; i++) {
+      var c = s.charAt(i);
+      if (q) { cur += c; if (c === q) q = ''; continue; }
+      if (c === '"' || c === "'") { q = c; cur += c; continue; }
+      if (c === '(') depth++;
+      else if (c === ')') depth--;
+      else if (c === ',' && !depth) { out.push(cur.trim()); cur = ''; continue; }
+      cur += c;
+    }
+    if (cur.trim()) out.push(cur.trim());
+    return out;
+  }
+
+  function at(list, i, dflt) { return list[i] === undefined ? dflt : list[i]; }
+
+  // Layers in paint order (first = topmost), each with its raw geometry rules.
+  function backgroundLayers(cs) {
+    var imgs = splitTop(cs.backgroundImage || 'none');
+    if (imgs.length === 1 && imgs[0] === 'none') return [];
+    var att = splitTop(cs.backgroundAttachment || 'scroll');
+    var pos = splitTop(cs.backgroundPosition || '0% 0%');
+    var size = splitTop(cs.backgroundSize || 'auto');
+    var layers = [];
+    for (var i = 0; i < imgs.length; i++) {
+      var m = /url\((['"]?)(.*?)\1\)/.exec(imgs[i]);
+      if (!m) continue;
+      layers.push({
+        url: m[2],
+        attachment: at(att, i, 'scroll'),
+        position: axisPair(at(pos, i, '0% 0%')),
+        size: at(size, i, 'auto')
+      });
+    }
+    return layers;
+  }
+
+  // "50% 0%" / "center top" -> [{pct,v},{pct,v}]; v is px when pct is false.
+  function axisPair(spec) {
+    var t = String(spec).trim().split(/\s+/);
+    return [axis(t[0]), axis(t[1] === undefined ? '50%' : t[1])];
+  }
+
+  function axis(tok) {
+    if (!tok || tok === 'center') return { pct: true, v: 0.5 };
+    if (tok === 'left' || tok === 'top') return { pct: true, v: 0 };
+    if (tok === 'right' || tok === 'bottom') return { pct: true, v: 1 };
+    var n = parseFloat(tok);
+    if (isNaN(n)) return { pct: true, v: 0.5 };
+    return tok.charAt(tok.length - 1) === '%' ? { pct: true, v: n / 100 } : { pct: false, v: n };
+  }
+
+  // Painted size of one layer, in px (background-size: cover/contain/auto/len).
+  function paintedSize(spec, box, iw, ih) {
+    var t = String(spec).trim().split(/\s+/);
+    if (t[0] === 'cover' || t[0] === 'contain') {
+      var k = t[0] === 'cover'
+        ? Math.max(box.w / iw, box.h / ih)
+        : Math.min(box.w / iw, box.h / ih);
+      return { w: iw * k, h: ih * k };
+    }
+    return { w: length(t[0], box.w, iw), h: length(t[1], box.h, ih) };
+  }
+
+  function length(tok, base, auto) {
+    if (!tok || tok === 'auto') return auto;
+    var n = parseFloat(tok);
+    if (isNaN(n)) return auto;
+    return tok.charAt(tok.length - 1) === '%' ? base * n / 100 : n;
   }
 
   function Stars(canvas) {
@@ -55,10 +134,13 @@
     this.running = false;
     this.onScreen = false;
     this.rect = { left: 0, top: 0 };
+    this.layer = null; // layer that is actually painted
+    this.mask = null;  // luminance map of that layer
+    this.geo = null;   // where that layer sits, in viewport terms
     this.measure();
   }
 
-  // Canvas backing size, and the box the background image is painted into.
+  // Canvas backing size, then re-read the background.
   Stars.prototype.measure = function () {
     var rect = this.canvas.getBoundingClientRect();
     this.w = Math.round(rect.width);
@@ -67,24 +149,46 @@
     this.canvas.width = Math.round(this.w * DPR);
     this.canvas.height = Math.round(this.h * DPR);
     this.ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
-
-    // A fixed backdrop is painted in a viewport-sized box at the origin; any
-    // other attachment paints it in the section's own box.
-    var cs = window.getComputedStyle(this.section);
-    this.fixed = cs.backgroundAttachment === 'fixed';
-    this.box = this.fixed
-      ? { w: window.innerWidth, h: window.innerHeight }
-      : { w: this.w, h: this.h };
-    var pos = (cs.backgroundPosition || '50% 50%').split(' ');
-    this.px = fraction(pos[0]);
-    this.py = fraction(pos[1]);
+    this.resolve();
+    if (this.layer) this.build();
   };
 
-  // background-position token -> 0-1 of the leftover space (px values unsupported).
-  function fraction(tok) {
-    if (!tok || tok === 'center') return 0.5;
-    return tok.charAt(tok.length - 1) === '%' ? parseFloat(tok) / 100 : 0;
-  }
+  // The painted layer is the first whose image decodes: lower layers are
+  // fallbacks (a browser without jxl support paints the avif underneath).
+  Stars.prototype.resolve = function () {
+    var layers = backgroundLayers(window.getComputedStyle(this.section));
+    for (var i = 0; i < layers.length; i++) {
+      var m = maskFor(layers[i].url);
+      if (m === null) return;     // still decoding the top layer
+      if (m === false) continue;  // unusable, try the next one
+      if (this.mask !== m) {
+        this.layer = layers[i];
+        this.mask = m;
+        this.build();
+      }
+      return;
+    }
+    this.layer = this.mask = this.geo = null;
+  };
+
+  // Where the painted layer sits: fixed layers use the viewport as their box,
+  // scrolling ones use the section, and background-size decides the rest.
+  Stars.prototype.build = function () {
+    var y = this.layer, m = this.mask;
+    if (!y || !m) { this.geo = null; return; }
+    var fixed = y.attachment === 'fixed';
+    var box = fixed
+      ? { w: window.innerWidth, h: window.innerHeight }
+      : { w: this.w, h: this.h };
+    var s = paintedSize(y.size, box, m.iw, m.ih);
+    this.geo = {
+      fixed: fixed,
+      w: s.w,
+      h: s.h,
+      x: y.position[0].pct ? (box.w - s.w) * y.position[0].v : y.position[0].v,
+      y: y.position[1].pct ? (box.h - s.h) * y.position[1].v : y.position[1].v
+    };
+  };
 
   // Live position of the canvas, needed to map viewport points to the photo.
   Stars.prototype.sync = function () {
@@ -95,26 +199,15 @@
 
   // How star-friendly the photo is at a viewport point: 1 = open sky, 0 = bright.
   Stars.prototype.sky = function (vx, vy) {
-    if (this.mask === undefined) {
-      var url = /url\((['"]?)(.*?)\1\)/.exec(window.getComputedStyle(this.section).backgroundImage || '');
-      var found = url ? maskFor(url[2]) : false;
-      if (found || found === false) this.mask = found; // undefined while loading
-    }
+    var m = this.mask, g = this.geo;
     // No mask yet, or none could be read: draw nothing. Without it we cannot
     // tell sky from lit surface, and streaks over a planet look wrong.
-    var m = this.mask;
-    if (!m) return 0;
+    if (!m || !g) return 0;
 
     // Into the background image's own box.
-    var ox = this.fixed ? vx : vx - this.rect.left;
-    var oy = this.fixed ? vy : vy - this.rect.top;
-
-    // background-size: cover
-    var scale = Math.max(this.box.w / m.w, this.box.h / m.h);
-    var drawW = m.w * scale;
-    var drawH = m.h * scale;
-    var u = (ox - (this.box.w - drawW) * this.px) / drawW;
-    var v = (oy - (this.box.h - drawH) * this.py) / drawH;
+    var u = ((g.fixed ? vx : vx - this.rect.left) - g.x) / g.w;
+    var v = ((g.fixed ? vy : vy - this.rect.top) - g.y) / g.h;
+    // Uncovered area shows the section's backdrop, which is dark: open sky.
     if (u < 0 || u > 1 || v < 0 || v > 1) return 1;
 
     // Brightest luminance in a small neighbourhood: keeps streaks a few pixels
@@ -138,6 +231,7 @@
     var self = this;
     clearTimeout(this.timer);
     this.timer = setTimeout(function () {
+      self.resolve(); // pick up the mask once it finishes decoding
       if (!(self.running && self.start())) {
         self.schedule(self.mask ? 2500 + Math.random() * 5000 : 800);
       }
